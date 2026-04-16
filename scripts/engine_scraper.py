@@ -157,7 +157,7 @@ def structure_with_ai(
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt,
             config=types.GenerateContentConfig(
                 system_instruction=STRUCTURING_SYSTEM_PROMPT,

@@ -1,1 +1,614 @@
-{}
+{
+  "united-states": {
+    "student": [
+      {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "title": "Student Visas"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/employment/employment-visa-categories.html",
+        "title": "Employment Visas"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/immigrate/family-preference.html",
+        "title": "Family-Sponsored Immigrant Visas"
+      },
+      {
+        "url": "https://www.uscis.gov/family/family-of-us-citizens/visas-for-spouses-of-us-citizens",
+        "title": "Visas for Spouses of U.S. Citizens"
+      }
+    ]
+  },
+  "united-kingdom": {
+    "student": [
+      {
+        "url": "https://www.gov.uk/student-visa",
+        "title": "Student visa - GOV.UK"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.gov.uk/skilled-worker-visa",
+        "title": "Skilled Worker visa - GOV.UK"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.gov.uk/uk-family-visa/partner-spouse",
+        "title": "Family visa: apply as a partner or spouse - GOV.UK"
+      }
+    ]
+  },
+  "canada": {
+    "student": [
+      {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study.html",
+        "title": "Study in Canada as an international student - Canada.ca"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+        "title": "Work in Canada - Canada.ca"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/sponsor-your-family.html",
+        "title": "Sponsor your spouse, partner or dependent children to immigrate to Canada - Canada.ca"
+      }
+    ]
+  },
+  "australia": {
+    "student": [
+      {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "title": "Student visa (subclass 500)"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-visas",
+        "title": "Work visas"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-visas",
+        "title": "Partner visas"
+      }
+    ]
+  },
+  "japan": {
+    "student": [
+      {
+        "url": "https://www.isa.go.jp/en/applications/procedures/zairyu_nintei19_02.html",
+        "title": "Application for Certificate of Eligibility (for persons with Status of Residence of 'Student' or 'Trainee' or 'Cultural Activities')"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.mofa.go.jp/j_info/visit/visa/long/index.html",
+        "title": "Visa / For those who wish to work or stay long-term in Japan"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.isa.go.jp/en/applications/procedures/zairyu_nintei19_03.html",
+        "title": "Application for Certificate of Eligibility (for persons with Status of Residence of 'Spouse or Child of Japanese National')"
+      }
+    ]
+  },
+  "denmark": {
+    "student": [
+      {
+        "url": "https://www.nyidanmark.dk/en-gb/you-want-to-apply/study",
+        "title": "Study"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.nyidanmark.dk/en-gb/you-want-to-apply/work",
+        "title": "Work"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.nyidanmark.dk/en-gb/you-want-to-apply/family-reunification",
+        "title": "Family reunification"
+      }
+    ]
+  },
+  "france": {
+    "student": [
+      {
+        "url": "https://france-visas.gouv.fr/web/france-visas/etudier",
+        "title": "Étudier en France"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://france-visas.gouv.fr/web/france-visas/travailler",
+        "title": "Travailler en France"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://france-visas.gouv.fr/web/france-visas/conjoint-francais",
+        "title": "Conjoint de Français"
+      }
+    ]
+  },
+  "singapore": {
+    "student": [
+      {
+        "url": "https://www.ica.gov.sg/pass/student-pass",
+        "title": "Student's Pass - ICA"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.mom.gov.sg/passes-and-permits",
+        "title": "Passes and Permits - Ministry of Manpower"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.ica.gov.sg/pass/long-term-visit-pass/long-term-visit-pass-application",
+        "title": "Application for Long-Term Visit Pass (LTVP) - ICA"
+      }
+    ]
+  },
+  "netherlands": {
+    "student": [
+      {
+        "url": "https://ind.nl/en/study",
+        "title": "Study in the Netherlands"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://ind.nl/en/work",
+        "title": "Work in the Netherlands"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://ind.nl/en/family/partner-or-spouse",
+        "title": "Partner or spouse"
+      }
+    ]
+  },
+  "sweden": {
+    "student": [
+      {
+        "url": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html",
+        "title": "Studying in Sweden - Migrationsverket"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.migrationsverket.se/English/Private-individuals/Working-in-Sweden.html",
+        "title": "Working in Sweden - Migrationsverket"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.migrationsverket.se/English/Private-individuals/Moving-to-someone-in-Sweden.html",
+        "title": "Moving to someone in Sweden - Migrationsverket"
+      }
+    ]
+  },
+  "norway": {
+    "student": [
+      {
+        "url": "https://www.udi.no/en/want-to-apply/study/",
+        "title": "Study - UDI"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.udi.no/en/want-to-apply/work-immigration/",
+        "title": "Work immigration - UDI"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.udi.no/en/want-to-apply/family-immigration/",
+        "title": "Family immigration - UDI"
+      }
+    ]
+  },
+  "new-zealand": {
+    "student": [
+      {
+        "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/find-a-visa/study",
+        "title": "Study - Immigration New Zealand"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/find-a-visa/work",
+        "title": "Work - Immigration New Zealand"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/find-a-visa/family/partnerships",
+        "title": "Partnerships - Immigration New Zealand"
+      }
+    ]
+  },
+  "ireland": {
+    "student": [
+      {
+        "url": "https://www.irishimmigration.ie/coming-to-live-in-ireland/what-are-my-options-for-coming-to-live-in-ireland/study-and-research/",
+        "title": "Study in Ireland – Irish Immigration"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/",
+        "title": "Coming to work in Ireland – Irish Immigration"
+      },
+      {
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
+        "title": "Employment Permits - DETE"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.irishimmigration.ie/coming-to-live-in-ireland/what-are-my-options-for-coming-to-live-in-ireland/joining-a-family-member-in-ireland/",
+        "title": "Joining a family member in Ireland – Irish Immigration"
+      }
+    ]
+  },
+  "switzerland": {
+    "student": [
+      {
+        "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/merkblatt_studium.html",
+        "title": "Information sheet about studying in Switzerland"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
+        "title": "Work permits for foreign nationals"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.sem.admin.ch/sem/en/home/themen/familiennachzug.html",
+        "title": "Family reunification"
+      }
+    ]
+  },
+  "south-korea": {
+    "student": [
+      {
+        "url": "https://www.hikorea.go.kr/fr/pt/RprtAppIfVoR.pt?catSeq=21110&parentId=1214",
+        "title": "Study Abroad (D-2)"
+      },
+      {
+        "url": "https://www.hikorea.go.kr/fr/pt/RprtAppIfVoR.pt?catSeq=21111&parentId=1214",
+        "title": "General Training (D-4)"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.hikorea.go.kr/fr/pt/RprtAppIfVoR.pt?catSeq=21106&parentId=1214",
+        "title": "Work"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.hikorea.go.kr/fr/pt/RprtAppIfVoR.pt?catSeq=21109&parentId=1214",
+        "title": "Marriage Immigrant (F-6)"
+      }
+    ]
+  },
+  "spain": {
+    "student": [
+      {
+        "url": "https://www.exteriores.gob.es/es/ServiciosConsulares/Paginas/Visados/Visado-de-Estudios.aspx",
+        "title": "Visado de estudios - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.exteriores.gob.es/es/ServiciosConsulares/Paginas/Visados/Visado-de-Trabajo.aspx",
+        "title": "Visado de trabajo - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.exteriores.gob.es/es/ServiciosConsulares/Paginas/Visados/Visado-de-reagrupacion-familiar.aspx",
+        "title": "Visado de reagrupación familiar - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+      },
+      {
+        "url": "https://www.exteriores.gob.es/es/ServiciosConsulares/Paginas/Visados/Visado-para-familiares-de-ciudadano-de-la-Union.aspx",
+        "title": "Visado para familiares de ciudadano de la Unión - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+      }
+    ]
+  },
+  "italy": {
+    "student": [
+      {
+        "url": "https://www.esteri.it/it/servizi-consolari-e-visti/ingressi-e-soggiorni-in-italia/visti-ingresso/tipologie-di-visto/studio/",
+        "title": "Studio - Visto per l'Italia"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.esteri.it/it/servizi-consolari-e-visti/ingressi-e-soggiorni-in-italia/visti-ingresso/tipologie-di-visto/lavoro-subordinato/",
+        "title": "Lavoro subordinato - Visto per l'Italia"
+      },
+      {
+        "url": "https://www.esteri.it/it/servizi-consolari-e-visti/ingressi-e-soggiorni-in-italia/visti-ingresso/tipologie-di-visto/lavoro-autonomo/",
+        "title": "Lavoro autonomo - Visto per l'Italia"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.esteri.it/it/servizi-consolari-e-visti/ingressi-e-soggiorni-in-italia/visti-ingresso/tipologie-di-visto/ricongiungimento-familiare/",
+        "title": "Ricongiungimento familiare - Visto per l'Italia"
+      }
+    ]
+  },
+  "portugal": {
+    "student": [
+      {
+        "url": "https://aima.gov.pt/pt/vistos/visto-de-residencia/visto-para-estudo-estagio-profissional-ou-voluntariado",
+        "title": "Visto para estudo, estágio profissional ou voluntariado | AIMA"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://aima.gov.pt/pt/vistos/visto-de-residencia/visto-para-exercicio-de-atividade-profissional-subordinada",
+        "title": "Visto para exercício de atividade profissional subordinada | AIMA"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://aima.gov.pt/pt/vistos/visto-de-residencia/visto-para-reagrupamento-familiar",
+        "title": "Visto para Reagrupamento Familiar | AIMA"
+      }
+    ]
+  },
+  "brazil": {
+    "student": [
+      {
+        "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos/tipos-de-vistos/vitem-iv-visto-temporario-iv-para-estudos",
+        "title": "VITEM IV - Visto temporário IV (para estudos) — Portal Consular"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos/tipos-de-vistos/vitem-v-visto-temporario-v-para-trabalho",
+        "title": "VITEM V - Visto temporário V (para trabalho) — Portal Consular"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos/tipos-de-vistos/vitem-xi-visto-temporario-xi-para-reuniao-familiar",
+        "title": "VITEM XI - Visto temporário XI (para reunião familiar) — Portal Consular"
+      }
+    ]
+  },
+  "mexico": {
+    "student": [
+      {
+        "url": "https://www.inm.gob.mx/gobmx/acciones-y-programas/residente-temporal-estudiante.html",
+        "title": "Residente Temporal Estudiante | Gobierno de México"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.inm.gob.mx/gobmx/acciones-y-programas/residente-temporal-oferta-de-empleo.html",
+        "title": "Residente Temporal con Oferta de Empleo | Gobierno de México"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.inm.gob.mx/gobmx/acciones-y-programas/residente-temporal-por-vinculo-familiar.html",
+        "title": "Residente Temporal por Vínculo Familiar | Gobierno de México"
+      }
+    ]
+  },
+  "india": {
+    "student": [
+      {
+        "url": "https://indianvisaonline.gov.in/visa/VAD.html",
+        "title": "Instructions for Regular Visa"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://indianvisaonline.gov.in/visa/VAD.html",
+        "title": "Instructions for Regular Visa"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://indianvisaonline.gov.in/visa/VAD.html",
+        "title": "Instructions for Regular Visa"
+      }
+    ]
+  },
+  "uae": {
+    "student": [
+      {
+        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residency-visas/student-visa",
+        "title": "Student Visa - The Official Portal of the UAE Government"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residency-visas/work-visa",
+        "title": "Work Visa - The Official Portal of the UAE Government"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residency-visas/family-residency-visa",
+        "title": "Family residency visa - The Official Portal of the UAE Government"
+      }
+    ]
+  },
+  "saudi-arabia": {
+    "student": [
+      {
+        "url": "https://studyinsaudi.moe.gov.sa/Pages/visa_and_residence.aspx",
+        "title": "Visa and Residence"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://visa.mofa.gov.sa/visa/request/personalinfo?visaType=2&serviceType=3&requestType=2",
+        "title": "Ministry of Foreign Affairs - Visa Services"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://visa.mofa.gov.sa/visa/request/personalinfo?visaType=1&serviceType=3&requestType=1",
+        "title": "Ministry of Foreign Affairs - Visa Services"
+      }
+    ]
+  },
+  "thailand": {
+    "student": [
+      {
+        "url": "https://www.thaievisa.go.th/categories",
+        "title": "Categories of Visa | Royal Thai Embassy - Royal Thai Consulate-General - E-Visa Application"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.thaievisa.go.th/categories",
+        "title": "Categories of Visa | Royal Thai Embassy - Royal Thai Consulate-General - E-Visa Application"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.thaievisa.go.th/categories",
+        "title": "Categories of Visa | Royal Thai Embassy - Royal Thai Consulate-General - E-Visa Application"
+      }
+    ]
+  },
+  "malaysia": {
+    "student": [
+      {
+        "url": "https://www.imi.gov.my/index.php/en/main-services/pass/student-pass-2/",
+        "title": "Student Pass – Jabatan Imigresen Malaysia"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.imi.gov.my/index.php/en/main-services/pass/employment-pass/",
+        "title": "Employment Pass – Jabatan Imigresen Malaysia"
+      },
+      {
+        "url": "https://www.imi.gov.my/index.php/en/main-services/pass/professional-visit-pass/",
+        "title": "Professional Visit Pass – Jabatan Imigresen Malaysia"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.imi.gov.my/index.php/en/main-services/pass/long-term-social-visit-pass-2/",
+        "title": "Long Term Social Visit Pass – Jabatan Imigresen Malaysia"
+      },
+      {
+        "url": "https://www.imi.gov.my/index.php/en/main-services/pass/dependant-pass-2/",
+        "title": "Dependant Pass – Jabatan Imigresen Malaysia"
+      }
+    ]
+  },
+  "indonesia": {
+    "student": [
+      {
+        "url": "https://www.imigrasi.go.id/visa-non-diplomatik/visa-tinggal-terbatas/",
+        "title": "Visa Tinggal Terbatas (VITAS)"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.imigrasi.go.id/visa-non-diplomatik/visa-tinggal-terbatas/",
+        "title": "Visa Tinggal Terbatas (VITAS)"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.imigrasi.go.id/visa-non-diplomatik/visa-tinggal-terbatas/",
+        "title": "Visa Tinggal Terbatas (VITAS)"
+      }
+    ]
+  },
+  "south-africa": {
+    "student": [
+      {
+        "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
+        "title": "Types of Visas"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
+        "title": "Types of Visas"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
+        "title": "Types of Visas"
+      }
+    ]
+  },
+  "chile": {
+    "student": [
+      {
+        "url": "https://serviciomigraciones.cl/residencia-temporal/permiso-de-residencia-temporal-para-estudios/",
+        "title": "Permiso de Residencia Temporal para Estudios – Servicio Nacional de Migraciones"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://serviciomigraciones.cl/residencia-temporal/permiso-de-residencia-temporal-para-actividades-licitas-remuneradas/",
+        "title": "Permiso de Residencia Temporal para Actividades Lícitas Remuneradas – Servicio Nacional de Migraciones"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://serviciomigraciones.cl/residencia-temporal/permiso-de-residencia-temporal-por-vinculo-con-chilenoa/",
+        "title": "Permiso de Residencia Temporal por Vínculo con Chileno(a) – Servicio Nacional de Migraciones"
+      },
+      {
+        "url": "https://serviciomigraciones.cl/residencia-temporal/permiso-de-residencia-temporal-para-familiares-de-residente-temporal/",
+        "title": "Permiso de Residencia Temporal para Familiares de Residente Temporal – Servicio Nacional de Migraciones"
+      }
+    ]
+  },
+  "poland": {
+    "student": [
+      {
+        "url": "https://www.gov.pl/web/diplomacy/long-stay-visa-national-visa-type-d",
+        "title": "Long-stay visa (national visa type D) - Ministry of Foreign Affairs - Gov.pl website"
+      }
+    ],
+    "work": [
+      {
+        "url": "https://www.gov.pl/web/diplomacy/long-stay-visa-national-visa-type-d",
+        "title": "Long-stay visa (national visa type D) - Ministry of Foreign Affairs - Gov.pl website"
+      }
+    ],
+    "spouse": [
+      {
+        "url": "https://www.gov.pl/web/diplomacy/long-stay-visa-national-visa-type-d",
+        "title": "Long-stay visa (national visa type D) - Ministry of Foreign Affairs - Gov.pl website"
+      }
+    ]
+  }
+}
