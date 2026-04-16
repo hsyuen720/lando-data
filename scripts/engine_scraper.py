@@ -22,6 +22,7 @@ import requests
 from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
+from tenacity import retry, stop_after_attempt, wait_exponential
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -137,6 +138,32 @@ def scrape_sources(source_entries: list[dict]) -> str:
 # ---------------------------------------------------------------------------
 # AI Structuring
 # ---------------------------------------------------------------------------
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    reraise=True,
+)
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+    """Call Gemini with retry on transient errors (503, 429, etc.)."""
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            system_instruction=system_instruction,
+        ),
+    )
+    return response.text.strip()
+
+
+def _parse_json(raw: str) -> dict | list:
+    """Strip markdown fences and parse JSON."""
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1]
+    if raw.endswith("```"):
+        raw = raw.rsplit("```", 1)[0]
+    return json.loads(raw.strip())
+
+
 def structure_with_ai(
     client: genai.Client, raw_text: str, country: str, category: str
 ) -> dict | list | None:
@@ -156,23 +183,8 @@ def structure_with_ai(
     )
 
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=STRUCTURING_SYSTEM_PROMPT,
-            ),
-        )
-        raw = response.text.strip()
-
-        # Strip markdown fences
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1]
-        if raw.endswith("```"):
-            raw = raw.rsplit("```", 1)[0]
-        raw = raw.strip()
-
-        return json.loads(raw)
+        raw = _call_gemini(client, prompt, STRUCTURING_SYSTEM_PROMPT)
+        return _parse_json(raw)
     except json.JSONDecodeError as exc:
         logger.warning("Invalid JSON from Gemini for %s/%s: %s", country, category, exc)
         return None

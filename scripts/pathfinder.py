@@ -17,6 +17,7 @@ from pathlib import Path
 
 from google import genai
 from google.genai import types
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -130,6 +131,32 @@ def save_apps(apps: dict) -> None:
     logger.info("Saved apps to %s", APPS_PATH)
 
 
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    reraise=True,
+)
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+    """Call Gemini with retry on transient errors (503, 429, etc.)."""
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            system_instruction=system_instruction,
+        ),
+    )
+    return response.text.strip()
+
+
+def _parse_json(raw: str) -> dict | list:
+    """Strip markdown fences and parse JSON."""
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1]
+    if raw.endswith("```"):
+        raw = raw.rsplit("```", 1)[0]
+    return json.loads(raw.strip())
+
+
 def discover_urls(client: genai.Client, country_slug: str) -> dict | None:
     """Ask Gemini for official visa URLs for a single country."""
     country_display = country_slug.replace("-", " ").title()
@@ -139,24 +166,8 @@ def discover_urls(client: genai.Client, country_slug: str) -> dict | None:
     )
 
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-            ),
-        )
-        raw = response.text.strip()
-
-        # Strip markdown code fences if present
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1]
-        if raw.endswith("```"):
-            raw = raw.rsplit("```", 1)[0]
-        raw = raw.strip()
-
-        data = json.loads(raw)
-        return data
+        raw = _call_gemini(client, prompt, SYSTEM_PROMPT)
+        return _parse_json(raw)
     except json.JSONDecodeError as exc:
         logger.warning("Invalid JSON from Gemini for %s: %s", country_slug, exc)
         return None
@@ -173,23 +184,8 @@ def discover_apps(client: genai.Client, country_slug: str) -> list | None:
     )
 
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=APPS_SYSTEM_PROMPT,
-            ),
-        )
-        raw = response.text.strip()
-
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1]
-        if raw.endswith("```"):
-            raw = raw.rsplit("```", 1)[0]
-        raw = raw.strip()
-
-        data = json.loads(raw)
-        return data
+        raw = _call_gemini(client, prompt, APPS_SYSTEM_PROMPT)
+        return _parse_json(raw)
     except json.JSONDecodeError as exc:
         logger.warning("Invalid JSON (apps) from Gemini for %s: %s", country_slug, exc)
         return None
