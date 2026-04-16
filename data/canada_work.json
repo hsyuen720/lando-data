@@ -1,0 +1,113 @@
+{
+  "country": "canada",
+  "visa_category": "work",
+  "data": [
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Employer-specific work permit",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Open work permit",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Post-graduation work permit",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Working as a student",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Work in Canada with International Experience Canada",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Work while you wait for permanent residence",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Open work permits for family members of foreign workers",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "CRA My Account",
+      "description": "Manage your tax and benefit information, view notices, and update personal details with the Canada Revenue Agency.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/cra-my-account/id1455243888",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ca.gc.cra.myaccount"
+    },
+    {
+      "app_name": "Maple - Virtual Care",
+      "description": "Connect with Canadian-licensed doctors and healthcare professionals for virtual consultations from your phone.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/maple-virtual-care/id1078972551",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.maple"
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Essential for navigation, including public transit routes, schedules, and real-time directions across Canadian cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "TD Canada Mobile",
+      "description": "Manage your TD bank accounts, transfer funds (including Interac e-Transfer), pay bills, and find branch/ATM locations.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/td-canada-mobile/id330620956",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.td.android"
+    }
+  ]
+}

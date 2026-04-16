@@ -1,0 +1,99 @@
+{
+  "country": "sweden",
+  "visa_category": "student",
+  "data": [
+    {
+      "visa_category": "student",
+      "visa_type_detail": "residence permit for higher education studies in the form of first- or second-cycle studies",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "residence permit for doctoral studies",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "residence permit for studies in a mobility programme that are to start in Sweden, or you have been admitted to mobility studies in another EU country and want to notify the Swedish Migration Agency that you will complete parts of your studies in Sweden.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "residence permit for contract or specialisation education",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "residence permit for other studies or exchange studies at upper secondary school for a period longer than three months",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "permanent residence permit as a doctoral student",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "family member of a person who has applied for or has been granted a residence permit for studies in higher education, doctoral studies or a residence permit to look for work after completing their studies. You now want to apply to live with this person, who is already in Sweden.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "BankID Säkerhetsapp",
+      "description": "Essential mobile electronic identification for logging into government services, banking, and signing documents.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id363781356",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.bus"
+    },
+    {
+      "app_name": "Swish",
+      "description": "Widely used mobile payment service for instant transfers between individuals and to businesses.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/swish/id566085586",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.getswish.swish"
+    },
+    {
+      "app_name": "1177 Vårdguiden",
+      "description": "National healthcare portal for information, advice, and secure communication with healthcare providers, requires BankID.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/1177-v%C3%A5rdguiden/id1147570417",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.inera.ehalsatjanster.eTjanster"
+    },
+    {
+      "app_name": "SL-Reseplanerare och biljetter",
+      "description": "Official app for planning journeys and purchasing tickets for public transport in the Stockholm region.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/sl-reseplanerare-och-biljetter/id347898518",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.sl.android.resplaneraren"
+    }
+  ]
+}

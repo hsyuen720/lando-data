@@ -1,0 +1,109 @@
+{
+  "country": "hong-kong",
+  "visa_category": "student",
+  "data": [
+    {
+      "visa_category": "student",
+      "visa_type_detail": "Entry visa/permit for study",
+      "processing_time": "6 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "student (dependant)",
+      "visa_type_detail": "Entry visa/permit for dependants of students",
+      "processing_time": "6 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "Extension of Stay - Mainland Students",
+      "processing_time": "2 to 3 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "student (dependant)",
+      "visa_type_detail": "Extension of Stay - Mainland Dependants of Students",
+      "processing_time": "2 to 3 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "student",
+      "visa_type_detail": "Extension of Stay - Non-Mainland Students",
+      "processing_time": "2 to 3 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "student (dependant)",
+      "visa_type_detail": "Extension of Stay - Non-Mainland Dependants of Students",
+      "processing_time": "2 to 3 weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-15",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/study.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "iAM Smart (智方便)",
+      "description": "Official digital identity for secure authentication and access to various Hong Kong government online services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/i-am-smart/id1527797745",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.gov.ogcio.iamsmart"
+    },
+    {
+      "app_name": "HA Go (醫管局流動應用程式)",
+      "description": "Official app for Hong Kong's public hospitals, managing appointments, viewing records, and making payments for Hospital Authority services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/ha-go/id1458925762",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.org.ha.hago"
+    },
+    {
+      "app_name": "MTR Mobile",
+      "description": "Official app for Hong Kong's MTR, providing route planning, real-time train information, station facilities, and service updates.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/mtr-mobile/id366405788",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mtr.mobile"
+    },
+    {
+      "app_name": "Octopus App",
+      "description": "Manage your Octopus cards and O! ePay account, check balance, top up, and make P2P payments widely accepted in HK for transport and retail.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/octopus/id1018598717",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.octopuscards.octopusapp"
+    },
+    {
+      "app_name": "PayMe from HSBC",
+      "description": "A highly popular mobile payment app in Hong Kong for sending and receiving money to friends and making payments to merchants.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/payme-from-hsbc/id1112423377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hsbc.hsbchkmobile.payme"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "country": "south-korea",
+  "visa_category": "spouse",
+  "data": {
+    "visa_category": "spouse",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.hikorea.go.kr/fr/pt/RprtAppIf.pt?strTabIdx=1&strImmiCode=00023&strBizCd=10000&strPath=PT"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "PASS (패스)",
+      "description": "Essential for mobile identity verification, accessing government services, and secure online authentication in South Korea.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/pass-by-sk-telecom/id1140027376",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sktelecom.passclient"
+    },
+    {
+      "app_name": "The Health (The건강보험)",
+      "description": "Official app by the National Health Insurance Service for checking health insurance details, medical history, and finding healthcare providers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/the%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98/id572911277",
+      "download_url_android": "https://play.google.com/store/apps/details?id=kr.or.nhic.thehealth"
+    },
+    {
+      "app_name": "Naver Maps (네이버 지도)",
+      "description": "Widely used for public transport, walking, driving directions, and local search with highly detailed Korean map data.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/naver-%EC%A7%80%EB%8F%84-%EB%82%B4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98/id311867728",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhn.android.nmap"
+    },
+    {
+      "app_name": "KakaoTalk (카카오톡)",
+      "description": "The dominant messaging app in South Korea, essential for communication and includes Kakao Pay for easy mobile payments and transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/kakaotalk/id368836204",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kakao.talk"
+    }
+  ]
+}

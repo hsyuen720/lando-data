@@ -1,0 +1,38 @@
+{
+  "country": "thailand",
+  "visa_category": "spouse",
+  "data": {
+    "visa_category": "spouse",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.mfa.go.th/en/page/non-immigrant-visa-type-o"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Grab",
+      "description": "The leading super app in Southeast Asia for ride-hailing, food delivery, grocery delivery, and package delivery.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/grab-taxi-food-delivery-more/id647268330",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+    },
+    {
+      "app_name": "KBank Plus",
+      "description": "Official mobile banking application for Kasikornbank, offering comprehensive financial services including transfers, bill payments, and PromptPay QR code transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/kplus/id459828551",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kasikorn.mobile.android.pincode"
+    },
+    {
+      "app_name": "TrueMoney Wallet",
+      "description": "A widely used e-wallet for secure digital payments, mobile top-ups, bill payments, and online shopping across Thailand.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/truemoney-wallet/id663885746",
+      "download_url_android": "https://play.google.com/store/apps/details?id=th.co.truemoney.wallet"
+    }
+  ]
+}

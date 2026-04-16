@@ -1,0 +1,61 @@
+{
+  "country": "south-africa",
+  "visa_category": "spouse",
+  "data": [
+    {
+      "visa_category": "Relative’s Visa",
+      "visa_type_detail": "A relative’s visa may be issued to a foreigner who is an immediate family member (e.g., spouse) of a South African citizen or permanent resident. The South African citizen or permanent resident must provide a prescribed financial assurance of R8,500.00 per person per month, proven by a current salary advice or certified bank statement not older than three months. Relative’s visas are issued for a maximum period of two years at a time. The visa fee is not applicable for the spouse or dependent children of a South African citizen/permanent resident. Proof of availability of a minimum amount of R8,500.00 per month per person for living expenses is generally required, but this does not apply to a spouse or dependent minor child of a South African citizen/permanent resident. The holder of a relative’s visa may not conduct work.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas#Spousal/Life%20Partner%20Visas"
+    },
+    {
+      "visa_category": "Visitor’s Visa",
+      "visa_type_detail": "A South African visitor’s visa may be granted for a spouse to join a spouse who is in South Africa on a work or study visa. This visa is for international travellers with permanent residence outside South Africa who wish to visit the country on a temporary basis. A visa indicates that the application has been reviewed and the consular officer has determined eligibility to enter the country for a specific purpose. Visitors are restricted to the activity or purpose for which their visas were issued. The period of validity is calculated from the date of entry into the country and will be set out under the heading “conditions” on the visa label. A fee is charged for issuing a visa, which is updated annually and varies by country, and must be checked with the issuing office.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas#Spousal/Life%20Partner%20Visas"
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "Uber",
+      "description": "Request rides on demand with various vehicle options, widely used for transport in South African cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+    },
+    {
+      "app_name": "SnapScan",
+      "description": "A popular mobile payment app for QR code payments at thousands of merchants across South Africa, linking directly to your bank card.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/snapscan/id625299443",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.snapscan.customer"
+    },
+    {
+      "app_name": "Capitec Bank",
+      "description": "The official mobile banking app for Capitec Bank, one of South Africa's largest banks, offering easy management of accounts, payments, and transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/capitec-bank/id572944349",
+      "download_url_android": "https://play.google.com/store/apps/details?id=za.co.capitecbank.prod"
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Essential for navigation, finding places, public transport routes, and traffic updates across South Africa.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "Namola",
+      "description": "An emergency response app connecting you directly to local police, ambulance, and other emergency services in South Africa.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/namola-emergency-app/id1006526131",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.namola.android"
+    }
+  ]
+}

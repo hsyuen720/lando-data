@@ -1,0 +1,45 @@
+{
+  "country": "chile",
+  "visa_category": "work",
+  "data": {
+    "visa_category": "work",
+    "visa_type_detail": "Residencia Temporal Trabajador Dependiente",
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.serviciomigraciones.cl/residencia-temporal/residencia-temporal-trabajador-dependiente/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "ClaveÚnica",
+      "description": "Official app to manage and use your ClaveÚnica (Single Key) for accessing various Chilean government online services and procedures.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/clave%C3%BAnica/id1527017726",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.claveunica"
+    },
+    {
+      "app_name": "MACH",
+      "description": "Digital account and prepaid Mastercard (virtual and physical) for easy online payments, transfers, and managing finances in Chile, often accessible for new arrivals.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/mach-tarjeta-de-prepago/id1338870196",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.bci.mach"
+    },
+    {
+      "app_name": "RedBip!",
+      "description": "Official app to check balance, load your BIP! card, and plan routes for Santiago's integrated public transport system (buses, metro, Metrotren).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/redbip/id1552553950",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.clb.transantiago.bipapp"
+    },
+    {
+      "app_name": "Uber",
+      "description": "Popular ride-sharing service for convenient and reliable transportation across major Chilean cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/uber-solicita-un-viaje/id368677368",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+    }
+  ]
+}

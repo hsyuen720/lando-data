@@ -1,0 +1,45 @@
+{
+  "country": "australia",
+  "visa_category": "work",
+  "data": {
+    "visa_category": "work",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://immi.homeaffairs.gov.au/visas/working-in-australia"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "myGovID",
+      "description": "Securely proves your identity online for accessing Australian government services like myGov, ATO, and Centrelink.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/mygovid/id1453412572",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.ato.mygovid"
+    },
+    {
+      "app_name": "Medicare Express Plus",
+      "description": "Manage your Medicare information, submit claims, access your digital card, and find healthcare providers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/medicare-express-plus/id931119749",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.humanservices.medicare"
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Comprehensive navigation for driving, walking, cycling, and public transport across all major Australian cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "CommBank app",
+      "description": "Official mobile banking app for Commonwealth Bank customers, offering account management, payments, and budgeting tools. (Choose your specific bank's app once an account is opened.)",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/commbank/id316520849",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.commbank.netbank"
+    }
+  ]
+}

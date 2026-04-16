@@ -1,0 +1,45 @@
+{
+  "country": "netherlands",
+  "visa_category": "student",
+  "data": {
+    "visa_category": "student",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://ind.nl/en/study"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "DigiD app",
+      "description": "Official app for secure online authentication with Dutch government services, including tax, healthcare, and personal data access.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/digid/id706071477",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.digid.app"
+    },
+    {
+      "app_name": "9292 reisinformatie OV",
+      "description": "Comprehensive public transport planner for all modes (train, bus, tram, metro, ferry) across the Netherlands, including real-time updates.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/9292-reisinformatie-ov/id413867084",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.negentwee92.android"
+    },
+    {
+      "app_name": "ING Mobiel Bankieren",
+      "description": "Official mobile banking app for ING customers, essential for daily banking, transfers, and iDEAL online payments. (Similar apps exist for other major banks like ABN AMRO and Rabobank.)",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ing-mobiel-bankieren/id347078330",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ing.mobilebanking"
+    },
+    {
+      "app_name": "Tikkie",
+      "description": "Widely used app for easily sending and receiving payment requests (betaalverzoek) from friends, family, or small businesses, linking directly to your bank account.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/tikkie/id1115383921",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.abnamro.tikkie"
+    }
+  ]
+}

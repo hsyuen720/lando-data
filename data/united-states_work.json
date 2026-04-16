@@ -1,0 +1,91 @@
+{
+  "country": "united-states",
+  "visa_category": "work",
+  "data": [
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Temporary Employment Visas (H, L, O, P, Q) - For approved petition-based temporary employment in the United States.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Exchange Visitor Visa (J) - For certain teachers, professors, summer work travel, and other exchange participants, accepted for approved programs.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Media Visa (I) - For members of the foreign media, press, and radio.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "Treaty Trader & Investor Visa (E) - For executives, managers, and essential workers of qualified companies from treaty countries, who qualify to conduct treaty-based trade or investment in the United States.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+      ]
+    },
+    {
+      "visa_category": "work",
+      "visa_type_detail": "NAFTA Professional Worker Visa (TN/TD) - Visas for Canadian and Mexican USMCA Professional Workers.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "USPS Mobile",
+      "description": "Helps manage mail, track packages, find post office locations, and schedule pickups for an essential federal service.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/usps-mobile/id338692120",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.usps"
+    },
+    {
+      "app_name": "CVS Pharmacy",
+      "description": "Manages prescriptions, finds CVS stores and MinuteClinics, and accesses digital coupons from one of the largest pharmacy chains.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/cvs-pharmacy/id342416825",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cvs.caremark.android"
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Provides comprehensive navigation for driving, walking, cycling, and public transport across all US cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "Venmo",
+      "description": "A widely used peer-to-peer payment app for sending and receiving money, splitting bills, and making purchases.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/venmo/id507251461",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.venmo"
+    }
+  ]
+}

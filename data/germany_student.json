@@ -1,0 +1,45 @@
+{
+  "country": "germany",
+  "visa_category": "student",
+  "data": {
+    "visa_category": "student",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.auswaertiges-amt.de/en/visa-information/long-stay-visa/student-visa/207018"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "AusweisApp",
+      "description": "Official app to use the online identification function of the German ID card, eID card, or electronic residence permit for digital government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/de/app/ausweisapp/id1162799321",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2"
+    },
+    {
+      "app_name": "DB Navigator",
+      "description": "Official app for Deutsche Bahn to find train connections, book tickets for national and regional transport, and check real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/de/app/db-navigator/id343715707",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.deutschebahn.bahn"
+    },
+    {
+      "app_name": "Doctolib",
+      "description": "Book doctor appointments online quickly and easily, manage your health, and access teleconsultations in Germany.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/de/app/doctolib-termine-arztpraxis/id925340625",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.doctolib.patient"
+    },
+    {
+      "app_name": "N26 Mobile Banking",
+      "description": "Manage your N26 bank account, send money, and track transactions directly from your smartphone (popular neobank among expats).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/de/app/n26-mobile-banking/id1055577660",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.n26.android"
+    }
+  ]
+}
