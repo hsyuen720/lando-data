@@ -39,22 +39,33 @@ logger = logging.getLogger("pathfinder")
 # ---------------------------------------------------------------------------
 # Gemini configuration
 # ---------------------------------------------------------------------------
-VISA_CATEGORIES = ["student", "work", "spouse"]
-
 SYSTEM_PROMPT = (
     "You are an immigration research assistant. "
-    "For the given country, find the OFFICIAL government website URLs for the "
-    "following visa categories: student visa, work visa, and spouse/partner visa.\n\n"
+    "For the given country, identify the most relevant visa/permit categories "
+    "based on that country's actual immigration system, then find the OFFICIAL "
+    "government website URLs for each category.\n\n"
+    "Consider categories such as (but not limited to):\n"
+    "- Student visa\n"
+    "- Work visa / work permit\n"
+    "- Spouse / partner / family reunification visa\n"
+    "- Skilled worker / talent visa\n"
+    "- Digital nomad visa\n"
+    "- Investor / entrepreneur visa\n"
+    "- Working holiday visa\n"
+    "- Permanent residency\n"
+    "- Any other visa type unique to this country (e.g. Gold Card, Top Talent Pass)\n\n"
     "Rules:\n"
     "1. Only return URLs from official government domains (e.g. .gov, .gov.uk, "
     ".gc.ca, .gob, .go.jp, etc.).\n"
-    "2. If you cannot find an official URL for a category, return null for that entry.\n"
-    "3. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
+    "2. Use short, lowercase, hyphenated keys for each category (e.g. 'student', "
+    "'skilled-worker', 'digital-nomad', 'working-holiday', 'permanent-residency').\n"
+    "3. Include 5-10 of the most relevant categories for the country.\n"
+    "4. If you cannot find an official URL for a category, omit it entirely.\n"
+    "5. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
     "Return format (strict JSON):\n"
     "{\n"
-    '  "student": [{"url": "<URL>", "title": "<page title>"}],\n'
-    '  "work":    [{"url": "<URL>", "title": "<page title>"}],\n'
-    '  "spouse":  [{"url": "<URL>", "title": "<page title>"}]\n'
+    '  "<category-slug>": [{"url": "<URL>", "title": "<page title>"}],\n'
+    '  "<category-slug>": [{"url": "<URL>", "title": "<page title>"}]\n'
     "}\n"
 )
 
@@ -208,12 +219,8 @@ def run() -> None:
         if result is None:
             logger.warning("Skipping %s — no valid response.", slug)
         else:
-            if slug not in sources:
-                sources[slug] = {}
-            for category in VISA_CATEGORIES:
-                urls = result.get(category)
-                if urls is not None:
-                    sources[slug][category] = urls
+            sources[slug] = result
+            logger.info("  Found %d categories: %s", len(result), list(result.keys()))
 
         # Discover essential apps
         logger.info("[%d/%d] Discovering apps for: %s", idx, len(countries), slug)
