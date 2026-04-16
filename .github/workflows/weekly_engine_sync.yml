@@ -12,6 +12,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    environment: Production
 
     steps:
       - name: Checkout repository
