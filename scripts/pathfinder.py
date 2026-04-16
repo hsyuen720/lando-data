@@ -164,7 +164,8 @@ def save_apps(apps: dict, original: dict) -> None:
     logger.info("Saved apps to %s", APPS_PATH)
 
 
-MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+# Put less-congested models first — gemini-2.5-flash is often 503
+MODELS = ["gemini-2.5-flash-lite", "gemini-2.0-flash-lite", "gemini-2.5-flash"]
 
 
 def _is_transient(exc: Exception) -> bool:
@@ -174,8 +175,8 @@ def _is_transient(exc: Exception) -> bool:
 
 
 @retry(
-    stop=stop_after_attempt(5),
-    wait=wait_exponential(multiplier=2, min=4, max=120),
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
     retry=retry_if_exception(_is_transient),
     reraise=True,
 )
@@ -403,6 +404,32 @@ def run() -> None:
 
         # Respect API rate limits between batches
         time.sleep(3)
+
+    # --- Retry pass: re-discover for countries with 0 AI categories ---
+    empty_slugs = [
+        slug for slug in countries
+        if not any(
+            v.get("source") == "ai" and v.get("urls")
+            for v in sources.get(slug, {}).values()
+        )
+    ]
+    if empty_slugs:
+        logger.info("=== Retry pass for %d countries with 0 categories: %s ===",
+                     len(empty_slugs), ", ".join(empty_slugs))
+        for slug in empty_slugs:
+            logger.info("  Retrying: %s", slug)
+            retry_result = discover_urls_batch(client, [slug])
+            result = retry_result.get(slug)
+            if result and isinstance(result, dict):
+                result = _validate_urls(result, slug)
+                logger.info("  %s retry: %d categories survived", slug, len(result))
+                existing = sources.get(slug, {})
+                for cat, urls in result.items():
+                    if cat in existing and existing[cat].get("source") == "manual":
+                        continue
+                    existing[cat] = {"urls": urls, "source": "ai"}
+                sources[slug] = existing
+            time.sleep(3)
 
     # Remove countries no longer in the list
     removed = [k for k in sources if k not in countries]
