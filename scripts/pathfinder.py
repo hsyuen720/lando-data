@@ -165,7 +165,7 @@ def save_apps(apps: dict, original: dict) -> None:
 
 
 # Put less-congested models first — gemini-2.5-flash is often 503
-MODELS = ["gemini-2.5-flash-lite", "gemini-2.0-flash-lite", "gemini-2.5-flash"]
+MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
 
 def _is_transient(exc: Exception) -> bool:
@@ -379,14 +379,19 @@ def run() -> None:
             result = _validate_urls(result, slug)
             logger.info("  %s: %d categories survived validation", slug, len(result))
 
-            # Merge: preserve manual entries, update/add AI entries
+            # Remove all old AI entries for this country (keep manual only)
             existing = sources.get(slug, {})
+            manual_only = {
+                cat: val for cat, val in existing.items()
+                if isinstance(val, dict) and val.get("source") == "manual"
+            }
+            # Add validated AI entries
             for cat, urls in result.items():
-                if cat in existing and existing[cat].get("source") == "manual":
+                if cat in manual_only:
                     logger.info("  Skipping manual category: %s/%s", slug, cat)
                     continue
-                existing[cat] = {"urls": urls, "source": "ai"}
-            sources[slug] = existing
+                manual_only[cat] = {"urls": urls, "source": "ai"}
+            sources[slug] = manual_only
 
         # Respect API rate limits between URL and app calls
         time.sleep(3)
@@ -424,11 +429,15 @@ def run() -> None:
                 result = _validate_urls(result, slug)
                 logger.info("  %s retry: %d categories survived", slug, len(result))
                 existing = sources.get(slug, {})
+                manual_only = {
+                    cat: val for cat, val in existing.items()
+                    if isinstance(val, dict) and val.get("source") == "manual"
+                }
                 for cat, urls in result.items():
-                    if cat in existing and existing[cat].get("source") == "manual":
+                    if cat in manual_only:
                         continue
-                    existing[cat] = {"urls": urls, "source": "ai"}
-                sources[slug] = existing
+                    manual_only[cat] = {"urls": urls, "source": "ai"}
+                sources[slug] = manual_only
             time.sleep(3)
 
     # Remove countries no longer in the list

@@ -2,915 +2,1090 @@
   "denmark": [
     {
       "app_name": "MitID",
-      "description": "The official digital ID for secure login to public services, banks, and many private companies in Denmark.",
+      "description": "The official digital ID app for accessing public and private services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/dk/app/mitid/id1527027581",
-      "download_url_android": "https://play.google.com/store/apps/details?id=dk.digst.mitid"
-    },
-    {
-      "app_name": "MobilePay",
-      "description": "Denmark's most popular mobile payment solution for easy money transfers, in-store payments, and online shopping.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/dk/app/mobilepay/id486510444",
-      "download_url_android": "https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay"
+      "download_url_ios": "https://apps.apple.com/dk/app/mitid/id1549207157",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.digital.mitid"
     },
     {
       "app_name": "Rejseplanen",
-      "description": "The official travel planner for all public transport in Denmark, providing real-time departure and arrival information.",
+      "description": "The official app for planning public transport journeys across Denmark.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/dk/app/rejseplanen/id400342935",
-      "download_url_android": "https://play.google.com/store/apps/details?id=dk.rejseplanen.mobil"
+      "download_url_ios": "https://apps.apple.com/dk/app/rejseplanen/id562603311",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.rejseplanen.android"
     },
     {
-      "app_name": "Min Læge",
-      "description": "Connects you with your general practitioner to book appointments, renew prescriptions, and communicate securely.",
+      "app_name": "Danske Bank",
+      "description": "Official mobile banking app for one of Denmark's largest banks.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/dk/app/min-l%C3%A6ge/id1458999330",
-      "download_url_android": "https://play.google.com/store/apps/details?id=dk.ehealth.laegeapp"
+      "download_url_ios": "https://apps.apple.com/dk/app/danske-bank/id1029014089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.danskebank.mobile"
+    },
+    {
+      "app_name": "MobilePay",
+      "description": "Extremely popular app for peer-to-peer payments and online shopping.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/mobilepay/id471825537",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.danskebank.mobilepay"
+    },
+    {
+      "app_name": "Sundhed.dk",
+      "description": "Access your health records, prescriptions, and find healthcare providers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/sundhed-dk/id1536342889",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.sundhed.mobile.android"
     }
   ],
   "united-kingdom": [
     {
-      "app_name": "NHS App",
-      "description": "Access your NHS services, book GP appointments, order repeat prescriptions, view your health record, and get health advice.",
+      "app_name": "gov.uk",
+      "description": "The official UK government app for accessing government services and information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1388411277",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs.online.nhsonline"
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "NHS App",
+      "description": "Access your NHS account to book appointments, order repeat prescriptions, and more.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1388413836",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs_uk.production"
     },
     {
       "app_name": "Citymapper",
-      "description": "The ultimate public transport app for urban navigation, providing real-time information for buses, trains, tubes, taxis, and more across major UK cities.",
+      "description": "Comprehensive public transport app for London and other major UK cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/citymapper-all-our-transport/id469463426",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app.release"
+      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469460560",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
     },
     {
-      "app_name": "Monzo",
-      "description": "Manage your money with a digital-first bank account, offering instant spending notifications, budgeting tools, and easy international transfers.",
+      "app_name": "Revolut",
+      "description": "Popular digital banking app for international money transfers and spending.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/monzo-bank/id1052237034",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.monzo"
+      "download_url_ios": "https://apps.apple.com/gb/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
     },
     {
-      "app_name": "Trainline",
-      "description": "Book train and coach tickets across the UK and Europe, get live train times, platform information, and journey updates.",
+      "app_name": "Barclays",
+      "description": "Mobile banking app for managing Barclays accounts in the UK.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/trainline-buy-tickets/id334927299",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.thetrainline.android"
+      "download_url_ios": "https://apps.apple.com/gb/app/barclays-mobile-banking/id491500986",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android.bbm"
     }
   ],
   "united-states": [
     {
-      "app_name": "USPS Mobile",
-      "description": "Helps manage mail, track packages, find post office locations, and schedule pickups for an essential federal service.",
+      "app_name": "MyUSCIS",
+      "description": "Official app for USCIS to manage immigration applications and case status.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/usps-mobile/id338692120",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.usps"
+      "download_url_ios": "https://apps.apple.com/us/app/myuscis/id1391167233",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.uscis.myuscis"
     },
     {
-      "app_name": "CVS Pharmacy",
-      "description": "Manages prescriptions, finds CVS stores and MinuteClinics, and accesses digital coupons from one of the largest pharmacy chains.",
+      "app_name": "Healthcare.gov",
+      "description": "App for the Health Insurance Marketplace to find and enroll in health insurance.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/cvs-pharmacy/id342416825",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.cvs.caremark.android"
+      "download_url_ios": "https://apps.apple.com/us/app/healthcare-gov/id1137691127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.hhs.healthcare"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Provides comprehensive navigation for driving, walking, cycling, and public transport across all US cities.",
+      "app_name": "Transit",
+      "description": "Real-time public transit information for various cities across the US.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id445775703",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
     },
     {
-      "app_name": "Venmo",
-      "description": "A widely used peer-to-peer payment app for sending and receiving money, splitting bills, and making purchases.",
+      "app_name": "Zelle",
+      "description": "Fast, safe, and easy way to send and receive money with people you know.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/venmo/id507251461",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.venmo"
+      "download_url_ios": "https://apps.apple.com/us/app/zelle/id1101700224",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.zelle.zelle"
+    },
+    {
+      "app_name": "Chase Mobile",
+      "description": "Mobile banking app for managing Chase accounts, paying bills, and depositing checks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/chase-mobile/id381511778",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.chase.quickdeposit"
     }
   ],
   "canada": [
     {
-      "app_name": "CRA My Account",
-      "description": "Manage your tax and benefit information, view notices, and update personal details with the Canada Revenue Agency.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/cra-my-account/id1455243888",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ca.gc.cra.myaccount"
+      "app_name": "GCKey",
+      "description": "Secure online access to Canadian government services.",
+      "platform": "Web-based, accessible via browser",
+      "download_url_ios": "null",
+      "download_url_android": "null"
     },
     {
-      "app_name": "Maple - Virtual Care",
-      "description": "Connect with Canadian-licensed doctors and healthcare professionals for virtual consultations from your phone.",
+      "app_name": "Health Gateway (BC)",
+      "description": "Access your health records in British Columbia.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/maple-virtual-care/id1078972551",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.maple"
+      "download_url_ios": "https://apps.apple.com/ca/app/health-gateway/id1540140423",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ca.bc.gov.healthgateway"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Essential for navigation, including public transit routes, schedules, and real-time directions across Canadian cities.",
+      "app_name": "Transit",
+      "description": "Real-time public transit information for various cities across Canada.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "download_url_ios": "https://apps.apple.com/ca/app/transit/id445775703",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
     },
     {
-      "app_name": "TD Canada Mobile",
-      "description": "Manage your TD bank accounts, transfer funds (including Interac e-Transfer), pay bills, and find branch/ATM locations.",
+      "app_name": "Interac e-Transfer",
+      "description": "Send and receive money securely between bank accounts in Canada.",
+      "platform": "Accessed through most Canadian bank apps",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "RBC Mobile",
+      "description": "Mobile banking app for managing Royal Bank of Canada accounts.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/td-canada-mobile/id330620956",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.td.android"
+      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id343957863",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.rbc.mobile"
     }
   ],
   "australia": [
     {
-      "app_name": "myGovID",
-      "description": "Securely proves your identity online for accessing Australian government services like myGov, ATO, and Centrelink.",
+      "app_name": "myGov",
+      "description": "Australian government service portal for accessing a range of services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/mygovid/id1453412572",
-      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.ato.mygovid"
+      "download_url_ios": "https://apps.apple.com/au/app/mygov/id1107242968",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.mygov"
     },
     {
-      "app_name": "Medicare Express Plus",
-      "description": "Manage your Medicare information, submit claims, access your digital card, and find healthcare providers.",
+      "app_name": "Express Plus Medicare",
+      "description": "Access Medicare services and claims in Australia.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/medicare-express-plus/id931119749",
-      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.humanservices.medicare"
+      "download_url_ios": "https://apps.apple.com/au/app/express-plus-medicare/id958920845",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.services.medicare"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Comprehensive navigation for driving, walking, cycling, and public transport across all major Australian cities.",
+      "app_name": "PTV (Victoria)",
+      "description": "Public transport app for Victoria, including Melbourne.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "download_url_ios": "https://apps.apple.com/au/app/ptv/id529187111",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.com.ptv.mobile"
     },
     {
-      "app_name": "CommBank app",
-      "description": "Official mobile banking app for Commonwealth Bank customers, offering account management, payments, and budgeting tools. (Choose your specific bank's app once an account is opened.)",
+      "app_name": "CommBank",
+      "description": "Mobile banking app for Commonwealth Bank of Australia accounts.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/commbank/id316520849",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.commbank.netbank"
+      "download_url_ios": "https://apps.apple.com/au/app/commbank/id390151007",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cba.android"
+    },
+    {
+      "app_name": "PayID",
+      "description": "A unique identifier linked to your bank account for payments.",
+      "platform": "Accessed through bank apps",
+      "download_url_ios": "null",
+      "download_url_android": "null"
     }
   ],
   "germany": [
     {
-      "app_name": "AusweisApp",
-      "description": "Official app to use the online identification function of the German ID card, eID card, or electronic residence permit for digital government services.",
+      "app_name": "AusweisApp2",
+      "description": "Official app for using the German electronic identity card (eID).",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/ausweisapp/id1162799321",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2"
+      "download_url_ios": "https://apps.apple.com/de/app/ausweisapp2/id1148658573",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.abera.ausweisapp"
+    },
+    {
+      "app_name": "Meine TK",
+      "description": "Health insurance app for Techniker Krankenkasse (TK), a major insurer.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/de/app/meine-tk/id1044854580",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.tk.meinetk"
     },
     {
       "app_name": "DB Navigator",
-      "description": "Official app for Deutsche Bahn to find train connections, book tickets for national and regional transport, and check real-time information.",
+      "description": "Official app for Deutsche Bahn (German Railways) for train travel.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/db-navigator/id343715707",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.deutschebahn.bahn"
+      "download_url_ios": "https://apps.apple.com/de/app/db-navigator/id342824552",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.hafas.android.db"
     },
     {
-      "app_name": "Doctolib",
-      "description": "Book doctor appointments online quickly and easily, manage your health, and access teleconsultations in Germany.",
+      "app_name": "N26",
+      "description": "Popular mobile banking app with accounts and payment services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/doctolib-termine-arztpraxis/id925340625",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.doctolib.patient"
+      "download_url_ios": "https://apps.apple.com/de/app/n26/id937551037",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.n26.android"
     },
     {
-      "app_name": "N26 Mobile Banking",
-      "description": "Manage your N26 bank account, send money, and track transactions directly from your smartphone (popular neobank among expats).",
+      "app_name": "PayPal",
+      "description": "Widely used for online payments and transfers.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/n26-mobile-banking/id1055577660",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.n26.android"
+      "download_url_ios": "https://apps.apple.com/de/app/paypal/id283655975",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p"
     }
   ],
   "japan": [
     {
-      "app_name": "NAVITIME Japan Transit Planner",
-      "description": "Essential for navigating Japan's extensive public transport system (trains, subways, buses), providing routes, timings, fares, and platform information.",
+      "app_name": "My Number Card",
+      "description": "Official app for accessing your My Number identity card for government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/navitime-japan-transit-planner/id686315801",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.navitime.navitimexr.global"
+      "download_url_ios": "https://apps.apple.com/jp/app/マイナンバーカード-%E6%A7%98%E3%80%85%E6%8A%95%E7%A8%BC%E3%81%A8%E3%81%84%E3%81%86%E3%81%AA%E6%94%AF%E6%89%95%E3%81%84%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA/id1612796126",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.isbn.mykey"
     },
     {
-      "app_name": "PayPay",
-      "description": "Japan's most widely used QR code payment app, crucial for cashless transactions at convenience stores, supermarkets, restaurants, and various services.",
+      "app_name": "Japan Transit Planner by Jorudan",
+      "description": "A comprehensive app for planning train and subway routes across Japan.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/paypay-%E3%83%9A%E3%82%A4%E3%83%9A%E3%82%A4-%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1434547910",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app"
+      "download_url_ios": "https://apps.apple.com/us/app/japan-transit-planner-by-jorudan/id307711024",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.jorudan.route"
+    },
+    {
+      "app_name": "Suica/Pasmo",
+      "description": "Mobile version of the popular IC cards for public transport and payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB-%E3%83%91%E3%82%B9%E3%83%A2-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%81%A7%E4%BD%BF%E3%81%86/id1494647467",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.kartei.suica"
     },
     {
       "app_name": "LINE",
-      "description": "The dominant messaging app in Japan, used for personal communication, group chats, official announcements, and often for customer service.",
+      "description": "Dominant messaging app in Japan, used for personal communication and some official notifications.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/line/id443904275",
+      "download_url_ios": "https://apps.apple.com/us/app/LINE/id414478124",
       "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
     },
     {
-      "app_name": "Google Translate",
-      "description": "Indispensable for overcoming language barriers, offering text, voice, and image translation for daily life, shopping, and understanding documents.",
+      "app_name": "Rakuten Pay",
+      "description": "A popular mobile payment service that is widely accepted.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/google-%E7%BF%BB%E8%A8%B3/id414706506",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%86%E3%83%B3pay-%E3%83%9A%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA/id1049189627",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.netprotections.struts.pay"
     }
   ],
   "france": [
     {
-      "app_name": "Ameli",
-      "description": "Manage your health insurance, access reimbursements, find doctors, and get your vital card details.",
+      "app_name": "FranceConnect",
+      "description": "Official app to securely access government services with your existing online accounts.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/fr/app/ameli/id1188339599",
-      "download_url_android": "https://play.google.com/store/apps/details?id=fr.cnam.ameli"
-    },
-    {
-      "app_name": "Doctolib",
-      "description": "Book doctor appointments, manage your health agenda, and access telehealth consultations across France.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/fr/app/doctolib/id669747209",
-      "download_url_android": "https://play.google.com/store/apps/details?id=fr.doctolib.patient"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
       "app_name": "Île-de-France Mobilités",
-      "description": "Plan journeys, buy and validate transport tickets (Navigo pass, t+ tickets) for Paris and the Île-de-France region.",
+      "description": "Official app for public transport in the Île-de-France region (Paris and surroundings).",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/fr/app/%C3%AEle-de-france-mobilit%C3%A9s/id1457019183",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.iledefrancemobilites.navigation"
+      "download_url_ios": "https://apps.apple.com/fr/app/id1520660349",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.stif.idf_transport"
+    },
+    {
+      "app_name": "L'application SNCF",
+      "description": "Official app for planning and booking train journeys with the national railway company.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/id540717230",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sncf.droid"
     },
     {
       "app_name": "Lydia",
-      "description": "Send and receive money instantly, pay online, and manage various payment cards for daily transactions.",
+      "description": "A popular payment app for peer-to-peer transfers, payments, and budgeting.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/fr/app/lydia-paiement-mobile/id575647781",
+      "download_url_ios": "https://apps.apple.com/fr/app/lydia/id633779141",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.lydia"
     },
     {
-      "app_name": "France Identité",
-      "description": "Create a digital identity from your new French national ID card to authenticate to online government services.",
+      "app_name": "Ameli",
+      "description": "Official app for managing your social security and health insurance information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/fr/app/france-identit%C3%A9/id1571404173",
-      "download_url_android": "https://play.google.com/store/apps/details?id=fr.interieur.cnis.mbi"
+      "download_url_ios": "https://apps.apple.com/fr/app/ameli/id1474299762",
+      "download_url_android": "https://play.google.com/store/apps/details?id=fr.cpam.ameli"
     }
   ],
   "singapore": [
     {
       "app_name": "Singpass",
-      "description": "Provides secure access to over 200 government digital services, allowing for identity verification and digital signing.",
+      "description": "Official digital identity for accessing government and private sector services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sg/app/singpass/id1346510000",
-      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.singpass"
-    },
-    {
-      "app_name": "HealthHub",
-      "description": "Access your personal health records, medical appointments, health articles, and book polyclinic appointments.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sg/app/healthhub/id1034200875",
-      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.moh.healthhub"
+      "download_url_ios": "https://apps.apple.com/sg/app/singpass/id1104767476",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.singpass"
     },
     {
       "app_name": "MyTransport.SG",
-      "description": "Official app by LTA providing real-time bus arrival information, MRT updates, journey planning, and traffic incidents.",
+      "description": "Official app for public transport information, journey planning, and real-time bus arrival.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sg/app/mytransport-sg/id386289917",
-      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.lta.ptc"
+      "download_url_ios": "https://apps.apple.com/sg/app/my-transport-sg/id962113578",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.sg.ltas"
     },
     {
-      "app_name": "DBS/POSB digibank SG",
-      "description": "Manage your bank accounts, transfer funds with PayNow, pay bills, and access a wide range of banking services.",
+      "app_name": "DBS digibank SG",
+      "description": "Mobile banking app for DBS, one of Singapore's largest banks.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sg/app/dbs-posb-digibank-sg/id1162468305",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.sg.dbsmbanking"
+      "download_url_ios": "https://apps.apple.com/sg/app/dbs-digibank-sg/id997107047",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.sg"
     },
     {
-      "app_name": "Grab",
-      "description": "All-in-one superapp for ride-hailing, food delivery (GrabFood), parcel delivery, and widely used mobile payments (GrabPay).",
+      "app_name": "TraceTogether",
+      "description": "Contact tracing app, essential for participating in certain activities and venues.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sg/app/grab-taxi-food-delivery-pay/id647268330",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+      "download_url_ios": "https://apps.apple.com/sg/app/tracetogether/id1506074821",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.bluetrace"
+    },
+    {
+      "app_name": "HealthHub",
+      "description": "Access your health records, appointments, and healthcare services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/healthhub/id971518429",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.healthhub"
     }
   ],
   "netherlands": [
     {
-      "app_name": "DigiD app",
-      "description": "Official app for secure online authentication with Dutch government services, including tax, healthcare, and personal data access.",
+      "app_name": "DigiD",
+      "description": "Official app for your digital identity to access government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nl/app/digid/id706071477",
+      "download_url_ios": "https://apps.apple.com/nl/app/digid/id1440719795",
       "download_url_android": "https://play.google.com/store/apps/details?id=nl.digid.app"
     },
     {
-      "app_name": "9292 reisinformatie OV",
-      "description": "Comprehensive public transport planner for all modes (train, bus, tram, metro, ferry) across the Netherlands, including real-time updates.",
+      "app_name": "9292",
+      "description": "The most popular app for planning public transport journeys across the Netherlands.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nl/app/9292-reisinformatie-ov/id413867084",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nl.negentwee92.android"
+      "download_url_ios": "https://apps.apple.com/nl/app/9292/id363784994",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.citionline.dov9292"
     },
     {
-      "app_name": "ING Mobiel Bankieren",
-      "description": "Official mobile banking app for ING customers, essential for daily banking, transfers, and iDEAL online payments. (Similar apps exist for other major banks like ABN AMRO and Rabobank.)",
+      "app_name": "OVpay",
+      "description": "App for checking in and out of public transport using your debit card or smartphone.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nl/app/ing-mobiel-bankieren/id347078330",
+      "download_url_ios": "https://apps.apple.com/nl/app/ovpay/id1599528398",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.ovpay.app"
+    },
+    {
+      "app_name": "ING Banking",
+      "description": "Mobile banking app for ING, one of the largest banks in the Netherlands.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ing-banking/id454355889",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.ing.mobilebanking"
     },
     {
-      "app_name": "Tikkie",
-      "description": "Widely used app for easily sending and receiving payment requests (betaalverzoek) from friends, family, or small businesses, linking directly to your bank account.",
+      "app_name": "CoronaMelder",
+      "description": "Official app for COVID-19 contact tracing.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nl/app/tikkie/id1115383921",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.abnamro.tikkie"
+      "download_url_ios": "https://apps.apple.com/nl/app/coronamelder/id1515917343",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.rijksoverheid.coronameld"
     }
   ],
   "sweden": [
     {
-      "app_name": "BankID Säkerhetsapp",
-      "description": "Essential mobile electronic identification for logging into government services, banking, and signing documents.",
+      "app_name": "BankID",
+      "description": "The primary digital identity and authentication service in Sweden, used for banking, government services, and more.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id363781356",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.bus"
-    },
-    {
-      "app_name": "Swish",
-      "description": "Widely used mobile payment service for instant transfers between individuals and to businesses.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/se/app/swish/id566085586",
-      "download_url_android": "https://play.google.com/store/apps/details?id=se.getswish.swish"
+      "download_url_ios": "https://apps.apple.com/se/app/bankid/id322369414",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.mobile"
     },
     {
       "app_name": "1177 Vårdguiden",
-      "description": "National healthcare portal for information, advice, and secure communication with healthcare providers, requires BankID.",
+      "description": "Official health information and services app from Sweden's healthcare system.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/se/app/1177-v%C3%A5rdguiden/id1147570417",
-      "download_url_android": "https://play.google.com/store/apps/details?id=se.inera.ehalsatjanster.eTjanster"
+      "download_url_ios": "https://apps.apple.com/se/app/1177-v%C3%A5rdguiden/id1096433201",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.qrt.android.nhv.prod"
     },
     {
-      "app_name": "SL-Reseplanerare och biljetter",
-      "description": "Official app for planning journeys and purchasing tickets for public transport in the Stockholm region.",
+      "app_name": "SL-Resor",
+      "description": "Official app for public transport in Stockholm, including journey planner and ticket purchases.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/se/app/sl-reseplanerare-och-biljetter/id347898518",
-      "download_url_android": "https://play.google.com/store/apps/details?id=se.sl.android.resplaneraren"
+      "download_url_ios": "https://apps.apple.com/se/app/sl-resor/id1488798391",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.jl.sl"
+    },
+    {
+      "app_name": "Swish",
+      "description": "A popular mobile payment system in Sweden for sending and receiving money instantly.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/swish/id758636205",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.getswish.android"
     }
   ],
   "norway": [
     {
       "app_name": "BankID",
-      "description": "Norway's official electronic identification app used for secure login and signing across banks, public services, and private businesses.",
+      "description": "Norway's primary digital identification and authentication service for online banking and public services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/bankid/id1524330649",
-      "download_url_android": "https://play.google.com/store/apps/details?id=no.bankid.app"
+      "download_url_ios": "https://apps.apple.com/no/app/bankid/id322369414",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.mobile"
     },
     {
       "app_name": "Helsenorge",
-      "description": "The official national health portal app for managing health services, appointments, prescriptions, and medical records in Norway.",
+      "description": "Official Norwegian health portal app providing access to health information and services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/helsenorge/id1457187654",
+      "download_url_ios": "https://apps.apple.com/no/app/helsenorge/id1152678950",
       "download_url_android": "https://play.google.com/store/apps/details?id=no.helsenorge.app"
     },
     {
-      "app_name": "Vipps",
-      "description": "Norway's most popular mobile payment app for sending money to individuals, paying in stores, and making online purchases.",
+      "app_name": "Ruter",
+      "description": "Public transport app for the Oslo and Akershus region, for journey planning and tickets.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/vipps/id969698579",
-      "download_url_android": "https://play.google.com/store/apps/details?id=no.vipps.app"
+      "download_url_ios": "https://apps.apple.com/no/app/ruter/id446179683",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.android"
     },
     {
-      "app_name": "Ruter",
-      "description": "The official app for journey planning and buying tickets for public transport (bus, tram, metro, ferry) in the Oslo and Viken region.",
+      "app_name": "Vipps",
+      "description": "A widely used mobile payment app in Norway for easy money transfers.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/ruter/id1041933091",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.reise"
+      "download_url_ios": "https://apps.apple.com/no/app/vipps/id924895180",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.vipps.android"
     }
   ],
   "new-zealand": [
     {
-      "app_name": "MyIR",
-      "description": "Manage your tax, view income, check payments, and update personal details with Inland Revenue (IRD).",
+      "app_name": "RealMe",
+      "description": "New Zealand's secure online identity service, used for accessing government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/myir/id1189311319",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.ird.myir"
+      "download_url_ios": "https://apps.apple.com/nz/app/realme-secure-login/id924479645",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.dia.realme"
     },
     {
-      "app_name": "My Health App",
-      "description": "Access your personal health information, manage prescriptions, and communicate with participating healthcare providers.",
+      "app_name": "myDH",
+      "description": "Official app from the New Zealand Ministry of Health, providing access to health services and information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/my-health-app/id1612050085",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.health.myhealth"
+      "download_url_ios": "https://apps.apple.com/nz/app/mydh/id1513270802",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.health.mydh"
     },
     {
-      "app_name": "AT Mobile",
-      "description": "Plan your journey, view real-time public transport information, and manage your AT HOP card for Auckland's transport network.",
+      "app_name": "Metlink",
+      "description": "Public transport app for the Wellington region, covering buses, trains, and ferries.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/at-mobile/id1200593452",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.at.atmobile"
+      "download_url_ios": "https://apps.apple.com/nz/app/metlink/id1090095788",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.gwrc.metlink"
     },
     {
-      "app_name": "ANZ NZ Mobile Banking",
-      "description": "Securely manage your bank accounts, make payments, transfer money, and access other essential banking services from ANZ New Zealand.",
+      "app_name": "BNZ",
+      "description": "One of New Zealand's major banks, offering a comprehensive mobile banking app.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/anz-nz-mobile-banking/id413867622",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.anz.nz.mb"
+      "download_url_ios": "https://apps.apple.com/nz/app/bnz/id380653199",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.bnz.android"
+    },
+    {
+      "app_name": "Paymark",
+      "description": "While not a direct banking app, Paymark is a major payment network used for many transactions and often integrated into retailer apps.",
+      "platform": "N/A",
+      "download_url_ios": null,
+      "download_url_android": null
     }
   ],
   "ireland": [
     {
-      "app_name": "MyGovID",
-      "description": "Essential for verifying identity to access various Irish government online services (e.g., Revenue, Social Welfare).",
+      "app_name": "myGovID",
+      "description": "Ireland's digital identity app for accessing public services online.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/mygovid/id1527027529",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ie.govid.verification"
+      "download_url_ios": "https://apps.apple.com/ie/app/mygovid/id1220327093",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.gov.mygovid"
     },
     {
-      "app_name": "Leap Top-Up",
-      "description": "Manage and top up your Leap Card for public transport in Dublin and other Irish cities directly from your phone.",
+      "app_name": "HSE",
+      "description": "The Health Service Executive (HSE) app for accessing health services and information in Ireland.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/leap-top-up/id915243003",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.leapcard.leaptopup"
+      "download_url_ios": "https://apps.apple.com/ie/app/hse/id1543150560",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.gov.hse.healthapp"
     },
     {
-      "app_name": "TFI Live",
-      "description": "Provides real-time public transport information for bus, rail, and DART services across Ireland.",
+      "app_name": "Transport for Ireland (TFI) Go",
+      "description": "Official app for planning public transport journeys and purchasing tickets across Ireland.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/tfi-live/id1504996914",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ie.tfi.realtime"
+      "download_url_ios": "https://apps.apple.com/ie/app/tfi-go/id1442416933",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.tfi.go"
     },
     {
       "app_name": "Revolut",
-      "description": "Widely used digital banking app for everyday payments, money transfers, and managing finances in Ireland.",
+      "description": "A popular digital banking app with international money transfer capabilities widely used in Ireland.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/revolut/id932488391",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+      "download_url_ios": "https://apps.apple.com/ie/app/revolut/id932493323",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.android"
+    },
+    {
+      "app_name": "N26",
+      "description": "Another well-used European digital bank with a strong presence in Ireland for convenient banking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ie/app/n26/id937531595",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.number26.android"
     }
   ],
   "switzerland": [
     {
-      "app_name": "SBB Mobile",
-      "description": "The official app for public transport in Switzerland, offering timetables, real-time information, and ticket purchases for trains, buses, and trams.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/sbb-mobile/id306915302",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ch.sbb.mobile.android"
-    },
-    {
-      "app_name": "TWINT",
-      "description": "Switzerland's leading mobile payment solution for fast and secure payments in shops, online, for parking, and sending money to friends directly from your bank account.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/twint/id907613589",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ch.twint.app"
-    },
-    {
       "app_name": "SwissID",
-      "description": "Your digital identity for secure and easy login to numerous Swiss online services and portals, including some e-government applications and online banking.",
+      "description": "Switzerland's official digital identity solution for secure access to online services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/swissid/id1290623348",
+      "download_url_ios": "https://apps.apple.com/ch/app/swissid/id1462553211",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.swissid.app"
+    },
+    {
+      "app_name": "Applikation des Bundesamtes für Gesundheit (BAG)",
+      "description": "Official app from the Federal Office of Public Health (FOPH) for health information and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/bundesamt-f%C3%BCr-gesundheit-bag/id1510897098",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.admin.bag"
+    },
+    {
+      "app_name": "SBB Mobile",
+      "description": "The official app for Swiss Federal Railways, offering journey planning, tickets, and real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/sbb-mobile/id362780442",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.sbb.mobile"
+    },
+    {
+      "app_name": "Twint",
+      "description": "A leading Swiss mobile payment app for easy and secure transactions, widely accepted.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/twint/id1134272632",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.twint"
+    },
+    {
+      "app_name": "Neon",
+      "description": "A popular Swiss digital bank offering modern banking services and a user-friendly mobile app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/neon-banking/id1294757158",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.neon"
     }
   ],
   "south-korea": [
     {
-      "app_name": "PASS (패스)",
-      "description": "Essential for mobile identity verification, accessing government services, and secure online authentication in South Korea.",
+      "app_name": "Government24",
+      "description": "Official government portal for accessing public services and civil complaints.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/kr/app/pass-by-sk-telecom/id1140027376",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.sktelecom.passclient"
+      "download_url_ios": "https://apps.apple.com/kr/app/government24/id1200576414",
+      "download_url_android": "https://play.google.com/store/apps/details?id=kr.go.gov24"
     },
     {
-      "app_name": "The Health (The건강보험)",
-      "description": "Official app by the National Health Insurance Service for checking health insurance details, medical history, and finding healthcare providers.",
+      "app_name": "KakaoTalk",
+      "description": "The dominant messaging app in South Korea, essential for communication.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/kr/app/the%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98/id572911277",
-      "download_url_android": "https://play.google.com/store/apps/details?id=kr.or.nhic.thehealth"
+      "download_url_ios": "https://apps.apple.com/kr/app/kakaotalk/id317646913",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kakao.kakaoTalk"
     },
     {
-      "app_name": "Naver Maps (네이버 지도)",
-      "description": "Widely used for public transport, walking, driving directions, and local search with highly detailed Korean map data.",
+      "app_name": "Naver Maps",
+      "description": "The most popular navigation and local search app, often more accurate than global alternatives.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/kr/app/naver-%EC%A7%80%EB%8F%84-%EB%82%B4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98/id311867728",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhn.android.nmap"
+      "download_url_ios": "https://apps.apple.com/kr/app/naver-maps/id392437756",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhn.android.map"
     },
     {
-      "app_name": "KakaoTalk (카카오톡)",
-      "description": "The dominant messaging app in South Korea, essential for communication and includes Kakao Pay for easy mobile payments and transfers.",
+      "app_name": "Samsung Pay",
+      "description": "Widely used mobile payment system, integrated with many stores and transit.",
+      "platform": "Android",
+      "download_url_ios": null,
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.samsung.android.spay"
+    },
+    {
+      "app_name": "Seoul Metro",
+      "description": "Official app for navigating the Seoul subway system.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/kr/app/kakaotalk/id368836204",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.kakao.talk"
+      "download_url_ios": "https://apps.apple.com/kr/app/seoul-metro/id503529892",
+      "download_url_android": "https://play.google.com/store/apps/details?id=kr.co.gg.seoulmetro"
     }
   ],
   "spain": [
     {
-      "app_name": "Cl@ve PIN",
-      "description": "Essential for secure digital identification and authentication when interacting with Spanish public administration services, including some healthcare portals.",
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/es/app/clave-pin/id1118181652",
-      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave.pin.app"
+      "download_url_ios": "https://apps.apple.com/es/app/clave-qr/id1534194739",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.redabertia.clave"
     },
     {
-      "app_name": "Moovit",
-      "description": "Provides real-time public transport information, journey planning, and alerts for buses, trains, metros, and more across many Spanish cities.",
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access personal administrative data and manage procedures with the Spanish Public Administration.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/es/app/moovit-transporte-p%C3%BAblico/id498477945",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.moovit.maas"
+      "download_url_ios": "https://apps.apple.com/es/app/carpeta-ciudadana/id1477114018",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.redabertia.carpetaciudadana"
     },
     {
-      "app_name": "Renfe",
-      "description": "Official app for Spain's national railway company, allowing you to search, book, and manage tickets for long-distance and regional trains.",
+      "app_name": "Tu Salud (varies by region)",
+      "description": "Regional healthcare app, e.g., 'Salud Madrid' for access to health records and appointments.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/es/app/renfe/id451152988",
-      "download_url_android": "https://play.google.com/store/apps/details?id=es.renfe.app"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
-      "app_name": "CaixaBankNow",
-      "description": "Mobile banking app for CaixaBank, one of Spain's largest banks, offering account management, transfers, and integrating Bizum for instant payments.",
+      "app_name": "Google Maps",
+      "description": "Essential for navigation and public transport information across Spain.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id516515867",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mbanking"
+      "download_url_ios": "https://apps.apple.com/es/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "Bizum",
+      "description": "Popular mobile payment system for instant money transfers between individuals.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/bizum/id1265549423",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.abanca.bizum"
     }
   ],
   "italy": [
     {
-      "app_name": "PosteID",
-      "description": "Official app from Poste Italiane to manage your SPID (Public Digital Identity System), essential for accessing Italian public services online.",
+      "app_name": "IO - CITTADINANZA DIGITALE",
+      "description": "Official app for interacting with Italian public administration services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/it/app/posteid/id1206198083",
-      "download_url_android": "https://play.google.com/store/apps/details?id=it.posteitaliane.posteid"
+      "download_url_ios": "https://apps.apple.com/it/app/io-app/id1507727654",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.io.app"
     },
     {
-      "app_name": "IO",
-      "description": "The official app for accessing public administration services, receiving messages, and making payments to Italian public entities. Requires SPID or CIE.",
+      "app_name": "Fattura Elettronica",
+      "description": "For generating and managing electronic invoices, essential for self-employed individuals and businesses.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/it/app/io/id1453267078",
-      "download_url_android": "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
-      "app_name": "Trenitalia",
-      "description": "Official app for purchasing train tickets, managing bookings, and checking real-time train status for national and regional rail services in Italy.",
+      "app_name": "Il Mio Dottore",
+      "description": "App for finding doctors, booking appointments, and managing health records.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/it/app/trenitalia/id493774841",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.trenitalia.android"
+      "download_url_ios": "https://apps.apple.com/it/app/il-mio-dottore/id870645952",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.ilmio.dottore"
+    },
+    {
+      "app_name": "Moovit",
+      "description": "Popular app for public transport planning and real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/moovit-transportation-app/id522747503",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.tranzmate"
     },
     {
       "app_name": "Satispay",
-      "description": "A popular independent mobile payment system in Italy for sending money to friends, paying in stores, and managing various transactions with cashback.",
+      "description": "A widely used payment app for peer-to-peer transfers, bills, and local store payments.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/it/app/satispay/id826131494",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.satispay"
+      "download_url_ios": "https://apps.apple.com/it/app/satispay/id1097945137",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.satispay"
     }
   ],
   "portugal": [
     {
-      "app_name": "Autenticação.gov",
-      "description": "Official app to access public and private services using the Portuguese Digital Mobile Key (Chave Móvel Digital).",
+      "app_name": "ID.GOV.PT",
+      "description": "Official app for accessing digital services and your digital citizen card.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pt/app/autenticacao-gov/id1081691280",
-      "download_url_android": "https://play.google.com/store/apps/details?id=pt.autenticacao.app"
+      "download_url_ios": "https://apps.apple.com/pt/app/id-gov-pt/id1512544436",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.gov.dglab.idgov"
     },
     {
       "app_name": "SNS 24",
-      "description": "The official Portuguese National Health Service (SNS) app for scheduling appointments, accessing medical records, and health information.",
+      "description": "National Health Service portal for health information, appointments, and services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pt/app/sns-24/id1453256754",
-      "download_url_android": "https://play.google.com/store/apps/details?id=pt.min-saude.sns24"
+      "download_url_ios": "https://apps.apple.com/pt/app/sns-24/id1196670581",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.min_saude.sns24"
     },
     {
-      "app_name": "Moovit",
-      "description": "A global app providing real-time public transport information, trip planning, and alerts for various cities in Portugal, including Lisbon and Porto.",
+      "app_name": "Citymapper",
+      "description": "Excellent for public transport navigation in major Portuguese cities like Lisbon and Porto.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/app/moovit-all-urban-mobility/id498477945",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.tranzmate"
+      "download_url_ios": "https://apps.apple.com/pt/app/citymapper-transportation-app/id1197908809",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mapway.citymapper"
     },
     {
       "app_name": "MB WAY",
-      "description": "Portugal's leading interbank payment service for instant transfers, online shopping, and ATM withdrawals without a card.",
+      "description": "Popular mobile payment and money transfer service.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pt/app/mb-way/id1052695507",
-      "download_url_android": "https://play.google.com/store/apps/details?id=pt.sib.mbway"
+      "download_url_ios": "https://apps.apple.com/pt/app/mb-way/id1093805660",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.si.mbway"
+    },
+    {
+      "app_name": "Caixa Geral de Depósitos App",
+      "description": "Official banking app for one of Portugal's largest banks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/cg-mobile/id443579486",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.cg.mobile"
     }
   ],
   "hong-kong": [
     {
-      "app_name": "iAM Smart (智方便)",
-      "description": "Official digital identity for secure authentication and access to various Hong Kong government online services.",
+      "app_name": "iAM Smart",
+      "description": "Digital identity service for accessing government and private sector services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/hk/app/i-am-smart/id1527797745",
-      "download_url_android": "https://play.google.com/store/apps/details?id=hk.gov.ogcio.iamsmart"
+      "download_url_ios": "https://apps.apple.com/hk/app/iam-smart/id1517568980",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.gov.iam.smartapp"
     },
     {
-      "app_name": "HA Go (醫管局流動應用程式)",
-      "description": "Official app for Hong Kong's public hospitals, managing appointments, viewing records, and making payments for Hospital Authority services.",
+      "app_name": "MyHealth",
+      "description": "Platform for accessing personal health records provided by the Hospital Authority.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/hk/app/ha-go/id1458925762",
-      "download_url_android": "https://play.google.com/store/apps/details?id=hk.org.ha.hago"
+      "download_url_ios": "https://apps.apple.com/hk/app/myhealth/id1273315733",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.gov.ha.myhealth"
     },
     {
-      "app_name": "MTR Mobile",
-      "description": "Official app for Hong Kong's MTR, providing route planning, real-time train information, station facilities, and service updates.",
+      "app_name": "Citymapper",
+      "description": "Highly recommended for navigating Hong Kong's extensive public transport system.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/hk/app/mtr-mobile/id366405788",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.mtr.mobile"
+      "download_url_ios": "https://apps.apple.com/hk/app/citymapper-transportation-app/id1197908809",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mapway.citymapper"
     },
     {
-      "app_name": "Octopus App",
-      "description": "Manage your Octopus cards and O! ePay account, check balance, top up, and make P2P payments widely accepted in HK for transport and retail.",
+      "app_name": "HSBC HK Mobile App",
+      "description": "Official banking app for HSBC, a major bank in Hong Kong.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/hk/app/octopus/id1018598717",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.octopuscards.octopusapp"
+      "download_url_ios": "https://apps.apple.com/hk/app/hsbc-hk-mobile-app/id342017717",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hsbc.hk.mobile"
     },
     {
-      "app_name": "PayMe from HSBC",
-      "description": "A highly popular mobile payment app in Hong Kong for sending and receiving money to friends and making payments to merchants.",
+      "app_name": "Octopus",
+      "description": "Essential for managing your Octopus card, used for public transport, retail, and more.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/hk/app/payme-from-hsbc/id1112423377",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.hsbc.hsbchkmobile.payme"
+      "download_url_ios": "https://apps.apple.com/hk/app/octopus/id1398155688",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.octo.octopusapp"
     }
   ],
   "taiwan": [
     {
-      "app_name": "健保快易通 | 健康存摺 (My Health Bank)",
-      "description": "Access your National Health Insurance (NHI) records, medical history, vaccination records, and find healthcare providers.",
+      "app_name": "Taiwan Social Welfare",
+      "description": "Official app for government services, including social welfare and identity verification.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/tw/app/%E5%81%A5%E4%BF%9D%E5%BF%AB%E6%98%93%E9%80%9A-%E5%81%A5%E5%BA%B7%E5%AD%98%E6%91%BA/id1081533256",
-      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.nhi.nhiapp"
+      "download_url_ios": "https://apps.apple.com/tw/app/臺灣社會福利網/id1491326080",
+      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.moi.soca"
     },
     {
-      "app_name": "LINE",
-      "description": "Taiwan's dominant messaging app, essential for communication and widely used with its integrated LINE Pay for mobile payments.",
+      "app_name": "全民健保行動快易通",
+      "description": "Taiwan's National Health Insurance app for medical appointments, records, and information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/tw/app/line/id443904275",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+      "download_url_ios": "https://apps.apple.com/tw/app/%E5%85%A8%E6%B0%91%E5%81%A5%E4%BF%9D%E8%A1%8C%E5%8B%95%E5%BF%AB%E6%98%93%E9%80%9A/id1498164546",
+      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.nhi.app"
     },
     {
-      "app_name": "台灣公車通 (Bus+ Taiwan)",
-      "description": "Provides real-time bus arrival information and route planning for most cities across Taiwan.",
+      "app_name": "Bus+ (Taiwan Bus)",
+      "description": "Real-time public bus arrival information across Taiwan.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/tw/app/%E5%8F%B0%E7%81%A3%E5%85%AC%E8%BB%8A%E9%80%9A/id669918231",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.busplus.tw"
+      "download_url_ios": "https://apps.apple.com/tw/app/bus-%E5%8F%B0%E7%81%A3%E5%85%AC%E8%BB%8A%E6%89%8B%E6%A9%9F%E6%9F%A5%E8%A9%A2%E5%B7%A5%E5%85%B7/id720473988",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sky.bus"
     },
     {
-      "app_name": "街口支付 JKOPAY",
-      "description": "A very popular mobile payment platform widely accepted at stores, restaurants, and for various services across Taiwan.",
+      "app_name": "LINE Pay",
+      "description": "Widely used mobile payment and remittance service in Taiwan.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/tw/app/%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98-jkopay/id960714771",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.jkos.app"
+      "download_url_ios": "https://apps.apple.com/tw/app/line-pay/id967215019",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.linecorp.pay"
     }
   ],
   "india": [
     {
       "app_name": "mAadhaar",
-      "description": "Official app to carry your Aadhaar profile digitally, manage services, and access Aadhaar-related features.",
+      "description": "Official Aadhaar app for downloading and accessing your Aadhaar card digitally.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/in/app/maadhaar/id1435472813",
-      "download_url_android": "https://play.google.com/store/apps/details?id=in.gov.uidai.maadhaarapp"
+      "download_url_ios": "https://apps.apple.com/in/app/maadhaar/id1418180260",
+      "download_url_android": "https://play.google.com/store/apps/details?id=in.gov.uidai.mAadhaar"
     },
     {
-      "app_name": "DigiLocker",
-      "description": "Government of India's secure cloud-based platform for issuance and verification of documents and certificates.",
+      "app_name": "CoWIN",
+      "description": "Official app for COVID-19 vaccination registration and certificates.",
+      "platform": "Android",
+      "download_url_ios": null,
+      "download_url_android": "https://play.google.com/store/apps/details?id=in.gov.cowin.app"
+    },
+    {
+      "app_name": "Indian Railways (IRCTC Rail Connect)",
+      "description": "Official app for booking train tickets and checking train status across India.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/in/app/digilocker/id1320617834",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.digilocker.android"
+      "download_url_ios": "https://apps.apple.com/in/app/irctc-rail-connect/id1094044042",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cris.org.scratch"
     },
     {
       "app_name": "Google Pay (Tez)",
-      "description": "Secure and easy-to-use digital payment app for UPI transactions, bill payments, and money transfers.",
+      "description": "Widely used digital wallet and payment app in India.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/in/app/google-pay-tez/id1193392370",
+      "download_url_ios": "https://apps.apple.com/in/app/google-pay/id1188604570",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Comprehensive navigation, real-time traffic updates, public transport information, and local discovery.",
+      "app_name": "Paytm",
+      "description": "Popular app for mobile recharges, bill payments, and digital transactions.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/in/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
-    },
-    {
-      "app_name": "Ola Cabs",
-      "description": "Book taxis, auto-rickshaws, and other vehicles for convenient and on-demand transportation.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/in/app/ola-cabs/id533800765",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.olacabs.customer"
+      "download_url_ios": "https://apps.apple.com/in/app/paytm-recharge-upi-payments/id474040071",
+      "download_url_android": "https://play.google.com/store/apps/details?id=net.one97.paytm"
     }
   ],
   "uae": [
     {
       "app_name": "UAE Pass",
-      "description": "Your official digital identity for accessing government and private sector services across the UAE.",
+      "description": "Official digital identity app for accessing government services and e-signing documents.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/uae-pass/id1277881079",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ae.uaepass.main"
+      "download_url_ios": "https://apps.apple.com/ae/app/uae-pass/id1454701633",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ae.uaepass.app"
+    },
+    {
+      "app_name": "Dubai Health Authority (DHA) App",
+      "description": "App for accessing health services, appointments, and medical records within Dubai.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/dubai-health-authority/id534729599",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ae.gov.dha.dhaapp"
     },
     {
       "app_name": "S'hail",
-      "description": "The official RTA app for planning journeys using public transport in Dubai, including metro, tram, buses, and marine transport.",
+      "description": "Integrated smart mobility app for planning journeys and using public transport in Dubai.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ae/app/shail/id1454558236",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ae.gov.rta.s_hail"
+      "download_url_ios": "https://apps.apple.com/ae/app/shail/id1220257707",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ae.rta.shail"
     },
     {
-      "app_name": "Careem",
-      "description": "A popular super-app for ride-hailing, food delivery, groceries, and payment services across the UAE.",
+      "app_name": "Emirates NBD",
+      "description": "Mobile banking app for one of the largest banking groups in the Middle East.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ae/app/careem-ride-food-delivery/id572166942",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.careem.adma"
+      "download_url_ios": "https://apps.apple.com/ae/app/emirates-nbd/id561406283",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.emiratesnbd.app"
+    },
+    {
+      "app_name": "ADCB",
+      "description": "Mobile banking app for Abu Dhabi Commercial Bank.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/adcb/id578960202",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.adcb.mobilebanking"
     }
   ],
   "saudi-arabia": [
     {
-      "app_name": "Absher Individuals",
-      "description": "Official Saudi Ministry of Interior app for accessing government services, managing residency, passports, and traffic violations.",
+      "app_name": "Absher",
+      "description": "Digital platform for government services, including identity verification and visa information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sa/app/absher-individuals/id1044455855",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.Absher"
+      "download_url_ios": "https://apps.apple.com/sa/app/absher/id903972000",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sa.gov.absher.user"
     },
     {
-      "app_name": "stc pay",
-      "description": "A leading digital wallet in Saudi Arabia for payments, money transfers, bill payments, and financial services.",
+      "app_name": "Seha (Saudi Health)",
+      "description": "Official health app for booking appointments and accessing health services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sa/app/stc-pay/id1271131100",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.stcpay.mobile"
+      "download_url_ios": "https://apps.apple.com/sa/app/seha/id1534711354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.moh.seha"
     },
     {
-      "app_name": "Careem - Ride, Food, Shop",
-      "description": "Popular ride-hailing service, also offering food delivery, grocery delivery, and other daily services.",
+      "app_name": "Riyadh Metro",
+      "description": "App for navigating and planning journeys on the Riyadh Metro.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sa/app/careem-ride-food-shop/id587137000",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.careem.customer"
+      "download_url_ios": "https://apps.apple.com/sa/app/riyadh-metro/id1630834650",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.riyadhmetro.app"
     },
     {
-      "app_name": "Sehaty",
-      "description": "Official Ministry of Health app for managing health appointments, viewing medical records, and accessing telehealth services.",
+      "app_name": "Alinma Bank",
+      "description": "Mobile banking app for Alinma Bank, a popular choice in Saudi Arabia.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/sa/app/sehaty-%D8%B5%D8%AD%D8%AA%D9%8A/id1500055106",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.moh.sehaty"
+      "download_url_ios": "https://apps.apple.com/sa/app/alinma-bank/id577234102",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.alinma.mobile"
+    },
+    {
+      "app_name": "STC Pay",
+      "description": "Digital wallet and payment app from Saudi Telecom Company.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sa/app/stc-pay/id1447934837",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.stc.pay"
     }
   ],
   "thailand": [
     {
-      "app_name": "Grab",
-      "description": "The leading super app in Southeast Asia for ride-hailing, food delivery, grocery delivery, and package delivery.",
+      "app_name": "ThaiD",
+      "description": "Official digital identity app for accessing government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/th/app/grab-taxi-food-delivery-more/id647268330",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+      "download_url_ios": "https://apps.apple.com/th/app/thaid-%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%97%E0%B8%B1%E0%B8%A5/id1536496448",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.moid.moidapp"
     },
     {
-      "app_name": "KBank Plus",
-      "description": "Official mobile banking application for Kasikornbank, offering comprehensive financial services including transfers, bill payments, and PromptPay QR code transactions.",
+      "app_name": "Mor Prom (หมอพร้อม)",
+      "description": "Official app for COVID-19 vaccination and health services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/th/app/kplus/id459828551",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.kasikorn.mobile.android.pincode"
+      "download_url_ios": "https://apps.apple.com/th/app/%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1/id1558671475",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nextco.doph.app"
     },
     {
-      "app_name": "TrueMoney Wallet",
-      "description": "A widely used e-wallet for secure digital payments, mobile top-ups, bill payments, and online shopping across Thailand.",
+      "app_name": "ViaBus",
+      "description": "Real-time bus tracking and route planning for Bangkok.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/th/app/truemoney-wallet/id663885746",
-      "download_url_android": "https://play.google.com/store/apps/details?id=th.co.truemoney.wallet"
+      "download_url_ios": "https://apps.apple.com/th/app/viabus-%E0%B8%A3%E0%B8%96%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%AD%E0%B8%81/id1096666436",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.viabus.app"
+    },
+    {
+      "app_name": "PromptPay",
+      "description": "Thailand's national real-time payment system, integrated into many banking apps.",
+      "platform": "iOS/Android (via banking apps)",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "SCB EASY",
+      "description": "Mobile banking app for Siam Commercial Bank, one of Thailand's largest banks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/scb-easy/id980057261",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.scb.mobilebanking"
     }
   ],
   "malaysia": [
     {
       "app_name": "MySejahtera",
-      "description": "Official Malaysian health app for vaccination records, health declarations, and accessing public health services.",
+      "description": "Official Malaysian government app for health status, vaccination certificates, and contact tracing.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/my/app/mysejahtera/id1504698572",
-      "download_url_android": "https://play.google.com/store/apps/details?id=my.gov.moh.mysejahtera"
+      "download_url_ios": "https://apps.apple.com/my/app/mysejahtera/id1506715144",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.gov.my.mysejahtera"
+    },
+    {
+      "app_name": "MyEG",
+      "description": "Malaysian government service portal for various transactions including road tax, insurance, and permits.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/myeg/id1478881737",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.myeg.myegapp"
     },
     {
       "app_name": "Grab",
-      "description": "Southeast Asia's leading superapp for ride-hailing, food/grocery delivery, and digital payments (GrabPay).",
+      "description": "Dominant super-app for ride-hailing, food delivery, and digital payments.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/my/app/grab-ride-food-delivery-pay/id647268330",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+      "download_url_ios": "https://apps.apple.com/my/app/grab/id644571175",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.rider"
     },
     {
       "app_name": "Touch 'n Go eWallet",
-      "description": "Widely accepted e-wallet for cashless payments, toll road payments, public transport top-ups, and various online/offline transactions.",
+      "description": "One of the most popular digital wallets for payments, tolls, and transport.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/my/app/touch-n-go-ewallet/id1346740608",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.nafas.tngportal"
+      "download_url_ios": "https://apps.apple.com/my/app/touch-n-go-ewallet/id1473701794",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Essential for navigation, finding places, public transport routes, and exploring local businesses and attractions.",
+      "app_name": "MyBus / Moovit",
+      "description": "For navigating public transportation routes and schedules in major cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "download_url_ios": "https://apps.apple.com/my/app/moovit-public-transport/id498477945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.tranzmate"
     }
   ],
   "indonesia": [
     {
-      "app_name": "SATUSEHAT Mobile",
-      "description": "The official health app for Indonesia, storing vaccination records, health data, and providing access to public health services.",
+      "app_name": "PeduliLindungi",
+      "description": "Indonesian government's official app for COVID-19 vaccination status, tracing, and health screening.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/id/app/satusehat-mobile/id1527581139",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.telkom.pedulilindungi"
+      "download_url_ios": "https://apps.apple.com/id/app/pedulilindungi/id1504928774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.telkomsigma.incident.pedulilindungi"
     },
     {
-      "app_name": "Gojek",
-      "description": "A super-app offering ride-hailing (motorbikes, cars), food/package delivery, and mobile payments (Gopay e-wallet).",
+      "app_name": "GoJek / Grab",
+      "description": "Super-apps offering ride-hailing, food delivery, and various digital services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/id/app/gojek/id944876607",
+      "download_url_ios": "https://apps.apple.com/id/app/gojek/id1079696060",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.gojek.app"
     },
     {
-      "app_name": "Grab",
-      "description": "Southeast Asia's leading super-app for ride-hailing (motorbikes, cars), food delivery, and mobile payments (often integrated with OVO).",
+      "app_name": "DANA",
+      "description": "A widely used digital wallet for payments, transfers, and online transactions.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/id/app/grab-ride-food-delivery-more/id647268330",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+      "download_url_ios": "https://apps.apple.com/id/app/dana/id1355729704",
+      "download_url_android": "https://play.google.com/store/apps/details?id=id.dana"
     },
     {
-      "app_name": "DANA",
-      "description": "A widely used standalone e-wallet for secure digital payments, money transfers, and bill payments across Indonesia.",
+      "app_name": "KAI Access",
+      "description": "Official app for booking train tickets and checking schedules for Indonesian railways.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/id/app/dana-dompet-digital-indonesia/id1271960237",
-      "download_url_android": "https://play.google.com/store/apps/details?id=id.dana"
+      "download_url_ios": "https://apps.apple.com/id/app/kai-access/id1019421749",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kai.rider"
+    },
+    {
+      "app_name": "Halodoc / Alodokter",
+      "description": "Popular health apps for online doctor consultations, medical information, and appointment booking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/halodoc/id925081073",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.halodoc"
     }
   ],
   "south-africa": [
     {
-      "app_name": "Uber",
-      "description": "Request rides on demand with various vehicle options, widely used for transport in South African cities.",
+      "app_name": "MyTherapy",
+      "description": "A health app for managing medications, appointments, and tracking health data.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+      "download_url_ios": "https://apps.apple.com/za/app/mytherapy-medication-reminder/id441367361",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mytherapy"
     },
     {
-      "app_name": "SnapScan",
-      "description": "A popular mobile payment app for QR code payments at thousands of merchants across South Africa, linking directly to your bank card.",
+      "app_name": "Discovery Bank",
+      "description": "A leading digital bank in South Africa with a comprehensive banking app.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/za/app/snapscan/id625299443",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.snapscan.customer"
+      "download_url_ios": "https://apps.apple.com/za/app/discovery-bank/id1438058130",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.discovery.bank.app"
     },
     {
       "app_name": "Capitec Bank",
-      "description": "The official mobile banking app for Capitec Bank, one of South Africa's largest banks, offering easy management of accounts, payments, and transfers.",
+      "description": "Another major South African bank offering a popular and user-friendly mobile banking app.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/za/app/capitec-bank/id572944349",
-      "download_url_android": "https://play.google.com/store/apps/details?id=za.co.capitecbank.prod"
+      "download_url_ios": "https://apps.apple.com/za/app/capitec-bank/id979754527",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.capitec.mobile"
     },
     {
-      "app_name": "Google Maps",
-      "description": "Essential for navigation, finding places, public transport routes, and traffic updates across South Africa.",
+      "app_name": "Uber / Bolt",
+      "description": "Ride-hailing apps widely used in major South African cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/google-maps/id585027354",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+      "download_url_ios": "https://apps.apple.com/za/app/uber/id409702830",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
     },
     {
-      "app_name": "Namola",
-      "description": "An emergency response app connecting you directly to local police, ambulance, and other emergency services in South Africa.",
+      "app_name": "MyCiTi App / Gautrain App",
+      "description": "Official apps for public transport information and ticketing in Cape Town (MyCiTi) and Johannesburg/Pretoria (Gautrain).",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/za/app/namola-emergency-app/id1006526131",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.namola.android"
+      "download_url_ios": "https://apps.apple.com/za/app/myciti-mobile/id1001610025",
+      "download_url_android": "https://play.google.com/store/apps/details?id=za.co.myciti.mobile"
     }
   ],
   "chile": [
     {
-      "app_name": "ClaveÚnica",
-      "description": "Official app to manage and use your ClaveÚnica (Single Key) for accessing various Chilean government online services and procedures.",
+      "app_name": "Clave Única",
+      "description": "Chile's official digital identity and authentication app for accessing government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/cl/app/clave%C3%BAnica/id1527017726",
-      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.claveunica"
+      "download_url_ios": "https://apps.apple.com/cl/app/clave-%C3%BAnica/id1470776492",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.digital.claveunica"
     },
     {
-      "app_name": "MACH",
-      "description": "Digital account and prepaid Mastercard (virtual and physical) for easy online payments, transfers, and managing finances in Chile, often accessible for new arrivals.",
+      "app_name": "Mi Junaeb",
+      "description": "App related to Junaeb (National Student Assistance and Scholarships Board), useful for accessing certain benefits.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/cl/app/mach-tarjeta-de-prepago/id1338870196",
-      "download_url_android": "https://play.google.com/store/apps/details?id=cl.bci.mach"
+      "download_url_ios": "https://apps.apple.com/cl/app/mi-junaeb/id1451809571",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.junaeb.mijuneeb"
     },
     {
-      "app_name": "RedBip!",
-      "description": "Official app to check balance, load your BIP! card, and plan routes for Santiago's integrated public transport system (buses, metro, Metrotren).",
+      "app_name": "BancoEstado / Banco de Chile / Santander Chile",
+      "description": "Official mobile banking apps for major banks in Chile.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/cl/app/redbip/id1552553950",
-      "download_url_android": "https://play.google.com/store/apps/details?id=cl.clb.transantiago.bipapp"
+      "download_url_ios": "https://apps.apple.com/cl/app/bancoestado/id421027530",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.bancoestado.bancoestadoapp"
     },
     {
-      "app_name": "Uber",
-      "description": "Popular ride-sharing service for convenient and reliable transportation across major Chilean cities.",
+      "app_name": "Cabify / Uber",
+      "description": "Popular ride-hailing services widely used in Chilean cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/cl/app/uber-solicita-un-viaje/id368677368",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+      "download_url_ios": "https://apps.apple.com/cl/app/cabify/id531029273",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cabify.android"
+    },
+    {
+      "app_name": "Red (Red Movilidad)",
+      "description": "Official app for public transport in Santiago, providing route planning and real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/red-movilidad/id1515335973",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.ministeriodetransportes.redmovilidad"
     }
   ],
   "poland": [
     {
       "app_name": "mObywatel",
-      "description": "The official government app providing digital identity documents (e.g., ID card, driver's license) and access to various public services.",
+      "description": "Official Polish government app for digital identity, digital documents (like e-ID and driver's license), and access to public services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pl/app/mobywatel/id1350614131",
-      "download_url_android": "https://play.google.com/store/apps/details?id=pl.gov.mc.mobywatel"
+      "download_url_ios": "https://apps.apple.com/pl/app/mobydwatel/id1415587668",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.gov.dyrektywa.mobywatel"
     },
     {
-      "app_name": "mojeIKP",
-      "description": "Official app for Poland's National Health Fund, allowing access to e-prescriptions, e-referrals, medical history, and appointments.",
+      "app_name": "IKZE / Profil Zaufany",
+      "description": "Used for official government interactions and electronic signatures, often integrated within other government apps.",
+      "platform": "Web (primarily, accessed via browsers or linked apps)",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "PKO Bank Polski / mBank / ING Bank Śląski",
+      "description": "Mobile banking apps for major Polish banks.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pl/app/mojeikp/id1527010469",
-      "download_url_android": "https://play.google.com/store/apps/details?id=pl.gov.csioz.mojeikp"
+      "download_url_ios": "https://apps.apple.com/pl/app/iko-aplikacja-mobilna-pko-bp/id1096799184",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.pkobp.iko"
     },
     {
       "app_name": "Jakdojade",
-      "description": "Essential for public transport, offering timetables, route planning, and ticket purchasing for most major Polish cities.",
+      "description": "Essential app for planning public transport journeys (buses, trams, metro) across Polish cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pl/app/jakdojade/id305459341",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.citynav.jakdojade.pl"
+      "download_url_ios": "https://apps.apple.com/pl/app/jakdojade/id607356773",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.com.idealab.jakdojade.android"
     },
     {
-      "app_name": "IKO PKO Bank Polski",
-      "description": "The mobile banking app of Poland's largest bank, enabling transfers, payments, and seamless BLIK mobile payments widely used across the country.",
+      "app_name": "Uber / Bolt",
+      "description": "Widely used ride-hailing services in major Polish cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/pl/app/iko-pko-bank-polski/id621361563",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.pkobp.iko"
+      "download_url_ios": "https://apps.apple.com/pl/app/uber/id368106328",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
     }
   ]
 }
