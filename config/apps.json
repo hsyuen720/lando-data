@@ -1,0 +1,48 @@
+{
+  "denmark": [
+    {
+      "app_name": "MitID",
+      "description": "Danish national digital identity app, required for banking, government services, and healthcare.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/mitid/id1558928440",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.mitid.app.android"
+    },
+    {
+      "app_name": "Sundhed.dk",
+      "description": "Danish healthcare portal app for booking appointments and viewing medical records.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/sundhed-dk/id423451560",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.sundhed.minsp"
+    },
+    {
+      "app_name": "Rejseplanen",
+      "description": "Official Danish public transport journey planner.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/rejseplanen/id317007942",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.hafas.android.rejseplanen"
+    }
+  ],
+  "united-kingdom": [
+    {
+      "app_name": "NHS App",
+      "description": "Official National Health Service app for GP appointments, prescriptions, and health records.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/nhs-app/id1388411277",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs.online.nhsonline"
+    },
+    {
+      "app_name": "GOV.UK ID Check",
+      "description": "Official UK government identity verification app for immigration applications.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/gov-uk-id-check/id1629050566",
+      "download_url_android": "https://play.google.com/store/apps/details?id=uk.gov.idcheck"
+    },
+    {
+      "app_name": "BRP (Biometric Residence Permit) App",
+      "description": "UK Visas and Immigration app for viewing digital immigration status.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/uk-immigration-id-check/id1255037975",
+      "download_url_android": "https://play.google.com/store/apps/details?id=uk.gov.HomeOffice.ho2"
+    }
+  ]
+}
