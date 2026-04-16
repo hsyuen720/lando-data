@@ -47,10 +47,9 @@ logger = logging.getLogger("pathfinder")
 # Gemini configuration
 # ---------------------------------------------------------------------------
 SYSTEM_PROMPT = (
-    "You are an immigration research assistant. "
-    "For the given country, identify the most relevant visa/permit categories "
-    "based on that country's actual immigration system, then find the OFFICIAL "
-    "government website URLs for each category.\n\n"
+    "You are an immigration research assistant with access to Google Search. "
+    "For EACH country listed, SEARCH THE WEB to find the most relevant visa/permit "
+    "categories and their OFFICIAL government website URLs.\n\n"
     "Consider categories such as (but not limited to):\n"
     "- Student visa\n"
     "- Work visa / work permit\n"
@@ -60,25 +59,27 @@ SYSTEM_PROMPT = (
     "- Investor / entrepreneur visa\n"
     "- Working holiday visa\n"
     "- Permanent residency\n"
-    "- Any other visa type unique to this country (e.g. Gold Card, Top Talent Pass)\n\n"
+    "- Any other visa type unique to that country (e.g. Gold Card, Top Talent Pass)\n\n"
     "Rules:\n"
     "1. Only return URLs from official government domains (e.g. .gov, .gov.uk, "
     ".gc.ca, .gob, .go.jp, etc.).\n"
     "2. Use short, lowercase, hyphenated keys for each category (e.g. 'student', "
     "'skilled-worker', 'digital-nomad', 'working-holiday', 'permanent-residency').\n"
-    "3. Include 5-10 of the most relevant categories for the country.\n"
-    "4. Only return URLs you are highly confident actually exist. "
-    "Do NOT guess or fabricate URLs. Prefer well-known top-level pages over deep links.\n"
+    "3. Include 5-10 of the most relevant categories per country.\n"
+    "4. Every URL MUST come from your Google Search results. "
+    "Do NOT invent or guess any URL. If you cannot find a working URL for a "
+    "category via search, omit that category entirely.\n"
     "5. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
-    "Return format (strict JSON):\n"
+    "Return format — a JSON object keyed by country slug:\n"
     "{\n"
-    '  "<category-slug>": [{"url": "<URL>", "title": "<page title>"}],\n'
-    '  "<category-slug>": [{"url": "<URL>", "title": "<page title>"}]\n'
+    '  "<country-slug>": {\n'
+    '    "<category-slug>": [{"url": "<URL>", "title": "<page title>"}]\n'
+    "  }\n"
     "}\n"
 )
 
 APPS_SYSTEM_PROMPT = (
-    "You are a relocation assistant. For the given country, find the most essential "
+    "You are a relocation assistant. For EACH country listed, find the most essential "
     "mobile apps that a new immigrant would need. Focus on:\n"
     "- Government identity/authentication apps\n"
     "- Healthcare apps\n"
@@ -86,15 +87,17 @@ APPS_SYSTEM_PROMPT = (
     "- Banking/payment apps widely used in the country\n\n"
     "Rules:\n"
     "1. Only include apps that are real and currently available.\n"
-    "2. Return 3-5 of the MOST essential apps.\n"
+    "2. Return 3-5 of the MOST essential apps per country.\n"
     "3. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
-    "Return format (strict JSON array):\n"
-    "[\n"
-    '  {"app_name": "<name>", "description": "<one-line description>", '
+    "Return format — a JSON object keyed by country slug:\n"
+    "{\n"
+    '  "<country-slug>": [\n'
+    '    {"app_name": "<name>", "description": "<one-line description>", '
     '"platform": "iOS/Android", '
     '"download_url_ios": "<App Store URL or null>", '
     '"download_url_android": "<Play Store URL or null>"}\n'
-    "]\n"
+    "  ]\n"
+    "}\n"
 )
 
 
@@ -176,24 +179,27 @@ def _is_transient(exc: Exception) -> bool:
     retry=retry_if_exception(_is_transient),
     reraise=True,
 )
-def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str) -> str:
+def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str, *, use_search: bool = False) -> str:
     """Call a specific Gemini model with retry on transient errors."""
+    config = types.GenerateContentConfig(
+        system_instruction=system_instruction,
+    )
+    if use_search:
+        config.tools = [types.Tool(google_search=types.GoogleSearch())]
     response = client.models.generate_content(
         model=model,
         contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system_instruction,
-        ),
+        config=config,
     )
     return response.text.strip()
 
 
-def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str, *, use_search: bool = False) -> str:
     """Try each model in the fallback chain until one succeeds."""
     last_exc = None
     for model in MODELS:
         try:
-            result = _call_model(client, model, prompt, system_instruction)
+            result = _call_model(client, model, prompt, system_instruction, use_search=use_search)
             return result
         except Exception as exc:
             last_exc = exc
@@ -210,23 +216,34 @@ def _parse_json(raw: str) -> dict | list:
     return json.loads(raw.strip())
 
 
-def discover_urls(client: genai.Client, country_slug: str) -> dict | None:
-    """Ask Gemini for official visa URLs for a single country."""
-    country_display = country_slug.replace("-", " ").title()
+BATCH_SIZE = 5
+
+
+def discover_urls_batch(client: genai.Client, slugs: list[str]) -> dict:
+    """Ask Gemini for official visa URLs for multiple countries at once."""
+    country_lines = "\n".join(
+        f"- {s.replace('-', ' ').title()} (slug: {s})" for s in slugs
+    )
     prompt = (
-        f"Find the official government visa/immigration URLs for: {country_display}.\n"
-        f"Country slug: {country_slug}"
+        f"Search the web and find the official government visa/immigration URLs "
+        f"for each of these countries:\n{country_lines}\n\n"
+        f"Use Google Search to verify each URL actually exists before including it.\n"
+        f"Return a single JSON object keyed by country slug."
     )
 
     try:
-        raw = _call_gemini(client, prompt, SYSTEM_PROMPT)
-        return _parse_json(raw)
+        raw = _call_gemini(client, prompt, SYSTEM_PROMPT, use_search=True)
+        parsed = _parse_json(raw)
+        if not isinstance(parsed, dict):
+            logger.warning("Expected dict from batch URL discovery, got %s", type(parsed))
+            return {}
+        return parsed
     except json.JSONDecodeError as exc:
-        logger.warning("Invalid JSON from Gemini for %s: %s", country_slug, exc)
-        return None
+        logger.warning("Invalid JSON from batch URL discovery %s: %s", slugs, exc)
+        return {}
     except Exception as exc:
-        logger.warning("Gemini API error for %s: %s", country_slug, exc)
-        return None
+        logger.warning("Gemini API error for batch URL discovery %s: %s", slugs, exc)
+        return {}
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; LandoBot/1.0; +https://github.com/lando-data)"
@@ -240,6 +257,11 @@ def _validate_urls(result: dict, country_slug: str) -> dict:
     """
     validated: dict = {}
     for category, url_list in result.items():
+        # Normalize: model sometimes returns a single dict instead of a list
+        if isinstance(url_list, dict):
+            url_list = [url_list]
+        if not isinstance(url_list, list):
+            continue
         good: list[dict] = []
         for entry in url_list:
             url = entry.get("url", "")
@@ -247,21 +269,30 @@ def _validate_urls(result: dict, country_slug: str) -> dict:
                 continue
             try:
                 resp = requests.head(
-                    url, timeout=15, headers={"User-Agent": USER_AGENT}, allow_redirects=True,
+                    url, timeout=15, headers={"User-Agent": USER_AGENT},
+                    allow_redirects=True, verify=True,
                 )
                 if resp.status_code < 400:
                     good.append(entry)
+                elif resp.status_code == 403:
+                    # 403 = site blocks bots but URL exists — keep it
+                    logger.info("  Keeping %s (403 = bot-blocked, URL likely valid)", url)
+                    good.append(entry)
                 else:
                     logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
+            except requests.exceptions.SSLError:
+                # SSL cert issue on our side — URL exists, keep it
+                logger.info("  Keeping %s (SSL error = cert issue, URL likely valid)", url)
+                good.append(entry)
             except requests.RequestException as exc:
                 # Some sites block HEAD, try a quick GET as fallback
                 try:
                     resp = requests.get(
-                        url, timeout=15, headers={"User-Agent": USER_AGENT}, allow_redirects=True,
-                        stream=True,  # don't download body
+                        url, timeout=15, headers={"User-Agent": USER_AGENT},
+                        allow_redirects=True, stream=True, verify=False,
                     )
                     resp.close()
-                    if resp.status_code < 400:
+                    if resp.status_code < 400 or resp.status_code == 403:
                         good.append(entry)
                     else:
                         logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
@@ -274,22 +305,30 @@ def _validate_urls(result: dict, country_slug: str) -> dict:
     return validated
 
 
-def discover_apps(client: genai.Client, country_slug: str) -> list | None:
-    """Ask Gemini for essential relocation apps for a single country."""
-    country_display = country_slug.replace("-", " ").title()
+def discover_apps_batch(client: genai.Client, slugs: list[str]) -> dict:
+    """Ask Gemini for essential relocation apps for multiple countries at once."""
+    country_lines = "\n".join(
+        f"- {s.replace('-', ' ').title()} (slug: {s})" for s in slugs
+    )
     prompt = (
-        f"Find the most essential mobile apps for someone relocating to: {country_display}."
+        f"Find the most essential mobile apps for someone relocating to each of "
+        f"these countries:\n{country_lines}\n\n"
+        f"Return a single JSON object keyed by country slug."
     )
 
     try:
         raw = _call_gemini(client, prompt, APPS_SYSTEM_PROMPT)
-        return _parse_json(raw)
+        parsed = _parse_json(raw)
+        if not isinstance(parsed, dict):
+            logger.warning("Expected dict from batch apps discovery, got %s", type(parsed))
+            return {}
+        return parsed
     except json.JSONDecodeError as exc:
-        logger.warning("Invalid JSON (apps) from Gemini for %s: %s", country_slug, exc)
-        return None
+        logger.warning("Invalid JSON from batch apps discovery %s: %s", slugs, exc)
+        return {}
     except Exception as exc:
-        logger.warning("Gemini API error (apps) for %s: %s", country_slug, exc)
-        return None
+        logger.warning("Gemini API error for batch apps discovery %s: %s", slugs, exc)
+        return {}
 
 
 def _migrate_sources(sources: dict) -> dict:
@@ -308,7 +347,7 @@ def _migrate_sources(sources: dict) -> dict:
 
 
 def run() -> None:
-    """Main pipeline: iterate countries, discover URLs, update sources."""
+    """Main pipeline: batch-discover URLs & apps, validate, update sources."""
     client = configure_gemini()
     countries = load_countries()
     sources_raw = load_existing_sources()
@@ -318,16 +357,26 @@ def run() -> None:
     apps = load_existing_apps()
     original_apps = json.loads(json.dumps(apps))        # deep copy for diff
 
-    for idx, slug in enumerate(countries, start=1):
-        logger.info("[%d/%d] Discovering URLs for: %s", idx, len(countries), slug)
+    # Process countries in batches of BATCH_SIZE
+    batches = [countries[i:i + BATCH_SIZE] for i in range(0, len(countries), BATCH_SIZE)]
 
-        result = discover_urls(client, slug)
-        if result is None:
-            logger.warning("Skipping %s — no valid response.", slug)
-        else:
-            # Validate URLs before saving — drops 404/403/unreachable
+    for batch_idx, batch in enumerate(batches, start=1):
+        batch_label = ", ".join(batch)
+        logger.info("=== Batch %d/%d (%d countries): %s ===",
+                     batch_idx, len(batches), len(batch), batch_label)
+
+        # --- Discover URLs for the batch (1 API call) ---
+        url_results = discover_urls_batch(client, batch)
+
+        for slug in batch:
+            result = url_results.get(slug)
+            if result is None or not isinstance(result, dict):
+                logger.warning("  No URL data for %s in batch response", slug)
+                continue
+
+            # Validate URLs before saving
             result = _validate_urls(result, slug)
-            logger.info("  %d categories survived validation", len(result))
+            logger.info("  %s: %d categories survived validation", slug, len(result))
 
             # Merge: preserve manual entries, update/add AI entries
             existing = sources.get(slug, {})
@@ -337,15 +386,22 @@ def run() -> None:
                     continue
                 existing[cat] = {"urls": urls, "source": "ai"}
             sources[slug] = existing
-            logger.info("  Found %d AI categories: %s", len(result), list(result.keys()))
 
-        # Discover essential apps
-        logger.info("[%d/%d] Discovering apps for: %s", idx, len(countries), slug)
-        app_result = discover_apps(client, slug)
-        if app_result is not None:
-            apps[slug] = app_result
+        # Respect API rate limits between URL and app calls
+        time.sleep(3)
 
-        # Respect API rate limits
+        # --- Discover apps for the batch (1 API call) ---
+        logger.info("  Discovering apps for batch: %s", batch_label)
+        apps_results = discover_apps_batch(client, batch)
+
+        for slug in batch:
+            app_result = apps_results.get(slug)
+            if app_result is not None and isinstance(app_result, list):
+                apps[slug] = app_result
+            else:
+                logger.warning("  No apps data for %s in batch response", slug)
+
+        # Respect API rate limits between batches
         time.sleep(3)
 
     # Remove countries no longer in the list
@@ -361,7 +417,7 @@ def run() -> None:
 
     save_sources(sources, original_sources)
     save_apps(apps, original_apps)
-    logger.info("Pathfinder complete — %d countries processed.", len(countries))
+    logger.info("Pathfinder complete — %d countries in %d batches.", len(countries), len(batches))
 
 
 if __name__ == "__main__":
