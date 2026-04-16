@@ -1,0 +1,52 @@
+{
+  "country": "denmark",
+  "visa_category": "schengen-visa",
+  "data": {
+    "visa_category": "schengen-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.nyidanmark.dk/en-US/Applying/Short-term-stay"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MitID",
+      "description": "The official digital ID app for accessing public and private services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/mitid/id1549207157",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.digital.mitid"
+    },
+    {
+      "app_name": "Rejseplanen",
+      "description": "The official app for planning public transport journeys across Denmark.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/rejseplanen/id562603311",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.rejseplanen.android"
+    },
+    {
+      "app_name": "Danske Bank",
+      "description": "Official mobile banking app for one of Denmark's largest banks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/danske-bank/id1029014089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.danskebank.mobile"
+    },
+    {
+      "app_name": "MobilePay",
+      "description": "Extremely popular app for peer-to-peer payments and online shopping.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/mobilepay/id471825537",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.danskebank.mobilepay"
+    },
+    {
+      "app_name": "Sundhed.dk",
+      "description": "Access your health records, prescriptions, and find healthcare providers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/sundhed-dk/id1536342889",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.sundhed.mobile.android"
+    }
+  ]
+}

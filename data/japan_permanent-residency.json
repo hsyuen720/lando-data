@@ -1,0 +1,52 @@
+{
+  "country": "japan",
+  "visa_category": "permanent-residency",
+  "data": {
+    "visa_category": "permanent-residency",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.isa.go.jp/en/applications/guide/nyuukokukanri01.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "My Number Card",
+      "description": "Official app for accessing your My Number identity card for government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/マイナンバーカード-%E6%A7%98%E3%80%85%E6%8A%95%E7%A8%BC%E3%81%A8%E3%81%84%E3%81%86%E3%81%AA%E6%94%AF%E6%89%95%E3%81%84%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA/id1612796126",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.isbn.mykey"
+    },
+    {
+      "app_name": "Japan Transit Planner by Jorudan",
+      "description": "A comprehensive app for planning train and subway routes across Japan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/japan-transit-planner-by-jorudan/id307711024",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.jorudan.route"
+    },
+    {
+      "app_name": "Suica/Pasmo",
+      "description": "Mobile version of the popular IC cards for public transport and payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB-%E3%83%91%E3%82%B9%E3%83%A2-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%81%A7%E4%BD%BF%E3%81%86/id1494647467",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.kartei.suica"
+    },
+    {
+      "app_name": "LINE",
+      "description": "Dominant messaging app in Japan, used for personal communication and some official notifications.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/LINE/id414478124",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+    },
+    {
+      "app_name": "Rakuten Pay",
+      "description": "A popular mobile payment service that is widely accepted.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%86%E3%83%B3pay-%E3%83%9A%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA/id1049189627",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.netprotections.struts.pay"
+    }
+  ]
+}

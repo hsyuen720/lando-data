@@ -1,0 +1,52 @@
+{
+  "country": "france",
+  "visa_category": "work-visa",
+  "data": {
+    "visa_category": "Professionnel",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://france-visas.gouv.fr/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "FranceConnect",
+      "description": "Official app to securely access government services with your existing online accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "Île-de-France Mobilités",
+      "description": "Official app for public transport in the Île-de-France region (Paris and surroundings).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/id1520660349",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.stif.idf_transport"
+    },
+    {
+      "app_name": "L'application SNCF",
+      "description": "Official app for planning and booking train journeys with the national railway company.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/id540717230",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sncf.droid"
+    },
+    {
+      "app_name": "Lydia",
+      "description": "A popular payment app for peer-to-peer transfers, payments, and budgeting.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/lydia/id633779141",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.lydia"
+    },
+    {
+      "app_name": "Ameli",
+      "description": "Official app for managing your social security and health insurance information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/ameli/id1474299762",
+      "download_url_android": "https://play.google.com/store/apps/details?id=fr.cpam.ameli"
+    }
+  ]
+}

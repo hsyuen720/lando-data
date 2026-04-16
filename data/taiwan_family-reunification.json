@@ -1,0 +1,63 @@
+{
+  "country": "taiwan",
+  "visa_category": "family-reunification",
+  "data": {
+    "visa_category": "family-reunification",
+    "visa_type_detail": [
+      {
+        "name": "Visitor Visa for Visiting Relatives",
+        "requirements": {
+          "application_form": "Completed & signed application form, filled out online via https://visawebapp.boca.gov.tw",
+          "photos": "Two passport-size (45 mm in height and 35 mm in width) photos in color within 6 months, with a white color background",
+          "passport": "Original & photocopy, valid for 6 months with blank pages",
+          "proof_of_relative": "Household Registration Transcript within 3 months (personal family registry information should be indicated in the notes column of Household Registration Transcript), Alien Residence Certificate or Permanent Residence Certificate",
+          "proof_of_relationship": "Birth Certificate or Household Registration, etc., relevant identified documents",
+          "other_documents": "Ticket, electronic ticket, proof of a travel agency, proof of current profession or other documents required for individual cases"
+        },
+        "procedures": "Applicants can lodge their applications with the necessary documents and statutory fee at our overseas missions. Interview may be required when necessary.",
+        "notes": "Visas are issued as stipulated by Article 12 of the Statute Governing Issuance of ROC Visas for Foreign Passports. As a sovereign nation, the ROC has the right to refuse applications for visas without providing any explanation for such decisions; visa application fee is not refundable.",
+        "reference_urls": [
+          "https://www.boca.gov.tw/cp-158-251-e78ef-2.html"
+        ]
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.boca.gov.tw/cp-158-251-e78ef-2.html",
+      "https://www.boca.gov.tw/cp-1709-7004-2.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Taiwan Social Welfare",
+      "description": "Official app for government services, including social welfare and identity verification.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/臺灣社會福利網/id1491326080",
+      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.moi.soca"
+    },
+    {
+      "app_name": "全民健保行動快易通",
+      "description": "Taiwan's National Health Insurance app for medical appointments, records, and information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/%E5%85%A8%E6%B0%91%E5%81%A5%E4%BF%9D%E8%A1%8C%E5%8B%95%E5%BF%AB%E6%98%93%E9%80%9A/id1498164546",
+      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.nhi.app"
+    },
+    {
+      "app_name": "Bus+ (Taiwan Bus)",
+      "description": "Real-time public bus arrival information across Taiwan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/bus-%E5%8F%B0%E7%81%A3%E5%85%AC%E8%BB%8A%E6%89%8B%E6%A9%9F%E6%9F%A5%E8%A9%A2%E5%B7%A5%E5%85%B7/id720473988",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sky.bus"
+    },
+    {
+      "app_name": "LINE Pay",
+      "description": "Widely used mobile payment and remittance service in Taiwan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/line-pay/id967215019",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.linecorp.pay"
+    }
+  ]
+}

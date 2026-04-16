@@ -1,0 +1,61 @@
+{
+  "country": "netherlands",
+  "visa_category": "work-permit",
+  "data": {
+    "visa_category": "work-permit",
+    "visa_type_detail": [
+      {
+        "name": "Residence permit",
+        "description": "For working in the Netherlands"
+      },
+      {
+        "name": "Work permit",
+        "description": "In some cases"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.ind.nl/en/work"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "DigiD",
+      "description": "Official app for your digital identity to access government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/digid/id1440719795",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.digid.app"
+    },
+    {
+      "app_name": "9292",
+      "description": "The most popular app for planning public transport journeys across the Netherlands.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/9292/id363784994",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.citionline.dov9292"
+    },
+    {
+      "app_name": "OVpay",
+      "description": "App for checking in and out of public transport using your debit card or smartphone.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ovpay/id1599528398",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.ovpay.app"
+    },
+    {
+      "app_name": "ING Banking",
+      "description": "Mobile banking app for ING, one of the largest banks in the Netherlands.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ing-banking/id454355889",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ing.mobilebanking"
+    },
+    {
+      "app_name": "CoronaMelder",
+      "description": "Official app for COVID-19 contact tracing.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/coronamelder/id1515917343",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.rijksoverheid.coronameld"
+    }
+  ]
+}

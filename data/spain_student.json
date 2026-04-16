@@ -1,0 +1,87 @@
+{
+  "country": "spain",
+  "visa_category": "student",
+  "data": {
+    "visa_category": "estancia por estudios",
+    "visa_type_detail": [
+      {
+        "name": "Realización de estudios superiores",
+        "description": "Estudios Universitarios Oficiales o Títulos Propios. Enseñanzas Artísticas Superiores, en modalidad presencial o híbrida. Enseñanzas de formación profesional de grado superior, enseñanzas profesionales de artes plásticas y diseño de grado superior y enseñanzas deportivas de grado superior. En modalidad presencial o híbrida. En los estudios no universitarios, se requiere un mínimo de 50 % de presencialidad."
+      },
+      {
+        "name": "Realización de estudios de educación secundaria postobligatoria",
+        "description": "Bachillerato. Enseñanzas artísticas profesionales tanto de música como de danza. Formación profesional de grado medio. Enseñanzas profesionales de artes plásticas y diseño de grado medio. Las enseñanzas deportivas de grado medio. En modalidad presencial o semipresencial (se requiere un mínimo de 50 % de presencialidad)."
+      }
+    ],
+    "processing_time": [
+      {
+        "stage": "Resolución y expedición del visado (fuera de España)",
+        "time": "un mes",
+        "note": "contado a partir del día siguiente al de la fecha de presentación de la solicitud en la Oficina Consular competente para su tramitación."
+      },
+      {
+        "stage": "Resolución de la solicitud (desde España)",
+        "time": "dos meses",
+        "note": "contado a partir del día siguiente al de la fecha de presentación de la solicitud en la Oficina de Extranjería competente para su tramitación."
+      },
+      {
+        "stage": "Recogida del visado concedido",
+        "time": "dos meses",
+        "note": "desde la notificación."
+      },
+      {
+        "stage": "Solicitud de la tarjeta de identidad de extranjero (si la estancia supera los seis meses)",
+        "time": "un mes",
+        "note": "desde la entrada en España."
+      },
+      {
+        "stage": "Solicitud de prórroga de la autorización",
+        "time": "un mes",
+        "note": "sin que se haya notificado la resolución se entenderá que la misma ha sido desestimada por silencio administrativo."
+      }
+    ],
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-11-01",
+    "reference_urls": [
+      "https://www.inclusion.gob.es/web/migraciones/w/estancia-por-estudios"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-qr/id1534194739",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.redabertia.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access personal administrative data and manage procedures with the Spanish Public Administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/carpeta-ciudadana/id1477114018",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.redabertia.carpetaciudadana"
+    },
+    {
+      "app_name": "Tu Salud (varies by region)",
+      "description": "Regional healthcare app, e.g., 'Salud Madrid' for access to health records and appointments.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Essential for navigation and public transport information across Spain.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "Bizum",
+      "description": "Popular mobile payment system for instant money transfers between individuals.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/bizum/id1265549423",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.abanca.bizum"
+    }
+  ]
+}

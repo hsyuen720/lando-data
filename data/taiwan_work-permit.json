@@ -1,19 +1,16 @@
 {
   "country": "taiwan",
-  "visa_category": "student",
+  "visa_category": "work-permit",
   "data": [
     {
-      "visa_category": "student",
-      "visa_type_detail": null,
+      "visa_category": "work-permit",
+      "visa_type_detail": "中階技術人力",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2023-12-29",
       "reference_urls": [
-        "https://www.roc-taiwan.org/in_en/post/5377.html",
-        "https://visawebapp.boca.gov.tw/",
-        "https://www.cdc.gov.tw/En",
-        "https://www.mofa.gov.tw/en/News_Content.aspx?n=3535&s=73941"
+        "https://fw.wda.gov.tw/wda-employer/home/mid-foreign-labor"
       ]
     }
   ],

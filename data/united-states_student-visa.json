@@ -1,0 +1,63 @@
+{
+  "country": "united-states",
+  "visa_category": "student-visa",
+  "data": [
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": [
+        {
+          "name": "F",
+          "description": "For academic and vocational studies."
+        },
+        {
+          "name": "M",
+          "description": "For academic and vocational studies."
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/study.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "MyUSCIS",
+      "description": "Official app for USCIS to manage immigration applications and case status.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/myuscis/id1391167233",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.uscis.myuscis"
+    },
+    {
+      "app_name": "Healthcare.gov",
+      "description": "App for the Health Insurance Marketplace to find and enroll in health insurance.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/healthcare-gov/id1137691127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.hhs.healthcare"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transit information for various cities across the US.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id445775703",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+    },
+    {
+      "app_name": "Zelle",
+      "description": "Fast, safe, and easy way to send and receive money with people you know.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/zelle/id1101700224",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.zelle.zelle"
+    },
+    {
+      "app_name": "Chase Mobile",
+      "description": "Mobile banking app for managing Chase accounts, paying bills, and depositing checks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/chase-mobile/id381511778",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.chase.quickdeposit"
+    }
+  ]
+}

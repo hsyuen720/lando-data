@@ -1,30 +1,17 @@
 {
   "country": "hong-kong",
-  "visa_category": "student",
-  "data": [
-    {
-      "visa_category": "student",
-      "visa_type_detail": "Entry Visas / Permits",
-      "processing_time": "It normally takes six weeks to process a visa/entry permit application for study upon receipt of all the required documents.",
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-15",
-      "reference_urls": [
-        "https://www.immd.gov.hk/eng/services/visas/study.html"
-      ]
-    },
-    {
-      "visa_category": "student",
-      "visa_type_detail": "Extension of Stay",
-      "processing_time": "Routine applications will normally be finalised within two to three weeks upon receipt of all necessary documents.",
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-15",
-      "reference_urls": [
-        "https://www.immd.gov.hk/eng/services/visas/study.html"
-      ]
-    }
-  ],
+  "visa_category": "training",
+  "data": {
+    "visa_category": "training",
+    "visa_type_detail": null,
+    "processing_time": "four weeks",
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-11-27",
+    "reference_urls": [
+      "https://www.immd.gov.hk/eng/services/visas/training.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "iAM Smart",

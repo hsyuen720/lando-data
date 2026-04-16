@@ -103,7 +103,7 @@ def configure_gemini() -> genai.Client:
     return genai.Client(api_key=api_key)
 
 
-MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
 
 def _is_transient(exc: Exception) -> bool:
@@ -112,28 +112,30 @@ def _is_transient(exc: Exception) -> bool:
 
 
 @retry(
-    stop=stop_after_attempt(5),
-    wait=wait_exponential(multiplier=2, min=4, max=120),
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
     retry=retry_if_exception(_is_transient),
     reraise=True,
 )
-def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str) -> str:
+def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str, use_search: bool = False) -> str:
+    tools = [types.Tool(google_search=types.GoogleSearch())] if use_search else None
     response = client.models.generate_content(
         model=model,
         contents=prompt,
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
+            tools=tools,
         ),
     )
     return response.text.strip()
 
 
-def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str, use_search: bool = False) -> str:
     """Try each model in the fallback chain until one succeeds."""
     last_exc = None
     for model in MODELS:
         try:
-            result = _call_model(client, model, prompt, system_instruction)
+            result = _call_model(client, model, prompt, system_instruction, use_search=use_search)
             return result
         except Exception as exc:
             last_exc = exc
@@ -154,6 +156,9 @@ def _parse_json(raw: str) -> dict | list:
 # ---------------------------------------------------------------------------
 import requests
 from bs4 import BeautifulSoup
+from urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 REQUEST_TIMEOUT = 30
 USER_AGENT = "Mozilla/5.0 (compatible; LandoBot/1.0; +https://github.com/lando-data)"
@@ -163,14 +168,23 @@ def scrape_page(url: str) -> str | None:
     try:
         resp = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT})
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "lxml")
-        for tag in soup(["script", "style", "nav", "footer", "header", "aside"]):
-            tag.decompose()
-        lines = [ln.strip() for ln in soup.get_text(separator="\n", strip=True).splitlines() if ln.strip()]
-        return "\n".join(lines)
+    except requests.exceptions.SSLError:
+        logger.info("  SSL error for %s — retrying without verification", url)
+        try:
+            resp = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT}, verify=False)
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            logger.warning("Failed to fetch %s: %s", url, exc)
+            return None
     except requests.RequestException as exc:
         logger.warning("Failed to fetch %s: %s", url, exc)
         return None
+
+    soup = BeautifulSoup(resp.text, "lxml")
+    for tag in soup(["script", "style", "nav", "footer", "header", "aside"]):
+        tag.decompose()
+    lines = [ln.strip() for ln in soup.get_text(separator="\n", strip=True).splitlines() if ln.strip()]
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -214,7 +228,7 @@ def run(issue_title: str) -> str:
         f"Visa type: {visa_display}"
     )
     try:
-        raw = _call_gemini(client, prompt, URL_DISCOVERY_PROMPT)
+        raw = _call_gemini(client, prompt, URL_DISCOVERY_PROMPT, use_search=True)
         url_entries = _parse_json(raw)
     except Exception as exc:
         msg = f"Failed to discover URLs for {country_display} / {visa_display}: {exc}"
@@ -262,17 +276,28 @@ def run(issue_title: str) -> str:
     if len(merged_text) > 60_000:
         merged_text = merged_text[:60_000]
 
-    # Step 4: Structure with AI
+    # Step 4: Structure with AI — try each model, fallback on bad/empty JSON
     struct_prompt = (
         f"Country: {country_display}\n"
         f"Visa category: {visa_display}\n\n"
         f"--- BEGIN PAGE TEXT ---\n{merged_text}\n--- END PAGE TEXT ---"
     )
-    try:
-        raw = _call_gemini(client, struct_prompt, STRUCTURING_SYSTEM_PROMPT)
-        structured = _parse_json(raw)
-    except Exception as exc:
-        msg = f"AI structuring failed for {country_display}/{visa_display}: {exc}"
+    structured = None
+    for model in MODELS:
+        try:
+            raw = _call_model(client, model, struct_prompt, STRUCTURING_SYSTEM_PROMPT)
+            result = _parse_json(raw)
+            if result:
+                structured = result
+                break
+            logger.warning("Empty/null result from %s for %s/%s — trying next model", model, country_display, visa_display)
+        except json.JSONDecodeError as exc:
+            logger.warning("Invalid JSON from %s for %s/%s: %s — trying next model", model, country_display, visa_display, exc)
+        except Exception as exc:
+            logger.warning("Model %s error for %s/%s: %s", model, country_display, visa_display, exc)
+
+    if structured is None:
+        msg = f"AI structuring failed for {country_display}/{visa_display}: all models returned empty or invalid JSON"
         logger.error(msg)
         return msg
 

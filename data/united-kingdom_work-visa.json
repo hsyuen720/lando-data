@@ -1,0 +1,395 @@
+{
+  "country": "united-kingdom",
+  "visa_category": "work-visa",
+  "data": [
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Health and Care Worker visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Skilled Worker visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "British National (Overseas) visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Graduate visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Youth Mobility Scheme visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "India Young Professionals Scheme visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Global Talent visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "UK Ancestry visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "High Potential Individual (HPI) visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Senior or Specialist Worker visa (Global Business Mobility)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Overseas Domestic Worker visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Graduate Trainee visa (Global Business Mobility)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Secondment Worker visa (Global Business Mobility)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Service Supplier visa (Global Business Mobility)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "UK Expansion Worker visa (Global Business Mobility)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Representative of an Overseas Business visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Seasonal Worker visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Government Authorised Exchange visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Creative Worker visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Religious Worker visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Charity Worker visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "International Agreement visa (Temporary Work)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Innovator Founder visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "International Sportsperson visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Minister of Religion visa (T2)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Scale-up Worker visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Frontier Worker permit",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Entrepreneur visa (Tier 1)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Investor visa (Tier 1)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Turkish Businessperson visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Turkish Worker visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Start-up visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/work-visas"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "gov.uk",
+      "description": "The official UK government app for accessing government services and information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "NHS App",
+      "description": "Access your NHS account to book appointments, order repeat prescriptions, and more.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1388413836",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs_uk.production"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Comprehensive public transport app for London and other major UK cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469460560",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    },
+    {
+      "app_name": "Revolut",
+      "description": "Popular digital banking app for international money transfers and spending.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+    },
+    {
+      "app_name": "Barclays",
+      "description": "Mobile banking app for managing Barclays accounts in the UK.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/barclays-mobile-banking/id491500986",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android.bbm"
+    }
+  ]
+}

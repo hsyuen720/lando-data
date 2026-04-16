@@ -1,16 +1,27 @@
 {
   "country": "south-korea",
-  "visa_category": "student",
+  "visa_category": "family",
   "data": [
     {
-      "visa_category": "student",
-      "visa_type_detail": null,
+      "visa_category": "family",
+      "visa_type_detail": "F-6",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
       "last_updated_official": null,
       "reference_urls": [
-        "https://www.visa.go.kr/en/apply/type/d2.jsp"
+        "https://www.visa.go.kr/en/apply/type/f6.jsp"
+      ]
+    },
+    {
+      "visa_category": "family",
+      "visa_type_detail": "F-3",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.visa.go.kr/en/apply/type/f3.jsp"
       ]
     }
   ],

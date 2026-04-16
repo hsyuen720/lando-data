@@ -1,0 +1,83 @@
+{
+  "country": "united-states",
+  "visa_category": "skilled-worker-visa",
+  "data": [
+    {
+      "visa_category": "Employment-Based Visas",
+      "visa_type_detail": [
+        {
+          "preference": "First Preference EB-1",
+          "general_description": "This preference is reserved for persons of extraordinary ability in the sciences, arts, education, business, or athletics; outstanding professors or researchers; and certain multinational executives and managers.",
+          "individual_labor_certification_required": "No"
+        },
+        {
+          "preference": "Second Preference EB-2",
+          "general_description": "This preference is reserved for persons who are members of the professions holding advanced degrees or for persons with exceptional ability in the arts, sciences, or business.",
+          "individual_labor_certification_required": "Yes, unless the Form I-140 petition is accompanied by an application for Schedule A designation or a request for a national interest waiver."
+        },
+        {
+          "preference": "Third Preference EB-3",
+          "general_description": "This preference is reserved for professionals, skilled workers, and other workers. (See Third Preference EB-3 page for further definition of these job classifications.)",
+          "individual_labor_certification_required": "Yes, unless the Form I-140 petition is accompanied by an application for Schedule A designation."
+        },
+        {
+          "preference": "Fourth Preference EB-4",
+          "general_description": "This preference is reserved for “special immigrants,” which includes certain religious workers, employees of U.S. foreign service posts, retired employees of international organizations, alien minors who are wards of courts in the United States, and other classes of aliens.",
+          "individual_labor_certification_required": "No"
+        },
+        {
+          "preference": "Fifth Preference EB-5",
+          "general_description": "This preference is reserved for business investors who invest $1,050,000 or $800,000 (if the investment is made in a targeted employment area) in a new commercial enterprise that employs at least 10 full-time U.S. workers.",
+          "individual_labor_certification_required": "No"
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-01-24",
+      "reference_urls": [
+        "https://www.uscis.gov/working-in-the-united-states/permanent-workers",
+        "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-adjustment-of-status-faqs",
+        "https://www.uscis.gov/working-in-the-united-states/permanent-workers/second-preference-eb-2",
+        "https://www.uscis.gov/working-in-the-united-states/permanent-workers/third-preference-eb-3"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "MyUSCIS",
+      "description": "Official app for USCIS to manage immigration applications and case status.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/myuscis/id1391167233",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.uscis.myuscis"
+    },
+    {
+      "app_name": "Healthcare.gov",
+      "description": "App for the Health Insurance Marketplace to find and enroll in health insurance.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/healthcare-gov/id1137691127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=gov.hhs.healthcare"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transit information for various cities across the US.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id445775703",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+    },
+    {
+      "app_name": "Zelle",
+      "description": "Fast, safe, and easy way to send and receive money with people you know.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/zelle/id1101700224",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.zelle.zelle"
+    },
+    {
+      "app_name": "Chase Mobile",
+      "description": "Mobile banking app for managing Chase accounts, paying bills, and depositing checks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/chase-mobile/id381511778",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.chase.quickdeposit"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "country": "canada",
+  "visa_category": "work-visa",
+  "data": [
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": [
+        {
+          "name": "Employer-specific work permit",
+          "description": "Job offer required"
+        },
+        {
+          "name": "Open work permit",
+          "description": "Job offer not required"
+        },
+        {
+          "name": "Post-graduation work permit"
+        },
+        {
+          "name": "Working as a student"
+        },
+        {
+          "name": "Work in Canada with International Experience Canada"
+        },
+        {
+          "name": "Work while you wait for permanent residence"
+        },
+        {
+          "name": "Open work permits for family members of foreign workers"
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-31",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "GCKey",
+      "description": "Secure online access to Canadian government services.",
+      "platform": "Web-based, accessible via browser",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "Health Gateway (BC)",
+      "description": "Access your health records in British Columbia.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/health-gateway/id1540140423",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ca.bc.gov.healthgateway"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transit information for various cities across Canada.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/transit/id445775703",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+    },
+    {
+      "app_name": "Interac e-Transfer",
+      "description": "Send and receive money securely between bank accounts in Canada.",
+      "platform": "Accessed through most Canadian bank apps",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "RBC Mobile",
+      "description": "Mobile banking app for managing Royal Bank of Canada accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id343957863",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.rbc.mobile"
+    }
+  ]
+}

@@ -1,22 +1,17 @@
 {
   "country": "taiwan",
-  "visa_category": "student",
-  "data": [
-    {
-      "visa_category": "student",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.roc-taiwan.org/in_en/post/5377.html",
-        "https://visawebapp.boca.gov.tw/",
-        "https://www.cdc.gov.tw/En",
-        "https://www.mofa.gov.tw/en/News_Content.aspx?n=3535&s=73941"
-      ]
-    }
-  ],
+  "visa_category": "investor",
+  "data": {
+    "visa_category": "investor",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2026-04-16",
+    "reference_urls": [
+      "https://www.mofa.gov.tw/en/News_Content.aspx?n=1300&s=68426"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "Taiwan Social Welfare",

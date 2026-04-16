@@ -1,0 +1,56 @@
+{
+  "country": "australia",
+  "visa_category": "visitor-visa",
+  "data": {
+    "visa_category": "visitor-visa",
+    "visa_type_detail": [
+      {
+        "name": "Visitor visa (subclass 600)",
+        "processing_time": null,
+        "fee_amount": null,
+        "currency": null,
+        "last_updated_official": null,
+        "reference_urls": [
+          "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+        ]
+      }
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "myGov",
+      "description": "Australian government service portal for accessing a range of services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/mygov/id1107242968",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.mygov"
+    },
+    {
+      "app_name": "Express Plus Medicare",
+      "description": "Access Medicare services and claims in Australia.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/express-plus-medicare/id958920845",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.services.medicare"
+    },
+    {
+      "app_name": "PTV (Victoria)",
+      "description": "Public transport app for Victoria, including Melbourne.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/ptv/id529187111",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.com.ptv.mobile"
+    },
+    {
+      "app_name": "CommBank",
+      "description": "Mobile banking app for Commonwealth Bank of Australia accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/commbank/id390151007",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cba.android"
+    },
+    {
+      "app_name": "PayID",
+      "description": "A unique identifier linked to your bank account for payments.",
+      "platform": "Accessed through bank apps",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    }
+  ]
+}

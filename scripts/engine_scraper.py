@@ -27,6 +27,10 @@ from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
 from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
+from urllib3.exceptions import InsecureRequestWarning
+
+# Suppress noisy warnings from verify=False SSL fallback
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -108,7 +112,24 @@ def scrape_page(url: str) -> str | None:
             headers={"User-Agent": USER_AGENT},
         )
         resp.raise_for_status()
+    except requests.exceptions.SSLError:
+        logger.info("  SSL error for %s — retrying without verification", url)
+        try:
+            resp = requests.get(
+                url,
+                timeout=REQUEST_TIMEOUT,
+                headers={"User-Agent": USER_AGENT},
+                verify=False,
+            )
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            logger.warning("Failed to fetch %s: %s", url, exc)
+            return None
+    except requests.RequestException as exc:
+        logger.warning("Failed to fetch %s: %s", url, exc)
+        return None
 
+    try:
         soup = BeautifulSoup(resp.text, "lxml")
 
         # Remove noise elements
@@ -120,8 +141,8 @@ def scrape_page(url: str) -> str | None:
         # Collapse excessive whitespace
         lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
         return "\n".join(lines)
-    except requests.RequestException as exc:
-        logger.warning("Failed to fetch %s: %s", url, exc)
+    except Exception as exc:
+        logger.warning("Failed to parse %s: %s", url, exc)
         return None
 
 
@@ -142,7 +163,7 @@ def scrape_sources(source_entries: list[dict]) -> str:
 # ---------------------------------------------------------------------------
 # AI Structuring
 # ---------------------------------------------------------------------------
-MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
 
 def _is_transient(exc: Exception) -> bool:
@@ -152,8 +173,8 @@ def _is_transient(exc: Exception) -> bool:
 
 
 @retry(
-    stop=stop_after_attempt(5),
-    wait=wait_exponential(multiplier=2, min=4, max=120),
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
     retry=retry_if_exception(_is_transient),
     reraise=True,
 )
@@ -194,7 +215,11 @@ def _parse_json(raw: str) -> dict | list:
 def structure_with_ai(
     client: genai.Client, raw_text: str, country: str, category: str
 ) -> dict | list | None:
-    """Send raw text to Gemini and parse the structured response."""
+    """Send raw text to Gemini and parse the structured response.
+
+    Tries each model in MODELS; if a model returns invalid JSON, the next
+    model in the chain is attempted before giving up.
+    """
     if not raw_text.strip():
         return None
 
@@ -209,15 +234,25 @@ def structure_with_ai(
         f"--- BEGIN PAGE TEXT ---\n{raw_text}\n--- END PAGE TEXT ---"
     )
 
-    try:
-        raw = _call_gemini(client, prompt, STRUCTURING_SYSTEM_PROMPT)
-        return _parse_json(raw)
-    except json.JSONDecodeError as exc:
-        logger.warning("Invalid JSON from Gemini for %s/%s: %s", country, category, exc)
-        return None
-    except Exception as exc:
-        logger.warning("Gemini error for %s/%s: %s", country, category, exc)
-        return None
+    for model in MODELS:
+        try:
+            raw = _call_model(client, model, prompt, STRUCTURING_SYSTEM_PROMPT)
+            result = _parse_json(raw)
+            if result:  # skip null / empty dict / empty list
+                return result
+            logger.warning(
+                "Empty/null result from %s for %s/%s — trying next model",
+                model, country, category,
+            )
+        except json.JSONDecodeError as exc:
+            logger.warning(
+                "Invalid JSON from %s for %s/%s: %s — trying next model",
+                model, country, category, exc,
+            )
+        except Exception as exc:
+            logger.warning("Model %s error for %s/%s: %s", model, country, category, exc)
+
+    return None
 
 
 # ---------------------------------------------------------------------------

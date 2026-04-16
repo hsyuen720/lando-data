@@ -1,16 +1,15 @@
 {
   "country": "italy",
-  "visa_category": "work",
+  "visa_category": "investor",
   "data": {
-    "visa_category": "work",
+    "visa_category": "investor",
     "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,
     "currency": null,
     "last_updated_official": null,
     "reference_urls": [
-      "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-      "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/permessi_soggiorno/"
+      "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/"
     ]
   },
   "essential_apps": [

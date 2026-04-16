@@ -1,0 +1,58 @@
+{
+  "country": "norway",
+  "visa_category": "work-permit",
+  "data": {
+    "visa_category": "work-permit",
+    "visa_type_detail": [
+      {
+        "name": "residence permit for skilled workers"
+      },
+      {
+        "name": "seasonal workers"
+      },
+      {
+        "name": "self-employed persons"
+      },
+      {
+        "name": "employees in a humanitarian, non-profit or religious organisation"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.udi.no/en/want-to-apply/work-immigration/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "BankID",
+      "description": "Norway's primary digital identification and authentication service for online banking and public services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/no/app/bankid/id322369414",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.mobile"
+    },
+    {
+      "app_name": "Helsenorge",
+      "description": "Official Norwegian health portal app providing access to health information and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/no/app/helsenorge/id1152678950",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.helsenorge.app"
+    },
+    {
+      "app_name": "Ruter",
+      "description": "Public transport app for the Oslo and Akershus region, for journey planning and tickets.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/no/app/ruter/id446179683",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.android"
+    },
+    {
+      "app_name": "Vipps",
+      "description": "A widely used mobile payment app in Norway for easy money transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/no/app/vipps/id924895180",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.vipps.android"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "country": "switzerland",
+  "visa_category": "national-visa",
+  "data": {
+    "visa_category": "national-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.eda.admin.ch/missions/mission-united-states-new-york/en/home/services/visa-entry-switzerland.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "SwissID",
+      "description": "Switzerland's official digital identity solution for secure access to online services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/swissid/id1462553211",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.swissid.app"
+    },
+    {
+      "app_name": "Applikation des Bundesamtes für Gesundheit (BAG)",
+      "description": "Official app from the Federal Office of Public Health (FOPH) for health information and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/bundesamt-f%C3%BCr-gesundheit-bag/id1510897098",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.admin.bag"
+    },
+    {
+      "app_name": "SBB Mobile",
+      "description": "The official app for Swiss Federal Railways, offering journey planning, tickets, and real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/sbb-mobile/id362780442",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.sbb.mobile"
+    },
+    {
+      "app_name": "Twint",
+      "description": "A leading Swiss mobile payment app for easy and secure transactions, widely accepted.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/twint/id1134272632",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.twint"
+    },
+    {
+      "app_name": "Neon",
+      "description": "A popular Swiss digital bank offering modern banking services and a user-friendly mobile app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ch/app/neon-banking/id1294757158",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.neon"
+    }
+  ]
+}

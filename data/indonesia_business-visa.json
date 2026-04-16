@@ -1,0 +1,52 @@
+{
+  "country": "indonesia",
+  "visa_category": "business-visa",
+  "data": {
+    "visa_category": "business-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://evisa.imigrasi.go.id/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "PeduliLindungi",
+      "description": "Indonesian government's official app for COVID-19 vaccination status, tracing, and health screening.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/pedulilindungi/id1504928774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.telkomsigma.incident.pedulilindungi"
+    },
+    {
+      "app_name": "GoJek / Grab",
+      "description": "Super-apps offering ride-hailing, food delivery, and various digital services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/gojek/id1079696060",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.gojek.app"
+    },
+    {
+      "app_name": "DANA",
+      "description": "A widely used digital wallet for payments, transfers, and online transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/dana/id1355729704",
+      "download_url_android": "https://play.google.com/store/apps/details?id=id.dana"
+    },
+    {
+      "app_name": "KAI Access",
+      "description": "Official app for booking train tickets and checking schedules for Indonesian railways.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/kai-access/id1019421749",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kai.rider"
+    },
+    {
+      "app_name": "Halodoc / Alodokter",
+      "description": "Popular health apps for online doctor consultations, medical information, and appointment booking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/halodoc/id925081073",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.halodoc"
+    }
+  ]
+}

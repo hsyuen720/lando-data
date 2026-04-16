@@ -1,0 +1,57 @@
+{
+  "country": "malaysia",
+  "visa_category": "student-visa",
+  "data": {
+    "visa_category": "student-visa",
+    "visa_type_detail": [
+      {
+        "name": "Graduate Pass",
+        "description": "Apply for the Graduate Pass and enjoy an additional 12 months to work in Malaysia without the need for an employer sponsor. Immerse yourself in Malaysia's vibrant culture, gain valuable work experience, and seamlessly transition from a student pass to a work permit. Your dependents can also join you."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://emgs.com.my/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MySejahtera",
+      "description": "Official Malaysian government app for health status, vaccination certificates, and contact tracing.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/mysejahtera/id1506715144",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.gov.my.mysejahtera"
+    },
+    {
+      "app_name": "MyEG",
+      "description": "Malaysian government service portal for various transactions including road tax, insurance, and permits.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/myeg/id1478881737",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.myeg.myegapp"
+    },
+    {
+      "app_name": "Grab",
+      "description": "Dominant super-app for ride-hailing, food delivery, and digital payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/grab/id644571175",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.rider"
+    },
+    {
+      "app_name": "Touch 'n Go eWallet",
+      "description": "One of the most popular digital wallets for payments, tolls, and transport.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/touch-n-go-ewallet/id1473701794",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet"
+    },
+    {
+      "app_name": "MyBus / Moovit",
+      "description": "For navigating public transportation routes and schedules in major cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/moovit-public-transport/id498477945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.tranzmate"
+    }
+  ]
+}

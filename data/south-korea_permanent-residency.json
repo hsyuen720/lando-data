@@ -1,19 +1,17 @@
 {
   "country": "south-korea",
-  "visa_category": "student",
-  "data": [
-    {
-      "visa_category": "student",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.visa.go.kr/en/apply/type/d2.jsp"
-      ]
-    }
-  ],
+  "visa_category": "permanent-residency",
+  "data": {
+    "visa_category": null,
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.visa.go.kr/en/apply/type/f5.jsp"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "Government24",

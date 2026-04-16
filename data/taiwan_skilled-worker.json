@@ -1,22 +1,22 @@
 {
   "country": "taiwan",
-  "visa_category": "student",
-  "data": [
-    {
-      "visa_category": "student",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.roc-taiwan.org/in_en/post/5377.html",
-        "https://visawebapp.boca.gov.tw/",
-        "https://www.cdc.gov.tw/En",
-        "https://www.mofa.gov.tw/en/News_Content.aspx?n=3535&s=73941"
-      ]
-    }
-  ],
+  "visa_category": "skilled-worker",
+  "data": {
+    "visa_category": "skilled-worker",
+    "visa_type_detail": [
+      {
+        "name": "Taiwan Employment Gold Card",
+        "description": "Combines visa, residency, work authorization, and re-entry into one simple solution. Open work permit. Work for any company you want. Stay for up to 3 years, with eligibility for tax benefits for high salaries. Bring your family. Your parents and grandparents can visit too!"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.goldcard.nat.gov.tw/en/"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "Taiwan Social Welfare",

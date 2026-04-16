@@ -1,0 +1,52 @@
+{
+  "country": "chile",
+  "visa_category": "family-reunification",
+  "data": {
+    "visa_category": null,
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://tramites.minrel.gov.cl/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Clave Única",
+      "description": "Chile's official digital identity and authentication app for accessing government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/clave-%C3%BAnica/id1470776492",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.digital.claveunica"
+    },
+    {
+      "app_name": "Mi Junaeb",
+      "description": "App related to Junaeb (National Student Assistance and Scholarships Board), useful for accessing certain benefits.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/mi-junaeb/id1451809571",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.junaeb.mijuneeb"
+    },
+    {
+      "app_name": "BancoEstado / Banco de Chile / Santander Chile",
+      "description": "Official mobile banking apps for major banks in Chile.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/bancoestado/id421027530",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.bancoestado.bancoestadoapp"
+    },
+    {
+      "app_name": "Cabify / Uber",
+      "description": "Popular ride-hailing services widely used in Chilean cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/cabify/id531029273",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cabify.android"
+    },
+    {
+      "app_name": "Red (Red Movilidad)",
+      "description": "Official app for public transport in Santiago, providing route planning and real-time information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/red-movilidad/id1515335973",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.ministeriodetransportes.redmovilidad"
+    }
+  ]
+}

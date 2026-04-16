@@ -1,0 +1,65 @@
+{
+  "country": "united-kingdom",
+  "visa_category": "visitor-visa",
+  "data": {
+    "visa_category": "standard-visitor-visa",
+    "visa_type_detail": [
+      {
+        "name": "Standard Visitor visa",
+        "fee_amount": "135.00",
+        "currency": "£",
+        "processing_time": null
+      },
+      {
+        "name": "Visitor in Transit visa",
+        "fee_amount": "74.50",
+        "currency": "£",
+        "processing_time": null
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.gov.uk/standard-visitor-visa"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "gov.uk",
+      "description": "The official UK government app for accessing government services and information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "NHS App",
+      "description": "Access your NHS account to book appointments, order repeat prescriptions, and more.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1388413836",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs_uk.production"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Comprehensive public transport app for London and other major UK cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469460560",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    },
+    {
+      "app_name": "Revolut",
+      "description": "Popular digital banking app for international money transfers and spending.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+    },
+    {
+      "app_name": "Barclays",
+      "description": "Mobile banking app for managing Barclays accounts in the UK.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/barclays-mobile-banking/id491500986",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android.bbm"
+    }
+  ]
+}
