@@ -3,9 +3,15 @@ Pathfinder AI Explorer — discovers official government visa URLs for each coun
 
 Input:  config/countries.json
 Output: config/sources.json (updated with validated URLs)
+        config/apps.json   (essential relocation apps per country)
 
-Uses Gemini 1.5 Flash to find official government pages for student, work, and
-spouse visa categories.
+Uses Gemini 2.5 Flash to discover visa categories dynamically per country.
+
+sources.json schema (per category):
+  { "urls": [...], "source": "ai" | "manual" }
+
+Entries tagged "source": "manual" (added via GitHub Issues) are never
+overwritten or removed by the pathfinder.
 """
 
 import json
@@ -17,7 +23,7 @@ from pathlib import Path
 
 from google import genai
 from google.genai import types
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from tenacity import retry, stop_after_attempt, wait_exponential
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -118,8 +124,16 @@ def load_existing_sources() -> dict:
     return {}
 
 
-def save_sources(sources: dict) -> None:
-    """Persist sources dict to config/sources.json."""
+def _diff_json(old: dict, new: dict) -> bool:
+    """Return True if the two dicts serialise to different JSON."""
+    return json.dumps(old, sort_keys=True) != json.dumps(new, sort_keys=True)
+
+
+def save_sources(sources: dict, original: dict) -> None:
+    """Persist sources dict to config/sources.json only if changed."""
+    if not _diff_json(original, sources):
+        logger.info("sources.json unchanged — skipping write.")
+        return
     with open(SOURCES_PATH, "w", encoding="utf-8") as fh:
         json.dump(sources, fh, indent=2, ensure_ascii=False)
     logger.info("Saved sources to %s", SOURCES_PATH)
@@ -135,8 +149,11 @@ def load_existing_apps() -> dict:
     return {}
 
 
-def save_apps(apps: dict) -> None:
-    """Persist apps dict to config/apps.json."""
+def save_apps(apps: dict, original: dict) -> None:
+    """Persist apps dict to config/apps.json only if changed."""
+    if not _diff_json(original, apps):
+        logger.info("apps.json unchanged — skipping write.")
+        return
     with open(APPS_PATH, "w", encoding="utf-8") as fh:
         json.dump(apps, fh, indent=2, ensure_ascii=False)
     logger.info("Saved apps to %s", APPS_PATH)
@@ -205,12 +222,31 @@ def discover_apps(client: genai.Client, country_slug: str) -> list | None:
         return None
 
 
+def _migrate_sources(sources: dict) -> dict:
+    """Migrate legacy flat format → wrapped {urls, source} format."""
+    migrated = {}
+    for country, categories in sources.items():
+        migrated[country] = {}
+        for cat, value in categories.items():
+            if isinstance(value, dict) and "urls" in value:
+                migrated[country][cat] = value          # already new format
+            elif isinstance(value, list):
+                migrated[country][cat] = {"urls": value, "source": "ai"}
+            else:
+                migrated[country][cat] = {"urls": [], "source": "ai"}
+    return migrated
+
+
 def run() -> None:
     """Main pipeline: iterate countries, discover URLs, update sources."""
     client = configure_gemini()
     countries = load_countries()
-    sources = load_existing_sources()
+    sources_raw = load_existing_sources()
+    sources = _migrate_sources(sources_raw)
+    original_sources = json.loads(json.dumps(sources))  # deep copy for diff
+
     apps = load_existing_apps()
+    original_apps = json.loads(json.dumps(apps))        # deep copy for diff
 
     for idx, slug in enumerate(countries, start=1):
         logger.info("[%d/%d] Discovering URLs for: %s", idx, len(countries), slug)
@@ -219,8 +255,15 @@ def run() -> None:
         if result is None:
             logger.warning("Skipping %s — no valid response.", slug)
         else:
-            sources[slug] = result
-            logger.info("  Found %d categories: %s", len(result), list(result.keys()))
+            # Merge: preserve manual entries, update/add AI entries
+            existing = sources.get(slug, {})
+            for cat, urls in result.items():
+                if cat in existing and existing[cat].get("source") == "manual":
+                    logger.info("  Skipping manual category: %s/%s", slug, cat)
+                    continue
+                existing[cat] = {"urls": urls, "source": "ai"}
+            sources[slug] = existing
+            logger.info("  Found %d AI categories: %s", len(result), list(result.keys()))
 
         # Discover essential apps
         logger.info("[%d/%d] Discovering apps for: %s", idx, len(countries), slug)
@@ -242,8 +285,8 @@ def run() -> None:
         del apps[slug]
         logger.info("Removed stale country from apps: %s", slug)
 
-    save_sources(sources)
-    save_apps(apps)
+    save_sources(sources, original_sources)
+    save_apps(apps, original_apps)
     logger.info("Pathfinder complete — %d countries processed.", len(countries))
 
 

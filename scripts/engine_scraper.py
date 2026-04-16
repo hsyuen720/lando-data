@@ -4,11 +4,15 @@ Modular Scraper Engine — scrapes official visa pages and structures data via A
 Input:  config/sources.json, config/apps.json
 Output: data/{country}_{category}.json
 
-1. Loads URLs from sources.json (populated by pathfinder.py).
+1. Loads URLs from sources.json (populated by pathfinder.py or on-demand issues).
 2. Scrapes raw text with requests + BeautifulSoup.
-3. Sends text to Gemini 1.5 Flash for structured extraction (original language).
+3. Sends text to Gemini 2.5 Flash for structured extraction (original language).
 4. Appends country-specific app download links from apps.json.
-5. Writes one JSON file per country-category pair into data/.
+5. Diff-check: only writes a file if the content actually changed.
+6. Writes one JSON file per country-category pair into data/.
+
+sources.json schema (per category):
+  { "urls": [...], "source": "ai" | "manual" }
 """
 
 import json
@@ -196,8 +200,11 @@ def structure_with_ai(
 # ---------------------------------------------------------------------------
 # Output
 # ---------------------------------------------------------------------------
-def save_output(country: str, category: str, data: dict | list, apps: list) -> None:
-    """Write structured data + app links to data/{country}_{category}.json."""
+def save_output(country: str, category: str, data: dict | list, apps: list) -> bool:
+    """Write structured data + app links to data/{country}_{category}.json.
+
+    Returns True if a file was written (content changed), False if skipped.
+    """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     filename = f"{country}_{category}.json"
     filepath = DATA_DIR / filename
@@ -209,14 +216,35 @@ def save_output(country: str, category: str, data: dict | list, apps: list) -> N
         "essential_apps": apps,
     }
 
-    with open(filepath, "w", encoding="utf-8") as fh:
-        json.dump(output, fh, indent=2, ensure_ascii=False)
+    new_json = json.dumps(output, indent=2, ensure_ascii=False)
+
+    # Diff check — skip write if content is identical
+    if filepath.exists():
+        existing = filepath.read_text(encoding="utf-8")
+        if existing.strip() == new_json.strip():
+            logger.info("  Unchanged — skipping %s", filepath.name)
+            return False
+
+    filepath.write_text(new_json + "\n", encoding="utf-8")
     logger.info("  Saved %s", filepath)
+    return True
 
 
 # ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
+def _extract_urls(entry: dict | list) -> list[dict]:
+    """Extract URL list from a sources.json entry.
+
+    Handles both legacy flat format (list) and new wrapped format (dict with 'urls').
+    """
+    if isinstance(entry, dict) and "urls" in entry:
+        return entry["urls"]
+    if isinstance(entry, list):
+        return entry
+    return []
+
+
 def run() -> None:
     """Iterate sources, scrape, structure, and save."""
     client = configure_gemini()
@@ -231,7 +259,6 @@ def run() -> None:
 
     # Remove stale data files for countries/categories no longer in sources
     if DATA_DIR.exists():
-        # Build set of valid filenames from current sources
         valid_stems = set()
         for country, categories in sources.items():
             for category in categories:
@@ -242,17 +269,19 @@ def run() -> None:
                 filepath.unlink()
                 logger.info("Removed stale data file: %s", filepath.name)
 
-
+    written = 0
+    skipped = 0
     total_countries = len(sources)
     for idx, (country, categories) in enumerate(sources.items(), start=1):
         logger.info("[%d/%d] Processing country: %s", idx, total_countries, country)
 
         country_apps = apps.get(country, [])
 
-        for category, entries in categories.items():
-            logger.info("  Category: %s (%d source(s))", category, len(entries))
+        for category, entry in categories.items():
+            url_list = _extract_urls(entry)
+            logger.info("  Category: %s (%d source(s))", category, len(url_list))
 
-            raw_text = scrape_sources(entries)
+            raw_text = scrape_sources(url_list)
             if not raw_text:
                 logger.warning("  No text scraped for %s/%s — skipping.", country, category)
                 continue
@@ -262,12 +291,14 @@ def run() -> None:
                 logger.warning("  AI structuring failed for %s/%s — skipping.", country, category)
                 continue
 
-            save_output(country, category, structured, country_apps)
+            if save_output(country, category, structured, country_apps):
+                written += 1
+            else:
+                skipped += 1
 
-            # Respect rate limits
             time.sleep(1.5)
 
-    logger.info("Engine scraper complete.")
+    logger.info("Engine scraper complete — %d written, %d unchanged.", written, skipped)
 
 
 if __name__ == "__main__":

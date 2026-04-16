@@ -18,5 +18,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Temp files
+issue_comment.md
 *.swp
 *.swo

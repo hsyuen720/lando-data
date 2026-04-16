@@ -1,0 +1,83 @@
+name: On-Demand Search — via GitHub Issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  search:
+    # Only run if title starts with [SEARCH_REQUEST]
+    if: startsWith(github.event.issue.title, '[SEARCH_REQUEST]')
+    runs-on: ubuntu-latest
+    environment: Production
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run on-demand search
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python scripts/on_demand.py "$ISSUE_TITLE"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/sources.json data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "On-demand: ${{ github.event.issue.title }} [$TIMESTAMP]"
+            git push
+          fi
+
+      - name: Comment on issue with results
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const commentPath = 'issue_comment.md';
+            let body = '## Lando Search Complete\n\nCheck the commit for details.';
+            if (fs.existsSync(commentPath)) {
+              body = fs.readFileSync(commentPath, 'utf8');
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
+
+      - name: Close issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Clean up temp file
+        run: rm -f issue_comment.md
