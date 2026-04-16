@@ -19,7 +19,7 @@ from pathlib import Path
 
 from google import genai
 from google.genai import types
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -103,20 +103,42 @@ def configure_gemini() -> genai.Client:
     return genai.Client(api_key=api_key)
 
 
+MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+
+
+def _is_transient(exc: Exception) -> bool:
+    msg = str(exc)
+    return "503" in msg or "429" in msg or "UNAVAILABLE" in msg or "RESOURCE_EXHAUSTED" in msg
+
+
 @retry(
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=2, min=4, max=60),
+    stop=stop_after_attempt(5),
+    wait=wait_exponential(multiplier=2, min=4, max=120),
+    retry=retry_if_exception(_is_transient),
     reraise=True,
 )
-def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str) -> str:
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model=model,
         contents=prompt,
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
         ),
     )
     return response.text.strip()
+
+
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+    """Try each model in the fallback chain until one succeeds."""
+    last_exc = None
+    for model in MODELS:
+        try:
+            result = _call_model(client, model, prompt, system_instruction)
+            return result
+        except Exception as exc:
+            last_exc = exc
+            logger.warning("Model %s failed: %s — trying next fallback", model, exc)
+    raise last_exc
 
 
 def _parse_json(raw: str) -> dict | list:

@@ -21,9 +21,10 @@ import sys
 import time
 from pathlib import Path
 
+import requests
 from google import genai
 from google.genai import types
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -66,7 +67,8 @@ SYSTEM_PROMPT = (
     "2. Use short, lowercase, hyphenated keys for each category (e.g. 'student', "
     "'skilled-worker', 'digital-nomad', 'working-holiday', 'permanent-residency').\n"
     "3. Include 5-10 of the most relevant categories for the country.\n"
-    "4. If you cannot find an official URL for a category, omit it entirely.\n"
+    "4. Only return URLs you are highly confident actually exist. "
+    "Do NOT guess or fabricate URLs. Prefer well-known top-level pages over deep links.\n"
     "5. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
     "Return format (strict JSON):\n"
     "{\n"
@@ -159,21 +161,44 @@ def save_apps(apps: dict, original: dict) -> None:
     logger.info("Saved apps to %s", APPS_PATH)
 
 
+MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+
+
+def _is_transient(exc: Exception) -> bool:
+    """Return True for 503/429 (retry-worthy), False for 404 etc."""
+    msg = str(exc)
+    return "503" in msg or "429" in msg or "UNAVAILABLE" in msg or "RESOURCE_EXHAUSTED" in msg
+
+
 @retry(
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=2, min=4, max=60),
+    stop=stop_after_attempt(5),
+    wait=wait_exponential(multiplier=2, min=4, max=120),
+    retry=retry_if_exception(_is_transient),
     reraise=True,
 )
-def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
-    """Call Gemini with retry on transient errors (503, 429, etc.)."""
+def _call_model(client: genai.Client, model: str, prompt: str, system_instruction: str) -> str:
+    """Call a specific Gemini model with retry on transient errors."""
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model=model,
         contents=prompt,
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
         ),
     )
     return response.text.strip()
+
+
+def _call_gemini(client: genai.Client, prompt: str, system_instruction: str) -> str:
+    """Try each model in the fallback chain until one succeeds."""
+    last_exc = None
+    for model in MODELS:
+        try:
+            result = _call_model(client, model, prompt, system_instruction)
+            return result
+        except Exception as exc:
+            last_exc = exc
+            logger.warning("Model %s failed: %s — trying next fallback", model, exc)
+    raise last_exc
 
 
 def _parse_json(raw: str) -> dict | list:
@@ -202,6 +227,51 @@ def discover_urls(client: genai.Client, country_slug: str) -> dict | None:
     except Exception as exc:
         logger.warning("Gemini API error for %s: %s", country_slug, exc)
         return None
+
+
+USER_AGENT = "Mozilla/5.0 (compatible; LandoBot/1.0; +https://github.com/lando-data)"
+
+
+def _validate_urls(result: dict, country_slug: str) -> dict:
+    """HEAD-check every discovered URL; drop entries that return 404/403/timeout.
+
+    Returns a filtered copy of *result* — categories with no surviving URLs
+    are removed entirely.
+    """
+    validated: dict = {}
+    for category, url_list in result.items():
+        good: list[dict] = []
+        for entry in url_list:
+            url = entry.get("url", "")
+            if not url:
+                continue
+            try:
+                resp = requests.head(
+                    url, timeout=15, headers={"User-Agent": USER_AGENT}, allow_redirects=True,
+                )
+                if resp.status_code < 400:
+                    good.append(entry)
+                else:
+                    logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
+            except requests.RequestException as exc:
+                # Some sites block HEAD, try a quick GET as fallback
+                try:
+                    resp = requests.get(
+                        url, timeout=15, headers={"User-Agent": USER_AGENT}, allow_redirects=True,
+                        stream=True,  # don't download body
+                    )
+                    resp.close()
+                    if resp.status_code < 400:
+                        good.append(entry)
+                    else:
+                        logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
+                except requests.RequestException:
+                    logger.warning("  Dropping %s/%s — %s", country_slug, url, exc)
+        if good:
+            validated[category] = good
+        else:
+            logger.warning("  Category '%s' has no valid URLs — removed", category)
+    return validated
 
 
 def discover_apps(client: genai.Client, country_slug: str) -> list | None:
@@ -255,6 +325,10 @@ def run() -> None:
         if result is None:
             logger.warning("Skipping %s — no valid response.", slug)
         else:
+            # Validate URLs before saving — drops 404/403/unreachable
+            result = _validate_urls(result, slug)
+            logger.info("  %d categories survived validation", len(result))
+
             # Merge: preserve manual entries, update/add AI entries
             existing = sources.get(slug, {})
             for cat, urls in result.items():
@@ -272,7 +346,7 @@ def run() -> None:
             apps[slug] = app_result
 
         # Respect API rate limits
-        time.sleep(1.5)
+        time.sleep(3)
 
     # Remove countries no longer in the list
     removed = [k for k in sources if k not in countries]
