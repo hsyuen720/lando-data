@@ -1,0 +1,71 @@
+{
+  "country": "indonesia",
+  "visa_category": "evisa",
+  "data": [
+    {
+      "visa_category": "evisa",
+      "visa_type_detail": [
+        {
+          "name": "Golden Visa",
+          "available": true
+        },
+        {
+          "name": "Visa Exemption for ASEAN Foreigner",
+          "available": true
+        },
+        {
+          "name": "Bridging Stay Permit",
+          "available": true
+        },
+        {
+          "name": "Electronic Visa on Arrival (e-VOA)",
+          "application_detail": "application can be done simultaneously for 5 people"
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://evisa.imigrasi.go.id/"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "PeduliLindungi",
+      "description": "Government-issued app for COVID-19 contact tracing, vaccination certificates, and health status.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/pedulilindungi/id1504744648",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.telkomsigma.map"
+    },
+    {
+      "app_name": "GoPay",
+      "description": "Widely used e-wallet for payments, transfers, and various services, often integrated with GoJek.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/gopay/id1490098496",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.gojek.gopay"
+    },
+    {
+      "app_name": "OVO",
+      "description": "Another popular e-wallet for payments, bills, and peer-to-peer transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/ovo/id1172215077",
+      "download_url_android": "https://play.google.com/store/apps/details?id=id.ovo.android"
+    },
+    {
+      "app_name": "KAI Access",
+      "description": "Official app for booking train tickets and managing travel on Indonesian railways.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/kai-access/id1075390127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=id.keretaapi.android.etis"
+    },
+    {
+      "app_name": "Halodoc",
+      "description": "Leading health tech platform for online doctor consultations, prescriptions, and medical appointments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/id/app/halodoc/id995244304",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.halodoc"
+    }
+  ]
+}

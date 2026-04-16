@@ -1,0 +1,134 @@
+{
+  "country": "spain",
+  "visa_category": "digital-nomad-visa",
+  "data": {
+    "visa_category": "digital-nomad-visa",
+    "visa_type_detail": [
+      {
+        "title": "Digital Nomad Visa",
+        "financial_requirements": {
+          "primary_applicant": {
+            "monthly": "€2,650+",
+            "annually": "€31,800"
+          },
+          "spouse": {
+            "monthly": "€1,978.50+",
+            "annually": "€23,850"
+          },
+          "additional_dependents": {
+            "monthly": "€662.50+",
+            "annually": "€7,950"
+          }
+        },
+        "other_requirements": [
+          "Cannot be in Spain illegally.",
+          "No criminal record in Spain or countries of residence for the past five years.",
+          "Public or private health insurance licensed to operate in Spain.",
+          "Sufficient economic means for accompanying family members."
+        ],
+        "can_freelancer_apply": true,
+        "is_international_teleworker_defined": true,
+        "benefits": [
+          "Settlement rights in Spain.",
+          "Visa-free access to the rest of the EU.",
+          "Tax benefits and incentives (e.g., reduced company tax rate, Non-Resident Income Tax drops from 25% to 15%).",
+          "Beneficial tax treatment of stock options (exemption raised from €12,000 to €50,000 per year).",
+          "Streamlined company formation process.",
+          "Increased cap on deductible amount for investments in new startups/companies from €60,000 to €100,000.",
+          "Increased deduction rate for startup investments from 30% to 50%."
+        ],
+        "tax_benefits": {
+          "income_tax_rate": "24% up to €600,000, 48% above",
+          "capital_gains_tax": "Variable rate from 19% to 28%",
+          "non_resident_income_tax": "Eased conditions, reduced required non-tax-residency period from 10 to 5 years."
+        },
+        "managing_authority": "Diplomatic Missions and Consular Offices",
+        "processing_time": "The visa must be collected in person or by a representative within a maximum period of 1 month, starting from the day after the date on which the favorable decision is notified.",
+        "who_is_it_for": [
+          "Foreign nationals who wish to carry out remote work or professional activities for companies located outside Spain, using exclusively computer, telematic, or telecommunications means.",
+          "Foreign nationals who perform salaried work for companies located outside Spain.",
+          "Foreign nationals who carry out self-employed activities (as freelancers) and may also work for companies located in Spain, provided that the percentage of such work does not exceed 20% of their total activity."
+        ],
+        "documentation_required": [
+          "National visa application form.",
+          "Recent passport-size color photograph with a light background.",
+          "Original and photocopy of passport (valid for at least 1 year, two blank pages, issued within the last 10 years).",
+          "Proof of legal residence in the country of application.",
+          "Power of attorney or representation document (if applicable).",
+          "Company certificate stating length of service (min. 3 months) and authorization for remote work (for salaried workers).",
+          "Certificate from Commercial Registry (company incorporated over 1 year ago) for self-employed.",
+          "Responsible declaration confirming commitment to social security obligations.",
+          "Proof of application for company registration with Spanish Social Security and worker affiliation (salaried).",
+          "Proof of registration with RETA (self-employed).",
+          "Documentation proving financial resources (e.g., employment contract, job offer, commercial contract).",
+          "Original and copy of graduate/postgraduate degree or minimum of three years of professional experience.",
+          "Proof of recognition of qualification for regulated professions.",
+          "Foreign Identification Number (NIE) application."
+        ],
+        "general_requirements": [
+          "Not be in an irregular situation within Spanish territory.",
+          "Over 18 years of age.",
+          "No criminal record in Spain and in countries of residence for the last two years.",
+          "Not appear as inadmissible in Schengen states.",
+          "Public or private health insurance contracted with an authorized company in Spain.",
+          "Sufficient financial resources.",
+          "Pay the processing fee."
+        ],
+        "application_steps": [
+          "Complete the national visa application form.",
+          "Pay the required fee.",
+          "Request an appointment and submit documentation in person at the Consular Office.",
+          "Receive notification of the visa decision and collect the visa within one month."
+        ],
+        "health_insurance_details": "Public or private health insurance contracted with an insurance company authorized to operate in Spain, providing coverage equivalent to the National Health System. Social Security registration may waive this requirement. Travel insurance is not valid for the full duration.",
+        "financial_means_proof": "Any legally admissible means of evidence, such as job offer, pay slips, bank account statements, deposits.",
+        "document_translation_legalization": "All documents must be translated into Spanish. Public documents must bear the Hague Apostille or be legalized through diplomatic channels."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2024-08-22T17:02:12+00:00",
+    "reference_urls": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARnD4boBsF8TKBxVCc6LM7d9CsI34wX8FNWtMJ-OwYnIZ5sI1Fa9g4IRHPO4e9pGDgEbwyL_JSSeeEtWupBZp0-0JBLl72x5YavMkkp-F_otwcibIWYLJmaKf7YTsFO1sL095-hfDMo3y",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-I1G4CRSdvArqtFfXzkXZJi44JZh4PPxTeB0MBD1SkEiHU4cq63tneYydrT2k1bgMa270cqQOr8pTjSXrCv0udyx0rfkplFGULuYKejr1rnGw3IDgLg1kMcTYDMV3UICP7b0ssmQv9Bnc3cw88awMOHkd7VeMs68="
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

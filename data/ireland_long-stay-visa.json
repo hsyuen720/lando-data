@@ -1,0 +1,88 @@
+{
+  "country": "ireland",
+  "visa_category": "long-stay-visa",
+  "data": {
+    "visa_category": "long-stay-visa",
+    "visa_type_detail": [
+      {
+        "nationality": "Libyan",
+        "type": "Beef Industry",
+        "details": "applications will be accepted only from persons with a previous good travel history to Ireland, the United Kingdom, or Schengen countries and known to and sponsored by An Bord Bia and/or the Department of Agriculture and Food. Evidence of sponsorship must be provided with the application."
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Oil Industry",
+        "details": "full details of travel arrangements out and back into Libya should be provided with the application. These applications will be subject to stringent security checks. Consideration of visa applications for accompanying family members remains suspended."
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Air Industry",
+        "details": "consideration of visa applications for the purpose of training in the air industry remains suspended."
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Study/Training",
+        "details": "applications for the purpose of all forms of study or training continue to be subject to the existing suspension of consideration of applications."
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Immediate family members (spouse or partner, parents, and dependent children) of Irish citizens; EU Citizens; or long term Irish residents (those who are living in Ireland for at least five years on Stamp 1 or Stamp 4)",
+        "details": null
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Visitors who are long-term resident of EU Member States or other countries and have good and recent UK, EU, Australian, New Zealand, Canadian or US travel history",
+        "details": null
+      },
+      {
+        "nationality": "Libyan",
+        "type": "Supported by Irish Government Departments and State Agencies",
+        "details": "Evidence of sponsorship must be provided with the application."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2018-05",
+    "reference_urls": [
+      "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MyGovID",
+      "description": "Digital identity for accessing public services in Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mygovid/id1268825127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citizensinformation.mygovid"
+    },
+    {
+      "app_name": "HSELive",
+      "description": "Health information and services from the Health Service Executive (HSE).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/hselive/id1472059255",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.hse.hselive"
+    },
+    {
+      "app_name": "Transport for Ireland (TFI) Go",
+      "description": "Journey planner and real-time public transport information across Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/tfi-go/id1447101327",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mobi.tfi"
+    },
+    {
+      "app_name": "Revolut",
+      "description": "International money transfer and digital banking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+    },
+    {
+      "app_name": "N26",
+      "description": "Mobile banking with an international focus.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/n26/id901140377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sixents.six"
+    }
+  ]
+}

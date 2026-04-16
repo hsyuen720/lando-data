@@ -1,0 +1,57 @@
+{
+  "country": "united-kingdom",
+  "visa_category": "electronic-travel-authorisation",
+  "data": {
+    "visa_category": "electronic-travel-authorisation",
+    "visa_type_detail": [
+      {
+        "description": "An electronic travel authorisation (ETA) lets you travel to the UK for tourism, visiting family or certain other reasons for up to 6 months.",
+        "validity_period": "up to 6 months"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": 20,
+    "currency": "GBP",
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.gov.uk/electronic-travel-authorisation"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "GOV.UK Verify",
+      "description": "Securely prove your identity online for government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "NHS App",
+      "description": "Access NHS services, view your health record, and order repeat prescriptions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1476577673",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hscic.nhsapp"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Comprehensive public transport planner for major UK cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469948505",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    },
+    {
+      "app_name": "Monzo",
+      "description": "Popular digital bank with easy-to-use mobile banking features.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/monzo/id922507945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.monzo.android"
+    },
+    {
+      "app_name": "Barclays",
+      "description": "One of the UK's largest banks with a feature-rich mobile app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/gb/app/barclays/id470473143",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android"
+    }
+  ]
+}

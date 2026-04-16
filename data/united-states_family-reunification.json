@@ -1,0 +1,131 @@
+{
+  "country": "united-states",
+  "visa_category": "family-reunification",
+  "data": [
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Spouse of U.S. citizen",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Children (unmarried and under 21) of U.S. citizens",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Parents of U.S. citizens (The petitioning citizen must be 21 or older.)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Unmarried, adult sons and daughters of U.S. citizens (adult means 21 or older.)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Married sons and daughters (any age) of U.S. citizens",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Brothers and sisters of adult U.S. citizens",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Fiancé(e) visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "K-3/K-4 visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "My Social Security",
+      "description": "Manage your Social Security benefits and personal information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/my-social-security/id1300303096",
+      "download_url_android": "https://play.google.com/store/apps/details?id=org.ssa.myssa"
+    },
+    {
+      "app_name": "MyChart",
+      "description": "Access your medical records, schedule appointments, and communicate with your doctor.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mychart/id382952463",
+      "download_url_android": "https://play.google.com/store/apps/details?id=epic.mychart.android"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transportation information for many cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
+    },
+    {
+      "app_name": "Zelle",
+      "description": "Send and receive money between bank accounts easily.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "PayPal",
+      "description": "Widely used for online payments and money transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/paypal/id295217774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p.payments"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "data": [
     {
       "visa_category": "family-visa",
-      "visa_type_detail": "EU Settlement Scheme family permit",
+      "visa_type_detail": "Apply for an EU Settlement Scheme family permit to join family in the UK",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -23,43 +23,76 @@
       "reference_urls": [
         "https://www.gov.uk/browse/visas-immigration/family-visas"
       ]
+    },
+    {
+      "visa_category": "family-visa",
+      "visa_type_detail": "Family visas: apply, extend or switch",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/family-visas"
+      ]
+    },
+    {
+      "visa_category": "family-visa",
+      "visa_type_detail": "Indefinite leave to remain if your partner dies",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/family-visas"
+      ]
+    },
+    {
+      "visa_category": "family-visa",
+      "visa_type_detail": "Visas when you separate or divorce",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.gov.uk/browse/visas-immigration/family-visas"
+      ]
     }
   ],
   "essential_apps": [
     {
-      "app_name": "gov.uk",
-      "description": "The official UK government app for accessing government services and information.",
+      "app_name": "GOV.UK Verify",
+      "description": "Securely prove your identity online for government services.",
       "platform": "iOS/Android",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
       "app_name": "NHS App",
-      "description": "Access your NHS account to book appointments, order repeat prescriptions, and more.",
+      "description": "Access NHS services, view your health record, and order repeat prescriptions.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1388413836",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhs_uk.production"
+      "download_url_ios": "https://apps.apple.com/gb/app/nhs-app/id1476577673",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hscic.nhsapp"
     },
     {
       "app_name": "Citymapper",
-      "description": "Comprehensive public transport app for London and other major UK cities.",
+      "description": "Comprehensive public transport planner for major UK cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469460560",
+      "download_url_ios": "https://apps.apple.com/gb/app/citymapper/id469948505",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
     },
     {
-      "app_name": "Revolut",
-      "description": "Popular digital banking app for international money transfers and spending.",
+      "app_name": "Monzo",
+      "description": "Popular digital bank with easy-to-use mobile banking features.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/revolut/id932493397",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+      "download_url_ios": "https://apps.apple.com/gb/app/monzo/id922507945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.monzo.android"
     },
     {
       "app_name": "Barclays",
-      "description": "Mobile banking app for managing Barclays accounts in the UK.",
+      "description": "One of the UK's largest banks with a feature-rich mobile app.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/gb/app/barclays-mobile-banking/id491500986",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android.bbm"
+      "download_url_ios": "https://apps.apple.com/gb/app/barclays/id470473143",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.barclays.android"
     }
   ]
 }

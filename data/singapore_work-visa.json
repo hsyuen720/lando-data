@@ -1,0 +1,351 @@
+{
+  "country": "singapore",
+  "visa_category": "work-visa",
+  "data": [
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Employment Pass",
+        "eligibility": "For foreign professionals, managers, executives and technicians. Candidates need to earn at least $5,600 a month and pass the Complementarity Assessment Framework (COMPASS)."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "EntrePass",
+        "eligibility": "For foreign entrepreneurs who are keen to start and operate a business in Singapore that is venture-backed or possesses innovative technologies."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Personalised Employment Pass",
+        "eligibility": "For high-earning existing Employment Pass holders or overseas foreign professionals. The PEP offers greater flexibility than an Employment Pass."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Overseas Networks & Expertise Pass",
+        "eligibility": "For top talent in business, arts and culture, sports, as well as academia and research."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "S Pass",
+        "eligibility": "For skilled workers. Candidates need to earn at least $3,300 a month."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Permit for migrant worker",
+        "eligibility": "For skilled and semi-skilled migrant workers in the construction, manufacturing, marine shipyard, process or services sector."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Permit for migrant domestic worker",
+        "eligibility": "For migrant domestic workers (MDWs) to work in Singapore."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Permit for confinement nanny",
+        "eligibility": "For Malaysian confinement nannies to work in Singapore for up to 16 weeks starting from the birth of the employer's child."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Permit for performing artiste",
+        "eligibility": "For foreign performers working in public entertainment outlets such as bars, hotels and nightclubs. Note: The scheme for firms to apply for Work Permit (Performing Artiste) will be ceased on 1 June 2026."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Training Employment Pass",
+        "eligibility": "For foreign professionals undergoing practical training. Candidates must earn at least $3,000 a month."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Holiday Pass (under Work Holiday Programme)",
+        "eligibility": "For students and graduates aged 18 to 25 who want to work and holiday in Singapore for 6 months."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Holiday Pass (under Work and Holiday Visa Programmes)",
+        "eligibility": "For Australian and New Zealander students and graduates aged 18 to 30 who want to work and holiday in Singapore for 12 months."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Training Work Permit",
+        "eligibility": "For semi-skilled foreign trainees or students undergoing practical training in Singapore for up to 6 months."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Dependant's Pass",
+        "eligibility": "For spouses and children of eligible Employment Pass or S Pass holders."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Long-Term Visit Pass",
+        "eligibility": "For parents, common-law spouses, step-children or handicapped children of eligible Employment Pass or S Pass holders."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Pre-approved Letter of Consent",
+        "eligibility": "For eligible spouses or children of Singapore citizens or PRs holding an LTVP/LTVP+ issued by ICA. The holder is pre-approved to work in Singapore. They can only apply for a PLOC when applying for, or renewing the LTVP/LTVP+."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Letter of Consent for ICA-issued LTVP/LTVP+ holders",
+        "eligibility": "For eligible spouses or children of Singapore citizens or PRs holding an LTVP/LTVP+ issued by ICA. The LOC allows the holder to work in Singapore. The employer must apply for the LOC."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Letter of Consent for Dependant’s Pass holders who are business owners",
+        "eligibility": "For eligible Dependant’s Pass holders who wish to operate a business."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Miscellaneous Work Pass",
+        "eligibility": "For foreign speakers, religious workers and journalists taking on a short-term work assignment of up to 60 days in Singapore."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work Pass Exempt Activities",
+        "eligibility": "For performing eligible short-term activities without a work pass. Candidates must still notify MOM of their activities."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work pass exemption for foreign students",
+        "eligibility": "For foreigners holding a Student's Pass issued by ICA, and studying full-time at an approved school or institution."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": {
+        "pass_type": "Work passes for holders of Long-Term Visit Passes issued by ICA",
+        "eligibility": "For foreigners married to a Singaporean or permanent resident, or parents accompanying a child who is studying in Singapore."
+      },
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-06",
+      "reference_urls": [
+        "https://www.mom.gov.sg/passes-and-permits"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "Singpass",
+      "description": "Official digital identity app for accessing a wide range of government and private sector services in Singapore.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/singpass/id1173381597",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.singpass"
+    },
+    {
+      "app_name": "HealthHub",
+      "description": "Official health portal app for Singapore, providing access to personal health records, appointment bookings, and health information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/healthhub/id954603813",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.healthhub"
+    },
+    {
+      "app_name": "MyTransport.SG",
+      "description": "Official app from Singapore's Land Transport Authority, offering public transport information, journey planner, and bus arrival times.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/MyTransport.SG/id513688419",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.lta.mytpt"
+    },
+    {
+      "app_name": "DBS digibank SG",
+      "description": "Mobile banking app for DBS Bank, one of Singapore's largest banks, offering account management and transaction services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/dbs-digibank-sg/id397987187",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.sg.dbsdigibank"
+    },
+    {
+      "app_name": "PayLah!",
+      "description": "Mobile payment app by DBS, allowing users to send money, pay bills, and make QR code payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/paylah!/id597007044",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.paylah"
+    }
+  ]
+}

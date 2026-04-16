@@ -1,0 +1,60 @@
+{
+  "country": "ireland",
+  "visa_category": "family-visas",
+  "data": {
+    "visa_category": "family-visas",
+    "visa_type_detail": [
+      {
+        "name": "Family Dependents",
+        "description": "Non-EEA nationals dependent on a family member currently resident in Ireland. Requires sponsor to be an Irish national or holder of Stamp 1, 4, or 5 permission, resident for the applicable period, and able to support dependents without public funds. Dependents aged 16-18, under 23 in full-time education, or over 18 dependent due to serious medical/psychological issues are eligible.",
+        "eligibility_requirements": "Sponsor must be an Irish citizen, a person married to an Irish citizen, or a person living in Ireland with a Stamp 1, 4, or 5 Irish Residence Permit. Sponsor must have sufficient funds. Dependents must enter Ireland legally and be of good character.",
+        "application_process": "Depends on entry status. For those entering on a 'D' (Join Family) Visa or given a Join family stamp by border control, an appointment with the Registration Office is required. For those resident in the State on an existing permission, renewal may be done online. For those entering on a Short Stay 'C' Visa, without valid permission, or refused registration, a Family Dependent Application Form must be completed and submitted via the Customer Service Portal.",
+        "processing_time": "Currently experiencing high volumes leading to delays in processing post/applications. Applicants will receive an acknowledgement once applications are received and uploaded. Eligible spouses and partners of General Employment Permit and Intra-Corporate Transferee Irish Employment Permit holders will be registered on a Stamp 1G permission.",
+        "fee_amount": "300",
+        "currency": "EUR",
+        "reference_urls": [
+          "https://www.irishimmigration.ie/family-dependents/",
+          "https://www.irishimmigration.ie/family-dependents/attention-eligible-spouses-and-partners-of-general-employment-permit-and-intra-corporate-transferee-irish-employment-permit-holders/"
+        ]
+      }
+    ],
+    "last_updated_official": "2026-03-26"
+  },
+  "essential_apps": [
+    {
+      "app_name": "MyGovID",
+      "description": "Digital identity for accessing public services in Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mygovid/id1268825127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citizensinformation.mygovid"
+    },
+    {
+      "app_name": "HSELive",
+      "description": "Health information and services from the Health Service Executive (HSE).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/hselive/id1472059255",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.hse.hselive"
+    },
+    {
+      "app_name": "Transport for Ireland (TFI) Go",
+      "description": "Journey planner and real-time public transport information across Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/tfi-go/id1447101327",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mobi.tfi"
+    },
+    {
+      "app_name": "Revolut",
+      "description": "International money transfer and digital banking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+    },
+    {
+      "app_name": "N26",
+      "description": "Mobile banking with an international focus.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/n26/id901140377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sixents.six"
+    }
+  ]
+}

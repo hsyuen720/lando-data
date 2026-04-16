@@ -3,33 +3,12 @@
   "visa_category": "residence-permit",
   "data": [
     {
-      "visa_category": "Work immigration",
-      "visa_type_detail": [
-        "residence permit for skilled workers",
-        "seasonal workers",
-        "self-employed persons",
-        "employees in a humanitarian, non-profit or religious organisation"
-      ],
+      "visa_category": "residence-permit",
+      "visa_type_detail": "Family immigration",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.udi.no/en/want-to-apply/work-immigration/"
-      ]
-    },
-    {
-      "visa_category": "Family immigration",
-      "visa_type_detail": [
-        "residence permit",
-        "residence card for family members of EU/EEA nationals",
-        "registration scheme",
-        "independent residence permit"
-      ],
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2026-01-29",
       "reference_urls": [
         "https://www.udi.no/en/want-to-apply/family-immigration/"
       ]
@@ -38,31 +17,31 @@
   "essential_apps": [
     {
       "app_name": "BankID",
-      "description": "Norway's primary digital identification and authentication service for online banking and public services.",
+      "description": "Digital identification and authentication service for online banking and public services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/bankid/id322369414",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.mobile"
+      "download_url_ios": "https://apps.apple.com/us/app/bankid/id914292006",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.bankid.app"
     },
     {
       "app_name": "Helsenorge",
-      "description": "Official Norwegian health portal app providing access to health information and services.",
+      "description": "Official portal for health information and services from the Norwegian Directorate of Health.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/helsenorge/id1152678950",
+      "download_url_ios": "https://apps.apple.com/us/app/helsenorge/id1146049150",
       "download_url_android": "https://play.google.com/store/apps/details?id=no.helsenorge.app"
     },
     {
-      "app_name": "Ruter",
-      "description": "Public transport app for the Oslo and Akershus region, for journey planning and tickets.",
+      "app_name": "RuterReise",
+      "description": "Public transport planner and ticket purchase for the Oslo and Akershus region.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/ruter/id446179683",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.android"
+      "download_url_ios": "https://apps.apple.com/us/app/ruterreise/id594678747",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.ruterapp"
     },
     {
       "app_name": "Vipps",
-      "description": "A widely used mobile payment app in Norway for easy money transfers.",
+      "description": "Popular mobile payment app for sending money, paying bills, and online shopping.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/no/app/vipps/id924895180",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.vipps.android"
+      "download_url_ios": "https://apps.apple.com/us/app/vipps/id948492826",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.vipps.primary"
     }
   ]
 }

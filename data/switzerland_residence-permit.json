@@ -1,0 +1,67 @@
+{
+  "country": "switzerland",
+  "visa_category": "residence-permit",
+  "data": [
+    {
+      "visa_category": "residence-permit",
+      "visa_type_detail": [
+        {
+          "type": "short-term residence permit",
+          "duration": "less than 1 year"
+        },
+        {
+          "type": "annual residence permit",
+          "duration": "limited"
+        },
+        {
+          "type": "permanent residence permit",
+          "duration": "unlimited"
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2011-11-14",
+      "reference_urls": [
+        "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "SwissID",
+      "description": "Digital identity for accessing online services from government and private sector.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/swissid/id1450795434",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.swissid.app"
+    },
+    {
+      "app_name": "e-health/Swiss electronic patient record",
+      "description": "Manage your electronic patient record (EPR) and access health information.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "SBB Mobile",
+      "description": "Public transport planner, timetable, and ticketing for Swiss Federal Railways.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/sbb-mobile/id450947462",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.sbb.mobile"
+    },
+    {
+      "app_name": "Twint",
+      "description": "Mobile payment app for instant payments at the point of sale and online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/twint/id1157711707",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.twint"
+    },
+    {
+      "app_name": "Neon",
+      "description": "Digital banking app for everyday banking needs.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/neon/id1274991779",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.neon.android"
+    }
+  ]
+}

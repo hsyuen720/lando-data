@@ -1,0 +1,108 @@
+{
+  "country": "united-states",
+  "visa_category": "permanent-residency",
+  "data": {
+    "visa_category": "permanent-residency",
+    "visa_type_detail": [
+      {
+        "name": "Green Card",
+        "description": "allows you to live and work permanently in the United States.",
+        "eligibility_categories_url": "https://www.uscis.gov/green-card/green-card-eligibility-categories",
+        "process_and_procedures_url": "https://www.uscis.gov/green-card/green-card-processes-and-procedures",
+        "how_to_apply_url": "https://www.uscis.gov/green-card/how-to-apply-for-a-green-card",
+        "pending_application_info_url": "https://www.uscis.gov/green-card/while-your-green-card-application-is-pending-with-uscis",
+        "replace_green_card_url": "https://www.uscis.gov/green-card/replace-your-green-card",
+        "adjustment_of_status_guidance_url": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status"
+      },
+      {
+        "name": "Adjustment of Status",
+        "description": "is the process that you can use to apply for lawful permanent resident status (also known as applying for a Green Card) when you are present in the United States. This means that you may get a Green Card without having to return to your home country to complete visa processing.",
+        "consular_processing_description": "If you are outside of the United States, you must obtain your visa abroad through consular processing.",
+        "steps": [
+          "Determine if you are eligible to apply for a Green Card",
+          "You or someone else must file an immigrant petition for you (if applicable)",
+          "Check visa availability (if applicable)",
+          "File Form I-485",
+          "Go to your Application Support Center appointment",
+          "Go to your interview (if applicable)",
+          "Respond to request for additional evidence (if applicable)",
+          "Check your case status",
+          "Receive a decision"
+        ],
+        "forms_mentioned": [
+          "Form I-130, Petition for Alien Relative",
+          "Form I-140, Immigrant Petition for Alien Worker",
+          "Form I-730, Refugee/Asylee Relative Petition",
+          "Form I-589, Application for Asylum and for Withholding of Removal",
+          "Form I-360, Petition for Amerasian, Widow(er), or Special Immigrant",
+          "Form I-526, Immigrant Petition by Alien Entrepreneur",
+          "Form I-918, Petition for U Nonimmigrant Status",
+          "Form I-929, Petition for Qualifying Family Member of a U-1 Nonimmigrant",
+          "Form I-485, Application to Register Permanent Residence or Adjust Status",
+          "Form I-485 Supplement A, Adjustment of Status Under Section 245(i)"
+        ],
+        "related_urls": {
+          "green_card_eligibility_categories": "https://www.uscis.gov/green-card/green-card-eligibility-categories",
+          "concurrent_filing": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/concurrent-filing",
+          "visa_availability_and_priority_dates": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/visa-availability-and-priority-dates",
+          "adjustment_of_status_filing_charts": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/adjustment-of-status-filing-charts",
+          "department_of_state_visa_bulletin": "https://www.state.gov/visas/chinese-embassy-in-the-people-s-republic-of-china/",
+          "form_i_485_instructions": "https://www.uscis.gov/i-485",
+          "direct_filing_addresses_for_form_i_485": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/direct-filing-addresses-for-form-i-485",
+          "preparing_for_your_biometrics_services_appointment": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/preparing-for-your-biometrics-services-appointment",
+          "interview_information": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status/interview",
+          "check_case_status_online": "https://egov.uscis.gov/casestatus/landing.do",
+          "uscis_contact_center": "https://www.uscis.gov/contactcenter",
+          "form_i_290b_notice_of_appeal_or_motion": "https://www.uscis.gov/forms/all-forms/form-i-290b-notice-of-appeal-or-motion",
+          "questions_and_answers_appeals_and_motions": "https://www.uscis.gov/legal/appeals-and-motions/questions-and-answers-appeals-and-motions",
+          "change_of_address_information": "https://www.uscis.gov/addresschange"
+        }
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-07-08",
+    "reference_urls": [
+      "https://www.uscis.gov/green-card",
+      "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "My Social Security",
+      "description": "Manage your Social Security benefits and personal information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/my-social-security/id1300303096",
+      "download_url_android": "https://play.google.com/store/apps/details?id=org.ssa.myssa"
+    },
+    {
+      "app_name": "MyChart",
+      "description": "Access your medical records, schedule appointments, and communicate with your doctor.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mychart/id382952463",
+      "download_url_android": "https://play.google.com/store/apps/details?id=epic.mychart.android"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transportation information for many cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
+    },
+    {
+      "app_name": "Zelle",
+      "description": "Send and receive money between bank accounts easily.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "PayPal",
+      "description": "Widely used for online payments and money transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/paypal/id295217774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p.payments"
+    }
+  ]
+}

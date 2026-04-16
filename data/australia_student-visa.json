@@ -1,0 +1,52 @@
+{
+  "country": "australia",
+  "visa_category": "student-visa",
+  "data": {
+    "visa_category": "student-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/study"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "myGov",
+      "description": "Access Australian government services like Medicare, Centrelink, and the ATO.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/mygov/id1258994433",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.mygov.android"
+    },
+    {
+      "app_name": "Expressplus",
+      "description": "Access Medicare services, view your health history, and claim benefits.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/expressplus-medicare/id894041701",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.medicareaustralia.ExpressPlus"
+    },
+    {
+      "app_name": "PTV",
+      "description": "Public Transport Victoria journey planner for Melbourne.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/ptv/id517216566",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.vic.ptv.ptvapp"
+    },
+    {
+      "app_name": "CommBank",
+      "description": "Mobile banking app for Commonwealth Bank, a major Australian bank.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/commbank/id325429455",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.com.commbank.android"
+    },
+    {
+      "app_name": "Afterpay",
+      "description": "Popular buy-now-pay-later service for making payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/afterpay/id1075093164",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.afterpay.android.buy"
+    }
+  ]
+}

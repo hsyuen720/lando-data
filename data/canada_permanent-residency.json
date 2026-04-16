@@ -4,52 +4,271 @@
   "data": [
     {
       "visa_category": "permanent-residency",
-      "visa_type_detail": [
-        {
-          "name": "Express Entry",
-          "sub_types": [
-            "Skilled workers",
-            "tradespeople"
-          ]
-        },
-        {
-          "name": "Caregivers",
-          "sub_types": [
-            "Home care workers",
-            "Medical doctors",
-            "For physicians"
-          ]
-        },
-        {
-          "name": "Regional programs",
-          "sub_types": [
-            "Provincial Nominee Program (PNP)",
-            "Rural and Francophone Community Immigration Pilots (RCIP, FCIP)",
-            "Atlantic Immigration Program (AIP)",
-            "Quebec-selected skilled workers",
-            "Quebec investors and entrepreneurs"
-          ]
-        },
-        {
-          "name": "Family sponsorship",
-          "sub_types": [
-            "Sponsor your spouse or family members"
-          ]
-        },
-        {
-          "name": "Refugees",
-          "sub_types": [
-            "Refugees and asylum"
-          ]
-        },
-        {
-          "name": "Special programs",
-          "sub_types": [
-            "Hong Kong residents in Canada",
-            "Foreign nationals who were in state care"
-          ]
-        }
-      ],
+      "visa_type_detail": "Express Entry",
+      "processing_time": "Varies by program",
+      "fee_amount": 1525.0,
+      "currency": "CAN",
+      "last_updated_official": "2025-02-03",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Canadian Experience Class",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Family Sponsorship Program",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Provincial Nominee Programs (PNPs)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Humanitarian and Compassionate (H&C) Applications",
+      "processing_time": "several years",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Refugee and Protected Person Pathways",
+      "processing_time": "after one year of protected status",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Agri-Food Pilot Program",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Caregiver Pathways (Home Child Care Provider Pilot and Home Support Worker Pilot)",
+      "processing_time": "After 24 months of eligible work experience",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Rural and Northern Immigration Pilot (RNIP)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Atlantic Immigration Program (AIP)",
+      "processing_time": "faster processing",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Start-Up Visa Program",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Pathways for International Graduates",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Temporary Resident to Permanent Resident (TR to PR) Pathways",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Skilled workers, tradespeople",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Caregivers",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Medical doctors",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Provincial Nominee Program (PNP)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Rural and Francophone Community Immigration Pilots (RCIP, FCIP)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Atlantic Immigration Program (AIP)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Quebec-selected skilled workers",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Quebec investors and entrepreneurs",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Sponsor your spouse or family members",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Refugees and asylum",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Hong Kong residents in Canada",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Foreign nationals who were in state care",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -61,38 +280,38 @@
   ],
   "essential_apps": [
     {
-      "app_name": "GCKey",
-      "description": "Secure online access to Canadian government services.",
-      "platform": "Web-based, accessible via browser",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "app_name": "My Service Canada Account",
+      "description": "Access government services and personal information related to benefits and pensions.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
-      "app_name": "Health Gateway (BC)",
-      "description": "Access your health records in British Columbia.",
+      "app_name": "Babylon Health",
+      "description": "A digital health service offering virtual consultations with doctors.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/health-gateway/id1540140423",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ca.bc.gov.healthgateway"
+      "download_url_ios": "https://apps.apple.com/ca/app/babylon-health/id1372467183",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.babylonhealth.android"
     },
     {
       "app_name": "Transit",
-      "description": "Real-time public transit information for various cities across Canada.",
+      "description": "Real-time public transportation information across Canadian cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/transit/id445775703",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+      "download_url_ios": "https://apps.apple.com/ca/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
     },
     {
       "app_name": "Interac e-Transfer",
-      "description": "Send and receive money securely between bank accounts in Canada.",
-      "platform": "Accessed through most Canadian bank apps",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "description": "Send and receive money securely between Canadian bank accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
       "app_name": "RBC Mobile",
-      "description": "Mobile banking app for managing Royal Bank of Canada accounts.",
+      "description": "Banking app for one of Canada's largest banks.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id343957863",
+      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id371757402",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.rbc.mobile"
     }
   ]

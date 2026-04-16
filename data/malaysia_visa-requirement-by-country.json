@@ -1,0 +1,52 @@
+{
+  "country": "malaysia",
+  "visa_category": "visa-requirement-by-country",
+  "data": {
+    "visa_category": "Visa Requirement by Country",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.imi.gov.my/index.php/en/main-services/visa/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MySejahtera",
+      "description": "Official Malaysian government health and immigration app for managing health status and digital vaccine certificates.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/mysejahtera/id1506757557",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.gov.moh.mysejahtera"
+    },
+    {
+      "app_name": "MyIdentity",
+      "description": "Government-issued digital identity app for secure online transactions and access to services.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "Grab",
+      "description": "Superapp for ride-hailing, food delivery, grocery delivery, and digital payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/grab/id6445570995",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.grabtaxi.rider"
+    },
+    {
+      "app_name": "Maybank MAE",
+      "description": "Mobile banking app from Malaysia's largest bank, offering payments, transfers, and account management.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/maybank-mae/id1425037711",
+      "download_url_android": "https://play.google.com/store/apps/details?id=my.mybank.android.mb"
+    },
+    {
+      "app_name": "Touch 'n Go eWallet",
+      "description": "Popular e-wallet for payments, tolls, parking, and various services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/my/app/touch-n-go-ewallet/id1057845077",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.tngdigital.ewallet"
+    }
+  ]
+}

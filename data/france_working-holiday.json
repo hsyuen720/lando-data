@@ -1,0 +1,61 @@
+{
+  "country": "france",
+  "visa_category": "working-holiday",
+  "data": {
+    "visa_category": "working-holiday",
+    "visa_type_detail": [
+      {
+        "name": "temporary long-stay visa or VLS-T",
+        "duration": "12 months",
+        "renewable": false
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://france-visas.gouv.fr/",
+      "http://www.diplomatie.gouv.fr/fr/services-aux-citoyens/preparer-son-expatriation/emploi/article/programme-vacances-travail",
+      "http://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/annuaires-et-adresses-du-ministere-de-l-europe-et-des-affaires-etrangeres-meae/ambassades-et-consulats-francais-a-l-etranger/",
+      "https://france-visas.gouv.fr/web/france-visas/accueil"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Ameli",
+      "description": "Official app for the French national health insurance, allowing access to health records, reimbursements, and declarations.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/ameli/id1182834419",
+      "download_url_android": "https://play.google.com/store/apps/details?id=fr.cpam.ameli"
+    },
+    {
+      "app_name": "FranceConnect",
+      "description": "Digital identity service allowing secure access to many French public services using a single login.",
+      "platform": "iOS/Android",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "Bonjour RATP",
+      "description": "Official app for public transport in Paris and its region, offering route planning, real-time traffic, and travel information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/bonjour-ratp/id1093021690",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ratp.bonjourratp"
+    },
+    {
+      "app_name": "Lydia",
+      "description": "Popular peer-to-peer payment app and digital wallet for easy money transfers and payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/lydia/id577086945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.lydia"
+    },
+    {
+      "app_name": "Paylib",
+      "description": "Secure payment solution from French banks for online and in-store purchases, and P2P transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/fr/app/paylib/id684565761",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paylib.android"
+    }
+  ]
+}

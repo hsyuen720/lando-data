@@ -3,50 +3,61 @@
   "visa_category": "permanent-residency",
   "data": {
     "visa_category": "permanent-residency",
-    "visa_type_detail": null,
-    "processing_time": null,
+    "visa_type_detail": [
+      {
+        "name": "Highly-skilled professional with 70+ points",
+        "residence_period": "3 years"
+      },
+      {
+        "name": "Highly-skilled professional with 80+ points",
+        "residence_period": "1 year"
+      },
+      {
+        "name": "Spouse of a Japanese citizen or permanent resident",
+        "residence_period": "1 year (after 3 years of marriage)"
+      },
+      {
+        "name": "Other visa types",
+        "residence_period": "10 years"
+      }
+    ],
+    "processing_time": "4 months (official, but plan for 8 months)",
     "fee_amount": null,
     "currency": null,
-    "last_updated_official": null,
+    "last_updated_official": "2025-04-03",
     "reference_urls": [
-      "https://www.isa.go.jp/en/applications/guide/nyuukokukanri01.html"
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuADo4lqDUK6Q49rdHAWU-1Obqfzv4aReHtxkAkzhXArOdTNyEfIBT5CzCWm6sGJFEymcxwDpwt1fQBFHoxWVjLB9Wdcvms3fvpKIrWfJDIjFmoy4XA28KtflPJ1kS-rCJMl2iSs1Y9g5BHhyQgNKN2gJJ2fcmyzq_IFG_",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVPCL6dAgeJfktwLWCw1gpiDAIr5F8QThxFUrCwLro0G4d79z6jjJTFDvAOWbdl5aUt1dZ0JECZr87BKvJIqvjCNGQiYc-E8L2xUfpZw=="
     ]
   },
   "essential_apps": [
     {
       "app_name": "My Number Card",
-      "description": "Official app for accessing your My Number identity card for government services.",
+      "description": "Official app for the Japanese national identification card, used for various administrative procedures and services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/マイナンバーカード-%E6%A7%98%E3%80%85%E6%8A%95%E7%A8%BC%E3%81%A8%E3%81%84%E3%81%86%E3%81%AA%E6%94%AF%E6%89%95%E3%81%84%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA/id1612796126",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.isbn.mykey"
+      "download_url_ios": "https://apps.apple.com/jp/app/マイナンバーカード-%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89/id1540116176",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.cashless.mynumbercard"
     },
     {
-      "app_name": "Japan Transit Planner by Jorudan",
-      "description": "A comprehensive app for planning train and subway routes across Japan.",
+      "app_name": "Japan Post Bank App",
+      "description": "Official mobile banking app for Japan Post Bank, one of the largest financial institutions.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/japan-transit-planner-by-jorudan/id307711024",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.jorudan.route"
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%81%84%E3%81%98%E3%81%9F%E3%81%97%E3%82%93%E3%81%B7%E3%81%A7%E3%81%99%E3%81%AE%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/id1120456637",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.jp_post_bank.prod.android.ipp"
     },
     {
-      "app_name": "Suica/Pasmo",
-      "description": "Mobile version of the popular IC cards for public transport and payments.",
+      "app_name": "Navitime for Japan Travel",
+      "description": "Comprehensive navigation app for Japan, including train, subway, and bus routes, schedules, and station information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB-%E3%83%91%E3%82%B9%E3%83%A2-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%81%A7%E4%BD%BF%E3%81%86/id1494647467",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.kartei.suica"
+      "download_url_ios": "https://apps.apple.com/us/app/navitime-for-japan-travel/id303558304",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.navitime.ln.tr"
     },
     {
       "app_name": "LINE",
-      "description": "Dominant messaging app in Japan, used for personal communication and some official notifications.",
+      "description": "Dominant messaging and social media app in Japan, essential for communication.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/LINE/id414478124",
+      "download_url_ios": "https://apps.apple.com/us/app/line/id443904275",
       "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
-    },
-    {
-      "app_name": "Rakuten Pay",
-      "description": "A popular mobile payment service that is widely accepted.",
-      "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%86%E3%83%B3pay-%E3%83%9A%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA/id1049189627",
-      "download_url_android": "https://play.google.com/store/apps/details?id=jp.co.netprotections.struts.pay"
     }
   ]
 }

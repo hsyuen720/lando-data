@@ -1,0 +1,70 @@
+{
+  "country": "netherlands",
+  "visa_category": "skilled-worker",
+  "data": {
+    "visa_category": "skilled-worker",
+    "visa_type_detail": [
+      {
+        "name": "Highly skilled migrant",
+        "requirements": [
+          "You meet the general requirements that apply to everyone.",
+          "You have an employment contract with an employer or research institution in the Netherlands. This employer is a sponsor recognised by the IND.",
+          "You meet the income requirements. The agreed salary is in line with the market rate.",
+          "If you are going to work in individual healthcare and practise a medical profession that is listed in Article 3 and Article 36a of the Individual Healthcare Professions Act (BIG Act), you must be registered in the BIG register.",
+          "If you have a recognised foreign diploma and first have to work for 3 months under the supervision of a BIG-registered healthcare provider in the same profession, you must be in the BIG register with a conditional registration."
+        ],
+        "process_time": "90 days",
+        "fee_amount": 423.0,
+        "currency": "EUR",
+        "last_updated_official": "2026-04-14",
+        "reference_urls": [
+          "https://ind.nl/en/work/Pages/Highly-skilled-migrant.aspx"
+        ]
+      },
+      {
+        "name": "Intra corporate transferee",
+        "description": "To work in the Netherlands as an intra corporate transferee (manager, specialist or trainee) transferred from a company located outside the EU.",
+        "reference_urls": [
+          "https://ind.nl/en/work/Pages/Highly-skilled-migrant.aspx"
+        ]
+      }
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "DigiD",
+      "description": "Digital identity app for accessing Dutch government services online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "GGD app",
+      "description": "Official app from the Dutch municipal health services (GGD) for health information and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ggd/id1608349863",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.ggd.app"
+    },
+    {
+      "app_name": "9292",
+      "description": "Most popular public transport journey planner for the Netherlands, covering all public transport operators.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/9292/id333364917",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.wunder.android9292"
+    },
+    {
+      "app_name": "ING",
+      "description": "Mobile banking app for ING Bank, one of the largest banks in the Netherlands.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ing/id328361390",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ing.mobile"
+    },
+    {
+      "app_name": "Bunq",
+      "description": "Popular mobile-only bank with a user-friendly app for managing accounts and making payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/bunq/id574744248",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bunq.android"
+    }
+  ]
+}

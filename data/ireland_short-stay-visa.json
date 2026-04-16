@@ -1,0 +1,52 @@
+{
+  "country": "ireland",
+  "visa_category": "short-stay-visa",
+  "data": {
+    "visa_category": "short-stay-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.irishimmigration.ie/coming-to-ireland/Visit-Ireland/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MyGovID",
+      "description": "Digital identity for accessing public services in Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mygovid/id1268825127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citizensinformation.mygovid"
+    },
+    {
+      "app_name": "HSELive",
+      "description": "Health information and services from the Health Service Executive (HSE).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/hselive/id1472059255",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.hse.hselive"
+    },
+    {
+      "app_name": "Transport for Ireland (TFI) Go",
+      "description": "Journey planner and real-time public transport information across Ireland.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/tfi-go/id1447101327",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mobi.tfi"
+    },
+    {
+      "app_name": "Revolut",
+      "description": "International money transfer and digital banking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
+    },
+    {
+      "app_name": "N26",
+      "description": "Mobile banking with an international focus.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/n26/id901140377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sixents.six"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "country": "india",
+  "visa_category": "evisa",
+  "data": {
+    "visa_category": "evisa",
+    "visa_type_detail": [
+      {
+        "name": "e-Tourist Visa (e-T1 V)",
+        "duration": "One Month (30 Days)",
+        "entries": "Double Entry, non-extendable and non-convertible"
+      },
+      {
+        "name": "e-Tourist Visa (e-T1 V)",
+        "duration": "One year (365 Days) from the date of grant of ETA",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Tourist Visa (e-T1 V)",
+        "duration": "Five years from the date of grant of ETA",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Tourist Visa (e-T2 V)",
+        "duration": "6 month from the date of grant of ETA",
+        "entries": "Single"
+      },
+      {
+        "name": "e-Business Visa(e-B1 V)",
+        "duration": "One year (365 days) from the date of grant of ETA",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Business Visa (e-B5 V)",
+        "duration": "Thirty days (30 days) from the date of arrival into India",
+        "entries": "Single"
+      },
+      {
+        "name": "e-Business Visa(e-B6 V)",
+        "duration": "One year (365 Days) from the date of grant of ETA",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Medical Visa(e-M1 V)",
+        "duration": "Sixty days (60 days) from the date of arrival into India",
+        "entries": "Triple"
+      },
+      {
+        "name": "e-Medical Visa(e-M3 V)",
+        "duration": "Sixty days (60 days) from the date of arrival into India",
+        "entries": "Triple"
+      },
+      {
+        "name": "e-Medical Attendent Visa(e-M2 V)",
+        "duration": "Sixty days (60 days) from the date of arrival into India",
+        "entries": "Triple"
+      },
+      {
+        "name": "e-Medical Attendant Visa(e-M4 V)",
+        "duration": "Sixty days (60 days) from the date of arrival into India",
+        "entries": "Triple"
+      },
+      {
+        "name": "e-Student Visa(e-S V)",
+        "duration": "One year (365 Days) from the date of grant of ETA",
+        "entries": "Four"
+      },
+      {
+        "name": "e-Transit Visa(e-TR V)",
+        "duration": "30 Days from the date of grant of ETA",
+        "entries": "Double"
+      },
+      {
+        "name": "e-Miscellaneous Visa (e-X1 V)",
+        "duration": "3 month from the date of first entry in India",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Production Investment Visa",
+        "duration": "6 months",
+        "entries": "Multiple"
+      },
+      {
+        "name": "e-Family Visa(e-SX V)",
+        "duration": "One year (365 Days) from the date of grant of ETA",
+        "entries": "Four"
+      }
+    ],
+    "processing_time": "Applicant should normally receive this mail within 24 hours.",
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://indianvisaonline.gov.in/evisa/tvoa.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "mAadhaar",
+      "description": "Official Aadhaar app for accessing Aadhaar details, downloading e-Aadhaar, and managing biometrics.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/in/app/maadhaar/id1414718269",
+      "download_url_android": "https://play.google.com/store/apps/details?id=in.gov.uidai.mAadhaar"
+    },
+    {
+      "app_name": "CoWIN",
+      "description": "Platform for booking COVID-19 vaccination appointments and downloading certificates.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/in/app/cowin-by-ministry-of-health/id1560070777",
+      "download_url_android": "https://play.google.com/store/apps/details?id=in.gov.cowin"
+    },
+    {
+      "app_name": "Google Maps",
+      "description": "Essential for navigation, public transport, and exploring cities in India.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/in/app/google-maps/id585027354",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+    },
+    {
+      "app_name": "UPI Apps (e.g., Google Pay, PhonePe, Paytm)",
+      "description": "Unified Payments Interface apps are crucial for digital payments, money transfers, and bill payments across India.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/in/app/google-pay/id1349175620",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user"
+    },
+    {
+      "app_name": "IRCTC Rail Connect",
+      "description": "Official app for booking Indian Railways train tickets.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/in/app/irctc-rail-connect/id1001197084",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cris.icbs.dtms"
+    }
+  ]
+}

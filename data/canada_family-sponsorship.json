@@ -1,97 +1,61 @@
 {
   "country": "canada",
   "visa_category": "family-sponsorship",
-  "data": [
-    {
-      "visa_category": "family-sponsorship",
-      "visa_type_detail": "Sponsor your spouse, partner or dependent children",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-18",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
-      ]
-    },
-    {
-      "visa_category": "family-sponsorship",
-      "visa_type_detail": "Sponsor your adopted child",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-18",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
-      ]
-    },
-    {
-      "visa_category": "family-sponsorship",
-      "visa_type_detail": "Sponsor your relatives",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-18",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
-      ]
-    },
-    {
-      "visa_category": "family-sponsorship",
-      "visa_type_detail": "Sponsor your parents and grandparents",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-18",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
-      ]
-    },
-    {
-      "visa_category": "family-sponsorship",
-      "visa_type_detail": "Spouses or partners experiencing abuse or violence",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-12-18",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "family-sponsorship",
+    "visa_type_detail": [
+      {
+        "name": "Spouse or Common-Law Partner"
+      },
+      {
+        "name": "Child or Other Dependent"
+      },
+      {
+        "name": "Parents and Grandparents"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://canadavisa.com/family-sponsorship/"
+    ]
+  },
   "essential_apps": [
     {
-      "app_name": "GCKey",
-      "description": "Secure online access to Canadian government services.",
-      "platform": "Web-based, accessible via browser",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "app_name": "My Service Canada Account",
+      "description": "Access government services and personal information related to benefits and pensions.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
-      "app_name": "Health Gateway (BC)",
-      "description": "Access your health records in British Columbia.",
+      "app_name": "Babylon Health",
+      "description": "A digital health service offering virtual consultations with doctors.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/health-gateway/id1540140423",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ca.bc.gov.healthgateway"
+      "download_url_ios": "https://apps.apple.com/ca/app/babylon-health/id1372467183",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.babylonhealth.android"
     },
     {
       "app_name": "Transit",
-      "description": "Real-time public transit information for various cities across Canada.",
+      "description": "Real-time public transportation information across Canadian cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/transit/id445775703",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+      "download_url_ios": "https://apps.apple.com/ca/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
     },
     {
       "app_name": "Interac e-Transfer",
-      "description": "Send and receive money securely between bank accounts in Canada.",
-      "platform": "Accessed through most Canadian bank apps",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "description": "Send and receive money securely between Canadian bank accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
       "app_name": "RBC Mobile",
-      "description": "Mobile banking app for managing Royal Bank of Canada accounts.",
+      "description": "Banking app for one of Canada's largest banks.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id343957863",
+      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id371757402",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.rbc.mobile"
     }
   ]

@@ -1,0 +1,47 @@
+{
+  "country": "norway",
+  "visa_category": "schengen-visa",
+  "data": [
+    {
+      "visa_category": "schengen-visa",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-06-03",
+      "reference_urls": [
+        "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "BankID",
+      "description": "Digital identification and authentication service for online banking and public services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/bankid/id914292006",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.bankid.app"
+    },
+    {
+      "app_name": "Helsenorge",
+      "description": "Official portal for health information and services from the Norwegian Directorate of Health.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/helsenorge/id1146049150",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.helsenorge.app"
+    },
+    {
+      "app_name": "RuterReise",
+      "description": "Public transport planner and ticket purchase for the Oslo and Akershus region.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/ruterreise/id594678747",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ruter.ruterapp"
+    },
+    {
+      "app_name": "Vipps",
+      "description": "Popular mobile payment app for sending money, paying bills, and online shopping.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/vipps/id948492826",
+      "download_url_android": "https://play.google.com/store/apps/details?id=no.vipps.primary"
+    }
+  ]
+}

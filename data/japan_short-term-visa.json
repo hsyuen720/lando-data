@@ -1,0 +1,53 @@
+{
+  "country": "japan",
+  "visa_category": "short-term-visa",
+  "data": {
+    "visa_category": "short-term-visa",
+    "visa_type_detail": [
+      {
+        "purpose": "tourism",
+        "stay_duration": "up to 90 days",
+        "remunerated_activities": "not engaged in"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.evisa.mofa.go.jp/index",
+      "https://www.mofa.go.jp/j_info/visit/visa/visa_exemption.html",
+      "https://www.mofa.go.jp/j_info/visit/visa/visa_processing_time.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "My Number Card",
+      "description": "Official app for the Japanese national identification card, used for various administrative procedures and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/マイナンバーカード-%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89/id1540116176",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.go.cashless.mynumbercard"
+    },
+    {
+      "app_name": "Japan Post Bank App",
+      "description": "Official mobile banking app for Japan Post Bank, one of the largest financial institutions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/jp/app/%E3%81%84%E3%81%98%E3%81%9F%E3%81%97%E3%82%93%E3%81%B7%E3%81%A7%E3%81%99%E3%81%AE%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/id1120456637",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.jp_post_bank.prod.android.ipp"
+    },
+    {
+      "app_name": "Navitime for Japan Travel",
+      "description": "Comprehensive navigation app for Japan, including train, subway, and bus routes, schedules, and station information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/navitime-for-japan-travel/id303558304",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.navitime.ln.tr"
+    },
+    {
+      "app_name": "LINE",
+      "description": "Dominant messaging and social media app in Japan, essential for communication.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/line/id443904275",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+    }
+  ]
+}

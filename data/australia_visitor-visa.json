@@ -3,54 +3,50 @@
   "visa_category": "visitor-visa",
   "data": {
     "visa_category": "visitor-visa",
-    "visa_type_detail": [
-      {
-        "name": "Visitor visa (subclass 600)",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
-        ]
-      }
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/visit"
     ]
   },
   "essential_apps": [
     {
       "app_name": "myGov",
-      "description": "Australian government service portal for accessing a range of services.",
+      "description": "Access Australian government services like Medicare, Centrelink, and the ATO.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/mygov/id1107242968",
-      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.mygov"
+      "download_url_ios": "https://apps.apple.com/au/app/mygov/id1258994433",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.mygov.android"
     },
     {
-      "app_name": "Express Plus Medicare",
-      "description": "Access Medicare services and claims in Australia.",
+      "app_name": "Expressplus",
+      "description": "Access Medicare services, view your health history, and claim benefits.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/express-plus-medicare/id958920845",
-      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.services.medicare"
+      "download_url_ios": "https://apps.apple.com/au/app/expressplus-medicare/id894041701",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.gov.medicareaustralia.ExpressPlus"
     },
     {
-      "app_name": "PTV (Victoria)",
-      "description": "Public transport app for Victoria, including Melbourne.",
+      "app_name": "PTV",
+      "description": "Public Transport Victoria journey planner for Melbourne.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/ptv/id529187111",
-      "download_url_android": "https://play.google.com/store/apps/details?id=au.com.ptv.mobile"
+      "download_url_ios": "https://apps.apple.com/au/app/ptv/id517216566",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.vic.ptv.ptvapp"
     },
     {
       "app_name": "CommBank",
-      "description": "Mobile banking app for Commonwealth Bank of Australia accounts.",
+      "description": "Mobile banking app for Commonwealth Bank, a major Australian bank.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/au/app/commbank/id390151007",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.cba.android"
+      "download_url_ios": "https://apps.apple.com/au/app/commbank/id325429455",
+      "download_url_android": "https://play.google.com/store/apps/details?id=au.com.commbank.android"
     },
     {
-      "app_name": "PayID",
-      "description": "A unique identifier linked to your bank account for payments.",
-      "platform": "Accessed through bank apps",
-      "download_url_ios": "null",
-      "download_url_android": "null"
+      "app_name": "Afterpay",
+      "description": "Popular buy-now-pay-later service for making payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/au/app/afterpay/id1075093164",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.afterpay.android.buy"
     }
   ]
 }

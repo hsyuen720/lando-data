@@ -1,0 +1,56 @@
+{
+  "country": "spain",
+  "visa_category": "family-reunification",
+  "data": [
+    {
+      "visa_category": "NATIONAL VISA",
+      "visa_type_detail": "Family reunification visa",
+      "processing_time": "6 months",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-05-20",
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPnXT7kyS5v3TnQz6b4U8412zdj4H9oizG1dQcVnELA9hLDliuFPbwGNhlzezBad3B7GW-llVwo2D124cD1V2hyQVVGlikZusW-kpEAf-Ky7VNUKg1rlkVNy40TitfiHVQQjsUWSzTZmXMZcwA4lZirmNemc5yXVmLLVaST0ekj_EM7U_kIdYaWGnUaYJqP5_ilCxHoQax7bpfVPgG2oxNQwH5alZ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8dSwEYCS4HDXzF534SF-6nS6ZwQgwb0gs4I0wxHU8RHosC6Klgc2sSGu7FimQcZWDzUjYmThNp1BbN06YnSQyzeoeXUumMcl9jOjMIgmKK2gob5fZo6aQMl9P15djXjmGh58egsb85uigELZrEZPH2Q==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYOT8R8WHDa5M4CmWMI9d2orLGtj1Fl7FOwhxWiOPo0YToiQ5MZzjA0KFc4sUvHtp2TfzDusMC8J_YRAZVM7_rSgJDVsKz1Q0dcdJuXSGNYzgWo5dkwppaEkFaxz4L0Hgh_J4FduD8yb3TshG1Dc3XrhY5wiLGhvibV1cirRNgR448LkWKJ76w3bimyOo59K3DcOqBbG99EA=="
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

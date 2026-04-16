@@ -20,11 +20,15 @@ import os
 import sys
 import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 from google import genai
 from google.genai import types
 from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
+from urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -248,15 +252,50 @@ def discover_urls_batch(client: genai.Client, slugs: list[str]) -> dict:
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; LandoBot/1.0; +https://github.com/lando-data)"
+MIN_TEXT_LENGTH = 200  # minimum chars of body text to consider a page scrapeable
 
 
-def _validate_urls(result: dict, country_slug: str) -> dict:
-    """HEAD-check every discovered URL; drop entries that return 404/403/timeout.
+def _is_scrapeable(url: str) -> bool:
+    """GET the URL and check we receive meaningful HTML text content.
 
-    Returns a filtered copy of *result* — categories with no surviving URLs
-    are removed entirely.
+    Returns True only if the response is 2xx/3xx AND the visible text is
+    at least MIN_TEXT_LENGTH characters.  403, 404, timeouts, and empty
+    pages all return False.
+    """
+    for verify in (True, False):
+        try:
+            resp = requests.get(
+                url, timeout=15, headers={"User-Agent": USER_AGENT},
+                allow_redirects=True, verify=verify,
+            )
+            if resp.status_code >= 400:
+                logger.info("  NOT scrapeable %s — HTTP %d", url, resp.status_code)
+                return False
+            # Quick text-length check (no full parse needed)
+            text_len = len(resp.text.strip())
+            if text_len < MIN_TEXT_LENGTH:
+                logger.info("  NOT scrapeable %s — body too short (%d chars)", url, text_len)
+                return False
+            return True
+        except requests.exceptions.SSLError:
+            if verify:
+                continue  # retry without SSL verification
+            logger.info("  NOT scrapeable %s — SSL error", url)
+            return False
+        except requests.RequestException as exc:
+            logger.info("  NOT scrapeable %s — %s", url, exc)
+            return False
+    return False
+
+
+def _validate_urls(result: dict, country_slug: str) -> tuple[dict, list[str]]:
+    """GET-check every discovered URL; keep only those that are actually scrapeable.
+
+    Returns (validated_dict, failed_categories) — failed_categories lists
+    category slugs where ALL URLs failed, so the caller can re-discover them.
     """
     validated: dict = {}
+    failed_categories: list[str] = []
     for category, url_list in result.items():
         # Normalize: model sometimes returns a single dict instead of a list
         if isinstance(url_list, dict):
@@ -268,42 +307,59 @@ def _validate_urls(result: dict, country_slug: str) -> dict:
             url = entry.get("url", "")
             if not url:
                 continue
-            try:
-                resp = requests.head(
-                    url, timeout=15, headers={"User-Agent": USER_AGENT},
-                    allow_redirects=True, verify=True,
-                )
-                if resp.status_code < 400:
-                    good.append(entry)
-                elif resp.status_code == 403:
-                    # 403 = site blocks bots but URL exists — keep it
-                    logger.info("  Keeping %s (403 = bot-blocked, URL likely valid)", url)
-                    good.append(entry)
-                else:
-                    logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
-            except requests.exceptions.SSLError:
-                # SSL cert issue on our side — URL exists, keep it
-                logger.info("  Keeping %s (SSL error = cert issue, URL likely valid)", url)
+            if _is_scrapeable(url):
                 good.append(entry)
-            except requests.RequestException as exc:
-                # Some sites block HEAD, try a quick GET as fallback
-                try:
-                    resp = requests.get(
-                        url, timeout=15, headers={"User-Agent": USER_AGENT},
-                        allow_redirects=True, stream=True, verify=False,
-                    )
-                    resp.close()
-                    if resp.status_code < 400 or resp.status_code == 403:
-                        good.append(entry)
-                    else:
-                        logger.warning("  Dropping %s/%s — HTTP %d", country_slug, url, resp.status_code)
-                except requests.RequestException:
-                    logger.warning("  Dropping %s/%s — %s", country_slug, url, exc)
+            else:
+                logger.warning("  Dropping non-scrapeable URL: %s/%s %s", country_slug, category, url)
         if good:
             validated[category] = good
         else:
-            logger.warning("  Category '%s' has no valid URLs — removed", category)
-    return validated
+            logger.warning("  Category '%s' has no scrapeable URLs — will re-discover", category)
+            failed_categories.append(category)
+    return validated, failed_categories
+
+
+REDISCOVER_PROMPT = (
+    "You are an immigration research assistant with access to Google Search.\n"
+    "I need ALTERNATIVE URLs for specific visa categories in a country.\n"
+    "The previously found URLs were not accessible (blocked by the website).\n\n"
+    "Rules:\n"
+    "1. Find DIFFERENT URLs than before — try embassy sites, immigration agency "
+    "sites, visa portal sites, or official .gov information pages.\n"
+    "2. Do NOT return the same domain that was blocked.\n"
+    "3. Every URL MUST come from your Google Search results.\n"
+    "4. Return ONLY valid JSON — no markdown fences, no commentary.\n\n"
+    "Return format:\n"
+    '{ "<category-slug>": [{"url": "<URL>", "title": "<page title>"}] }\n'
+)
+
+
+def rediscover_failed_categories(
+    client: genai.Client,
+    country_slug: str,
+    failed_categories: list[str],
+    blocked_domains: list[str],
+) -> dict:
+    """Ask Gemini for alternative URLs for categories where all URLs failed."""
+    country_display = country_slug.replace("-", " ").title()
+    cats = ", ".join(failed_categories)
+    blocked = ", ".join(blocked_domains) if blocked_domains else "unknown"
+    prompt = (
+        f"Country: {country_display} (slug: {country_slug})\n"
+        f"Categories that need alternative URLs: {cats}\n"
+        f"Previously blocked domains (do NOT reuse): {blocked}\n\n"
+        f"Search the web and find alternative official or authoritative URLs "
+        f"for each category listed above."
+    )
+    try:
+        raw = _call_gemini(client, prompt, REDISCOVER_PROMPT, use_search=True)
+        parsed = _parse_json(raw)
+        if not isinstance(parsed, dict):
+            return {}
+        return parsed
+    except (json.JSONDecodeError, Exception) as exc:
+        logger.warning("Re-discovery failed for %s: %s", country_slug, exc)
+        return {}
 
 
 def discover_apps_batch(client: genai.Client, slugs: list[str]) -> dict:
@@ -369,15 +425,28 @@ def run() -> None:
         # --- Discover URLs for the batch (1 API call) ---
         url_results = discover_urls_batch(client, batch)
 
+        # Track categories needing re-discovery: {slug: (failed_cats, blocked_domains)}
+        needs_rediscovery: dict[str, tuple[list[str], list[str]]] = {}
+
         for slug in batch:
             result = url_results.get(slug)
             if result is None or not isinstance(result, dict):
                 logger.warning("  No URL data for %s in batch response", slug)
                 continue
 
-            # Validate URLs before saving
-            result = _validate_urls(result, slug)
-            logger.info("  %s: %d categories survived validation", slug, len(result))
+            # Validate URLs — now returns (validated, failed_categories)
+            validated, failed_cats = _validate_urls(result, slug)
+            logger.info("  %s: %d categories survived validation", slug, len(validated))
+
+            if failed_cats:
+                # Collect blocked domains so re-discovery avoids them
+                blocked = set()
+                for cat in failed_cats:
+                    for entry in (result.get(cat) or []):
+                        url = entry.get("url", "") if isinstance(entry, dict) else ""
+                        if url:
+                            blocked.add(urlparse(url).netloc)
+                needs_rediscovery[slug] = (failed_cats, list(blocked))
 
             # Remove all old AI entries for this country (keep manual only)
             existing = sources.get(slug, {})
@@ -386,12 +455,29 @@ def run() -> None:
                 if isinstance(val, dict) and val.get("source") == "manual"
             }
             # Add validated AI entries
-            for cat, urls in result.items():
+            for cat, urls in validated.items():
                 if cat in manual_only:
                     logger.info("  Skipping manual category: %s/%s", slug, cat)
                     continue
                 manual_only[cat] = {"urls": urls, "source": "ai"}
             sources[slug] = manual_only
+
+        # --- Re-discover failed categories with alternative URLs ---
+        for slug, (failed_cats, blocked_domains) in needs_rediscovery.items():
+            logger.info("  Re-discovering %d categories for %s (blocked: %s)",
+                        len(failed_cats), slug, ", ".join(blocked_domains))
+            alt_result = rediscover_failed_categories(client, slug, failed_cats, blocked_domains)
+            if alt_result:
+                alt_validated, still_failed = _validate_urls(alt_result, slug)
+                logger.info("  %s re-discovery: %d/%d categories recovered",
+                            slug, len(alt_validated), len(failed_cats))
+                for cat, urls in alt_validated.items():
+                    if cat not in sources.get(slug, {}):
+                        sources[slug][cat] = {"urls": urls, "source": "ai"}
+                if still_failed:
+                    logger.warning("  %s: still no scrapeable URLs for: %s",
+                                   slug, ", ".join(still_failed))
+            time.sleep(3)
 
         # Respect API rate limits between URL and app calls
         time.sleep(3)
@@ -426,14 +512,14 @@ def run() -> None:
             retry_result = discover_urls_batch(client, [slug])
             result = retry_result.get(slug)
             if result and isinstance(result, dict):
-                result = _validate_urls(result, slug)
-                logger.info("  %s retry: %d categories survived", slug, len(result))
+                validated, _ = _validate_urls(result, slug)
+                logger.info("  %s retry: %d categories survived", slug, len(validated))
                 existing = sources.get(slug, {})
                 manual_only = {
                     cat: val for cat, val in existing.items()
                     if isinstance(val, dict) and val.get("source") == "manual"
                 }
-                for cat, urls in result.items():
+                for cat, urls in validated.items():
                     if cat in manual_only:
                         continue
                     manual_only[cat] = {"urls": urls, "source": "ai"}

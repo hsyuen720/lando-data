@@ -9,20 +9,7 @@
         "processing_time": "72 hours",
         "fee_amount": 100,
         "currency": "NZD",
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.govt.nz/browse/immigration-and-visas/visitor-visas-and-the-nzeta/"
-        ]
-      },
-      {
-        "name": "Visitor visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.govt.nz/browse/immigration-and-visas/visitor-visas-and-the-nzeta/"
-        ]
+        "fee_type": "International Visitor Conservation and Tourism Levy (IVL)"
       }
     ],
     "processing_time": null,
@@ -36,38 +23,38 @@
   "essential_apps": [
     {
       "app_name": "RealMe",
-      "description": "New Zealand's secure online identity service, used for accessing government services.",
+      "description": "Digital identity service for accessing government services and online accounts.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/realme-secure-login/id924479645",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.dia.realme"
+      "download_url_ios": "https://apps.apple.com/us/app/realme/id1057428063",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.identity"
     },
     {
-      "app_name": "myDH",
-      "description": "Official app from the New Zealand Ministry of Health, providing access to health services and information.",
+      "app_name": "MyMSD",
+      "description": "Manage your Ministry of Social Development payments and services.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/mydh/id1513270802",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.health.mydh"
+      "download_url_ios": "https://apps.apple.com/us/app/mymsd/id1184976935",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.msd.mymsd"
     },
     {
       "app_name": "Metlink",
-      "description": "Public transport app for the Wellington region, covering buses, trains, and ferries.",
+      "description": "Public transport planner and real-time information for Wellington region.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/metlink/id1090095788",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.gwrc.metlink"
+      "download_url_ios": "https://apps.apple.com/us/app/metlink/id495063147",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.metlink"
+    },
+    {
+      "app_name": "ASB Mobile Banking",
+      "description": "Mobile banking app for ASB Bank customers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/asb-mobile-banking/id555145418",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.asb.mobile"
     },
     {
       "app_name": "BNZ",
-      "description": "One of New Zealand's major banks, offering a comprehensive mobile banking app.",
+      "description": "Mobile banking app for Bank of New Zealand customers.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/nz/app/bnz/id380653199",
-      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.bnz.android"
-    },
-    {
-      "app_name": "Paymark",
-      "description": "While not a direct banking app, Paymark is a major payment network used for many transactions and often integrated into retailer apps.",
-      "platform": "N/A",
-      "download_url_ios": null,
-      "download_url_android": null
+      "download_url_ios": "https://apps.apple.com/us/app/bnz/id507879658",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.bnz.mobile"
     }
   ]
 }

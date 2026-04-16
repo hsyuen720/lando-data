@@ -1,0 +1,71 @@
+{
+  "country": "new-zealand",
+  "visa_category": "family-visa",
+  "data": [
+    {
+      "visa_category": "family-visa",
+      "visa_type_detail": [
+        {
+          "name": "Work visa (Partner of a New Zealander)",
+          "description": "Join your partner while they’re in NZ.\nWork in NZ.\nStudy for up to 3 months.\nTravel in and out of NZ."
+        },
+        {
+          "name": "Resident visa (Partner of a New Zealander)",
+          "description": "Live, work and study in NZ.\nInclude your dependent children aged 24 or younger in your visa application.\nApply for permanent residence after having this visa for at least 2 years in a row."
+        },
+        {
+          "name": "Resident visa (Parent)",
+          "description": "Stay long-term in NZ.\nLive, work and study in NZ.\nInclude your partner in your visa application.\nApply for permanent residence after having this visa for at least 10 years in a row."
+        },
+        {
+          "name": "Visitor visa (Parent Boost)",
+          "description": "Visit NZ for up to 5 years.\nVisit your children and grandchildren in NZ.\nTravel in and out of NZ.\nInclude your partner in your visa application."
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-12-12",
+      "reference_urls": [
+        "https://www.govt.nz/browse/immigration-and-visas/bring-your-family-to-nz/"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "RealMe",
+      "description": "Digital identity service for accessing government services and online accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/realme/id1057428063",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.identity"
+    },
+    {
+      "app_name": "MyMSD",
+      "description": "Manage your Ministry of Social Development payments and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mymsd/id1184976935",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.msd.mymsd"
+    },
+    {
+      "app_name": "Metlink",
+      "description": "Public transport planner and real-time information for Wellington region.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/metlink/id495063147",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.metlink"
+    },
+    {
+      "app_name": "ASB Mobile Banking",
+      "description": "Mobile banking app for ASB Bank customers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/asb-mobile-banking/id555145418",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.asb.mobile"
+    },
+    {
+      "app_name": "BNZ",
+      "description": "Mobile banking app for Bank of New Zealand customers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/bnz/id507879658",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.bnz.mobile"
+    }
+  ]
+}

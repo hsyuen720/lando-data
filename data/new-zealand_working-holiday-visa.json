@@ -1,0 +1,70 @@
+{
+  "country": "new-zealand",
+  "visa_category": "working-holiday-visa",
+  "data": {
+    "visa_category": "working-holiday-visa",
+    "visa_type_detail": [
+      {
+        "country_of_citizenship": "most countries",
+        "age_range": "18-30",
+        "length_of_stay": "12 months"
+      },
+      {
+        "country_of_citizenship": "select countries",
+        "age_range": "18-35"
+      },
+      {
+        "country_of_citizenship": "Canada",
+        "extension_possible": "11 months"
+      },
+      {
+        "country_of_citizenship": "UK",
+        "extension_possible": "24 months"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2024-10-08",
+    "reference_urls": [
+      "https://www.govt.nz/browse/immigration-and-visas/get-a-visa-to-work-in-nz/apply-for-a-nz-working-holiday-visa/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "RealMe",
+      "description": "Digital identity service for accessing government services and online accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/realme/id1057428063",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.identity"
+    },
+    {
+      "app_name": "MyMSD",
+      "description": "Manage your Ministry of Social Development payments and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mymsd/id1184976935",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.govt.msd.mymsd"
+    },
+    {
+      "app_name": "Metlink",
+      "description": "Public transport planner and real-time information for Wellington region.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/metlink/id495063147",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.metlink"
+    },
+    {
+      "app_name": "ASB Mobile Banking",
+      "description": "Mobile banking app for ASB Bank customers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/asb-mobile-banking/id555145418",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.asb.mobile"
+    },
+    {
+      "app_name": "BNZ",
+      "description": "Mobile banking app for Bank of New Zealand customers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/bnz/id507879658",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nz.co.bnz.mobile"
+    }
+  ]
+}

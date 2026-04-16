@@ -4,7 +4,7 @@
       "urls": [
         {
           "url": "https://travel.state.gov/content/travel/en/us-visas/study.html",
-          "title": "Study in the U.S. | Visas | Travel.State.Gov"
+          "title": "Study in the States | Study in the U.S."
         }
       ],
       "source": "ai"
@@ -12,37 +12,59 @@
     "work-visa": {
       "urls": [
         {
-          "url": "https://travel.state.gov/content/travel/en/us-visas/employment.html",
-          "title": "U.S. Visas for Temporary Workers | Travel.State.Gov"
+          "url": "https://www.uscis.gov/working-in-the-united-states",
+          "title": "Working in the United States"
         }
       ],
       "source": "ai"
     },
-    "skilled-worker-visa": {
+    "family-reunification": {
+      "urls": [
+        {
+          "url": "https://www.uscis.gov/family/family-of-us-citizens",
+          "title": "Family of U.S. Citizens"
+        }
+      ],
+      "source": "ai"
+    },
+    "skilled-worker": {
       "urls": [
         {
           "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers",
-          "title": "Permanent Workers | USCIS"
+          "title": "Permanent Workers"
         }
       ],
       "source": "ai"
     },
-    "visitor-visa": {
+    "diversity-visa-lottery": {
       "urls": [
         {
-          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html",
-          "title": "U.S. Visas for Tourism and Visits | Travel.State.Gov"
+          "url": "https://travel.state.gov/content/travel/en/us-visas/immigrate/diversity-visa-program-entry.html",
+          "title": "Diversity Immigrant Visa Program"
+        }
+      ],
+      "source": "ai"
+    },
+    "permanent-residency": {
+      "urls": [
+        {
+          "url": "https://www.uscis.gov/green-card",
+          "title": "Green Card | USCIS"
+        },
+        {
+          "url": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status",
+          "title": "I-485, Application to Register Permanent Residence or Adjust Status | USCIS"
         }
       ],
       "source": "ai"
     }
   },
   "united-kingdom": {
-    "student-visa": {
+    "standard-visitor-visa": {
       "urls": [
         {
-          "url": "https://www.gov.uk/student-visa",
-          "title": "Student visa to study in the UK - GOV.UK"
+          "url": "https://www.gov.uk/standard-visitor-visa",
+          "title": "Visit the UK as a Standard Visitor: Apply for a Standard Visitor visa - GOV.UK"
         }
       ],
       "source": "ai"
@@ -52,6 +74,15 @@
         {
           "url": "https://www.gov.uk/browse/visas-immigration/work-visas",
           "title": "Work visas - GOV.UK"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://www.gov.uk/student-visa",
+          "title": "Study in the UK: Student visa - GOV.UK"
         }
       ],
       "source": "ai"
@@ -74,31 +105,58 @@
       ],
       "source": "ai"
     },
-    "visitor-visa": {
+    "permanent-residency": {
       "urls": [
         {
-          "url": "https://www.gov.uk/standard-visitor-visa",
-          "title": "Standard Visitor visa - GOV.UK"
+          "url": "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk",
+          "title": "Settle in the UK - GOV.UK"
+        }
+      ],
+      "source": "ai"
+    },
+    "electronic-travel-authorisation": {
+      "urls": [
+        {
+          "url": "https://www.gov.uk/electronic-travel-authorisation",
+          "title": "Get an electronic travel authorisation (ETA) to visit the UK: Apply for an ETA - GOV.UK"
         }
       ],
       "source": "ai"
     }
   },
   "canada": {
-    "student-visa": {
+    "visitor-visa": {
       "urls": [
         {
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
-          "title": "Study in Canada - Canada.ca"
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+          "title": "Visitor visa (temporary resident visa) - Canada.ca"
         }
       ],
       "source": "ai"
     },
-    "work-visa": {
+    "work-permit": {
       "urls": [
         {
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
-          "title": "Work in Canada - Canada.ca"
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit.html",
+          "title": "Work permits - Canada.ca"
+        }
+      ],
+      "source": "ai"
+    },
+    "study-permit": {
+      "urls": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+          "title": "Study permits - Canada.ca"
+        }
+      ],
+      "source": "ai"
+    },
+    "express-entry": {
+      "urls": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+          "title": "Express Entry - Canada.ca"
         }
       ],
       "source": "ai"
@@ -106,8 +164,17 @@
     "family-sponsorship": {
       "urls": [
         {
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html",
-          "title": "Sponsor a family member to immigrate to Canada - Canada.ca"
+          "url": "https://canadavisa.com/family-sponsorship/",
+          "title": "Canada Family Sponsorship Immigration Visa | Spouse, Child, Parents, Grandparents (PGP) | Canadavisa.com"
+        }
+      ],
+      "source": "ai"
+    },
+    "international-experience-canada": {
+      "urls": [
+        {
+          "url": "https://moving2canada.com/iec-recognized-organizations/",
+          "title": "IEC Recognized Organizations - Canada Full 2026 List - Moving2Canada"
         }
       ],
       "source": "ai"
@@ -116,25 +183,15 @@
       "urls": [
         {
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html",
-          "title": "Immigrate to Canada - Canada.ca"
-        }
-      ],
-      "source": "ai"
-    },
-    "working-holiday-visa": {
-      "urls": [
+          "title": "Live in Canada permanently - Canada.ca"
+        },
         {
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-experiences-class/international-experience-canada/youth-cooperative.html",
-          "title": "International Experience Canada: Working Holiday - Canada.ca"
-        }
-      ],
-      "source": "ai"
-    },
-    "visitor-visa": {
-      "urls": [
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+          "title": "Apply for permanent residence through Express Entry - Canada.ca"
+        },
         {
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
-          "title": "Visit Canada - Canada.ca"
+          "url": "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/",
+          "title": "Alternative Pathways to Permanent Residency in Canada - SAR Immigration"
         }
       ],
       "source": "ai"
@@ -144,28 +201,77 @@
     "visitor-visa": {
       "urls": [
         {
-          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
-          "title": "Visitor visa (subclass 600) | Department of Home Affairs"
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/visit",
+          "title": "Visitor visa"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/study",
+          "title": "Student visa"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-visa": {
+      "urls": [
+        {
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/join-family",
+          "title": "Join family visa"
+        }
+      ],
+      "source": "ai"
+    },
+    "tourist-visa": {
+      "urls": [
+        {
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/visit",
+          "title": "Visitor visa"
+        }
+      ],
+      "source": "ai"
+    },
+    "skilled-migration": {
+      "urls": [
+        {
+          "url": "https://migration.wa.gov.au/services/skilled-migration",
+          "title": "Migration pathways and skilled visas | Migration WA"
         }
       ],
       "source": "ai"
     }
   },
   "japan": {
-    "student-visa": {
+    "short-term-visa": {
       "urls": [
         {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "title": "Visa | Ministry of Foreign Affairs of Japan"
+          "url": "https://www.evisa.mofa.go.jp/index",
+          "title": "JAPAN eVISA"
         }
       ],
       "source": "ai"
     },
-    "work-visa": {
+    "student-visa": {
       "urls": [
         {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "title": "Visa | Ministry of Foreign Affairs of Japan"
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2f6XC-jcnS2BFWV-9z-82HP2ZvPnnSey7UOiX7w6VlUDOqewvtum8_nTBv1_INqs5m5naKt6t8QOOwganM3jTlOIxpWvz2stIZZvF0lvkgNlai8DNDoDa29ePxvtlGTY5nYDLPUPe5RgPYwPXaK2Fn-i6dgVh-7YEQ_H7",
+          "title": "Immigration and Students Visas｜Study in Japan Official Website"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-reunification": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ7PvjkgjTuH8_6f1qiyUQQE668ZKMu5_jXx-tPcEVTLkEqDS0-YiU-4IuaBpEFv3e6_MxpSRAbVvzIVu14s0-M2b1q4-KngtqpouYcLkQh9nDg5t70u3oUBWkchMcqiljr0xHIgFt8MTpTwRim7jwU7Pv3-5T0NzohUewo38F",
+          "title": "General visa: Dependent (family stays) - Ministry of Foreign Affairs of Japan"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuADo4lqDUK6Q49rdHAWU-1Obqfzv4aReHtxkAkzhXArOdTNyEfIBT5CzCWm6sGJFEymcxwDpwt1fQBFHoxWVjLB9Wdcvms3fvpKIrWfJDIjFmoy4XA28KtflPJ1kS-rCJMl2iSs1Y9g5BHhyQgNKN2gJJ2fcmyzq_IFG_",
+          "title": "Japan Permanent Residency Application Guide 2026 | Requirements, Income & Approval Tips - ACROSEED Immigration Lawyer's Office"
         }
       ],
       "source": "ai"
@@ -173,26 +279,8 @@
     "skilled-worker": {
       "urls": [
         {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "title": "Visa | Ministry of Foreign Affairs of Japan"
-        }
-      ],
-      "source": "ai"
-    },
-    "tourism-visa": {
-      "urls": [
-        {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/evisa.html",
-          "title": "The JAPAN eVISA system (electronic visa) - Ministry of Foreign Affairs of Japan"
-        }
-      ],
-      "source": "ai"
-    },
-    "short-stay-visa": {
-      "urls": [
-        {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "title": "Visa | Ministry of Foreign Affairs of Japan"
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElesoIE6jQSK0VnBrC1Rf58_rw5Q6HaYlo-tNrEhERv_jTDtdrIuQH4H1iExmTTPYhYv_52Pex6kHPVoI6gf77QMS5_8PSC3wpQYhWezBhDHgeew==",
+          "title": "Support Website for the Specified Skilled Worker Program | Immigration Services Agency of Japan"
         }
       ],
       "source": "ai"
@@ -200,83 +288,44 @@
     "permanent-residency": {
       "urls": [
         {
-          "url": "https://www.isa.go.jp/en/applications/guide/nyuukokukanri01.html",
-          "title": "Permanent Resident | Immigration Services Agency of Japan"
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuADo4lqDUK6Q49rdHAWU-1Obqfzv4aReHtxkAkzhXArOdTNyEfIBT5CzCWm6sGJFEymcxwDpwt1fQBFHoxWVjLB9Wdcvms3fvpKIrWfJDIjFmoy4XA28KtflPJ1kS-rCJMl2iSs1Y9g5BHhyQgNKN2gJJ2fcmyzq_IFG_",
+          "title": "Japan Permanent Residency Application Guide 2026 | Requirements, Income & Approval Tips - ACROSEED Immigration Lawyer's Office"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuADo4lqDUK6Q49rdHAWU-1Obqfzv4aReHtxkAkzhXArOdTNyEfIBT5CzCWm6sGJFEymcxwDpwt1fQBFHoxWVjLB9Wdcvms3fvpKIrWfJDIjFmoy4XA28KtflPJ1kS-rCJMl2iSs1Y9g5BHhyQgNKN2gJJ2fcmyzq_IFG_",
+          "title": "How to Get Permanent Residence in Japan [2025 Guide]"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVPCL6dAgeJfktwLWCw1gpiDAIr5F8QThxFUrCwLro0G4d79z6jjJTFDvAOWbdl5aUt1dZ0JECZr87BKvJIqvjCNGQiYc-E8L2xUfpZw==",
+          "title": "Japan Permanent Residency Calculator | Fast-Track Your Eligibility"
+        }
+      ],
+      "source": "ai"
+    },
+    "digital-nomad": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCExn8x4St_8zyiejlvNtso1-NUZcEyrBUh7C6sOVgyhSTZHs5_9icd_tKMEOC81GaUkROTgQSLtHMl6RbVS63VOBrB2slbB4UqEZYWbc-srry4B6J6uO3c0iH9SPHkSRhnb_FJtDo9G5iuRCiw==",
+          "title": "Japan Digital Nomad Visa (Notification 53) Guide｜Requirements & Processing Time"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIMvMZqdkSGf2CM_Z2XbbyUIv3T-ihMlwFMLKeq0Wpi8Y_G-DAaSOyaImJ4kvIU-VBjGrYosRXMW4u-KSUKSr2yK2j6PWcJiQcsIjY_jTeWNMftliKUtQx8d-tl7o2FT83SQ2hm7_Qx_7mjN4",
+          "title": "Japan Digital Nomad Visa: The Ultimate Guide for 2026"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW1WATg1THpu35gn776wAKRb1xPH4RvwBndyZJMCU6OsbMjDmcOrfXNOmt0yY-2yIiFlZWQuieAjPhgRg7DxOZmSGpp4CRbtSItCG6XCFlqz_kIKB78kcSGJ8zzmfF4IlVlaKssVMbgj--XAxMlzQVcw==",
+          "title": "Japan Digital Nomad Visa [Everything You Need to Know] - RemoFirst"
         }
       ],
       "source": "ai"
     }
   },
   "denmark": {
-    "schengen-visa": {
-      "urls": [
-        {
-          "url": "https://apply.ester.ester-visareg.um.dk/",
-          "title": "ApplyVisa"
-        },
-        {
-          "url": "https://www.nyidanmark.dk/en-US/Applying/Short-term-stay",
-          "title": "You want to apply for a short term visa to Denmark - Nyidanmark.dk"
-        }
-      ],
-      "source": "ai"
-    },
-    "residence-permit-study": {
-      "urls": [
-        {
-          "url": "https://www.nyidanmark.dk/en-US/Applying/Study",
-          "title": "Study in Denmark - Nyidanmark.dk"
-        }
-      ],
-      "source": "ai"
-    },
-    "work-permit": {
-      "urls": [
-        {
-          "url": "https://www.nyidanmark.dk/en-US/Applying/Work",
-          "title": "Work in Denmark - Nyidanmark.dk"
-        }
-      ],
-      "source": "ai"
-    },
-    "family-reunification": {
-      "urls": [
-        {
-          "url": "https://www.nyidanmark.dk/en-US/Applying/Family",
-          "title": "Family reunification - Nyidanmark.dk"
-        }
-      ],
-      "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
-        {
-          "url": "https://www.nyidanmark.dk/en-US/Applying/Permanent%20residence",
-          "title": "Permanent residence - Nyidanmark.dk"
-        }
-      ],
-      "source": "ai"
-    }
-  },
-  "france": {
-    "short-stay-visa": {
-      "urls": [
-        {
-          "url": "https://france-visas.gouv.fr/",
-          "title": "France-Visas"
-        },
-        {
-          "url": "https://france-visas.gouv.fr/en/web/france-visas/",
-          "title": "Apply for a visa for your next stay in France - France-Visas"
-        }
-      ],
-      "source": "ai"
-    },
     "student-visa": {
       "urls": [
         {
-          "url": "https://france-visas.gouv.fr/",
-          "title": "France-Visas"
+          "url": "https://www.nyidanmark.dk/",
+          "title": "Residence and work in Denmark - Beskæftigelsesministeriet"
         }
       ],
       "source": "ai"
@@ -284,8 +333,12 @@
     "work-visa": {
       "urls": [
         {
-          "url": "https://france-visas.gouv.fr/",
-          "title": "France-Visas"
+          "url": "https://www.nyidanmark.dk/",
+          "title": "Residence and work in Denmark - Beskæftigelsesministeriet"
+        },
+        {
+          "url": "https://www.workplacedenmark.dk/",
+          "title": "Foreign Service providers and employees posted in Denmark"
         }
       ],
       "source": "ai"
@@ -293,52 +346,205 @@
     "family-reunification": {
       "urls": [
         {
-          "url": "https://france-visas.gouv.fr/",
-          "title": "France-Visas"
+          "url": "https://www.nyidanmark.dk/",
+          "title": "Residence and work in Denmark - Beskæftigelsesministeriet"
         }
       ],
       "source": "ai"
     },
-    "long-stay-visa": {
+    "skilled-worker": {
+      "urls": [
+        {
+          "url": "https://www.nyidanmark.dk/",
+          "title": "Residence and work in Denmark - Beskæftigelsesministeriet"
+        }
+      ],
+      "source": "ai"
+    },
+    "permanent-residency": {
+      "urls": [
+        {
+          "url": "https://www.nyidanmark.dk/",
+          "title": "Residence and work in Denmark - Beskæftigelsesministeriet"
+        }
+      ],
+      "source": "ai"
+    },
+    "short-stay-visa": {
+      "urls": [
+        {
+          "url": "https://applyvisa.um.dk/",
+          "title": "Visa Information"
+        }
+      ],
+      "source": "ai"
+    },
+    "working-holiday": {
+      "urls": [
+        {
+          "url": "https://www.nyidanmark.dk/en-us/coming-to-dk/working-holiday/",
+          "title": "Working Holiday - Nyidanmark.dk"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=c63e3u44g0o",
+          "title": "How to Get a Denmark Working Holiday Visa: Denmark Working Holiday Scheme"
+        }
+      ],
+      "source": "ai"
+    }
+  },
+  "france": {
+    "family-reunification": {
       "urls": [
         {
           "url": "https://france-visas.gouv.fr/",
-          "title": "France-Visas"
+          "title": "Home - France-Visas"
+        }
+      ],
+      "source": "ai"
+    },
+    "working-holiday": {
+      "urls": [
+        {
+          "url": "https://www.campusfrance.org/en/the-working-holiday-visa-in-france",
+          "title": "The working holiday visa | Campus France"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F2218",
+          "title": "Student - Service Public"
+        }
+      ],
+      "source": "ai"
+    },
+    "work-visa": {
+      "urls": [
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F2209",
+          "title": "Work in France - Service Public"
+        },
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F1044",
+          "title": "Obtaining a work visa in France: our complete guide - Service Public"
+        }
+      ],
+      "source": "ai"
+    },
+    "skilled-worker": {
+      "urls": [
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F2201",
+          "title": "Highly skilled employees: “Talent – European Union Blue Card\" - Welcome to France"
+        },
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F2199",
+          "title": "Graduates - \"Talent – Qualified employee\" - Welcome to France"
+        },
+        {
+          "url": "https://www.service-public.fr/particuliers/vosdroits/F11299",
+          "title": "International talents - Welcome to France"
+        }
+      ],
+      "source": "ai"
+    },
+    "short-stay-visa": {
+      "urls": [
+        {
+          "url": "https://france-visas.gouv.fr/en/web/france-visas/short-stay-visa",
+          "title": "Short-stay visa - France-Visas"
         }
       ],
       "source": "ai"
     }
   },
   "singapore": {
-    "permanent-residence": {
+    "work-visa": {
+      "urls": [
+        {
+          "url": "https://www.mom.gov.sg/passes-and-permits",
+          "title": "Passes and Permits - Ministry of Manpower"
+        }
+      ],
+      "source": "ai"
+    },
+    "skilled-worker": {
+      "urls": [
+        {
+          "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass",
+          "title": "Employment Pass - Ministry of Manpower"
+        }
+      ],
+      "source": "ai"
+    },
+    "permanent-residency": {
       "urls": [
         {
           "url": "https://www.ica.gov.sg/reside/PR",
-          "title": "Permanent Resident - ICA"
+          "title": "Singapore Permanent Residents - Immigration & Checkpoints Authority"
+        },
+        {
+          "url": "https://form.gov.sg/#!/5fe1c57070454a001268199c",
+          "title": "Singapore Permanent Residence (PR)"
+        }
+      ],
+      "source": "ai"
+    },
+    "investor-visa": {
+      "urls": [
+        {
+          "url": "https://www.edb.gov.sg/en/grow-your-business/global-investor-programme",
+          "title": "Global Investor Programme - Singapore Economic Development Board"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://www.dbs.com/iwow/learning-centre/student-visa-singapore.page",
+          "title": "Student Visa Singapore: How to Apply, Types, Cost, Documents - DBS Bank"
         }
       ],
       "source": "ai"
     }
   },
   "netherlands": {
-    "residence-permit": {
+    "student-visa": {
       "urls": [
         {
-          "url": "https://www.ind.nl/en/residence-permits",
-          "title": "Residence permits - IND"
-        },
-        {
-          "url": "https://www.government.nl/topics/immigration-to-the-netherlands",
-          "title": "Immigration to the Netherlands - Government.nl"
+          "url": "https://ind.nl/en/study",
+          "title": "Study - Immigration and Naturalisation Service"
         }
       ],
       "source": "ai"
     },
-    "work-permit": {
+    "work-visa": {
       "urls": [
         {
-          "url": "https://www.ind.nl/en/work",
+          "url": "https://ind.nl/en/work",
           "title": "Work - IND"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-reunification": {
+      "urls": [
+        {
+          "url": "https://ind.nl/en/family",
+          "title": "Family - IND"
+        }
+      ],
+      "source": "ai"
+    },
+    "skilled-worker": {
+      "urls": [
+        {
+          "url": "https://ind.nl/en/work/Pages/Highly-skilled-migrant.aspx",
+          "title": "Highly skilled migrant | IND"
         }
       ],
       "source": "ai"
@@ -348,36 +554,23 @@
     "schengen-visa": {
       "urls": [
         {
-          "url": "https://www.government.se/information-about-visas/",
-          "title": "Information on visas - Government.se"
-        },
-        {
-          "url": "https://www.swedenabroad.se/en/about-swedish-embassies/Visiting-Sweden/",
-          "title": "Visiting Sweden - Sweden Abroad"
-        }
-      ],
-      "source": "ai"
-    },
-    "residence-permit": {
-      "urls": [
-        {
-          "url": "https://www.migrationsverket.se/English/Private-individuals/EU-EEA-citizens/Residence-permit-for-EU-EEA-citizens.html",
-          "title": "Residence permit for EU/EEA citizens - Swedish Migration Agency"
+          "url": "https://www.migrationsverket.se/English/Private-individuals/Visiting-Sweden.html",
+          "title": "Visiting Sweden - Swedish Migration Agency"
         }
       ],
       "source": "ai"
     }
   },
   "norway": {
-    "residence-permit": {
+    "schengen-visa": {
       "urls": [
         {
-          "url": "https://www.udi.no/en/want-to-apply/work-immigration/",
-          "title": "Work immigration - UDI"
+          "url": "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html",
+          "title": "Norway - Level 1: Exercise Normal Precautions"
         },
         {
-          "url": "https://www.udi.no/en/want-to-apply/family-immigration/",
-          "title": "Family immigration - UDI"
+          "url": "https://www.vfsglobal.com/en/individuals/contact-us.html",
+          "title": "Book an appointment | vfsglobal"
         }
       ],
       "source": "ai"
@@ -386,7 +579,42 @@
       "urls": [
         {
           "url": "https://www.udi.no/en/want-to-apply/work-immigration/",
-          "title": "Work immigration - UDI"
+          "title": "Want to apply: Work immigration - UDI"
+        },
+        {
+          "url": "https://www.deel.com/blog/how-to-get-a-visa-and-work-permit-in-norway",
+          "title": "How to Get a Visa and Work Permit in Norway (2026 Edition)"
+        }
+      ],
+      "source": "ai"
+    },
+    "residence-permit": {
+      "urls": [
+        {
+          "url": "https://www.udi.no/en/want-to-apply/family-immigration/",
+          "title": "Want to apply: Family immigration - UDI"
+        }
+      ],
+      "source": "ai"
+    },
+    "study-permit": {
+      "urls": [
+        {
+          "url": "https://www.studyinnorway.no/study-in-norway/requirements-and-costs",
+          "title": "Cost and requirements - Study in Norway"
+        },
+        {
+          "url": "https://www.nmbu.no/en/studies/admission/first-time-study-permit",
+          "title": "First-time Study Permit - NMBU"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-immigration": {
+      "urls": [
+        {
+          "url": "https://www.udi.no/en/want-to-apply/family-immigration/",
+          "title": "Want to apply: Family immigration - UDI"
         }
       ],
       "source": "ai"
@@ -402,22 +630,58 @@
       ],
       "source": "ai"
     },
-    "nzeta": {
+    "work-visa": {
       "urls": [
         {
-          "url": "https://www.govt.nz/browse/immigration-and-visas/visitor-visas-and-the-nzeta/",
-          "title": "Visitor visas and the NZeTA | New Zealand Government"
+          "url": "https://www.govt.nz/browse/immigration-and-visas/get-a-visa-to-work-in-nz/apply-for-a-work-visa/",
+          "title": "Apply for a work visa | New Zealand Government"
+        }
+      ],
+      "source": "ai"
+    },
+    "working-holiday-visa": {
+      "urls": [
+        {
+          "url": "https://www.govt.nz/browse/immigration-and-visas/get-a-visa-to-work-in-nz/apply-for-a-nz-working-holiday-visa/",
+          "title": "Apply for a working holiday visa | New Zealand Government"
+        }
+      ],
+      "source": "ai"
+    },
+    "resident-visa": {
+      "urls": [
+        {
+          "url": "https://www.govt.nz/browse/immigration-and-visas/get-nz-residence/",
+          "title": "Get NZ residence | New Zealand Government"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-visa": {
+      "urls": [
+        {
+          "url": "https://www.govt.nz/browse/immigration-and-visas/bring-your-family-to-nz/",
+          "title": "Bring your family to NZ | New Zealand Government"
         }
       ],
       "source": "ai"
     }
   },
   "ireland": {
-    "work-permit": {
+    "short-stay-visa": {
       "urls": [
         {
-          "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
-          "title": "Employment Permits - Enterprise, Trade and Employment"
+          "url": "https://www.irishimmigration.ie/coming-to-ireland/Visit-Ireland/",
+          "title": "Visit Ireland - Irish Immigration Service"
+        }
+      ],
+      "source": "ai"
+    },
+    "long-stay-visa": {
+      "urls": [
+        {
+          "url": "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/",
+          "title": "Study in Ireland - Irish Immigration Service"
         }
       ],
       "source": "ai"
@@ -426,7 +690,29 @@
       "urls": [
         {
           "url": "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/",
-          "title": "Study in Ireland"
+          "title": "Study in Ireland - Irish Immigration Service"
+        }
+      ],
+      "source": "ai"
+    },
+    "work-visa": {
+      "urls": [
+        {
+          "url": "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/",
+          "title": "Employment Permits - Department of Enterprise, Trade and Employment"
+        },
+        {
+          "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/",
+          "title": "Coming to work in Ireland - Immigration Service Delivery"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-visas": {
+      "urls": [
+        {
+          "url": "https://www.irishimmigration.ie/family-dependents/",
+          "title": "Family dependents - Immigration Service Delivery"
         }
       ],
       "source": "ai"
@@ -436,8 +722,8 @@
     "schengen-visa": {
       "urls": [
         {
-          "url": "https://www.eda.admin.ch/missions/mission-united-states-new-york/en/home/services/visa-entry-switzerland.html",
-          "title": "Visa & entry to Switzerland"
+          "url": "https://www.eda.admin.ch/europa/en/home/visa.html",
+          "title": "Visa and entry to Switzerland - Federal Department of Foreign Affairs"
         }
       ],
       "source": "ai"
@@ -445,8 +731,8 @@
     "national-visa": {
       "urls": [
         {
-          "url": "https://www.eda.admin.ch/missions/mission-united-states-new-york/en/home/services/visa-entry-switzerland.html",
-          "title": "Visa & entry to Switzerland"
+          "url": "https://www.eda.admin.ch/europa/en/home/visa/nationalvisa.html",
+          "title": "National visa - Federal Department of Foreign Affairs"
         }
       ],
       "source": "ai"
@@ -455,357 +741,107 @@
       "urls": [
         {
           "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
-          "title": "Labour / Work permits"
+          "title": "Employment - State Secretariat for Migration"
+        }
+      ],
+      "source": "ai"
+    },
+    "residence-permit": {
+      "urls": [
+        {
+          "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html",
+          "title": "Residence - State Secretariat for Migration"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://www.eda.admin.ch/countries/vietnam/en/home/visa/entry-ch/national-student-visa.html",
+          "title": "National Student Visa for Switzerland"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-reunification": {
+      "urls": [
+        {
+          "url": "https://www.eda.admin.ch/countries/vietnam/en/home/visa/entry-ch/national-visa-family-reunion.html",
+          "title": "National Visa for Family Reunion in Switzerland"
+        }
+      ],
+      "source": "ai"
+    },
+    "investor-visa": {
+      "urls": [
+        {
+          "url": "https://richmondchambers.com/swiss-lump-sum-taxation-residence-permit/",
+          "title": "Swiss Lump-Sum Taxation Residence Permit | 2026 Guide"
+        },
+        {
+          "url": "https://www.mondaq.com/article/1301018/golden-visas-in-switzerland-how-the-wealthy-gain-residency-rights",
+          "title": "Golden Visas In Switzerland – How The Wealthy Gain Residency Rights"
+        }
+      ],
+      "source": "ai"
+    },
+    "airport-transit-visa": {
+      "urls": [
+        {
+          "url": "https://www.eda.admin.ch/countries/ghana/en/home/visa/entry-ch/airport-transit-visa.html",
+          "title": "VISA REQUIREMENTS FOR AIRPORT TRANSIT VISA"
+        },
+        {
+          "url": "https://www.eda.admin.ch/countries/usa/en/home/visa/entry-ch/schengen-visa-airport-transit.html",
+          "title": "Schengen Visa Airport transit"
         }
       ],
       "source": "ai"
     }
   },
   "south-korea": {
-    "student": {
+    "visa-waiver": {
       "urls": [
         {
-          "url": "https://www.visa.go.kr/en/apply/type/d2.jsp",
-          "title": "D-2 Student Visa - Korea Visa Portal"
+          "url": "https://www.visa.go.kr/",
+          "title": "Visa - Ministry of Foreign Affairs"
         }
       ],
       "source": "ai"
     },
-    "work": {
+    "k-eta": {
       "urls": [
         {
-          "url": "https://www.visa.go.kr/en/apply/type/e7.jsp",
-          "title": "E-7 Visa (Foreign worker) - Korea Visa Portal"
+          "url": "https://www.k-eta.go.kr/",
+          "title": "Official Korea Electronic Travel Authorization Website, Korea Immigration Service < K-ETA"
         }
       ],
       "source": "ai"
     },
-    "family": {
+    "long-term-visa": {
       "urls": [
         {
-          "url": "https://www.visa.go.kr/en/apply/type/f6.jsp",
-          "title": "F-6 Marriage Migrant Visa - Korea Visa Portal"
-        },
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/f3.jsp",
-          "title": "F-3 Dependent Family Visa - Korea Visa Portal"
+          "url": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004",
+          "title": "Visa Application"
         }
       ],
       "source": "ai"
     },
-    "skilled-worker": {
+    "short-term-visa": {
       "urls": [
         {
-          "url": "https://www.visa.go.kr/en/apply/type/e7.jsp",
-          "title": "E-7 Visa (Foreign worker) - Korea Visa Portal"
+          "url": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004",
+          "title": "Visa Application"
         }
       ],
       "source": "ai"
     },
-    "digital-nomad": {
-      "urls": [
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/d8.jsp",
-          "title": "D-8 Foreign Investor Visa - Korea Visa Portal"
-        }
-      ],
-      "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/f5.jsp",
-          "title": "F-5 Permanent Resident Visa - Korea Visa Portal"
-        }
-      ],
-      "source": "ai"
-    },
-    "talent": {
-      "urls": [
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/f2.jsp",
-          "title": "F-2 Resident Visa - Korea Visa Portal"
-        }
-      ],
-      "source": "ai"
-    },
-    "transit": {
-      "urls": [
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/b2.jsp",
-          "title": "B-2 Tourist/Transit Visa - Korea Visa Portal"
-        }
-      ],
-      "source": "ai"
-    },
-    "working-holiday": {
-      "urls": [
-        {
-          "url": "https://www.visa.go.kr/en/apply/type/h1.jsp",
-          "title": "H-1 Working Holiday Visa - Korea Visa Portal"
-        }
-      ],
-      "source": "ai"
-    }
-  },
-  "spain": {
-    "student": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/estancia-por-estudios",
-          "title": "Estancia por estudios | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "work": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/trabajo-por-cuenta-ajena",
-          "title": "Trabajo por cuenta ajena | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        },
-        {
-          "url": "https://inclusion.gob.es/web/migraciones/w/trabajo-por-cuenta-propia",
-          "title": "Trabajo por cuenta propia | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "family": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/reagrupacion-familiar",
-          "title": "Reagrupación familiar | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "digital-nomad": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/teletrabajo-internacional",
-          "title": "Teletrabajo internacional | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "investor": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/regimen-especial-de-inversores-emprendedores-y-altamente-cualificados",
-          "title": "Régimen especial de inversores, emprendedores y altamente cualificados | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "entrepreneur": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/regimen-especial-de-inversores-emprendedores-y-altamente-cualificados",
-          "title": "Régimen especial de inversores, emprendedores y altamente cualificados | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/residencia-permanente",
-          "title": "Residencia permanente | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    },
-    "skilled-worker": {
-      "urls": [
-        {
-          "url": "https://www.inclusion.gob.es/web/migraciones/w/profesionales-altamente-cualificados",
-          "title": "Profesionales altamente cualificados | Ministerio de Inclusión, Seguridad Social y Migraciones"
-        }
-      ],
-      "source": "ai"
-    }
-  },
-  "italy": {
-    "student": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressosoggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "work": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        },
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/permessi_soggiorno/",
-          "title": "Permessi di Soggiorno - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "family": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "digital-nomad": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "investor": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "entrepreneur": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    },
-    "eu-blue-card": {
-      "urls": [
-        {
-          "url": "https://www.esteri.it/it/servizi/stranieri/ingressioggettea_visto/",
-          "title": "Ingressi soggetto a visto - Ministero degli Affari Esteri e della Cooperazione Internazionale"
-        }
-      ],
-      "source": "ai"
-    }
-  },
-  "portugal": {
-    "student": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/estudar-e-investigar",
-          "title": "Estudar e investigar | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "work": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/trabalhar",
-          "title": "Trabalhar | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "family": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/reunir-a-familia",
-          "title": "Reunir a família | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "digital-nomad": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/trabalhar/visto-para-nomadas-digitais",
-          "title": "Visto para nómadas digitais | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "investor": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/investir",
-          "title": "Investir | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "entrepreneur": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/trabalhar/empreendedorismo",
-          "title": "Empreendedorismo | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/residencias",
-          "title": "Residências | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "skilled-worker": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/trabalhar/profissionais-altamente-qualificados",
-          "title": "Profissionais Altamente Qualificados | AIMA"
-        }
-      ],
-      "source": "ai"
-    },
-    "passive-income": {
-      "urls": [
-        {
-          "url": "https://aima.gov.pt/pt/viver-em-portugal/residencias/visto-d7-para-independentes-economicos",
-          "title": "Visto D7 para independentes económicos | AIMA"
-        }
-      ],
-      "source": "ai"
-    }
-  },
-  "india": {
     "student-visa": {
       "urls": [
         {
-          "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
-          "title": "India Visa Online"
-        }
-      ],
-      "source": "ai"
-    },
-    "business-visa": {
-      "urls": [
-        {
-          "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
-          "title": "India Visa Online"
-        }
-      ],
-      "source": "ai"
-    },
-    "tourist-visa": {
-      "urls": [
-        {
-          "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
-          "title": "India Visa Online"
-        },
-        {
-          "url": "https://indianvisaonline.gov.in/",
-          "title": "India Visa Online"
+          "url": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004",
+          "title": "Visa Application"
         }
       ],
       "source": "ai"
@@ -813,13 +849,257 @@
     "work-visa": {
       "urls": [
         {
-          "url": "https://indianvisaonline.gov.in/",
+          "url": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004",
+          "title": "Visa Application"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-visa": {
+      "urls": [
+        {
+          "url": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004",
+          "title": "Visa Application"
+        }
+      ],
+      "source": "ai"
+    }
+  },
+  "spain": {
+    "schengen-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEasbLcMdB6DtMlQhUifPUTMkwJyOG8EmgPlSJfNL-R2KNE_LjW4DQnL0fMQWePBKB3gg1hdyOhrS7VYYftxghgLpAcX0vlQ10A0YUe3bDZ-NMLxb5M_CRWPazArsk-1Mf6FA==",
+          "title": "Welcome to the Official Website for Spain Visa in Los Angeles - BLS International"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ie2FLqGuiscE0wPRVr3NyIUJD7LdOy1sNCTvITYRrngmHb0krf4q8DNrBAnWJqzto6yfQEsFN9eP_nXPSzG5o4CiXSeC9r78Or9qpgtT_zmZ8yyM-ZA=",
+          "title": "BLS International: Welcome to the Official Website for Spain Visa in USA"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLVpNUpBynqkNi01pyphPCFgOVBSNEfUUu_ZGt-gEolt1oOYApaNHqb_JhRQsSZ9ps_JQeRxYdaOnCX9gjhbabrRaLcMB4CV7hnRFV_HeOxA30Ge_y2a0xnBnbMPvxZvHkbAoY",
+          "title": "Welcome to the Official Website for Spain Visa in San Francisco - BLS International"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOt9v3DdkwnjiUh7iPhxPp1jEP6DZuIlxBPtOyE2tnlCdn37MYX2ztOY965ZoifwDMFDIhTLHggrCznEh8b4MBT63uATFgu7P-bqU-zDpiTZw62IH4JSxst4_U",
+          "title": "Welcome to the Official Website for Spain Visa in New York - BLS International"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XqHWi9KtekvK7uC8lm8FXQLRA3q8fGGlNcITfBTDZS5zPdPdirWlpUKYBdIW43ObVP0gLPlSGkmbHduZFrP7bHNGVaM7oIfpORh1h0mBjjnxI8Qs88e0o-kC1RtovC1DMHA7jkkpOFsJMFrsqTT1IuxniaE=",
+          "title": "Spain Tourist Visa from Houston - BLS International"
+        }
+      ],
+      "source": "ai"
+    },
+    "national-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG6rNSK1ONS7anN5mOaK3AqMdMNVGypjT0jSZlL0pxfG5w26xAU7LC5WJorGcYw9G4ljLd5kuB8rsLGsYyv4Ybs0IfF8ID9qxASHuDEvW4ZqN0KDp6Tg_U7pMOjcNt9MVNyL6x8G7KIuO0zUY5PzM6EqAfKLQH3ZpxgeLqrmZTJWVflZIJ_qzgBKHAVJvyL5fFd_pWS8RjjawWysqflskBgU9WhvbQEi3m4D7XnfRqua2za9OYBcLUM78k",
+          "title": "National visas - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYOT8R8WHDa5M4CmWMI9d2orLGtj1Fl7FOwhxWiOPo0YToiQ5MZzjA0KFc4sUvHtp2TfzDusMC8J_YRAZVM7_rSgJDVsKz1Q0dcdJuXSGNYzgWo5dkwppaEkFaxz4L0Hgh_J4FduD8yb3TshG1Dc3XrhY5wiLGhvibV1cirRNgR448LkWKJ76w3bimyOo59K3DcOqBbG99EA==",
+          "title": "Consular services - Embassy of Spain in Washington DC"
+        }
+      ],
+      "source": "ai"
+    },
+    "digital-nomad-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARnD4boBsF8TKBxVCc6LM7d9CsI34wX8FNWtMJ-OwYnIZ5sI1Fa9g4IRHPO4e9pGDgEbwyL_JSSeeEtWupBZp0-0JBLl72x5YavMkkp-F_otwcibIWYLJmaKf7YTsFO1sL095-hfDMo3y",
+          "title": "Spain Digital Nomad Visa 2024 | Latest Info, Requirements, Launch"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-I1G4CRSdvArqtFfXzkXZJi44JZh4PPxTeB0MBD1SkEiHU4cq63tneYydrT2k1bgMa270cqQOr8pTjSXrCv0udyx0rfkplFGULuYKejr1rnGw3IDgLg1kMcTYDMV3UICP7b0ssmQv9Bnc3cw88awMOHkd7VeMs68=",
+          "title": "Application for the Digital Nomad Visa | Plataforma One"
+        }
+      ],
+      "source": "ai"
+    },
+    "investor-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_8THWB5MpuhMVP_nWR4noDOgMH3GZ7Ymwwa43bdDHHz38Othh_Y2THSGO-YJu5d7Uo-HOXgGKI44uLuBu3G4JFByulKpn-L_AlrnpD1OanaPif9lzfaLj8fw0XacKI0du-8cKL1m8ce1SydrPiZf6HLru2zKSEHIgQod6UQJo6XL-PKm6zLjIWIGPCvGlS09W7Y71gkNmR-czbOwGqnkBpquNhDhH7H8DE_i-7Vc0",
+          "title": "Investor visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnzfe9T0bkBsrMu2I8kz7vlAtWIRiKUbCvTkU7dyrQk7HpeQOlHOgxLc6OJCb_vMvcyu-OVp04vGRHJrCFWdSrJU5nl-GPt1AUm-E8pWdWJm58SFQOrLWt2UMv-VmzcOAbpg16Lfkj_rZr9Q0_22EA1dyxASsdTPso_MxGlBI5wbz7R66Brtv8dVZLowkq3xSW1sWOwYwNAoZXY9yCRJBKHseKgeMpbWXx-CKe",
+          "title": "Investor visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRpV37IsjgaYl7LVNK9Ojq1uwzKWOIhdJmSLPzCzXUSeNQNorUmcgpVFah8u6XuFmZXvnpRrw_emPWPcIDGW4LPStIjM0-aiicZO7pw-CB4IelTPBMgZinLxaTGebXZa1DWc96jsfgwQDfSgThjWVFSr_-8r_70_hH-bVBcsGzFtqaMZUnl6Ly7PgGVdKtb-EbtMaSnHpefRz9_XbF6qQBehoxa62f-M0zqw==",
+          "title": "Investor visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl9hQye5HmtNNL4jIF0CZzfJ8DvKNJcehmDsavojnIxGwxhvuOGGrdK8QjWTo93TRtF6uGmF5vUEgsoPrjNl26wdPm5UJ88gYbv5QkppyHHA4QqBkHSchfbFJRyofQ4AdxLoyX_BiEH9c0XcLrplif22OHToLr1IHYGBui6IcEudu8ohG_JRV0AogMVeNbIT-hutfpBIZlkK6TbsG74QnzSoAwfC5V4L4=",
+          "title": "Investor visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpdTVL9k_gFjIggYnKpfofkUwJ2QodEUeYPYjI0MsIUP341fYimV082m8eFAjT2f--SOaSEHnkyi_Ahec5OuYPUNyEmD80IsSTclB5zjbxS1N433Oyv9wNZg==",
+          "title": "Golden Visas In Spain - Residency by Investment"
+        }
+      ],
+      "source": "ai"
+    },
+    "work-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqpwqIRhG7ZBRRcktNUeKo9NpT2NMN5_mZOXcW7uOrWrj8AJ2hzCTnMIYo7N9rCNtva2hC7BiHdX5lmvuknrdFB7KkewuMtKn7aloR10bswgq0FDlKcrcbw3F9AdIptb191ccus1-TNNCnkU0qnK0F0sJhc-HZb4EvQDFvWV6qlwRx4CKScGaP4ihYTF4jAJD7p8z_AxmUu0S0o8tw49WDoH_6dGhzzzLY2a8llxX8rq8su0ysI6U=",
+          "title": "Employee visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1tySVnMuMEMskvvp-Dctd4jZgKxIn5WprjivH482q14VBC_-IW4_p3S2oKd5Ue69ZpR_mxQlJkdQn-4-C3jkHz3cLxJsB8WUWsnodC4yFavKbW-_oTaQP4SIxt0RJrSF9PkWDOuVgtJpXDmB4qKx2RDM-9flZWfh76oQXFLWqaiZJ5H-Ce5Deh4wrByXhp910yQT_GAcsxiTCkY7xxUXP9MqXTU1a_T4nx8KUOvFzxo8se3EbkQU",
+          "title": "Employee visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-",
+          "title": "Employee visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw=",
+          "title": "Work Visa Spain: Requirements & How to Apply | IAS - Immigration Advice Service"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq3NhRJvUWHPH9FaW5hZ_JugZF4qXxSNpen2Ti_f3SdYbu_GvyTZLBPlhbnG1d4l5DjaMP6-KpjGscb86kEZkAP0sFm5l5haHyXoVzA6y8Aq_35Pn5ovMzWBv31ouRLKn_howEO8STOLDQAJMHGPEWlNIy_eLuAu4iQC0Yyd1qaCxE5ZeWLVP4T7JnbVxy2FrH45K3sSAY3jLLb101TGt_4NxSHpLZ3tFUjEkd53xDYQ==",
+          "title": "Highly-qualified worker in Spain - Migration and Home Affairs - European Union"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEasbLcMdB6DtMlQhUifPUTMkwJyOG8EmgPlSJfNL-R2KNE_LjW4DQnL0fMQWePBKB3gg1hdyOhrS7VYYftxghgLpAcX0vlQ10A0YUe3bDZ-NMLxb5M_CRWPazArsk-1Mf6FA==",
+          "title": "Welcome to the Official Website for Spain Visa in Los Angeles - BLS International"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3jrF-StDqt46AGe7YZI1tpvTf74bcRkBDE4RRt3tcLQj11Q_-Pzv2PqUaCa4hxc3l6bP40porN5kXBuibhc8gFAKK_SD7vc5TgYKsxAHKaSL-LmQDsmMIUlpgeMmn8BcrK6FPbFWHSY5KwwrxrvkaFAlFklB9Yi0lIcC1b0QQD7DEQXQCJ2AtXHtsIHRa50D1B3pHlb6g20wc50swDxHAUyDJuCCnk_luQg==",
+          "title": "Student visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGon2sHlGYxjlyarUijwlJHp0CI0d56iLWZdchgWilmc4hEplojMHgazqdLkwJT3yCsTU6hUAb_33CuTZzOQi1Cw0Ctfy_lxZWWQ4mTUDzLC_1npHgRIRChStR6b_uaQmjsMrGQwhcaHdUoF67H-zf73-_SsiN7ijGWFGcZgAnEJIQ7_qE9pRzCmvR4OXYKsoVZkzybdO2vBQbMrz6_65qPWc53k2c2dhpaA==",
+          "title": "Student Visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NU5FWbQQUzvbS8Dgr8EDiwgvilS0AmyRlO4sGTRgvI5JWIIyCzjKCj7Gh1w63rf_P-DuVaC8-pwVDpDsXQwWCaYIeDbg0SJIhTh6ePutHCxNgC16RvKcV6tdANAG5oFfWaLojOEa9YDuM7wwQaDFLgIU5B-iVtHoEXoiL4O51hiZhX1i7bRwZKmm2pNot4eTHWxJQGDjJO-RiFWMetmszfnXDc2_0a7OtqeMtg==",
+          "title": "Study visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCUEUYxjra8HnOKJkM9_apuqSQvFlXA7W7JITVIHm0jqgQqq48441GEtD0mIqRSk0DdaDKJhyiL067be0dbvMsv814IhZWSbtO3B7I5e155BoF772wKu7gN-Tudf4StZ-lu9k3RBd_Zd0UgtRhZcBvGb61MSOwdCxoKpzkwst6fBlziLfme69kfmK1ILJbBacuU4k=",
+          "title": "Spain Visa & Travel Information - International Programs - Colorado State University"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-reunification": {
+      "urls": [
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYOT8R8WHDa5M4CmWMI9d2orLGtj1Fl7FOwhxWiOPo0YToiQ5MZzjA0KFc4sUvHtp2TfzDusMC8J_YRAZVM7_rSgJDVsKz1Q0dcdJuXSGNYzgWo5dkwppaEkFaxz4L0Hgh_J4FduD8yb3TshG1Dc3XrhY5wiLGhvibV1cirRNgR448LkWKJ76w3bimyOo59K3DcOqBbG99EA==",
+          "title": "Consular services - Embassy of Spain in Washington DC"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPnXT7kyS5v3TnQz6b4U8412zdj4H9oizG1dQcVnELA9hLDliuFPbwGNhlzezBad3B7GW-llVwo2D124cD1V2hyQVVGlikZusW-kpEAf-Ky7VNUKg1rlkVNy40TitfiHVQQjsUWSzTZmXMZcwA4lZirmNemc5yXVmLLVaST0ekj_EM7U_kIdYaWGnUaYJqP5_ilCxHoQax7bpfVPgG2oxNQwH5alZ",
+          "title": "Family member in Spain - Migration and Home Affairs - European Commission"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnDVuIuVmoaalH3zdSxYWSDkZzu9VDBJ96LtVNcHZiwOG5me0DRALqeuC5WOMniaXawxJIao_xb4mM5Jg_R-xumhoanBgAqnIlHVPSXNC9y22cgrpbpdPzdFNgDOLj77d4m10JBvIn1AiVqM0j8r598jopRH56_A==",
+          "title": "Family Reunification Visa in Spain 2026 (Complete Guide)"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8dSwEYCS4HDXzF534SF-6nS6ZwQgwb0gs4I0wxHU8RHosC6Klgc2sSGu7FimQcZWDzUjYmThNp1BbN06YnSQyzeoeXUumMcl9jOjMIgmKK2gob5fZo6aQMl9P15djXjmGh58egsb85uigELZrEZPH2Q==",
+          "title": "Family Reunification Visa - Guide - Age in Spain"
+        },
+        {
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYOT8R8WHDa5M4CmWMI9d2orLGtj1Fl7FOwhxWiOPo0YToiQ5MZzjA0KFc4sUvHtp2TfzDusMC8J_YRAZVM7_rSgJDVsKz1Q0dcdJuXSGNYzgWo5dkwppaEkFaxz4L0Hgh_J4FduD8yb3TshG1Dc3XrhY5wiLGhvibV1cirRNgR448LkWKJ76w3bimyOo59K3DcOqBbG99EA==",
+          "title": "Consular services - Embassy of Spain in Washington DC"
+        }
+      ],
+      "source": "ai"
+    }
+  },
+  "italy": {
+    "schengen-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    },
+    "national-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    },
+    "study-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    },
+    "work-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    },
+    "family-reunification-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    },
+    "elective-residency-visa": {
+      "urls": [
+        {
+          "url": "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/",
+          "title": "Types of Visa and Duration"
+        }
+      ],
+      "source": "ai"
+    }
+  },
+  "portugal": {
+    "skilled-worker": {
+      "urls": [
+        {
+          "url": "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples",
+          "title": "Foreigners Law: Visa and residence permit applications will be simpler - Portal ePortugal.gov.pt"
+        }
+      ],
+      "source": "ai"
+    }
+  },
+  "india": {
+    "visa": {
+      "urls": [
+        {
+          "url": "https://indianvisaonline.gov.in/visa/Registration",
+          "title": "India Visa Online"
+        },
+        {
+          "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
           "title": "India Visa Online"
         }
       ],
       "source": "ai"
     },
-    "e-visa": {
+    "evisa": {
       "urls": [
         {
           "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
@@ -830,29 +1110,24 @@
     }
   },
   "uae": {
-    "tourist-visa": {
+    "visit-visa": {
       "urls": [
         {
-          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa",
-          "title": "Tourist visa | The Official Platform of the UAE Government"
+          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas",
+          "title": "Visit visas | The Official Platform of the UAE Government"
+        },
+        {
+          "url": "https://www.emirates.com/ae/english/plan-your-trip/staying-in-dubai/uae-visa-information/",
+          "title": "UAE visa information | Visa and Passport | Before You Fly - Emirates"
         }
       ],
       "source": "ai"
     },
-    "residency-visa": {
+    "entry-visa": {
       "urls": [
         {
-          "url": "https://gdrfad.gov.ae/en/services/entry-permits/green-visa",
-          "title": "General Directorate of Identity and Foreigners Affairs-Dubai"
-        }
-      ],
-      "source": "ai"
-    },
-    "transit-visa": {
-      "urls": [
-        {
-          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa#transit-visa",
-          "title": "Tourist visa | The Official Platform of the UAE Government"
+          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas",
+          "title": "Visit visas | The Official Platform of the UAE Government"
         }
       ],
       "source": "ai"
@@ -864,222 +1139,214 @@
         {
           "url": "https://visa.visitsaudi.com/",
           "title": "Saudi eVisa | The Official website for Tourist Visa to Saudi Arabia"
+        }
+      ],
+      "source": "ai"
+    },
+    "transit-evisa": {
+      "urls": [
+        {
+          "url": "https://visa.visitsaudi.com/apply-now",
+          "title": "Login to eVisa - Saudi eVisa | The Official website for Tourist Visa to Saudi Arabia"
         },
         {
-          "url": "https://www.mofa.gov.sa/en/e-services/visa/Pages/default.aspx",
-          "title": "Visa Applications | Ministry of Foreign Affairs"
-        }
-      ],
-      "source": "ai"
-    },
-    "transit-visa": {
-      "urls": [
-        {
-          "url": "https://visa.visitsaudi.com/apply-now/transit-visa",
-          "title": "Saudi eVisa | The Official website for Tourist Visa to Saudi Arabia"
-        },
-        {
-          "url": "https://www.mofa.gov.sa/en/e-services/visa/Pages/default.aspx",
-          "title": "Visa Applications | Ministry of Foreign Affairs"
-        }
-      ],
-      "source": "ai"
-    },
-    "hajj-visa": {
-      "urls": [
-        {
-          "url": "https://www.mofa.gov.sa/en/e-services/visa/Pages/default.aspx",
-          "title": "Visa Applications | Ministry of Foreign Affairs"
-        }
-      ],
-      "source": "ai"
-    },
-    "umrah-visa": {
-      "urls": [
-        {
-          "url": "https://www.mofa.gov.sa/en/e-services/visa/Pages/default.aspx",
-          "title": "Visa Applications | Ministry of Foreign Affairs"
+          "url": "https://www.saudia.com/plan-your-trip/visa-information/tourist-visa",
+          "title": "Visas - Saudia"
         }
       ],
       "source": "ai"
     }
   },
   "thailand": {
-    "tourist-visa": {
+    "evisa": {
       "urls": [
         {
-          "url": "https://www.thaievisa.go.th/",
+          "url": "http://www.thaievisa.go.th/",
           "title": "Official Website of Thailand Electronic Visa"
         },
         {
-          "url": "https://th.usembassy.gov/visas/",
-          "title": "Thailand International Travel Information"
-        },
-        {
-          "url": "https://www.mfa.go.th/en/consular/thailand/visas",
-          "title": "Issuance of Visa - Ministry of Foreign Affairs"
-        }
-      ],
-      "source": "ai"
-    },
-    "e-visa": {
-      "urls": [
-        {
-          "url": "https://www.thaievisa.go.th/",
+          "url": "https://thaievisa.go.th/",
           "title": "Official Website of Thailand Electronic Visa"
-        },
-        {
-          "url": "https://www.vfsglobal.com/en/individuals/index.html",
-          "title": "Thailand International Travel Information"
         }
       ],
       "source": "ai"
     },
-    "work-visa": {
+    "visa": {
       "urls": [
         {
-          "url": "https://th.usembassy.gov/visas/",
-          "title": "Thailand International Travel Information"
-        }
-      ],
-      "source": "ai"
-    },
-    "digital-nomad-visa": {
-      "urls": [
-        {
-          "url": "https://th.usembassy.gov/visas/",
-          "title": "Thailand International Travel Information"
+          "url": "https://thaievisa.go.th/",
+          "title": "Official Website of Thailand Electronic Visa"
         }
       ],
       "source": "ai"
     }
   },
   "malaysia": {
-    "student-visa": {
+    "evisa": {
       "urls": [
         {
-          "url": "https://emgs.com.my/",
-          "title": "Home – Education Malaysia Global Services"
+          "url": "https://malaysiavisa.imi.gov.my/",
+          "title": "MyVISA - Portal - Malaysia Visa"
         }
       ],
       "source": "ai"
     },
-    "medical-tourist": {
+    "visa-requirement-by-country": {
       "urls": [
         {
-          "url": "https://www.mhtc.org.my/",
-          "title": "Malaysia Healthcare Travel Council"
+          "url": "https://www.imi.gov.my/index.php/en/main-services/visa/",
+          "title": "Visa – Malaysian Immigration Department - Jabatan Imigresen Malaysia"
+        }
+      ],
+      "source": "ai"
+    },
+    "immigration-department": {
+      "urls": [
+        {
+          "url": "https://www.imi.gov.my/",
+          "title": "Malaysian Immigration Department - Jabatan Imigresen Malaysia"
         }
       ],
       "source": "ai"
     }
   },
   "indonesia": {
-    "business-visa": {
+    "evisa": {
       "urls": [
         {
           "url": "https://evisa.imigrasi.go.id/",
-          "title": "E-Visa Indonesia"
+          "title": "The Official eVisa website for Indonesia - Imigrasi"
+        }
+      ],
+      "source": "ai"
+    },
+    "immigration-services": {
+      "urls": [
+        {
+          "url": "https://www.imigrasi.go.id/",
+          "title": "Welcome to the Indonesian Directorate General of Immigration Website - Direktorat Jenderal Imigrasi"
         }
       ],
       "source": "ai"
     }
   },
   "south-africa": {
-    "work-visa": {
+    "eta": {
       "urls": [
         {
-          "url": "https://www.vfsglobal.com/dha/za/apply-for-a-visa.html",
-          "title": "Apply for a Visa | VFS Global"
+          "url": "https://www.etasa.org.za/",
+          "title": "South African ETA - Apply for an Electronic Travel Authorisation"
         }
       ],
       "source": "ai"
     },
-    "skilled-worker": {
+    "immigration-services": {
       "urls": [
         {
-          "url": "https://www.vfsglobal.com/dha/za/visa-types.html#critical-skills-visa",
-          "title": "Visa Types | VFS Global"
+          "url": "https://www.dha.gov.za/index.php/immigration-services",
+          "title": "Home Affairs | South African Government"
         }
       ],
       "source": "ai"
     },
-    "working-holiday": {
+    "visitor-visa": {
       "urls": [
         {
-          "url": "https://www.vfsglobal.com/dha/za/visa-types.html#holiday-visa",
-          "title": "Visa Types | VFS Global"
+          "url": "https://www.vfsglobal.com/sa/en/prod/our-services/e-visa",
+          "title": "South African ETA - Apply for an Electronic Travel Authorisation"
+        },
+        {
+          "url": "https://www.vfsglobal.com/sa/en/prod",
+          "title": "South African e-Visa | Online Visa Application Made Easy - Xpatweb"
+        }
+      ],
+      "source": "ai"
+    },
+    "high-commission-visas": {
+      "urls": [
+        {
+          "url": "https://southafrica-newyork.net/",
+          "title": "Home - South African Consulate General in New York, USA - DIRCO"
         }
       ],
       "source": "ai"
     }
   },
   "chile": {
-    "work-visa": {
-      "urls": [
-        {
-          "url": "https://tramites.minrel.gov.cl/",
-          "title": "Sistema de Atención Consular (SAC)"
-        }
-      ],
-      "source": "ai"
-    },
-    "family-reunification": {
-      "urls": [
-        {
-          "url": "https://tramites.minrel.gov.cl/",
-          "title": "Sistema de Atención Consular (SAC)"
-        }
-      ],
-      "source": "ai"
-    },
-    "temporary-residence": {
+    "temporary-stay-permit": {
       "urls": [
         {
           "url": "https://serviciomigraciones.cl/en/permanencia-transitoria-permit/",
-          "title": "Temporary Stay Permit"
+          "title": "Temporary Stay Permit – Tourists (details) - Servicio Nacional de Migraciones Chile"
+        }
+      ],
+      "source": "ai"
+    },
+    "national-migration-service": {
+      "urls": [
+        {
+          "url": "https://serviciomigraciones.cl/",
+          "title": "Servicio Nacional de Migraciones Chile"
+        }
+      ],
+      "source": "ai"
+    },
+    "visa-information-ministry-of-foreign-affairs": {
+      "urls": [
+        {
+          "url": "https://consulado.gob.cl/informacion-sobre-visas-para-ingresar-a-chile",
+          "title": "Información sobre Visas para Ingresar a Chile - Consulado Chile"
         },
+        {
+          "url": "https://www.minrel.gob.cl/minrel/site/artic/20140319/asocfile/20140319163019/guide_to_visa_requirements.pdf",
+          "title": "Guide to Visa Requirements"
+        }
+      ],
+      "source": "ai"
+    },
+    "temporary-resident-visa": {
+      "urls": [
         {
           "url": "https://serviciomigraciones.cl/",
           "title": "Servicio Nacional de Migraciones | Government of Chile"
         }
       ],
       "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
-        {
-          "url": "https://serviciomigraciones.cl/en/residencia-definitiva-permit/",
-          "title": "Definitive Residence Permit"
-        }
-      ],
-      "source": "ai"
     }
   },
   "poland": {
-    "family-reunification": {
+    "national-visa-d-type": {
       "urls": [
         {
-          "url": "https://www.gov.pl/web/united-states-en/type-d-national-visa",
-          "title": "D-Type national visa - Poland in US"
+          "url": "https://www.gov.pl/web/us/national-visa-d-type",
+          "title": "D-Type national visa - Poland in US - Gov.pl website"
         }
       ],
       "source": "ai"
     },
-    "schengen-visa": {
+    "schengen-visa-c-type": {
       "urls": [
         {
-          "url": "https://www.gov.pl/web/foreignaffairs/schengen-visa",
-          "title": "Schengen Visa"
+          "url": "https://www.gov.pl/web/us/schengen-visa-c-type",
+          "title": "C-Type Schengen Visa - Poland in US - Gov.pl website"
         }
       ],
       "source": "ai"
     },
-    "national-visa": {
+    "general-visa-information": {
       "urls": [
         {
-          "url": "https://www.gov.pl/web/foreignaffairs/national-visa",
-          "title": "National Visa"
+          "url": "https://www.gov.pl/web/us/visas-general-information",
+          "title": "Visas - general information - Poland in US - Gov.pl website"
+        }
+      ],
+      "source": "ai"
+    },
+    "ministry-of-foreign-affairs-visas": {
+      "urls": [
+        {
+          "url": "https://www.gov.pl/web/foreignaffairs/visas",
+          "title": "VISAS - Ministry of Foreign Affairs Republic of Poland - Gov.pl website"
         }
       ],
       "source": "ai"
@@ -1090,137 +1357,103 @@
       "urls": [
         {
           "url": "https://www.make-it-in-germany.com/en/visa-residence",
-          "title": "Visa and Residence - Make it in Germany"
-        }
-      ],
-      "source": "ai"
-    },
-    "opportunity-card": {
-      "urls": [
-        {
-          "url": "https://www.make-it-in-germany.com/en/visa-residence/opportunity-card",
-          "title": "Opportunity Card - Make it in Germany"
+          "title": "Visa and residence permits - Make it in Germany"
         }
       ],
       "source": "ai"
     }
   },
   "hong-kong": {
-    "student": {
+    "visit-transit-visa": {
+      "urls": [
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+          "title": "Visit Visa / Entry Permit Requirements and Applications"
+        }
+      ],
+      "source": "ai"
+    },
+    "working-holiday-visa": {
+      "urls": [
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html",
+          "title": "Working Holiday Scheme | Immigration Department"
+        },
+        {
+          "url": "https://www.hkwelcomesu.gov.hk/eng/immigration.html",
+          "title": "Hong Kong Welcomes U."
+        }
+      ],
+      "source": "ai"
+    },
+    "employment-visa": {
+      "urls": [
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/GEP.html",
+          "title": "General Employment Policy (GEP) | Immigration Department"
+        },
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/ASMTP.html",
+          "title": "Admission Scheme for Mainland Talents and Professionals (ASMTP) | Immigration Department"
+        }
+      ],
+      "source": "ai"
+    },
+    "investment-visa": {
+      "urls": [
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/investment.html",
+          "title": "Investment as Entrepreneurs | Immigration Department"
+        },
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/capital_investment_entrant_scheme.html",
+          "title": "Capital Investment Entrant Scheme | Immigration Department"
+        }
+      ],
+      "source": "ai"
+    },
+    "talent-pass": {
+      "urls": [
+        {
+          "url": "https://www.immd.gov.hk/eng/services/visas/TTPS.html",
+          "title": "Top Talent Pass Scheme (TTPS) | Immigration Department"
+        },
+        {
+          "url": "https://www.talent.gov.hk/",
+          "title": "Talent List"
+        }
+      ],
+      "source": "ai"
+    },
+    "student-visa": {
       "urls": [
         {
           "url": "https://www.immd.gov.hk/eng/services/visas/study.html",
-          "title": "Study in Hong Kong | Immigration Department"
+          "title": "Entry for Study in Hong Kong | Immigration Department"
         }
       ],
       "source": "ai"
     },
-    "work": {
+    "residence-visa": {
       "urls": [
         {
-          "url": "https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html",
-          "title": "Quality Migrant Admission Scheme | Immigration Department"
-        }
-      ],
-      "source": "ai"
-    },
-    "training": {
-      "urls": [
-        {
-          "url": "https://www.immd.gov.hk/eng/services/visas/training.html",
-          "title": "Training Visa | Immigration Department"
+          "url": "https://www.immd.gov.hk/eng/services/visas/residence_as_dependant.html",
+          "title": "Residence as Dependants | Immigration Department"
         }
       ],
       "source": "ai"
     }
   },
   "taiwan": {
-    "student": {
+    "visa": {
       "urls": [
         {
-          "url": "https://www.roc-taiwan.org/in_en/post/5377.html",
-          "title": "Student Visa for pursuing degrees - Taipei Economic and Cultural Center in India 駐印度台北經濟文化中心 - ROC Embassies and Missions Abroad"
+          "url": "https://www.roc-taiwan.org/us/cat/34.html",
+          "title": "Visa Services - Taipei Economic and Cultural Representative Office in the United States 駐美國台北經濟文化代表處"
         },
         {
-          "url": "https://visawebapp.boca.gov.tw/",
-          "title": "Resident Visas for Foreign Students(Full-time PhD, Master's, Bachelor's program, or senior high school Students and below)"
-        },
-        {
-          "url": "https://www.cdc.gov.tw/En",
-          "title": "Centers for Disease Control"
-        },
-        {
-          "url": "https://www.mofa.gov.tw/en/News_Content.aspx?n=3535&s=73941",
-          "title": "Resident Visas for Foreign Students(Exchange students)"
-        }
-      ],
-      "source": "ai"
-    },
-    "work-permit": {
-      "urls": [
-        {
-          "url": "https://www.immigration.gov.tw/",
-          "title": "National Immigration Agency, R.O.C. (Taiwan)"
-        },
-        {
-          "url": "https://www.boca.gov.tw/",
-          "title": "Bureau of Consular Affairs, Ministry of Foreign Affairs"
-        },
-        {
-          "url": "https://www.roc-taiwan.org/",
-          "title": "Taipei Economic and Cultural Representative Office in the U.S."
-        },
-        {
-          "url": "https://fw.wda.gov.tw/wda-employer/home/mid-foreign-labor",
-          "title": "Foreign National Labor Rights Portal"
-        }
-      ],
-      "source": "ai"
-    },
-    "family-reunification": {
-      "urls": [
-        {
-          "url": "https://www.boca.gov.tw/cp-158-251-e78ef-2.html",
-          "title": "Bureau of Consular Affairs webpage on visitor visas for visiting relatives"
-        },
-        {
-          "url": "https://www.boca.gov.tw/cp-1709-7004-2.html",
-          "title": "Resident Visas for Foreign Spouses of R.O.C.(Taiwan) Citizens Having Household Registration"
-        }
-      ],
-      "source": "ai"
-    },
-    "skilled-worker": {
-      "urls": [
-        {
-          "url": "https://www.goldcard.nat.gov.tw/en/",
-          "title": "Taiwan Employment Gold Card"
-        }
-      ],
-      "source": "ai"
-    },
-    "digital-nomad": {
-      "urls": [
-        {
-          "url": "https://www.cdc.gov.tw/En",
-          "title": "Centers for Disease Control"
-        },
-        {
-          "url": "https://www.mofa.gov.tw/en/News_Content.aspx?n=1300&s=74239",
-          "title": "Digital nomad visitor visa"
-        },
-        {
-          "url": "https://www.ndc.gov.tw/en/cp.aspx?n=8095&s=8162",
-          "title": "Taiwan's Digital Nomad Visa"
-        }
-      ],
-      "source": "ai"
-    },
-    "investor": {
-      "urls": [
-        {
-          "url": "https://www.mofa.gov.tw/en/News_Content.aspx?n=1300&s=68426",
-          "title": "Resident Visas for Investment"
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast",
+          "title": "Online application for ROC Travel Authorization Certificate for nationals of India, Cambodia, Indonesia, Laos, Myanmar, and Vietnam"
         }
       ],
       "source": "ai"
@@ -1228,30 +1461,16 @@
     "working-holiday": {
       "urls": [
         {
-          "url": "https://www.boca.gov.tw/cp-158-7414-2.html",
-          "title": "Working Holidays Scheme"
+          "url": "https://www.roc-taiwan.org/cayyz_en/cat/5.html",
+          "title": "Working Holiday in Taiwan - Taipei Economic and Cultural Office, Vancouver 駐溫哥華台北經濟文化辦事處"
         },
         {
-          "url": "https://www.roc-taiwan.org/ph/post/14047.html",
-          "title": "Visa Fees"
-        }
-      ],
-      "source": "ai"
-    },
-    "permanent-residency": {
-      "urls": [
+          "url": "https://www.boca.gov.tw/ws.do?code=237",
+          "title": "Bureau of Consular Affairs, Ministry of Foreign Affairs, Republic of China(Taiwan)-Working Holidays Scheme"
+        },
         {
-          "url": "https://www.goldcard.nat.gov.tw/en/faq/",
-          "title": "FAQ - Taiwan Gold Card"
-        }
-      ],
-      "source": "ai"
-    },
-    "employment-seeking": {
-      "urls": [
-        {
-          "url": "https://www.mofa.gov.tw/en/News_Content.aspx?n=1300&s=74237",
-          "title": "Visitor visa for Employment-Seeking Purpose"
+          "url": "https://www.mofa.gov.tw/en/News_Content.aspx?n=1094&s=77407",
+          "title": "FOREIGN AFFAIRS - Taiwan.gov.tw - Government Portal of the Republic of China (Taiwan)"
         }
       ],
       "source": "ai"

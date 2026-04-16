@@ -1,0 +1,52 @@
+{
+  "country": "south-korea",
+  "visa_category": "long-term-visa",
+  "data": {
+    "visa_category": "long-term-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Government24",
+      "description": "Official portal for accessing government services and information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/government24/id1322672997",
+      "download_url_android": "https://play.google.com/store/apps/details?id=kr.go.gov24"
+    },
+    {
+      "app_name": "KakaoTalk",
+      "description": "Dominant messaging app used for personal and business communication.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/kakaotalk/id342572033",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kakao.talk"
+    },
+    {
+      "app_name": "Naver Maps",
+      "description": "Primary navigation and local information app, preferred over Google Maps in Korea.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/naver-map/id382860676",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.nhn.android.map"
+    },
+    {
+      "app_name": "Kakao Pay",
+      "description": "Widely used mobile payment and financial service.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/kr/app/kakao-pay/id957051760",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.kakaopay.app"
+    },
+    {
+      "app_name": "Samsung Health",
+      "description": "Comprehensive health tracking and management app, integrated with many devices.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/samsung-health/id1200022593",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sec.android.app.shealth"
+    }
+  ]
+}

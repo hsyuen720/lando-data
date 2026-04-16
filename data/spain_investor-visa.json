@@ -1,0 +1,81 @@
+{
+  "country": "spain",
+  "visa_category": "investor-visa",
+  "data": {
+    "visa_category": "investor-visa",
+    "visa_type_detail": [
+      {
+        "type": "Short-stay or residence visa",
+        "description": "for foreigners making a significant capital investment, understood as: An initial investment of at least 2 million euros in Spanish public debt securities, or 1 million euros in stocks or shares in Spanish companies undertaking actual business activities, or in investment or venture capital funds incorporated in Spain, or in bank deposits in Spanish financial institutions. The purchase of unencumbered real estate for a minimum of 500,000 euros. A business project in Spain considered to be of general interest, as regards the creation of jobs, the significant socio-economic impact on the geographical area in which the project is to be carried out, or its significant contribution to scientific or technological innovation. Investments made by legal persons will be accepted, provided that the legal person is not based in a tax haven, and that the investor holds, directly or indirectly, majority voting rights and the power to appoint or dismiss the majority of the members of the board of directors."
+      }
+    ],
+    "processing_time": "10 days",
+    "fee_amount": [
+      {
+        "amount": 270,
+        "currency": "USD",
+        "for": "main applicant (US citizens)"
+      },
+      {
+        "amount": 140,
+        "currency": "USD",
+        "for": "US family dependent"
+      },
+      {
+        "amount": 94,
+        "currency": "USD",
+        "for": "other nationals"
+      },
+      {
+        "amount": 80,
+        "currency": "EUR",
+        "for": "general fee"
+      }
+    ],
+    "currency": null,
+    "last_updated_official": "2025-03-11",
+    "reference_urls": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_8THWB5MpuhMVP_nWR4noDOgMH3GZ7Ymwwa43bdDHHz38Othh_Y2THSGO-YJu5d7Uo-HOXgGKI44uLuBu3G4JFByulKpn-L_AlrnpD1OanaPif9lzfaLj8fw0XacKI0du-8cKL1m8ce1SydrPiZf6HLru2zKSEHIgQod6UQJo6XL-PKm6zLjIWIGPCvGlS09W7Y71gkNmR-czbOwGqnkBpquNhDhH7H8DE_i-7Vc0",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnzfe9T0bkBsrMu2I8kz7vlAtWIRiKUbCvTkU7dyrQk7HpeQOlHOgxLc6OJCb_vMvcyu-OVp04vGRHJrCFWdSrJU5nl-GPt1AUm-E8pWdWJm58SFQOrLWt2UMv-VmzcOAbpg16Lfkj_rZr9Q0_22EA1dyxASsdTPso_MxGlBI5wbz7R66Brtv8dVZLowkq3xSW1sWOwYwNAoZXY9yCRJBKHseKgeMpbWXx-CKe",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRpV37IsjgaYl7LVNK9Ojq1uwzKWOIhdJmSLPzCzXUSeNQNorUmcgpVFah8u6XuFmZXvnpRrw_emPWPcIDGW4LPStIjM0-aiicZO7pw-CB4IelTPBMgZinLxaTGebXZa1DWc96jsfgwQDfSgThjWVFSr_-8r_70_hH-bVBcsGzFtqaMZUnl6Ly7PgGVdKtb-EbtMaSnHpefRz9_XbF6qQBehoxa62f-M0zqw==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpdTVL9k_gFjIggYnKpfofkUwJ2QodEUeYPYjI0MsIUP341fYimV082m8eFAjT2f--SOaSEHnkyi_Ahec5OuYPUNyEmD80IsSTclB5zjbxS1N433Oyv9wNZg=="
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

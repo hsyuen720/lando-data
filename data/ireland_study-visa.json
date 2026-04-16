@@ -6,7 +6,8 @@
     "visa_type_detail": [
       {
         "nationality": "Libyan",
-        "study_training_applications": "Applications for the purpose of all forms of study or training continue to be subject to the existing suspension of consideration of applications."
+        "category": "Study/Training",
+        "detail": "applications for the purpose of all forms of study or training continue to be subject to the existing suspension of consideration of applications."
       }
     ],
     "processing_time": null,
@@ -19,39 +20,39 @@
   },
   "essential_apps": [
     {
-      "app_name": "myGovID",
-      "description": "Ireland's digital identity app for accessing public services online.",
+      "app_name": "MyGovID",
+      "description": "Digital identity for accessing public services in Ireland.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/mygovid/id1220327093",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ie.gov.mygovid"
+      "download_url_ios": "https://apps.apple.com/us/app/mygovid/id1268825127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citizensinformation.mygovid"
     },
     {
-      "app_name": "HSE",
-      "description": "The Health Service Executive (HSE) app for accessing health services and information in Ireland.",
+      "app_name": "HSELive",
+      "description": "Health information and services from the Health Service Executive (HSE).",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/hse/id1543150560",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ie.gov.hse.healthapp"
+      "download_url_ios": "https://apps.apple.com/us/app/hselive/id1472059255",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ie.hse.hselive"
     },
     {
       "app_name": "Transport for Ireland (TFI) Go",
-      "description": "Official app for planning public transport journeys and purchasing tickets across Ireland.",
+      "description": "Journey planner and real-time public transport information across Ireland.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/tfi-go/id1442416933",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ie.tfi.go"
+      "download_url_ios": "https://apps.apple.com/us/app/tfi-go/id1447101327",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mobi.tfi"
     },
     {
       "app_name": "Revolut",
-      "description": "A popular digital banking app with international money transfer capabilities widely used in Ireland.",
+      "description": "International money transfer and digital banking.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/revolut/id932493323",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.android"
+      "download_url_ios": "https://apps.apple.com/us/app/revolut/id932493397",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.revolut.revolut"
     },
     {
       "app_name": "N26",
-      "description": "Another well-used European digital bank with a strong presence in Ireland for convenient banking.",
+      "description": "Mobile banking with an international focus.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ie/app/n26/id937531595",
-      "download_url_android": "https://play.google.com/store/apps/details?id=de.number26.android"
+      "download_url_ios": "https://apps.apple.com/us/app/n26/id901140377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sixents.six"
     }
   ]
 }

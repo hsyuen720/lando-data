@@ -1,0 +1,90 @@
+{
+  "country": "spain",
+  "visa_category": "work-visa",
+  "data": {
+    "visa_category": "work-visa",
+    "visa_type_detail": [
+      {
+        "name": "Employee visa",
+        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities."
+      },
+      {
+        "name": "RESIDENCE AND EMPLOYMENT WORK VISA - TRA",
+        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities."
+      },
+      {
+        "name": "RESIDENCE VISA WITH WORKING PERMIT EXEMPTION - TRE (MORE THAN 90 DAYS)",
+        "description": null
+      }
+    ],
+    "processing_time": [
+      {
+        "type": "Decision period",
+        "duration": "1 month",
+        "notes": "from the day after the application submission date, but this period may be extended if an interview or additional documents are requested."
+      }
+    ],
+    "fee_amount": [
+      {
+        "amount": 80,
+        "currency": "EUR",
+        "notes": "For nationals of Australia, Bangladesh, Canada, the United States of America and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+      },
+      {
+        "amount": 94,
+        "currency": "USD",
+        "notes": "For citizens of the United States of America, the fee is $190. For nationals of Australia, Bangladesh, Canada, and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "notes": "For citizens of the United States of America. For nationals of Australia, Bangladesh, Canada, and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+      }
+    ],
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqpwqIRhG7ZBRRcktNUeKo9NpT2NMN5_mZOXcW7uOrWrj8AJ2hzCTnMIYo7N9rCNtva2hC7BiHdX5lmvuknrdFB7KkewuMtKn7aloR10bswgq0FDlKcrcbw3F9AdIptb191ccus1-TNNCnkU0qnK0F0sJhc-HZb4EvQDFvWV6qlwRx4CKScGaP4ihYTF4jAJD7p8z_AxmUu0S0o8tw49WDoH_6dGhzzzLY2a8llxX8rq8su0ysI6U=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1tySVnMuMEMskvvp-Dctd4jZgKxIn5WprjivH482q14VBC_-IW4_p3S2oKd5Ue69ZpR_mxQlJkdQn-4-C3jkHz3cLxJsB8WUWsnodC4yFavKbW-_oTaQP4SIxt0RJrSF9PkWDOuVgtJpXDmB4qKx2RDM-9flZWfh76oQXFLWqaiZJ5H-Ce5Deh4wrByXhp910yQT_GAcsxiTCkY7xxUXP9MqXTU1a_T4nx8KUOvFzxo8se3EbkQU=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw="
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

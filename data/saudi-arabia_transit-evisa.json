@@ -1,0 +1,53 @@
+{
+  "country": "saudi-arabia",
+  "visa_category": "transit-evisa",
+  "data": {
+    "visa_category": "transit-evisa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://visa.visitsaudi.com/apply-now",
+      "https://www.saudia.com/plan-your-trip/visa-information/tourist-visa"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Absher",
+      "description": "Primary platform for individuals and businesses to access government services and electronic transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sa/app/absher/id950477453",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sa.gov.moi.absher"
+    },
+    {
+      "app_name": "Seha",
+      "description": "Official health app for accessing health services, appointments, and medical records within Saudi Arabia.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sa/app/seha/id1517387994",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sa.gov.moh.seha"
+    },
+    {
+      "app_name": "Saudi Public Transport",
+      "description": "Apps like 'Hafil' for intercity buses or specific city transport apps (e.g., Riyadh Metro) are essential.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sapco.hafil"
+    },
+    {
+      "app_name": "STC Pay",
+      "description": "A leading digital wallet and payment app in Saudi Arabia for transfers, payments, and more.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sa/app/stc-pay/id1447033959",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sa.com.stcpay"
+    },
+    {
+      "app_name": "Al Rajhi Bank App",
+      "description": "Official mobile banking app for Al Rajhi Bank, one of the largest banks in Saudi Arabia.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sa/app/al-rajhi-bank-app/id1090231458",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.alrajhibank.mobile"
+    }
+  ]
+}

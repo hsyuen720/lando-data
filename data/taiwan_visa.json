@@ -1,0 +1,76 @@
+{
+  "country": "taiwan",
+  "visa_category": "visa",
+  "data": [
+    {
+      "visa_category": "visa",
+      "visa_type_detail": "一般領務案件（申辦護照、簽證及文件證明等）",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.roc-taiwan.org/us/cat/34.html"
+      ]
+    },
+    {
+      "visa_category": "visa",
+      "visa_type_detail": "大陸人士申請入台證",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.roc-taiwan.org/us/cat/34.html"
+      ]
+    },
+    {
+      "visa_category": "visa",
+      "visa_type_detail": "Online Application for R.O.C. (Taiwan) Travel Authorization Certificate (Applicable to citizens of India, Vietnam, Indonesia, Myanmar, Cambodia and Lao)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://niaspeedy.immigration.gov.tw/nia_southeast"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "Taiwan EZ WAY",
+      "description": "Official app for customs declaration and immigration pre-arrival procedures for Taiwan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/ez-way%E6%90%9E%E5%9C%B0%E9%80%9A/id1207123261",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.customs.ezway"
+    },
+    {
+      "app_name": "My Health Bank (健保快易查)",
+      "description": "Access your National Health Insurance (NHI) records, view medical history, and find clinics.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/健保快易查/id1471308992",
+      "download_url_android": "https://play.google.com/store/apps/details?id=tw.gov.nhi.healthbank"
+    },
+    {
+      "app_name": "e-bus",
+      "description": "Real-time bus tracking and route information for various cities in Taiwan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/e-bus%E5%85%A8%E5%9C%8B%E5%85%AC%E8%BB%8A%E6%9F%A5%E8%A9%A2/id493918583",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ebus.ebus"
+    },
+    {
+      "app_name": "LINE",
+      "description": "Dominant messaging and calling app used widely for personal and business communication in Taiwan.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/app/line/id585598756",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+    },
+    {
+      "app_name": "JKOPAY",
+      "description": "Popular third-party payment and e-wallet service in Taiwan, used for various transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/tw/app/jkopay%E7%A5%A8%E5%8C%A0%E5%BF%AB%E6%89%8B%E6%94%AF%E4%BB%98/id962324489",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.jkopay.jkopay"
+    }
+  ]
+}

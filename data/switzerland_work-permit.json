@@ -4,18 +4,10 @@
   "data": [
     {
       "visa_category": "work-permit",
-      "visa_type_detail": "EU/EFTA nationals",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2022-09-20",
-      "reference_urls": [
-        "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html"
-      ]
-    },
-    {
-      "visa_category": "work-permit",
-      "visa_type_detail": "non-EU/EFTA States (primarily management level employees, specialists and other qualified employees)",
+      "visa_type_detail": [
+        "EU/EFTA nationals",
+        "non-EU/EFTA States"
+      ],
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -28,38 +20,38 @@
   "essential_apps": [
     {
       "app_name": "SwissID",
-      "description": "Switzerland's official digital identity solution for secure access to online services.",
+      "description": "Digital identity for accessing online services from government and private sector.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/swissid/id1462553211",
+      "download_url_ios": "https://apps.apple.com/us/app/swissid/id1450795434",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.swissid.app"
     },
     {
-      "app_name": "Applikation des Bundesamtes für Gesundheit (BAG)",
-      "description": "Official app from the Federal Office of Public Health (FOPH) for health information and services.",
+      "app_name": "e-health/Swiss electronic patient record",
+      "description": "Manage your electronic patient record (EPR) and access health information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/bundesamt-f%C3%BCr-gesundheit-bag/id1510897098",
-      "download_url_android": "https://play.google.com/store/apps/details?id=ch.admin.bag"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
       "app_name": "SBB Mobile",
-      "description": "The official app for Swiss Federal Railways, offering journey planning, tickets, and real-time information.",
+      "description": "Public transport planner, timetable, and ticketing for Swiss Federal Railways.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/sbb-mobile/id362780442",
+      "download_url_ios": "https://apps.apple.com/us/app/sbb-mobile/id450947462",
       "download_url_android": "https://play.google.com/store/apps/details?id=ch.sbb.mobile"
     },
     {
       "app_name": "Twint",
-      "description": "A leading Swiss mobile payment app for easy and secure transactions, widely accepted.",
+      "description": "Mobile payment app for instant payments at the point of sale and online.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/twint/id1134272632",
+      "download_url_ios": "https://apps.apple.com/us/app/twint/id1157711707",
       "download_url_android": "https://play.google.com/store/apps/details?id=com.twint"
     },
     {
       "app_name": "Neon",
-      "description": "A popular Swiss digital bank offering modern banking services and a user-friendly mobile app.",
+      "description": "Digital banking app for everyday banking needs.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/ch/app/neon-banking/id1294757158",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.neon"
+      "download_url_ios": "https://apps.apple.com/us/app/neon/id1274991779",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ch.neon.android"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "country": "thailand",
+  "visa_category": "evisa",
+  "data": {
+    "visa_category": "evisa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "http://www.thaievisa.go.th/",
+      "https://thaievisa.go.th/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "ThaID",
+      "description": "Official digital ID app for Thai citizens to access government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/thaid/id1542606423",
+      "download_url_android": "https://play.google.com/store/apps/details?id=th.go.rd.thaid"
+    },
+    {
+      "app_name": "Mor Prom (หมอพร้อม)",
+      "description": "Official platform for COVID-19 vaccination registration, health information, and appointment booking.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1/id1546699044",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.covid19.mobile"
+    },
+    {
+      "app_name": "ViaBus",
+      "description": "Real-time bus tracking and route planner for Bangkok and other cities in Thailand.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/viabus/id978314858",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.transoft.viabus"
+    },
+    {
+      "app_name": "LINE",
+      "description": "Dominant messaging and calling app, widely used for communication in Thailand.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/line/id585598756",
+      "download_url_android": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+    },
+    {
+      "app_name": "TrueMoney Wallet",
+      "description": "One of the most popular e-wallets in Thailand for payments, transfers, and bill settlements.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/th/app/truemoney-wallet/id470753596",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.attech.ababank"
+    }
+  ]
+}

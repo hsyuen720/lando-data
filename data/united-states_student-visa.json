@@ -3,17 +3,19 @@
   "visa_category": "student-visa",
   "data": [
     {
-      "visa_category": "student-visa",
-      "visa_type_detail": [
-        {
-          "name": "F",
-          "description": "For academic and vocational studies."
-        },
-        {
-          "name": "M",
-          "description": "For academic and vocational studies."
-        }
-      ],
+      "visa_category": "F",
+      "visa_type_detail": "For academic and vocational studies.",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://travel.state.gov/content/travel/en/us-visas/study.html"
+      ]
+    },
+    {
+      "visa_category": "M",
+      "visa_type_detail": "For academic and vocational studies.",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -25,39 +27,39 @@
   ],
   "essential_apps": [
     {
-      "app_name": "MyUSCIS",
-      "description": "Official app for USCIS to manage immigration applications and case status.",
+      "app_name": "My Social Security",
+      "description": "Manage your Social Security benefits and personal information.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/myuscis/id1391167233",
-      "download_url_android": "https://play.google.com/store/apps/details?id=gov.uscis.myuscis"
+      "download_url_ios": "https://apps.apple.com/us/app/my-social-security/id1300303096",
+      "download_url_android": "https://play.google.com/store/apps/details?id=org.ssa.myssa"
     },
     {
-      "app_name": "Healthcare.gov",
-      "description": "App for the Health Insurance Marketplace to find and enroll in health insurance.",
+      "app_name": "MyChart",
+      "description": "Access your medical records, schedule appointments, and communicate with your doctor.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/healthcare-gov/id1137691127",
-      "download_url_android": "https://play.google.com/store/apps/details?id=gov.hhs.healthcare"
+      "download_url_ios": "https://apps.apple.com/us/app/mychart/id382952463",
+      "download_url_android": "https://play.google.com/store/apps/details?id=epic.mychart.android"
     },
     {
       "app_name": "Transit",
-      "description": "Real-time public transit information for various cities across the US.",
+      "description": "Real-time public transportation information for many cities.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/transit/id445775703",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.transit"
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
     },
     {
       "app_name": "Zelle",
-      "description": "Fast, safe, and easy way to send and receive money with people you know.",
+      "description": "Send and receive money between bank accounts easily.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/zelle/id1101700224",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.zelle.zelle"
+      "download_url_ios": null,
+      "download_url_android": null
     },
     {
-      "app_name": "Chase Mobile",
-      "description": "Mobile banking app for managing Chase accounts, paying bills, and depositing checks.",
+      "app_name": "PayPal",
+      "description": "Widely used for online payments and money transfers.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/us/app/chase-mobile/id381511778",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.chase.quickdeposit"
+      "download_url_ios": "https://apps.apple.com/us/app/paypal/id295217774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p.payments"
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "country": "united-states",
+  "visa_category": "diversity-visa-lottery",
+  "data": {
+    "visa_category": "diversity-visa-lottery",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": 0,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://travel.state.gov/content/travel/en/us-visas/immigrate/diversity-visa-program-entry.html"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "My Social Security",
+      "description": "Manage your Social Security benefits and personal information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/my-social-security/id1300303096",
+      "download_url_android": "https://play.google.com/store/apps/details?id=org.ssa.myssa"
+    },
+    {
+      "app_name": "MyChart",
+      "description": "Access your medical records, schedule appointments, and communicate with your doctor.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/mychart/id382952463",
+      "download_url_android": "https://play.google.com/store/apps/details?id=epic.mychart.android"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transportation information for many cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
+    },
+    {
+      "app_name": "Zelle",
+      "description": "Send and receive money between bank accounts easily.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "PayPal",
+      "description": "Widely used for online payments and money transfers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/paypal/id295217774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p.payments"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "country": "italy",
+  "visa_category": "family-reunification-visa",
+  "data": {
+    "visa_category": "family-reunion",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.esteri.it/en/servizi-informazioni/visti/tipologia-visto/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "IO",
+      "description": "Official app for interacting with Italian public administrations and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/io/id1497401600",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.pagopa.ios.spid"
+    },
+    {
+      "app_name": "SPID",
+      "description": "Digital identity system for accessing Italian public services (often accessed via other apps like IO).",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/spid-italy/id1503352276",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.imm.spid"
+    },
+    {
+      "app_name": "UniCredit Mobile Banking",
+      "description": "Mobile banking app for one of Italy's largest banking groups.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/unicredit-mobile-banking/id585091915",
+      "download_url_android": "https://play.google.com/store/apps/details?id=it.unicredit.app"
+    },
+    {
+      "app_name": "Moovit",
+      "description": "Comprehensive public transport app widely used across Italian cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/moovit-trasporto-pubblico/id485259350",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.tranzmate"
+    },
+    {
+      "app_name": "TheFork",
+      "description": "Italian version of ElTenedor, popular for restaurant bookings.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/it/app/thefork/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.thefork"
+    }
+  ]
+}

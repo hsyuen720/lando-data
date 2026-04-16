@@ -1,0 +1,87 @@
+{
+  "country": "uae",
+  "visa_category": "visit-visa",
+  "data": [
+    {
+      "visa_category": "visit-visa",
+      "visa_type_detail": "Jobseeker visit visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
+      ]
+    },
+    {
+      "visa_category": "visit-visa",
+      "visa_type_detail": "Visit visa to explore investment opportunities",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
+      ]
+    },
+    {
+      "visa_category": "visit-visa",
+      "visa_type_detail": "Medical visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
+      ]
+    },
+    {
+      "visa_category": "visit-visa",
+      "visa_type_detail": "eVisa for GCC residents",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "UAEPass",
+      "description": "Official digital identity app for accessing government services and signing documents digitally.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/uaepass/id1475947646",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ae.uaepass.app"
+    },
+    {
+      "app_name": "Dubai Health Authority (DHA) App",
+      "description": "Access your health records, book appointments, and find healthcare facilities in Dubai.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/dha/id538550119",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ae.gov.dha.app"
+    },
+    {
+      "app_name": "S'hail",
+      "description": "Integrated platform for planning your journeys using public transport (metro, bus, tram) in Dubai.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/shail/id1109629603",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.rta.shail"
+    },
+    {
+      "app_name": "DAB GO",
+      "description": "Digital banking app for Dubai Islamic Bank, widely used for transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/dab-go/id1107591081",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dib.mobile"
+    },
+    {
+      "app_name": "PayBy",
+      "description": "A popular mobile payment solution in the UAE for various transactions and bill payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ae/app/payby/id1445879500",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.payby.android"
+    }
+  ]
+}

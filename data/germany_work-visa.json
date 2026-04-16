@@ -15,38 +15,38 @@
   "essential_apps": [
     {
       "app_name": "AusweisApp2",
-      "description": "Official app for using the German electronic identity card (eID).",
+      "description": "Official app for using your German eID card for online authentication.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/ausweisapp2/id1148658573",
-      "download_url_android": "https://play.google.com/store/apps/details?id=de.abera.ausweisapp"
+      "download_url_ios": "https://apps.apple.com/de/app/ausweisapp2/id1441436241",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.bit.id.idservice"
     },
     {
-      "app_name": "Meine TK",
-      "description": "Health insurance app for Techniker Krankenkasse (TK), a major insurer.",
+      "app_name": "Findoktor",
+      "description": "Find doctors and specialists, book appointments, and manage health records.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/meine-tk/id1044854580",
-      "download_url_android": "https://play.google.com/store/apps/details?id=de.tk.meinetk"
+      "download_url_ios": "https://apps.apple.com/de/app/doctolib/id1019979897",
+      "download_url_android": "https://play.google.com/store/apps/details?id=de.doctolib.android"
     },
     {
       "app_name": "DB Navigator",
-      "description": "Official app for Deutsche Bahn (German Railways) for train travel.",
+      "description": "Plan train journeys, buy tickets, and get real-time information for Deutsche Bahn.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/db-navigator/id342824552",
+      "download_url_ios": "https://apps.apple.com/de/app/db-navigator/id342465702",
       "download_url_android": "https://play.google.com/store/apps/details?id=de.hafas.android.db"
     },
     {
       "app_name": "N26",
-      "description": "Popular mobile banking app with accounts and payment services.",
+      "description": "A popular European digital bank with a strong presence in Germany.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/n26/id937551037",
-      "download_url_android": "https://play.google.com/store/apps/details?id=de.n26.android"
+      "download_url_ios": "https://apps.apple.com/de/app/n26/id937570705",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.n26.android"
     },
     {
       "app_name": "PayPal",
-      "description": "Widely used for online payments and transfers.",
+      "description": "Widely used for online payments and money transfers.",
       "platform": "iOS/Android",
-      "download_url_ios": "https://apps.apple.com/de/app/paypal/id283655975",
-      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p"
+      "download_url_ios": "https://apps.apple.com/de/app/paypal/id295217774",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.paypal.android.p2p.payments"
     }
   ]
 }

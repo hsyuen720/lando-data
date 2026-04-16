@@ -1,0 +1,47 @@
+{
+  "country": "sweden",
+  "visa_category": "schengen-visa",
+  "data": [
+    {
+      "visa_category": "schengen-visa",
+      "visa_type_detail": "Schengen visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.migrationsverket.se/English/Private-individuals/Visiting-Sweden.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "BankID",
+      "description": "Digital identification and signature service for online banking and government services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/bankid/id1055966894",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bankid.mobile"
+    },
+    {
+      "app_name": "1177 Vårdguiden",
+      "description": "Official health information and services from the Swedish healthcare system.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/se/app/1177-v%C3%A5rdguiden/id952619311",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.klara.varden"
+    },
+    {
+      "app_name": "SL Appen",
+      "description": "Public transport planner and ticket purchase for Stockholm.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/sl-appen/id487145574",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.resrobot.sl"
+    },
+    {
+      "app_name": "Swish",
+      "description": "Mobile payment system for instant money transfers between individuals and businesses.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/us/app/swish/id674456160",
+      "download_url_android": "https://play.google.com/store/apps/details?id=se.getswish.android"
+    }
+  ]
+}

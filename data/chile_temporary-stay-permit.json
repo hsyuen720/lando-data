@@ -1,0 +1,57 @@
+{
+  "country": "chile",
+  "visa_category": "temporary-stay-permit",
+  "data": {
+    "visa_category": "temporary-stay-permit",
+    "visa_type_detail": [
+      {
+        "name": "Permanencia Transitoria",
+        "description": "The Permanencia Transitoria is a permit granted by the border control authority or by the Chilean consulate abroad to foreigners who enter Chile with no intention of settling in the country, which authorizes them to remain in the national territory for a limited period."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-10-07",
+    "reference_urls": [
+      "https://serviciomigraciones.cl/en/permanencia-transitoria-permit/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Clave Única",
+      "description": "Government-issued digital identity app for accessing public services and authenticating online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/clave-%C3%BAnica/id1275708502",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.gob.agencia.claveunica"
+    },
+    {
+      "app_name": "ChileAtiende",
+      "description": "Official government app providing information and access to a wide range of public services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/chileatiende/id1126021210",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.chileatiende.app"
+    },
+    {
+      "app_name": "BancoEstado",
+      "description": "One of Chile's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/bancoestado/id507378279",
+      "download_url_android": "https://play.google.com/store/apps/details?id=cl.bancoestado.appbancoestado"
+    },
+    {
+      "app_name": "Mercado Pago",
+      "description": "Popular digital wallet and payment platform for online and in-store transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/mercado-pago/id587133061",
+      "download_url_android": "https://play.google.com/store/apps/details?id=ml.mercadopago.wallet"
+    },
+    {
+      "app_name": "Cabify",
+      "description": "Ride-sharing app widely used for transportation in Chilean cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/cl/app/cabify/id387445234",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cabify.rider"
+    }
+  ]
+}

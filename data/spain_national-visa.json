@@ -1,0 +1,85 @@
+{
+  "country": "spain",
+  "visa_category": "national-visa",
+  "data": {
+    "visa_category": "national-visa",
+    "visa_type_detail": [
+      {
+        "visa_type": "Study visas",
+        "sub_types": [
+          "Study visa",
+          "Study visa for NALCAP",
+          "Study visa for minors"
+        ]
+      },
+      {
+        "visa_type": "Specific procedure for Au-pairs"
+      },
+      {
+        "visa_type": "Specific procedure for students with a Fulbright grant"
+      },
+      {
+        "visa_type": "Visas under Law 14/2013",
+        "sub_types": [
+          "Researcher visa",
+          "Internship visa",
+          "Visa for Highly-qualified workers and Intra-company transfers",
+          "Telework visa",
+          "Entrepreneur visa",
+          "Working visa for professionals in the audiovisual sector",
+          "Employee visa",
+          "Self-employed work visa",
+          "Residence visa with work permit exemption",
+          "Non-working residency visa (Non-lucrative visa)",
+          "Family reunification visa",
+          "Residence visa for family members of Spanish Citizens",
+          "Long-term residency or EU Long-term residency recovery"
+        ]
+      }
+    ],
+    "processing_time": "15 working days",
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://sutramiteconsular.maec.es/Ho​me.aspx"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "country": "poland",
+  "visa_category": "general-visa-information",
+  "data": {
+    "visa_category": "general-visa-information",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2026-04-15",
+    "reference_urls": [
+      "https://www.gov.pl/web/us/visas-general-information"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "mObywatel",
+      "description": "Official Polish government app for digital identity, official documents, and access to public services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pl/app/mobydwatel/id1454956102",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.gov.mil.eci.pkobh"
+    },
+    {
+      "app_name": "ZUS Z Einfach",
+      "description": "App from the Social Insurance Institution (ZUS) for managing social security contributions and benefits.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pl/app/zus-z-einfach/id1482037578",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.zus.zwolnienia"
+    },
+    {
+      "app_name": "IKO - Płatności",
+      "description": "Mobile banking app from PKO Bank Polski, offering payments, transfers, and account management.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pl/app/iko-p%C5%82atno%C5%9Bci/id920720377",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.pkobp.iko"
+    },
+    {
+      "app_name": "mBank PL",
+      "description": "Popular mobile banking app offering a full range of banking services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pl/app/mbank-pl/id931530315",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.mbank.android"
+    },
+    {
+      "app_name": "Jakdojade",
+      "description": "Comprehensive public transport app for planning journeys and checking schedules across Polish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pl/app/jakdojade/id533075870",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pl.jakdojade.android"
+    }
+  ]
+}

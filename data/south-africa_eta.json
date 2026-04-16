@@ -1,0 +1,52 @@
+{
+  "country": "south-africa",
+  "visa_category": "eta",
+  "data": {
+    "visa_category": "eta",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.etasa.org.za/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MyGov.co.za",
+      "description": "South African government portal for accessing various public services and information, though a dedicated identity app is less common.",
+      "platform": "Web/Mobile (limited app presence)",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "Discovery Bank",
+      "description": "Digital bank offering a comprehensive banking experience with rewards and health integration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/discovery-bank/id1457792547",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.discovery.bank"
+    },
+    {
+      "app_name": "Capitec Bank",
+      "description": "Popular bank app for managing accounts, payments, and transfers, known for its affordability.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/capitec-bank/id1343773915",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.capitec.capitecmobile"
+    },
+    {
+      "app_name": "Uber",
+      "description": "Widely used ride-hailing app for convenient transportation in major cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/uber/id368106328",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+    },
+    {
+      "app_name": "Momentum Health",
+      "description": "Healthcare app for managing medical aid benefits, claims, and accessing health services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/za/app/momentum-health/id519118293",
+      "download_url_android": "https://play.google.com/store/apps/details?id=za.co.momentum.momentumapp"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "country": "singapore",
+  "visa_category": "skilled-worker",
+  "data": {
+    "visa_category": "skilled-worker",
+    "visa_type_detail": [
+      {
+        "name": "Employment Pass",
+        "description": "The Employment Pass allows foreign professionals, managers, executives and technicians to work in Singapore. Candidates need to earn at least $5,600 a month. Employers must also demonstrate that they have fairly considered all jobseekers.",
+        "eligibility_criteria": {
+          "minimum_salary": "5600",
+          "currency": "SGD",
+          "assessment_stage1": "EP qualifying salary",
+          "assessment_stage2": "COMPASS",
+          "self_assessment_tool": true
+        },
+        "special_provision_tech_professionals": {
+          "duration": "5 years",
+          "eligibility": "experienced tech professionals with skills in shortage",
+          "effective_from": "2023-09"
+        }
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2026-03-04",
+    "reference_urls": [
+      "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Singpass",
+      "description": "Official digital identity app for accessing a wide range of government and private sector services in Singapore.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/singpass/id1173381597",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.singpass"
+    },
+    {
+      "app_name": "HealthHub",
+      "description": "Official health portal app for Singapore, providing access to personal health records, appointment bookings, and health information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/healthhub/id954603813",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.healthhub"
+    },
+    {
+      "app_name": "MyTransport.SG",
+      "description": "Official app from Singapore's Land Transport Authority, offering public transport information, journey planner, and bus arrival times.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/MyTransport.SG/id513688419",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.lta.mytpt"
+    },
+    {
+      "app_name": "DBS digibank SG",
+      "description": "Mobile banking app for DBS Bank, one of Singapore's largest banks, offering account management and transaction services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/dbs-digibank-sg/id397987187",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.sg.dbsdigibank"
+    },
+    {
+      "app_name": "PayLah!",
+      "description": "Mobile payment app by DBS, allowing users to send money, pay bills, and make QR code payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/paylah!/id597007044",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.paylah"
+    }
+  ]
+}

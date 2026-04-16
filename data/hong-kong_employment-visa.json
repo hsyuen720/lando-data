@@ -1,0 +1,65 @@
+{
+  "country": "hong-kong",
+  "visa_category": "employment-visa",
+  "data": [
+    {
+      "visa_category": "employment-visa",
+      "visa_type_detail": "General Employment Policy (GEP)",
+      "processing_time": "four weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-16",
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/GEP.html"
+      ]
+    },
+    {
+      "visa_category": "employment-visa",
+      "visa_type_detail": "Admission Scheme for Mainland Talents and Professionals (ASMTP)",
+      "processing_time": "four weeks",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.immd.gov.hk/eng/services/visas/ASMTP.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "iAM Smart",
+      "description": "Digital identity app for accessing government services and online transactions.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/iam-smart/id1522933674",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.gov.iam.smartapp"
+    },
+    {
+      "app_name": "HSBC HK",
+      "description": "Mobile banking app for HSBC, a prominent bank in Hong Kong.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/hsbc-hk/id400949348",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hsbc.hk.mobile"
+    },
+    {
+      "app_name": "MTR Mobile",
+      "description": "Official app for the MTR (Mass Transit Railway) system, including journey planner and fare information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/mtr-mobile/id535714204",
+      "download_url_android": "https://play.google.com/store/apps/details?id=hk.mtr.mobile"
+    },
+    {
+      "app_name": "Octopus App",
+      "description": "Manage your Octopus card for public transport and retail payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/octopus-app/id973856340",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.octopus.octopusapp"
+    },
+    {
+      "app_name": "PayMe from HSBC",
+      "description": "Popular peer-to-peer payment app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/hk/app/payme-from-hsbc/id1072194894",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.hsbc.payme"
+    }
+  ]
+}

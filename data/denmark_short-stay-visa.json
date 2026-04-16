@@ -1,0 +1,45 @@
+{
+  "country": "denmark",
+  "visa_category": "short-stay-visa",
+  "data": {
+    "visa_category": "short-stay-visa",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://applyvisa.um.dk/"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "MitID",
+      "description": "Official digital identification app for citizens and residents, used for accessing public and private services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/mitid/id1580709127",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mitid.app"
+    },
+    {
+      "app_name": "Sundhed.dk",
+      "description": "Portal for health information and services, allowing access to medical records and communication with healthcare providers.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/sundhed-dk/id1149423577",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.sundhed.sundheddk"
+    },
+    {
+      "app_name": "Rejseplanen",
+      "description": "Official app for public transport in Denmark, providing journey planning, live departures, and ticket information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/rejseplanen/id499271084",
+      "download_url_android": "https://play.google.com/store/apps/details?id=dk.rejseplanen.android"
+    },
+    {
+      "app_name": "MobilePay",
+      "description": "Widely used mobile payment app for sending money, paying in stores, and online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/dk/app/mobilepay/id471348945",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.mobilepay.app"
+    }
+  ]
+}

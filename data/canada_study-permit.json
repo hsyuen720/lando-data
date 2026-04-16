@@ -1,0 +1,54 @@
+{
+  "country": "canada",
+  "visa_category": "study-permit",
+  "data": [
+    {
+      "visa_category": "study-permit",
+      "visa_type_detail": "Study permit",
+      "processing_time": "Varies by country",
+      "fee_amount": 150,
+      "currency": "CAN",
+      "last_updated_official": "2026-02-03",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "My Service Canada Account",
+      "description": "Access government services and personal information related to benefits and pensions.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "Babylon Health",
+      "description": "A digital health service offering virtual consultations with doctors.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/babylon-health/id1372467183",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.babylonhealth.android"
+    },
+    {
+      "app_name": "Transit",
+      "description": "Real-time public transportation information across Canadian cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/transit/id457017089",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.sectormedia.transit"
+    },
+    {
+      "app_name": "Interac e-Transfer",
+      "description": "Send and receive money securely between Canadian bank accounts.",
+      "platform": "iOS/Android",
+      "download_url_ios": null,
+      "download_url_android": null
+    },
+    {
+      "app_name": "RBC Mobile",
+      "description": "Banking app for one of Canada's largest banks.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/ca/app/rbc-mobile/id371757402",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.rbc.mobile"
+    }
+  ]
+}

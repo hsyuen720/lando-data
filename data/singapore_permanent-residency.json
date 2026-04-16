@@ -1,0 +1,76 @@
+{
+  "country": "singapore",
+  "visa_category": "permanent-residency",
+  "data": {
+    "visa_category": "permanent-residency",
+    "visa_type_detail": [
+      {
+        "type": "Spouse of a Singapore citizen or Singapore permanent resident (PR)"
+      },
+      {
+        "type": "Unmarried child aged below 21 born within the context of a legal marriage to, or have been legally adopted by a Singapore citizen or PR"
+      },
+      {
+        "type": "Aged parent of a Singapore citizen of at least 21 years old"
+      },
+      {
+        "type": "Holder of an Employment Pass or S Pass"
+      },
+      {
+        "type": "Student studying in Singapore and have passed at least one national exam (i.e. PSLE, GCE 'N'/ 'O'/ 'A' levels), or are in the Integrated Programme (IP)"
+      },
+      {
+        "type": "Foreign investor in Singapore"
+      }
+    ],
+    "processing_time": "6 months",
+    "fee_amount": {
+      "submission": 100,
+      "entry_permit": 20,
+      "re_entry_permit_5_year": 50,
+      "identity_card": 50
+    },
+    "currency": "S$",
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.ica.gov.sg/reside/PR"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Singpass",
+      "description": "Official digital identity app for accessing a wide range of government and private sector services in Singapore.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/singpass/id1173381597",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.singpass"
+    },
+    {
+      "app_name": "HealthHub",
+      "description": "Official health portal app for Singapore, providing access to personal health records, appointment bookings, and health information.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/healthhub/id954603813",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.tech.healthhub"
+    },
+    {
+      "app_name": "MyTransport.SG",
+      "description": "Official app from Singapore's Land Transport Authority, offering public transport information, journey planner, and bus arrival times.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/MyTransport.SG/id513688419",
+      "download_url_android": "https://play.google.com/store/apps/details?id=sg.gov.lta.mytpt"
+    },
+    {
+      "app_name": "DBS digibank SG",
+      "description": "Mobile banking app for DBS Bank, one of Singapore's largest banks, offering account management and transaction services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/dbs-digibank-sg/id397987187",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.sg.dbsdigibank"
+    },
+    {
+      "app_name": "PayLah!",
+      "description": "Mobile payment app by DBS, allowing users to send money, pay bills, and make QR code payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/sg/app/paylah!/id597007044",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.dbs.paylah"
+    }
+  ]
+}

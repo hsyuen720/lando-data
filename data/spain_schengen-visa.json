@@ -1,0 +1,123 @@
+{
+  "country": "spain",
+  "visa_category": "schengen-visa",
+  "data": {
+    "visa_category": "schengen-visa",
+    "visa_type_detail": [
+      {
+        "name": "Tourist Visa",
+        "processing_time": "minimum processing time is 15 working days (It may delay depending on case to case)",
+        "fee_amount": {
+          "all_other_nationals": {
+            "age_12_and_above": 106,
+            "age_6_to_11": 53,
+            "age_5_and_below": 0
+          },
+          "nationals_of_albania_armenia_azerbaijan_belarus_georgia_moldova_montenegro_north_macedonia_serbia_and_ukraine": {
+            "age_12_and_above": 41,
+            "age_6_to_11": 0,
+            "age_5_and_below": 0
+          },
+          "nationals_of_cabo_verde": {
+            "age_18_and_above": 71,
+            "age_12_to_17": 35,
+            "age_11_and_below": 0
+          }
+        },
+        "currency": "USD"
+      },
+      {
+        "name": "Business Visa",
+        "processing_time": "minimum processing time is 15 working days (It may delay depending on case to case)",
+        "fee_amount": {
+          "all_other_nationals": {
+            "age_12_and_above": 106,
+            "age_6_to_11": 53,
+            "age_5_and_below": 0
+          },
+          "nationals_of_albania_armenia_azerbaijan_belarus_georgia_moldova_montenegro_north_macedonia_serbia_and_ukraine": {
+            "age_12_and_above": 41,
+            "age_6_to_11": 0,
+            "age_5_and_below": 0
+          },
+          "nationals_of_cabo_verde": {
+            "age_18_and_above": 71,
+            "age_12_to_17": 35,
+            "age_11_and_below": 0
+          }
+        },
+        "currency": "USD"
+      },
+      {
+        "name": "Airport Transit",
+        "processing_time": "minimum processing time is 15 working days (It may delay depending on case to case)",
+        "fee_amount": {
+          "all_other_nationals": {
+            "age_12_and_above": 106,
+            "age_6_to_11": 53,
+            "age_5_and_below": 0
+          },
+          "nationals_of_albania_armenia_azerbaijan_belarus_georgia_moldova_montenegro_north_macedonia_serbia_and_ukraine": {
+            "age_12_and_above": 41,
+            "age_6_to_11": 0,
+            "age_5_and_below": 0
+          },
+          "nationals_of_cabo_verde": {
+            "age_18_and_above": 71,
+            "age_12_to_17": 35,
+            "age_11_and_below": 0
+          }
+        },
+        "currency": "USD"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-05-20",
+    "reference_urls": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEasbLcMdB6DtMlQhUifPUTMkwJyOG8EmgPlSJfNL-R2KNE_LjW4DQnL0fMQWePBKB3gg1hdyOhrS7VYYftxghgLpAcX0vlQ10A0YUe3bDZ-NMLxb5M_CRWPazArsk-1Mf6FA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ie2FLqGuiscE0wPRVr3NyIUJD7LdOy1sNCTvITYRrngmHb0krf4q8DNrBAnWJqzto6yfQEsFN9eP_nXPSzG5o4CiXSeC9r78Or9qpgtT_zmZ8yyM-ZA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLVpNUpBynqkNi01pyphPCFgOVBSNEfUUu_ZGt-gEolt1oOYApaNHqb_JhRQsSZ9ps_JQeRxYdaOnCX9gjhbabrRaLcMB4CV7hnRFV_HeOxA30Ge_y2a0xnBnbMPvxZvHkbAoY==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOt9v3DdkwnjiUh7iPhxPp1jEP6DZuIlxBPtOyE2tnlCdn37MYX2ztOY965ZoifwDMFDIhTLHggrCznEh8b4MBT63uATFgu7P-bqU-zDpiTZw62IH4JSxst4_U==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XqHWi9KtekvK7uC8lm8FXQLRA3q8fGGlNcITfBTDZS5zPdPdirWlpUKYBdIW43ObVP0gLPlSGkmbHduZFrP7bHNGVaM7oIfpORh1h0mBjjnxI8Qs88e0o-kC1RtovC1DMHA7jkkpOFsJMFrsqTT1IuxniaE="
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "Cl@ve",
+      "description": "Digital identity system for accessing Spanish public administration services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/clave-permanente/id1495291156",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.clave"
+    },
+    {
+      "app_name": "Carpeta Ciudadana",
+      "description": "Access your personal data and administrative procedures with the Spanish public administration.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/mi-carpeta-ciudadana/id1439994838",
+      "download_url_android": "https://play.google.com/store/apps/details?id=es.gob.administracion.carpetaciudadana"
+    },
+    {
+      "app_name": "ElTenedor",
+      "description": "Popular app for restaurant reservations and finding local eateries.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/eltenedor/id416061256",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.restorando.eltenedor"
+    },
+    {
+      "app_name": "CaixaBankNow",
+      "description": "One of Spain's largest banks, offering a comprehensive mobile banking app.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/caixabanknow/id421732101",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.caixabank.mobile"
+    },
+    {
+      "app_name": "Citymapper",
+      "description": "Excellent public transport planner for major Spanish cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/es/app/citymapper/id469460549",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.citymapper.app"
+    }
+  ]
+}

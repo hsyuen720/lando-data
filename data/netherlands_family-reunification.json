@@ -1,0 +1,52 @@
+{
+  "country": "netherlands",
+  "visa_category": "family-reunification",
+  "data": {
+    "visa_category": "family-reunification",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://ind.nl/en/family"
+    ]
+  },
+  "essential_apps": [
+    {
+      "app_name": "DigiD",
+      "description": "Digital identity app for accessing Dutch government services online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "null",
+      "download_url_android": "null"
+    },
+    {
+      "app_name": "GGD app",
+      "description": "Official app from the Dutch municipal health services (GGD) for health information and services.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ggd/id1608349863",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.ggd.app"
+    },
+    {
+      "app_name": "9292",
+      "description": "Most popular public transport journey planner for the Netherlands, covering all public transport operators.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/9292/id333364917",
+      "download_url_android": "https://play.google.com/store/apps/details?id=nl.wunder.android9292"
+    },
+    {
+      "app_name": "ING",
+      "description": "Mobile banking app for ING Bank, one of the largest banks in the Netherlands.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/ing/id328361390",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ing.mobile"
+    },
+    {
+      "app_name": "Bunq",
+      "description": "Popular mobile-only bank with a user-friendly app for managing accounts and making payments.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/nl/app/bunq/id574744248",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.bunq.android"
+    }
+  ]
+}
