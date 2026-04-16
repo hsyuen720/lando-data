@@ -15,7 +15,8 @@ import sys
 import time
 from pathlib import Path
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -56,19 +57,14 @@ SYSTEM_PROMPT = (
 )
 
 
-def configure_gemini() -> genai.GenerativeModel:
-    """Initialise and return the Gemini model."""
+def configure_gemini() -> genai.Client:
+    """Initialise and return the Gemini client."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         logger.error("GEMINI_API_KEY environment variable is not set.")
         sys.exit(1)
 
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
-        system_instruction=SYSTEM_PROMPT,
-    )
-    return model
+    return genai.Client(api_key=api_key)
 
 
 def load_countries() -> list[str]:
@@ -96,7 +92,7 @@ def save_sources(sources: dict) -> None:
     logger.info("Saved sources to %s", SOURCES_PATH)
 
 
-def discover_urls(model: genai.GenerativeModel, country_slug: str) -> dict | None:
+def discover_urls(client: genai.Client, country_slug: str) -> dict | None:
     """Ask Gemini for official visa URLs for a single country."""
     country_display = country_slug.replace("-", " ").title()
     prompt = (
@@ -105,7 +101,13 @@ def discover_urls(model: genai.GenerativeModel, country_slug: str) -> dict | Non
     )
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_PROMPT,
+            ),
+        )
         raw = response.text.strip()
 
         # Strip markdown code fences if present
@@ -127,14 +129,14 @@ def discover_urls(model: genai.GenerativeModel, country_slug: str) -> dict | Non
 
 def run() -> None:
     """Main pipeline: iterate countries, discover URLs, update sources."""
-    model = configure_gemini()
+    client = configure_gemini()
     countries = load_countries()
     sources = load_existing_sources()
 
     for idx, slug in enumerate(countries, start=1):
         logger.info("[%d/%d] Discovering URLs for: %s", idx, len(countries), slug)
 
-        result = discover_urls(model, slug)
+        result = discover_urls(client, slug)
         if result is None:
             logger.warning("Skipping %s — no valid response.", slug)
             continue

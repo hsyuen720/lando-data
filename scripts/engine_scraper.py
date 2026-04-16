@@ -18,9 +18,10 @@ import sys
 import time
 from pathlib import Path
 
-import google.generativeai as genai
 import requests
 from bs4 import BeautifulSoup
+from google import genai
+from google.genai import types
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -63,18 +64,14 @@ STRUCTURING_SYSTEM_PROMPT = (
 # ---------------------------------------------------------------------------
 # Gemini
 # ---------------------------------------------------------------------------
-def configure_gemini() -> genai.GenerativeModel:
-    """Initialise and return the Gemini model for structuring."""
+def configure_gemini() -> genai.Client:
+    """Initialise and return the Gemini client for structuring."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         logger.error("GEMINI_API_KEY environment variable is not set.")
         sys.exit(1)
 
-    genai.configure(api_key=api_key)
-    return genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
-        system_instruction=STRUCTURING_SYSTEM_PROMPT,
-    )
+    return genai.Client(api_key=api_key)
 
 
 # ---------------------------------------------------------------------------
@@ -141,7 +138,7 @@ def scrape_sources(source_entries: list[dict]) -> str:
 # AI Structuring
 # ---------------------------------------------------------------------------
 def structure_with_ai(
-    model: genai.GenerativeModel, raw_text: str, country: str, category: str
+    client: genai.Client, raw_text: str, country: str, category: str
 ) -> dict | list | None:
     """Send raw text to Gemini and parse the structured response."""
     if not raw_text.strip():
@@ -159,7 +156,13 @@ def structure_with_ai(
     )
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=STRUCTURING_SYSTEM_PROMPT,
+            ),
+        )
         raw = response.text.strip()
 
         # Strip markdown fences
@@ -204,7 +207,7 @@ def save_output(country: str, category: str, data: dict | list, apps: list) -> N
 # ---------------------------------------------------------------------------
 def run() -> None:
     """Iterate sources, scrape, structure, and save."""
-    model = configure_gemini()
+    client = configure_gemini()
     sources = load_sources()
     apps = load_apps()
 
@@ -228,7 +231,7 @@ def run() -> None:
                 logger.warning("  No text scraped for %s/%s — skipping.", country, category)
                 continue
 
-            structured = structure_with_ai(model, raw_text, country, category)
+            structured = structure_with_ai(client, raw_text, country, category)
             if structured is None:
                 logger.warning("  AI structuring failed for %s/%s — skipping.", country, category)
                 continue
