@@ -217,6 +217,16 @@ def run() -> None:
         )
         return
 
+    # Remove stale data files for countries no longer in sources
+    if DATA_DIR.exists():
+        valid_prefixes = set(sources.keys())
+        for filepath in DATA_DIR.glob("*.json"):
+            # Filename format: {country}_{category}.json
+            prefix = filepath.stem.rsplit("_", 1)[0]
+            if prefix not in valid_prefixes:
+                filepath.unlink()
+                logger.info("Removed stale data file: %s", filepath.name)
+
     total_countries = len(sources)
     for idx, (country, categories) in enumerate(sources.items(), start=1):
         logger.info("[%d/%d] Processing country: %s", idx, total_countries, country)
