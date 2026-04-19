@@ -3,24 +3,11 @@
   "visa_category": "visa-information-ministry-of-foreign-affairs",
   "data": [
     {
-      "visa_category": "Permiso de Permanencia Transitoria y autorizaciones previas o visas",
-      "visa_type_detail": [
-        {
-          "name": "Visa una entrada",
-          "fee_amount": null,
-          "processing_time": null,
-          "duration": "90 días"
-        },
-        {
-          "name": "Visa múltiples entradas",
-          "fee_amount": null,
-          "processing_time": null,
-          "duration": "90 días"
-        }
-      ],
+      "visa_category": "Permiso de permanencia transitoria y autorizaciones previas o visas",
+      "visa_type_detail": "Autorización previa o visa",
       "processing_time": null,
       "fee_amount": null,
-      "currency": "US$",
+      "currency": null,
       "last_updated_official": null,
       "reference_urls": [
         "https://consulado.gob.cl/informacion-sobre-visas-para-ingresar-a-chile"

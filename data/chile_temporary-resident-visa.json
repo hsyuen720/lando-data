@@ -5,7 +5,7 @@
     "visa_category": "Residencia Temporal",
     "visa_type_detail": null,
     "processing_time": null,
-    "fee_amount": 0,
+    "fee_amount": "0",
     "currency": "CLP",
     "last_updated_official": null,
     "reference_urls": [

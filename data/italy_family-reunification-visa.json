@@ -2,7 +2,7 @@
   "country": "italy",
   "visa_category": "family-reunification-visa",
   "data": {
-    "visa_category": "family-reunion",
+    "visa_category": "family-reunification-visa",
     "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,

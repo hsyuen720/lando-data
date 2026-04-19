@@ -5,13 +5,31 @@
     "visa_category": "family-sponsorship",
     "visa_type_detail": [
       {
-        "name": "Spouse or Common-Law Partner"
+        "name": "Sponsor your spouse or common law partner"
+      },
+      {
+        "name": "Sponsor a dependent child"
+      },
+      {
+        "name": "Sponsor a Parent or Grandparent"
+      },
+      {
+        "name": "Spouse or Common-Law Partner",
+        "sub_types": [
+          "Outland Sponsorship",
+          "Inland Sponsorship",
+          "Spousal Open Work Permit"
+        ]
       },
       {
         "name": "Child or Other Dependent"
       },
       {
-        "name": "Parents and Grandparents"
+        "name": "Parents and Grandparents",
+        "sub_types": [
+          "PGP Invitation to Apply",
+          "Super Visa"
+        ]
       }
     ],
     "processing_time": null,

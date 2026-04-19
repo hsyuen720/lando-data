@@ -6,7 +6,7 @@
       "visa_category": "permanent-residency",
       "visa_type_detail": "Express Entry",
       "processing_time": "Varies by program",
-      "fee_amount": 1525.0,
+      "fee_amount": "1525",
       "currency": "CAN",
       "last_updated_official": "2025-02-03",
       "reference_urls": [
@@ -16,12 +16,34 @@
     {
       "visa_category": "permanent-residency",
       "visa_type_detail": "Canadian Experience Class",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
+      "processing_time": "Varies by program",
+      "fee_amount": "1525",
+      "currency": "CAN",
+      "last_updated_official": "2025-02-03",
       "reference_urls": [
-        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Federal Skilled Worker Program",
+      "processing_time": "Varies by program",
+      "fee_amount": "1525",
+      "currency": "CAN",
+      "last_updated_official": "2025-02-03",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "Federal Skilled Trades Program",
+      "processing_time": "Varies by program",
+      "fee_amount": "1525",
+      "currency": "CAN",
+      "last_updated_official": "2025-02-03",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
       ]
     },
     {
@@ -30,7 +52,7 @@
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -41,7 +63,7 @@
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -52,7 +74,7 @@
       "processing_time": "several years",
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -63,7 +85,7 @@
       "processing_time": "after one year of protected status",
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -74,18 +96,18 @@
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
     },
     {
       "visa_category": "permanent-residency",
-      "visa_type_detail": "Caregiver Pathways (Home Child Care Provider Pilot and Home Support Worker Pilot)",
+      "visa_type_detail": "Caregiver Pathways",
       "processing_time": "After 24 months of eligible work experience",
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -96,7 +118,7 @@
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -104,10 +126,10 @@
     {
       "visa_category": "permanent-residency",
       "visa_type_detail": "Atlantic Immigration Program (AIP)",
-      "processing_time": "faster processing",
+      "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
@@ -118,31 +140,31 @@
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2025-10-28",
       "reference_urls": [
         "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
       ]
     },
     {
       "visa_category": "permanent-residency",
-      "visa_type_detail": "Pathways for International Graduates",
+      "visa_type_detail": "Hong Kong residents in Canada",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2026-04-14",
       "reference_urls": [
-        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
       ]
     },
     {
       "visa_category": "permanent-residency",
-      "visa_type_detail": "Temporary Resident to Permanent Resident (TR to PR) Pathways",
+      "visa_type_detail": "Foreign nationals who were in state care",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2026-04-14",
       "reference_urls": [
-        "https://sarimmigration.com/alternative-pathways-to-permanent-residency-in-canada/"
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
       ]
     },
     {
@@ -158,7 +180,7 @@
     },
     {
       "visa_category": "permanent-residency",
-      "visa_type_detail": "Caregivers",
+      "visa_type_detail": "Home care workers",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -170,6 +192,17 @@
     {
       "visa_category": "permanent-residency",
       "visa_type_detail": "Medical doctors",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-04-14",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+      ]
+    },
+    {
+      "visa_category": "permanent-residency",
+      "visa_type_detail": "For physicians",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -247,28 +280,6 @@
     {
       "visa_category": "permanent-residency",
       "visa_type_detail": "Refugees and asylum",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2026-04-14",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
-      ]
-    },
-    {
-      "visa_category": "permanent-residency",
-      "visa_type_detail": "Hong Kong residents in Canada",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2026-04-14",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
-      ]
-    },
-    {
-      "visa_category": "permanent-residency",
-      "visa_type_detail": "Foreign nationals who were in state care",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,

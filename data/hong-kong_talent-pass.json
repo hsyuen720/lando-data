@@ -2,37 +2,30 @@
   "country": "hong-kong",
   "visa_category": "talent-pass",
   "data": {
-    "visa_category": [
+    "visa_category": "talent-pass",
+    "visa_type_detail": [
       {
-        "visa_type_detail": "Top Talent Pass Scheme - Category A",
-        "processing_time": "4 weeks",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": "2026-04-16",
-        "reference_urls": [
-          "https://www.immd.gov.hk/eng/services/visas/TTPS.html"
-        ]
+        "name": "Category A",
+        "description": "Persons with annual income reaching HK$2.5 million or above, or its equivalent in foreign currency, in the year immediately preceding the date of application.",
+        "duration_of_stay_months": 36
       },
       {
-        "visa_type_detail": "Top Talent Pass Scheme - Category B",
-        "processing_time": "4 weeks",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": "2026-04-16",
-        "reference_urls": [
-          "https://www.immd.gov.hk/eng/services/visas/TTPS.html"
-        ]
+        "name": "Category B",
+        "description": "Degree graduates of the eligible universities with at least three years of work experience over the past five years immediately preceding the date of application.",
+        "duration_of_stay_months": 24
       },
       {
-        "visa_type_detail": "Top Talent Pass Scheme - Category C",
-        "processing_time": "4 weeks",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": "2026-04-16",
-        "reference_urls": [
-          "https://www.immd.gov.hk/eng/services/visas/TTPS.html"
-        ]
+        "name": "Category C",
+        "description": "Degree graduates of the eligible universities in the past five years immediately preceding the date of application with less than three years of work experience, subject to an annual quota.",
+        "duration_of_stay_months": 24
       }
+    ],
+    "processing_time": "It normally takes four weeks to process visa/entry permit applications under the TTPS upon receipt of all the required documents and the relevant application fee.",
+    "fee_amount": null,
+    "currency": "HKD",
+    "last_updated_official": "2026-04-16",
+    "reference_urls": [
+      "https://www.immd.gov.hk/eng/services/visas/TTPS.html"
     ]
   },
   "essential_apps": [

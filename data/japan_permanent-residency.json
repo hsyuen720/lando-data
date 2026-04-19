@@ -5,23 +5,32 @@
     "visa_category": "permanent-residency",
     "visa_type_detail": [
       {
-        "name": "Highly-skilled professional with 70+ points",
-        "residence_period": "3 years"
+        "name": "Standard",
+        "description": "Being a resident of Japan for more than 10 years.",
+        "processing_time": "about a year",
+        "min_residency_years": 10
       },
       {
-        "name": "Highly-skilled professional with 80+ points",
-        "residence_period": "1 year"
+        "name": "Highly-Skilled Professional (70+ points)",
+        "description": "Fulfilling a certain amount of time in Japan as a 'highly-skilled professional' and collecting enough points.",
+        "processing_time": "about a year",
+        "min_residency_years": 3
+      },
+      {
+        "name": "Highly-Skilled Professional (80+ points)",
+        "description": "Fulfilling a certain amount of time in Japan as a 'highly-skilled professional' and collecting enough points.",
+        "processing_time": "about a year",
+        "min_residency_years": 1
       },
       {
         "name": "Spouse of a Japanese citizen or permanent resident",
-        "residence_period": "1 year (after 3 years of marriage)"
-      },
-      {
-        "name": "Other visa types",
-        "residence_period": "10 years"
+        "description": "Marrying a Japanese citizen or a permanent resident.",
+        "processing_time": "about a year",
+        "min_residency_years": 1,
+        "min_marriage_years": 3
       }
     ],
-    "processing_time": "4 months (official, but plan for 8 months)",
+    "processing_time": "4 months",
     "fee_amount": null,
     "currency": null,
     "last_updated_official": "2025-04-03",

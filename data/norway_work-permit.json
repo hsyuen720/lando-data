@@ -3,24 +3,69 @@
   "visa_category": "work-permit",
   "data": [
     {
-      "visa_category": "work-permit",
+      "visa_category": "Work Immigration",
       "visa_type_detail": "Skilled Worker Permit",
       "processing_time": "3–4 months",
-      "fee_amount": "6,300",
+      "fee_amount": 6300,
       "currency": "NOK",
-      "last_updated_official": "2026-04-10",
+      "last_updated_official": "2025-09-01",
       "reference_urls": [
         "https://www.udi.no/en/want-to-apply/work-immigration/",
         "https://www.deel.com/blog/how-to-get-a-visa-and-work-permit-in-norway"
       ]
     },
     {
-      "visa_category": "work-permit",
+      "visa_category": "Work Immigration",
+      "visa_type_detail": "Seasonal workers",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.udi.no/en/want-to-apply/work-immigration/"
+      ]
+    },
+    {
+      "visa_category": "Work Immigration",
+      "visa_type_detail": "Self-employed persons",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.udi.no/en/want-to-apply/work-immigration/"
+      ]
+    },
+    {
+      "visa_category": "Work Immigration",
+      "visa_type_detail": "Employees in a humanitarian, non-profit or religious organisation",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.udi.no/en/want-to-apply/work-immigration/"
+      ]
+    },
+    {
+      "visa_category": "Visits and holidays",
+      "visa_type_detail": "Schengen Business Visa",
+      "processing_time": "under 15 days",
+      "fee_amount": 800,
+      "currency": "NOK",
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.udi.no/en/want-to-apply/work-immigration/",
+        "https://www.deel.com/blog/how-to-get-a-visa-and-work-permit-in-norway"
+      ]
+    },
+    {
+      "visa_category": "Family immigration",
       "visa_type_detail": "Family Immigration Permit",
       "processing_time": "2 months",
-      "fee_amount": "10,500",
+      "fee_amount": 3500,
       "currency": "NOK",
-      "last_updated_official": "2026-04-10",
+      "last_updated_official": null,
       "reference_urls": [
         "https://www.udi.no/en/want-to-apply/work-immigration/",
         "https://www.deel.com/blog/how-to-get-a-visa-and-work-permit-in-norway"

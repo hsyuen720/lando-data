@@ -4,51 +4,11 @@
   "data": [
     {
       "visa_category": "family-visa",
-      "visa_type_detail": "Apply for an EU Settlement Scheme family permit to join family in the UK",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.gov.uk/browse/visas-immigration/family-visas"
-      ]
-    },
-    {
-      "visa_category": "family-visa",
-      "visa_type_detail": "Apply as a child to join or stay with a close relative in the UK",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.gov.uk/browse/visas-immigration/family-visas"
-      ]
-    },
-    {
-      "visa_category": "family-visa",
-      "visa_type_detail": "Family visas: apply, extend or switch",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.gov.uk/browse/visas-immigration/family-visas"
-      ]
-    },
-    {
-      "visa_category": "family-visa",
-      "visa_type_detail": "Indefinite leave to remain if your partner dies",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.gov.uk/browse/visas-immigration/family-visas"
-      ]
-    },
-    {
-      "visa_category": "family-visa",
-      "visa_type_detail": "Visas when you separate or divorce",
+      "visa_type_detail": [
+        "Family visas: apply, extend or switch",
+        "Apply for an EU Settlement Scheme family permit to join family in the UK",
+        "Apply as a child to join or stay with a close relative in the UK"
+      ],
       "processing_time": null,
       "fee_amount": null,
       "currency": null,

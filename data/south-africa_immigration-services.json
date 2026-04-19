@@ -1,130 +1,428 @@
 {
   "country": "south-africa",
   "visa_category": "immigration-services",
-  "data": {
-    "visa_category": [
-      {
-        "visa_type_detail": "Business Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "General Work Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Critical Skills Work Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Intra-company Transfer Work Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Corporate Visas",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Study Visas",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Exchange Visas",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Retired Persons’ Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Relative’s Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Medical Treatment Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Treaty Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      },
-      {
-        "visa_type_detail": "Crew Visa",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.dha.gov.za/index.php/immigration-services"
-        ]
-      }
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Business Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "General Work Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Critical Skills Work Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Intra-company Transfer Work Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Corporate Visas",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Study Visas",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Exchange Visas",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Retired Persons’ Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Relative’s Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Medical Treatment Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Business permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Work permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Corporate permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Study permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Exchange permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Retired persons’ permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Relatives permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Permit - Medical treatment permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Critical Skills Work Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Business Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "General Work Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Intra-Company Transfer",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Study Visa (universities & aviation schools)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Treaty Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Exchange Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Corporate Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Crew Visa",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Temporary Residence Visa - Enquiries",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Permanent Residence Permits - Enquiries",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Zimbabwe/Lesotho Special Permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Waivers & Exemptions",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Proof of Permanent Residence",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Visa and Permit verifications",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Visa and Permit withdrawals",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Rejected Applications (Appeals for temporary residence & permanent residence)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "General information about requirements for visas & permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services",
+        "www.dha.gov.za"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "General information about requirements for visas & permits",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services",
+        "www.vfsglobal.com/dha/southafrica"
+      ]
+    },
+    {
+      "visa_category": "immigration-services",
+      "visa_type_detail": "Appeal Application status regarding Temporary Residence Visas (TRA) and Permanent Residence (PRA) appeal applications",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.dha.gov.za/index.php/immigration-services"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "MyGov.co.za",

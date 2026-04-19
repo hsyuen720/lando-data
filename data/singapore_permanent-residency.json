@@ -5,35 +5,44 @@
     "visa_category": "permanent-residency",
     "visa_type_detail": [
       {
-        "type": "Spouse of a Singapore citizen or Singapore permanent resident (PR)"
+        "name": "Spouse of a Singapore citizen or Singapore permanent resident (PR)",
+        "eligibility": "Spouse of a Singapore citizen or Singapore permanent resident (PR)"
       },
       {
-        "type": "Unmarried child aged below 21 born within the context of a legal marriage to, or have been legally adopted by a Singapore citizen or PR"
+        "name": "Unmarried child aged below 21 born within the context of a legal marriage to, or have been legally adopted by a Singapore citizen or PR",
+        "eligibility": "Unmarried child aged below 21 born within the context of a legal marriage to, or have been legally adopted by a Singapore citizen or PR"
       },
       {
-        "type": "Aged parent of a Singapore citizen of at least 21 years old"
+        "name": "Aged parent of a Singapore citizen of at least 21 years old",
+        "eligibility": "Aged parent of a Singapore citizen of at least 21 years old"
       },
       {
-        "type": "Holder of an Employment Pass or S Pass"
+        "name": "Holder of an Employment Pass or S Pass",
+        "eligibility": "Holder of an Employment Pass or S Pass"
       },
       {
-        "type": "Student studying in Singapore and have passed at least one national exam (i.e. PSLE, GCE 'N'/ 'O'/ 'A' levels), or are in the Integrated Programme (IP)"
+        "name": "Student studying in Singapore and have passed at least one national exam (i.e. PSLE, GCE 'N'/ 'O'/ 'A' levels), or are in the Integrated Programme (IP)",
+        "eligibility": "Student studying in Singapore and have passed at least one national exam (i.e. PSLE, GCE 'N'/ 'O'/ 'A' levels), or are in the Integrated Programme (IP)"
       },
       {
-        "type": "Foreign investor in Singapore"
+        "name": "Foreign investor in Singapore",
+        "eligibility": "Foreign investor in Singapore"
       }
     ],
     "processing_time": "6 months",
     "fee_amount": {
-      "submission": 100,
-      "entry_permit": 20,
-      "re_entry_permit_5_year": 50,
-      "identity_card": 50
+      "submission": "100",
+      "completion": {
+        "entry_permit": "20",
+        "re_entry_permit_5_year": "50",
+        "identity_card": "50"
+      }
     },
     "currency": "S$",
     "last_updated_official": null,
     "reference_urls": [
-      "https://www.ica.gov.sg/reside/PR"
+      "https://www.ica.gov.sg/reside/PR",
+      "https://form.gov.sg/#!/5fe1c57070454a001268199c"
     ]
   },
   "essential_apps": [

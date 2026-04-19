@@ -5,8 +5,7 @@
     "visa_category": "temporary-stay-permit",
     "visa_type_detail": [
       {
-        "name": "Permanencia Transitoria",
-        "description": "The Permanencia Transitoria is a permit granted by the border control authority or by the Chilean consulate abroad to foreigners who enter Chile with no intention of settling in the country, which authorizes them to remain in the national territory for a limited period."
+        "name": "Permanencia Transitoria"
       }
     ],
     "processing_time": null,

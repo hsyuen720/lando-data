@@ -1,19 +1,22 @@
 {
   "country": "norway",
   "visa_category": "schengen-visa",
-  "data": [
-    {
-      "visa_category": "schengen-visa",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2025-06-03",
-      "reference_urls": [
-        "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "schengen-visa",
+    "visa_type_detail": [
+      {
+        "sub_type": "Tourist",
+        "details": "Not required for stays under 90 days."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2025-06-03",
+    "reference_urls": [
+      "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "BankID",

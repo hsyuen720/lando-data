@@ -1,19 +1,17 @@
 {
   "country": "denmark",
   "visa_category": "permanent-residency",
-  "data": [
-    {
-      "visa_category": "permanent-residency",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.nyidanmark.dk/"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "permanent-residency",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.nyidanmark.dk/"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "MitID",

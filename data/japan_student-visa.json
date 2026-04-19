@@ -6,7 +6,7 @@
     "visa_type_detail": [
       {
         "name": "Student",
-        "period_of_stay": "Not exceeding 4 years and 3 months"
+        "period_of_stay": "not exceeding 4 years and 3 months"
       }
     ],
     "processing_time": null,

@@ -3,16 +3,7 @@
   "visa_category": "work-visa",
   "data": {
     "visa_category": "work-visa",
-    "visa_type_detail": [
-      {
-        "permit_type": "residence permit",
-        "description": "to work in the Netherlands"
-      },
-      {
-        "permit_type": "work permit",
-        "description": "in some cases to work in the Netherlands"
-      }
-    ],
+    "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,
     "currency": null,

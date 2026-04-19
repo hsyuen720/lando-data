@@ -5,9 +5,8 @@
     "visa_category": "short-term-visa",
     "visa_type_detail": [
       {
-        "purpose": "tourism",
-        "stay_duration": "up to 90 days",
-        "remunerated_activities": "not engaged in"
+        "purpose_of_travel": "tourism",
+        "conditions": "Those who do not engage in remunerated activities for a stay of up to 90 days"
       }
     ],
     "processing_time": null,
@@ -15,9 +14,7 @@
     "currency": null,
     "last_updated_official": null,
     "reference_urls": [
-      "https://www.evisa.mofa.go.jp/index",
-      "https://www.mofa.go.jp/j_info/visit/visa/visa_exemption.html",
-      "https://www.mofa.go.jp/j_info/visit/visa/visa_processing_time.html"
+      "https://www.evisa.mofa.go.jp/index"
     ]
   },
   "essential_apps": [

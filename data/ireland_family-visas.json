@@ -5,20 +5,24 @@
     "visa_category": "family-visas",
     "visa_type_detail": [
       {
-        "name": "Family Dependents",
-        "description": "Non-EEA nationals dependent on a family member currently resident in Ireland. Requires sponsor to be an Irish national or holder of Stamp 1, 4, or 5 permission, resident for the applicable period, and able to support dependents without public funds. Dependents aged 16-18, under 23 in full-time education, or over 18 dependent due to serious medical/psychological issues are eligible.",
-        "eligibility_requirements": "Sponsor must be an Irish citizen, a person married to an Irish citizen, or a person living in Ireland with a Stamp 1, 4, or 5 Irish Residence Permit. Sponsor must have sufficient funds. Dependents must enter Ireland legally and be of good character.",
-        "application_process": "Depends on entry status. For those entering on a 'D' (Join Family) Visa or given a Join family stamp by border control, an appointment with the Registration Office is required. For those resident in the State on an existing permission, renewal may be done online. For those entering on a Short Stay 'C' Visa, without valid permission, or refused registration, a Family Dependent Application Form must be completed and submitted via the Customer Service Portal.",
-        "processing_time": "Currently experiencing high volumes leading to delays in processing post/applications. Applicants will receive an acknowledgement once applications are received and uploaded. Eligible spouses and partners of General Employment Permit and Intra-Corporate Transferee Irish Employment Permit holders will be registered on a Stamp 1G permission.",
-        "fee_amount": "300",
-        "currency": "EUR",
-        "reference_urls": [
-          "https://www.irishimmigration.ie/family-dependents/",
-          "https://www.irishimmigration.ie/family-dependents/attention-eligible-spouses-and-partners-of-general-employment-permit-and-intra-corporate-transferee-irish-employment-permit-holders/"
-        ]
+        "name": "Spouses and partners of General Employment Permit and Intra-Corporate Transferee Irish Employment Permit holders",
+        "stamp_type": "Stamp 1G",
+        "condition": "Eligible spouses and partners will be registered on a Stamp 1G permission, allowing them to take up employment without a separate Employment Permit."
+      },
+      {
+        "name": "General Family Dependent",
+        "stamp_type": null,
+        "condition": "Non-EEA national dependent on a family member currently resident in Ireland. Sponsor must be an Irish national, married to an Irish national, or a holder of Stamp 1, 4, or 5 Irish Residence permission and resident for the applicable period. Sponsor must be able to support dependents without public funds."
       }
     ],
-    "last_updated_official": "2026-03-26"
+    "processing_time": "Currently experiencing very high volumes of family dependent applications, resulting in delays in processing post/applications. Applicants will receive an acknowledgement when applications are received and uploaded.",
+    "fee_amount": "300",
+    "currency": "EUR",
+    "last_updated_official": "2026-03-26",
+    "reference_urls": [
+      "https://www.irishimmigration.ie/family-dependents/",
+      "Attention eligible spouses and partners of General Employment Permit and Intra-Corporate Transferee Irish Employment Permit holders – Immigration Service Delivery (irishimmigration.ie)"
+    ]
   },
   "essential_apps": [
     {

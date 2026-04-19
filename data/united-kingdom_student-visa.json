@@ -6,35 +6,24 @@
     "visa_type_detail": [
       {
         "name": "Student visa",
-        "description": "You can apply for a Student visa to study in the UK if you’re 16 or over and you:\nhave been offered a place on\na course by a licensed student sponsor\nhave enough\nmoney to support yourself and pay for your course\n- the amount will vary depending on your circumstances\ncan\nspeak, read, write and understand English\nhave consent from your parents if you’re 16 or 17 - you’ll need evidence of this when you apply",
-        "processing_time": [
-          {
-            "location": "outside the UK",
-            "time_estimate": "3 weeks"
-          },
-          {
-            "location": "inside the UK",
-            "time_estimate": "8 weeks"
-          }
-        ],
-        "fee_amount": "558",
-        "currency": "£",
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.gov.uk/student-visa"
-        ]
+        "description": "You can apply for a Student visa to study in the UK if you’re 16 or over and you:\nhave been offered a place on\na course by a licensed student sponsor\nhave enough\nmoney to support yourself and pay for your course\n- the amount will vary depending on your circumstances\ncan\nspeak, read, write and understand English\nhave consent from your parents if you’re 16 or 17 - you’ll need evidence of this when you apply\nIf you’re 16 or 17 and you want to study at an independent school in the UK, you may be eligible for a\nChild Student visa\ninstead.\nThis visa has replaced the Tier 4 (General) student visa."
+      }
+    ],
+    "processing_time": [
+      {
+        "location": "outside the UK",
+        "time_in_weeks": 3
       },
       {
-        "name": "Child Student visa",
-        "description": "If you’re 16 or 17 and you want to study at an independent school in the UK, you may be eligible for a Child Student visa instead.",
-        "processing_time": null,
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://www.gov.uk/student-visa"
-        ]
+        "location": "inside the UK",
+        "time_in_weeks": 8
       }
+    ],
+    "fee_amount": 558,
+    "currency": "£",
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.gov.uk/student-visa"
     ]
   },
   "essential_apps": [

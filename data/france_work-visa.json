@@ -1,71 +1,85 @@
 {
   "country": "france",
   "visa_category": "work-visa",
-  "data": {
-    "visa_category": "work-visa",
-    "visa_type_detail": [
-      {
-        "sub_category": "Époux de Français",
-        "processing_time": "VLS-TS (valable 1 an). Vous pouvez demander la carte de séjour pluriannuelle vie privée et familiale la 2e année de votre séjour en France.",
-        "fee_amount": 225.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      },
-      {
-        "sub_category": "Parent d'enfant français",
-        "processing_time": "La carte de séjour temporaire est valide 1 an.",
-        "fee_amount": 225.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      },
-      {
-        "sub_category": "Famille d'un étranger en séjour régulier en France",
-        "processing_time": "La carte de séjour temporaire qui vous est délivrée est valide 1 an.",
-        "fee_amount": 225.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      },
-      {
-        "sub_category": "Jeune majeur entré en France par regroupement familial",
-        "processing_time": "La carte de séjour temporaire est valable 1 an.",
-        "fee_amount": 75.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      },
-      {
-        "sub_category": "Jeune majeur étranger né en France ou entré en France mineur",
-        "processing_time": "La carte de séjour temporaire est valable 1 an.",
-        "fee_amount": 225.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      },
-      {
-        "sub_category": "Titulaire d'une rente d'accident du travail en France",
-        "processing_time": "La carte de séjour temporaire est valable 1 an.",
-        "fee_amount": 75.0,
-        "currency": "EUR",
-        "last_updated_official": "2026-01-01",
-        "reference_urls": [
-          "https://www.service-public.fr/particuliers/vosdroits/F2209"
-        ]
-      }
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Époux de Français",
+      "processing_time": "Au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre document de séjour",
+      "fee_amount": 225.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Parent d'enfant français",
+      "processing_time": "Au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre document de séjour",
+      "fee_amount": 225.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Famille d'un étranger en séjour régulier en France (époux/épouse de résident de longue durée UE)",
+      "processing_time": "2 mois avant la fin de validité de votre titre de séjour",
+      "fee_amount": 225.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Famille d'un étranger en séjour régulier en France (autres liens personnels et familiaux)",
+      "processing_time": "2 mois avant la fin de validité de votre titre de séjour",
+      "fee_amount": 225.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Jeune majeur entré en France par regroupement familial",
+      "processing_time": "Au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre document de séjour",
+      "fee_amount": 75.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Jeune majeur étranger né en France ou entré en France mineur (hors regroupement familial)",
+      "processing_time": "Au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre document de séjour",
+      "fee_amount": 225.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    },
+    {
+      "visa_category": "work-visa",
+      "visa_type_detail": "Carte de séjour vie privée et familiale - Titulaire d'une rente d'accident du travail en France",
+      "processing_time": "2 mois avant la fin de validité de votre titre de séjour",
+      "fee_amount": 75.0,
+      "currency": "EUR",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2209"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "Ameli",

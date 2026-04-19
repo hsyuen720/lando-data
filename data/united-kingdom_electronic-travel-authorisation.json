@@ -5,8 +5,13 @@
     "visa_category": "electronic-travel-authorisation",
     "visa_type_detail": [
       {
-        "description": "An electronic travel authorisation (ETA) lets you travel to the UK for tourism, visiting family or certain other reasons for up to 6 months.",
-        "validity_period": "up to 6 months"
+        "name": "ETA",
+        "purpose": "tourism, visiting family or certain other reasons for up to 6 months",
+        "fee_amount": 20,
+        "currency": "GBP",
+        "reference_urls": [
+          "https://www.gov.uk/electronic-travel-authorisation"
+        ]
       }
     ],
     "processing_time": null,

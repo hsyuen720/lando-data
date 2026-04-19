@@ -1,19 +1,21 @@
 {
   "country": "hong-kong",
   "visa_category": "residence-visa",
-  "data": [
-    {
-      "visa_category": "residence-visa",
-      "visa_type_detail": "Dependants",
-      "processing_time": "six weeks",
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.immd.gov.hk/eng/services/visas/residence_as_dependant.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "residence-visa",
+    "visa_type_detail": [
+      {
+        "name": "Dependant Visa"
+      }
+    ],
+    "processing_time": "six weeks",
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.immd.gov.hk/eng/services/visas/residence_as_dependant.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "iAM Smart",

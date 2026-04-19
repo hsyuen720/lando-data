@@ -6,16 +6,16 @@
       "visa_category": "residence-permit",
       "visa_type_detail": [
         {
-          "type": "short-term residence permit",
-          "duration": "less than 1 year"
+          "name": "short-term residence permit",
+          "description": "less than 1 year"
         },
         {
-          "type": "annual residence permit",
-          "duration": "limited"
+          "name": "annual residence permit",
+          "description": "limited"
         },
         {
-          "type": "permanent residence permit",
-          "duration": "unlimited"
+          "name": "permanent residence permit",
+          "description": "unlimited"
         }
       ],
       "processing_time": null,

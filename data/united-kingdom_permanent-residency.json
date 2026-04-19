@@ -6,34 +6,32 @@
       "visa_category": "permanent-residency",
       "visa_type_detail": [
         {
-          "name": "Indefinite leave to remain",
-          "reference_urls": [
-            "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk"
-          ]
+          "name": "Settle in the UK (indefinite leave to remain)",
+          "description": "Check if you can get indefinite leave to remain"
         },
         {
-          "name": "EU Settlement Scheme (settled and pre-settled status)",
-          "reference_urls": [
-            "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk"
-          ]
+          "name": "Other types of settlement",
+          "description": null
         },
         {
-          "name": "Right of abode",
-          "reference_urls": [
-            "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk"
-          ]
+          "name": "Apply to the EU Settlement Scheme (settled and pre-settled status)",
+          "description": null
         },
         {
-          "name": "Stateless person",
-          "reference_urls": [
-            "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk"
-          ]
+          "name": "Prove you have right of abode in the UK",
+          "description": null
         },
         {
-          "name": "British citizen",
-          "reference_urls": [
-            "https://www.gov.uk/browse/visas-immigration/settling-in-the-uk"
-          ]
+          "name": "Apply to stay in the UK as a stateless person",
+          "description": null
+        },
+        {
+          "name": "Become a British citizen",
+          "description": "Check if you can become a British citizen"
+        },
+        {
+          "name": "Prove your knowledge of English for citizenship and settling",
+          "description": "Life in the UK Test"
         }
       ],
       "processing_time": null,

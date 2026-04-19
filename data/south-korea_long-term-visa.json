@@ -8,9 +8,7 @@
     "fee_amount": null,
     "currency": null,
     "last_updated_official": null,
-    "reference_urls": [
-      "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004"
-    ]
+    "reference_urls": "https://www.visa.go.kr/openPage.do?language=EN&page=KCONURL001_004"
   },
   "essential_apps": [
     {

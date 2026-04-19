@@ -5,31 +5,34 @@
     "visa_category": "express-entry",
     "visa_type_detail": [
       {
-        "program_name": "Canadian Experience Class"
+        "name": "Canadian Experience Class"
       },
       {
-        "program_name": "Federal Skilled Worker Program"
+        "name": "Federal Skilled Worker Program"
       },
       {
-        "program_name": "Federal Skilled Trades Program"
+        "name": "Federal Skilled Trades Program"
       }
     ],
     "processing_time": "Varies by program",
     "fee_amount": [
       {
         "applicant_type": "Your application",
-        "amount": 1525
+        "amount": 1525,
+        "currency": "CAD"
       },
       {
         "applicant_type": "Spouse",
-        "amount": 1525
+        "amount": 1525,
+        "currency": "CAD"
       },
       {
         "applicant_type": "Dependent child",
-        "amount": 260
+        "amount": 260,
+        "currency": "CAD"
       }
     ],
-    "currency": "CAN",
+    "currency": "CAD",
     "last_updated_official": "2025-02-03",
     "reference_urls": [
       "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"

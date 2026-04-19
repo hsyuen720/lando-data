@@ -6,19 +6,19 @@
       "visa_category": "skilled-migration",
       "visa_type_detail": [
         {
-          "name": "Skills in Demand (formerly TSS) (subclass 482) visa"
+          "visa_name": "Skills in Demand (formerly TSS) (subclass 482) visa"
         },
         {
-          "name": "Skilled Employer Sponsored Regional (Provisional) (subclass 494) visa"
+          "visa_name": "Skilled Employer Sponsored Regional (Provisional) (subclass 494) visa"
         },
         {
-          "name": "Employer Nominated Scheme (ENS) (subclass 186) visa"
+          "visa_name": "Employer Nominated Scheme (ENS) (subclass 186) visa"
         },
         {
-          "name": "Skilled Nominated visa (subclass 190)"
+          "visa_name": "Skilled Nominated visa (subclass 190)"
         },
         {
-          "name": "Skilled Work Regional (Provisional) visa (subclass 491)"
+          "visa_name": "Skilled Work Regional (Provisional) visa (subclass 491)"
         }
       ],
       "processing_time": null,

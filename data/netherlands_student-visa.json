@@ -3,12 +3,7 @@
   "visa_category": "student-visa",
   "data": {
     "visa_category": "student-visa",
-    "visa_type_detail": [
-      {
-        "description": "Study, intern or work",
-        "requirements": "Read the requirements per study programme."
-      }
-    ],
+    "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,
     "currency": null,

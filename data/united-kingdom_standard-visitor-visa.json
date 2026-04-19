@@ -6,15 +6,21 @@
     "visa_type_detail": [
       {
         "name": "Standard Visitor visa",
-        "fee_amount": 135.0,
-        "currency": "GBP",
-        "processing_time": "Up to 3 weeks from the date of application (if applying from outside the UK). Processing times can vary depending on the country you are applying from."
+        "fee_amount": "135",
+        "currency": "£",
+        "processing_time": "The earliest you can apply is 3 months before you travel.",
+        "reference_urls": [
+          "https://www.gov.uk/standard-visitor-visa/apply"
+        ]
       },
       {
         "name": "Visitor in Transit visa",
-        "fee_amount": 74.5,
-        "currency": "GBP",
-        "processing_time": null
+        "fee_amount": "74.50",
+        "currency": "£",
+        "processing_time": null,
+        "reference_urls": [
+          "https://www.gov.uk/transit-visa/apply"
+        ]
       }
     ],
     "last_updated_official": null,

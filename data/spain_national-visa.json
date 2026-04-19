@@ -5,36 +5,58 @@
     "visa_category": "national-visa",
     "visa_type_detail": [
       {
-        "visa_type": "Study visas",
-        "sub_types": [
-          "Study visa",
-          "Study visa for NALCAP",
-          "Study visa for minors"
-        ]
+        "name": "Study visa"
       },
       {
-        "visa_type": "Specific procedure for Au-pairs"
+        "name": "Study visa for NALCAP"
       },
       {
-        "visa_type": "Specific procedure for students with a Fulbright grant"
+        "name": "Study visa for minors"
       },
       {
-        "visa_type": "Visas under Law 14/2013",
-        "sub_types": [
-          "Researcher visa",
-          "Internship visa",
-          "Visa for Highly-qualified workers and Intra-company transfers",
-          "Telework visa",
-          "Entrepreneur visa",
-          "Working visa for professionals in the audiovisual sector",
-          "Employee visa",
-          "Self-employed work visa",
-          "Residence visa with work permit exemption",
-          "Non-working residency visa (Non-lucrative visa)",
-          "Family reunification visa",
-          "Residence visa for family members of Spanish Citizens",
-          "Long-term residency or EU Long-term residency recovery"
-        ]
+        "name": "Specific procedure for Au-pairs"
+      },
+      {
+        "name": "Specific procedure for students with a Fulbright grant"
+      },
+      {
+        "name": "Researcher visa"
+      },
+      {
+        "name": "Internship visa"
+      },
+      {
+        "name": "Visa for Highly-qualified workers and Intra-company transfers"
+      },
+      {
+        "name": "Telework visa"
+      },
+      {
+        "name": "Entrepreneur visa"
+      },
+      {
+        "name": "Working visa for professionals in the audiovisual sector"
+      },
+      {
+        "name": "Employee visa"
+      },
+      {
+        "name": "Self-employed work visa"
+      },
+      {
+        "name": "Residence visa with work permit exemption"
+      },
+      {
+        "name": "Non-working residency visa (Non-lucrative visa)"
+      },
+      {
+        "name": "Family reunification visa"
+      },
+      {
+        "name": "Residence visa for family members of Spanish Citizens"
+      },
+      {
+        "name": "Long-term residency or EU Long-term residency recovery"
       }
     ],
     "processing_time": "15 working days",

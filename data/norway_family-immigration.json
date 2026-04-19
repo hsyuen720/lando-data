@@ -2,25 +2,25 @@
   "country": "norway",
   "visa_category": "family-immigration",
   "data": {
-    "visa_category": "family-immigration",
+    "visa_category": "Family immigration",
     "visa_type_detail": [
       {
-        "name": "residence permit",
-        "description": "for those who wish to live together with a family member in Norway."
+        "name": "Residence permit",
+        "description": "For those wishing to live together with a family member in Norway."
       },
       {
-        "name": "residence card for family members of EU/EEA nationals",
-        "description": "for family members of EU/EEA nationals."
+        "name": "Residence card for family members of EU/EEA nationals",
+        "description": "For family members of EU/EEA nationals in Norway."
       },
       {
-        "name": "registration scheme",
-        "description": "for family members of EU/EEA nationals."
+        "name": "Registration scheme",
+        "description": "Alternative to residence permit/card for certain family members."
       }
     ],
     "processing_time": null,
     "fee_amount": null,
     "currency": null,
-    "last_updated_official": "2026-01-29",
+    "last_updated_official": null,
     "reference_urls": [
       "https://www.udi.no/en/want-to-apply/family-immigration/"
     ]

@@ -5,16 +5,10 @@
     "visa_category": "work-visa",
     "visa_type_detail": [
       {
-        "name": "work visa",
-        "description": "If you’re planning to work in New Zealand and you’re not a citizen or permanent resident of NZ or Australia, you’ll need a visa that lets you work."
+        "name": "Work visas that lead to residence"
       },
       {
-        "name": "work visas that can lead to residence",
-        "description": "Some work visas can also lead to residence — that is, the right to live, study and work here without needing to leave by a certain date. To apply you need to have skills, experience and qualifications that are needed for the New Zealand workforce."
-      },
-      {
-        "name": "working holiday visa",
-        "description": "You do not need a RealMe ® account if you’re applying for a working holiday visa."
+        "name": "working holiday visa"
       }
     ],
     "processing_time": null,

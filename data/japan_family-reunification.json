@@ -1,40 +1,46 @@
 {
   "country": "japan",
   "visa_category": "family-reunification",
-  "data": {
-    "visa_category": "family-reunification",
-    "visa_type_detail": [
-      {
-        "name": "Dependent visa",
-        "processing_time": "2-3 months",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": []
-      },
-      {
-        "name": "Certificate of Eligibility (Dependent)",
-        "processing_time": "about 1 month",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": []
-      }
-    ],
-    "processing_time": null,
-    "fee_amount": 4000,
-    "currency": "JPY",
-    "last_updated_official": null,
-    "reference_urls": [
-      "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/01-format.html",
-      "http://www.immi-moj.go.jp/english/tetuduki/zairyuu/koushin.html",
-      "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/03.html",
-      "http://www.immi-moj.go.jp/english/soshiki/index.html",
-      "http://www.immi-moj.go.jp/english/tetuduki/zairyuu/syutoku.html",
-      "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/04.html",
-      "https://www.mofa.go.jp/j_info/visit/visa/index.html"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Dependent visa",
+      "processing_time": "2-3 months",
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/01-format.html"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Extension of Period of Stay for family (Dependent)",
+      "processing_time": null,
+      "fee_amount": 4000,
+      "currency": "JPY",
+      "last_updated_official": null,
+      "reference_urls": [
+        "http://www.immi-moj.go.jp/english/tetuduki/zairyuu/koushin.html",
+        "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/03.html",
+        "http://www.immi-moj.go.jp/english/soshiki/index.html"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Application for Acquisition of Status of Residence for Newborns",
+      "processing_time": null,
+      "fee_amount": 0,
+      "currency": "JPY",
+      "last_updated_official": null,
+      "reference_urls": [
+        "http://www.immi-moj.go.jp/english/tetuduki/zairyuu/syutoku.html",
+        "http://www.immi-moj.go.jp/english/tetuduki/kanri/shyorui/04.html",
+        "http://www.immi-moj.go.jp/english/soshiki/index.html"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "My Number Card",

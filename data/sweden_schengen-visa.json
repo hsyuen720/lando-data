@@ -1,19 +1,22 @@
 {
   "country": "sweden",
   "visa_category": "schengen-visa",
-  "data": [
-    {
-      "visa_category": "schengen-visa",
-      "visa_type_detail": "Schengen visa",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.migrationsverket.se/English/Private-individuals/Visiting-Sweden.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "schengen-visa",
+    "visa_type_detail": [
+      {
+        "name": "Schengen visa",
+        "description": "You are a citizen of a non-EU country and want to visit Sweden for up to 90 days. To do so, you may need to apply for a Schengen visa."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://www.migrationsverket.se/English/Private-individuals/Visiting-Sweden.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "BankID",

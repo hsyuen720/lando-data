@@ -1,17 +1,19 @@
 {
   "country": "ireland",
   "visa_category": "short-stay-visa",
-  "data": {
-    "visa_category": "short-stay-visa",
-    "visa_type_detail": null,
-    "processing_time": null,
-    "fee_amount": null,
-    "currency": null,
-    "last_updated_official": null,
-    "reference_urls": [
-      "https://www.irishimmigration.ie/coming-to-ireland/Visit-Ireland/"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "short-stay-visa",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.irishimmigration.ie/coming-to-ireland/Visit-Ireland/"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "MyGovID",

@@ -5,6 +5,10 @@
     "visa_category": "resident-visa",
     "visa_type_detail": [
       {
+        "name": "Resident Visa",
+        "description": "To live in NZ permanently, you need a resident visa. To get a resident visa, you usually need to start with a temporary visa that will let you: work, study, or own a business."
+      },
+      {
         "name": "Permanent Resident Visa",
         "description": "A Permanent Resident Visa is usually the next step after you’re granted a Resident Visa. With a Permanent Resident Visa you can travel in and out of NZ as much as you like."
       }

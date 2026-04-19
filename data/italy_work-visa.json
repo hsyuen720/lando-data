@@ -2,7 +2,7 @@
   "country": "italy",
   "visa_category": "work-visa",
   "data": {
-    "visa_category": null,
+    "visa_category": "work-visa",
     "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,

@@ -1,24 +1,30 @@
 {
   "country": "chile",
   "visa_category": "national-migration-service",
-  "data": [
-    {
-      "visa_category": "national-migration-service",
-      "visa_type_detail": [
-        "Permanencia Transitoria",
-        "Residencia Temporal",
-        "Residencia Definitiva",
-        "Nacionalidad"
-      ],
-      "processing_time": null,
-      "fee_amount": "0",
-      "currency": "CLP",
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://serviciomigraciones.cl/"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "national-migration-service",
+    "visa_type_detail": [
+      {
+        "name": "Permanencia Transitoria"
+      },
+      {
+        "name": "Residencia Temporal"
+      },
+      {
+        "name": "Residencia Definitiva"
+      },
+      {
+        "name": "Nacionalidad"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://serviciomigraciones.cl/"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "Clave Única",

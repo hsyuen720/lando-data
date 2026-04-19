@@ -1,62 +1,86 @@
 {
   "country": "spain",
   "visa_category": "student-visa",
-  "data": {
-    "visa_category": "student-visa",
-    "visa_type_detail": [
-      {
-        "name": "General Student Visa",
-        "processing_time": "At least two months in advance of the start date of studies. Visa process takes at least 6 weeks from submission of a complete application with all required documentation. Allow at least 4 weeks from submission of a complete application with all required documentation at BLS to the expected visa collection date. The legal period for reaching a decision is of 1 month from the day after the application submission date, but this period may be extended if an interview or additional documents are requested.",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": "2025-05-20",
-        "reference_urls": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEasbLcMdB6DtMlQhUifPUTMkwJyOG8EmgPlSJfNL-R2KNE_LjW4DQnL0fMQWePBKB3gg1hdyOhrS7VYYftxghgLpAcX0vlQ10A0YUe3bDZ-NMLxb5M_CRWPazArsk-1Mf6FA==",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NU5FWbQQUzvbS8Dgr8EDiwgvilS0AmyRlO4sGTRgvI5JWIIyCzjKCj7Gh1w63rf_P-DuVaC8-pwVDpDsXQwWCaYIeDbg0SJIhTh6ePutHCxNgC16RvKcV6tdANAG5oFfWaLojOEa9YDuM7wwQaDFLgIU5B-iVtHoEXoiL4O51hiZhX1i7bRwZKmm2pNot4eTHWxJQGDjJO-RiFWMetmszfnXDc2_0a7OtqeMtg=="
-        ]
+  "data": [
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": "Student visa",
+      "processing_time": {
+        "min_submission_advance": "2 months",
+        "processing_duration": "at least 6 weeks"
       },
-      {
-        "name": "Student visa",
-        "processing_time": "STUDENT VISA APPLICATIONS MUST BE SUBMITTED at least TWO MONTHS (2 MONTHS) PRIOR TO THE START DATE OF STUDIES. Visa process takes at least 6 weeks from submission of a complete application with all required documentation. The Consular Section does not provide updates on the status of applications. If additional documents are required, applicants will be contacted.",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3jrF-StDqt46AGe7YZI1tpvTf74bcRkBDE4RRt3tcLQj11Q_-Pzv2PqUaCa4hxc3l6bP40porN5kXBuibhc8gFAKK_SD7vc5TgYKsxAHKaSL-LmQDsmMIUlpgeMmn8BcrK6FPbFWHSY5KwwrxrvkaFAlFklB9Yi0lIcC1b0QQD7DEQXQCJ2AtXHtsIHRa50D1B3pHlb6g20wc50swDxHAUyDJuCCnk_luQg=="
-        ]
+      "fee_amount": {
+        "US Passport holders": 160,
+        "Other nationalities": 106
       },
-      {
-        "name": "Student Visa",
-        "processing_time": "Applications must be submitted between 6 months and at least 2 months prior the start of the program. Allow at least 4 weeks from submission of a complete application with all required documentation at BLS to the expected visa collection date. The Consular Section does not provide updates on the status of applications. If additional documents are required, applicants will be contacted.",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFCueUxtm1Yy8HhJ8x6b6r7iO0n0q88aAOPzS205Qy66o4-1711068480000/AUZIYQGFCueUxtm1Yy8HhJ8x6b6r7iO0n0q88aAOPzS205Qy66o4-1711068480000"
-        ]
+      "currency": "USD",
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3jrF-StDqt46AGe7YZI1tpvTf74bcRkBDE4RRt3tcLQj11Q_-Pzv2PqUaCa4hxc3l6bP40porN5kXBuibhc8gFAKK_SD7vc5TgYKsxAHKaSL-LmQDsmMIUlpgeMmn8BcrK6FPbFWHSY5KwwrxrvkaFAlFklB9Yi0lIcC1b0QQD7DEQXQCJ2AtXHtsIHRa50D1B3pHlb6g20wc50swDxHAUyDJuCCnk_luQg=="
+      ]
+    },
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": "Student Visa",
+      "processing_time": {
+        "min_submission_advance": "2 months",
+        "processing_duration": "at least 4 weeks"
       },
-      {
-        "name": "Study visa",
-        "processing_time": "Applications must be submitted between 6 months and at least 2 months prior the start of the program. Allow at least 4 weeks from submission of a complete application with all required documentation at BLS to the expected visa collection date. The Consulate does not provide updates on the status of applications. If additional documents are required, applicants will be contacted.",
-        "fee_amount": null,
-        "currency": null,
-        "last_updated_official": null,
-        "reference_urls": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NU5FWbQQUzvbS8Dgr8EDiwgvilS0AmyRlO4sGTRgvI5JWIIyCzjKCj7Gh1w63rf_P-DuVaC8-pwVDpDsXQwWCaYIeDbg0SJIhTh6ePutHCxNgC16RvKcV6tdANAG5oFfWaLojOEa9YDuM7wwQaDFLgIU5B-iVtHoEXoiL4O51hiZhX1i7bRwZKmm2pNot4eTHWxJQGDjJO-RiFWMetmszfnXDc2_0a7OtqeMtg=="
-        ]
-      }
-    ],
-    "processing_time": "At least two months in advance of the start date of studies. Visa process takes at least 6 weeks from submission of a complete application with all required documentation. Allow at least 4 weeks from submission of a complete application with all required documentation at BLS to the expected visa collection date. The legal period for reaching a decision is of 1 month from the day after the application submission date, but this period may be extended if an interview or additional documents are requested.",
-    "fee_amount": null,
-    "currency": null,
-    "last_updated_official": "2025-05-20",
-    "reference_urls": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEasbLcMdB6DtMlQhUifPUTMkwJyOG8EmgPlSJfNL-R2KNE_LjW4DQnL0fMQWePBKB3gg1hdyOhrS7VYYftxghgLpAcX0vlQ10A0YUe3bDZ-NMLxb5M_CRWPazArsk-1Mf6FA==",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3jrF-StDqt46AGe7YZI1tpvTf74bcRkBDE4RRt3tcLQj11Q_-Pzv2PqUaCa4hxc3l6bP40porN5kXBuibhc8gFAKK_SD7vc5TgYKsxAHKaSL-LmQDsmMIUlpgeMmn8BcrK6FPbFWHSY5KwwrxrvkaFAlFklB9Yi0lIcC1b0QQD7DEQXQCJ2AtXHtsIHRa50D1B3pHlb6g20wc50swDxHAUyDJuCCnk_luQg==",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFCueUxtm1Yy8HhJ8x6b6r7iO0n0q88aAOPzS205Qy66o4-1711068480000/AUZIYQGFCueUxtm1Yy8HhJ8x6b6r7iO0n0q88aAOPzS205Qy66o4-1711068480000",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NU5FWbQQUzvbS8Dgr8EDiwgvilS0AmyRlO4sGTRgvI5JWIIyCzjKCj7Gh1w63rf_P-DuVaC8-pwVDpDsXQwWCaYIeDbg0SJIhTh6ePutHCxNgC16RvKcV6tdANAG5oFfWaLojOEa9YDuM7wwQaDFLgIU5B-iVtHoEXoiL4O51hiZhX1i7bRwZKmm2pNot4eTHWxJQGDjJO-RiFWMetmszfnXDc2_0a7OtqeMtg=="
-    ]
-  },
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-02-24",
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGon2sHlGYxjlyarUijwlJHp0CI0d56iLWZdchgWilmc4hEplojMHgazqdLkwJT3yCsTU6hUAb_33CuTZzOQi1Cw0Ctfy_lxZWWQ4mTUDzLC_1npHgRIRChStR6b_uaQmjsMrGQwhcaHdUoF67H-zf73-_SsiN7ijGWFGcZgAnEJIQ7_qE9pRzCmvR4OXYKsoVZkzybdO2vBQbMrz6_65qPWc53k2c2dhpaA=="
+      ]
+    },
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": "Study visa",
+      "processing_time": {
+        "min_submission_advance": "2 months",
+        "processing_duration": "at least 4 weeks"
+      },
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2026-03-02",
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCUEUYxjra8HnOKJkM9_apuqSQvFlXA7W7JITVIHm0jqgQqq48441GEtD0mIqRSk0DdaDKJhyiL067be0dbvMsv814IhZWSbtO3B7I5e155BoF772wKu7gN-Tudf4StZ-lu9k3RBd_Zd0UgtRhZcBvGb61MSOwdCxoKpzkwst6fBlziLfme69kfmK1ILJbBacuU4k="
+      ]
+    },
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": "Study Visa",
+      "processing_time": {
+        "min_submission_advance": "60-120 days",
+        "processing_duration": null
+      },
+      "fee_amount": {
+        "US passports": 160
+      },
+      "currency": "USD",
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCUEUYxjra8HnOKJkM9_apuqSQvFlXA7W7JITVIHm0jqgQqq48441GEtD0mIqRSk0DdaDKJhyiL067be0dbvMsv814IhZWSbtO3B7I5e155BoF772wKu7gN-Tudf4StZ-lu9k3RBd_Zd0UgtRhZcBvGb61MSOwdCxoKpzkwst6fBlziLfme69kfmK1ILJbBacuU4k="
+      ]
+    },
+    {
+      "visa_category": "student-visa",
+      "visa_type_detail": "Student Visa",
+      "processing_time": {
+        "min_submission_advance": "6 months",
+        "processing_duration": "1 month"
+      },
+      "fee_amount": {
+        "US citizens": 160.0,
+        "Other nationalities": 106.0
+      },
+      "currency": "USD",
+      "last_updated_official": "2026-01-01",
+      "reference_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGon2sHlGYxjlyarUijwlJHp0CI0d56iLWZdchgWilmc4hEplojMHgazqdLkwJT3yCsTU6hUAb_33CuTZzOQi1Cw0Ctfy_lxZWWQ4mTUDzLC_1npHgRIRChStR6b_uaQmjsMrGQwhcaHdUoF67H-zf73-_SsiN7ijGWFGcZgAnEJIQ7_qE9pRzCmvR4OXYKsoVZkzybdO2vBQbMrz6_65qPWc53k2c2dhpaA=="
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "Cl@ve",

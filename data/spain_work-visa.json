@@ -6,48 +6,64 @@
     "visa_type_detail": [
       {
         "name": "Employee visa",
-        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities."
+        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities.",
+        "processing_time": "1 month",
+        "fee_amount": 80,
+        "currency": "EUR",
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqpwqIRhG7ZBRRcktNUeKo9NpT2NMN5_mZOXcW7uOrWrj8AJ2hzCTnMIYo7N9rCNtva2hC7BiHdX5lmvuknrdFB7KkewuMtKn7aloR10bswgq0FDlKcrcbw3F9AdIptb191ccus1-TNNCnkU0qnK0F0sJhc-HZb4EvQDFvWV6qlwRx4CKScGaP4ihYTF4jAJD7p8z_AxmUu0S0o8tw49WDoH_6dGhzzzLY2a8llxX8rq8su0ysI6U=",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1tySVnMuMEMskvvp-Dctd4jZgKxIn5WprjivH482q14VBC_-IW4_p3S2oKd5Ue69ZpR_mxQlJkdQn-4-C3jkHz3cLxJsB8WUWsnodC4yFavKbW-_oTaQP4SIxt0RJrSF9PkWDOuVgtJpXDmB4qKx2RDM-9flZWfh76oQXFLWqaiZJ5H-Ce5Deh4wrByXhp910yQT_GAcsxiTCkY7xxUXP9MqXTU1a_T4nx8KUOvFzxo8se3EbkQU ---",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw= ---"
+        ]
       },
       {
         "name": "RESIDENCE AND EMPLOYMENT WORK VISA - TRA",
-        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities."
+        "description": "Visa for people aged 16 and over who wish to work as employees in Spain (with a work contract). This visa covers seasonal work activities.",
+        "processing_time": "1 month",
+        "currency": "local currency",
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-"
+        ]
       },
       {
         "name": "RESIDENCE VISA WITH WORKING PERMIT EXEMPTION - TRE (MORE THAN 90 DAYS)",
-        "description": null
-      }
-    ],
-    "processing_time": [
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-"
+        ]
+      },
       {
-        "type": "Decision period",
-        "duration": "1 month",
-        "notes": "from the day after the application submission date, but this period may be extended if an interview or additional documents are requested."
-      }
-    ],
-    "fee_amount": [
-      {
-        "amount": 80,
+        "name": "Highly Qualified Professionals Work Permit",
+        "description": "The Highly Qualified Professionals work permit is designed for applicants with degrees or postgraduate degrees from universities or educational establishments, vocational training or business school qualifications, or three years of relevant experience. The permit is valid for three years and is renewable as long as the employee continues to meet the requirements of the initial approval. Accompanying spouses and children can also obtain dependent visas, with spouses having the ability to work.",
+        "fee_amount": 40000,
         "currency": "EUR",
-        "notes": "For nationals of Australia, Bangladesh, Canada, the United States of America and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw= ---"
+        ]
       },
       {
-        "amount": 94,
-        "currency": "USD",
-        "notes": "For citizens of the United States of America, the fee is $190. For nationals of Australia, Bangladesh, Canada, and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+        "name": "EU Blue Card (Tarjeta Azul UE)",
+        "description": "The EU Blue Card is similar to the Highly Qualified Residence permit as it is also aimed at highly qualified professionals. This option for highly qualified employees has also been implemented in other EU countries and includes certain advantages in terms of short and long-term mobility within the EU. To qualify for this work and residence authorisation, applicants must have spent at least three years completing a higher education qualification or have a minimum of 5 years of professional experience in a field related to the job. Applicants should also have a valid work contract or employment offer of at least 6 months. The EU Blue Card is valid for three years and can be renewed as long as the holder meets the renewal conditions. Accompanying spouses and children can also obtain dependent visas, with spouses being eligible to work.",
+        "fee_amount": 54000,
+        "currency": "EUR",
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw= ---"
+        ]
       },
       {
-        "amount": 190,
-        "currency": "USD",
-        "notes": "For citizens of the United States of America. For nationals of Australia, Bangladesh, Canada, and the United Kingdom different rates are applied for reasons of reciprocity. In these cases, the amount of the fee must be consulted with the Consular Office."
+        "name": "Seasonal Worker Visa",
+        "description": "The Seasonal Worker visa allows individuals to work in Spain on a seasonal basis, such as during the peak holiday season. This visa has to be applied for by the employer in Spain. The process of applying for the Seasonal Worker visa is similar to that of the long-term work visas. However, there are some differences, such as: Employers must provide applicants with suitable accommodation. Applicants must show proof that your travel costs to and from Spain has been covered, either by them or from their employer. Applicants should return to their home country when the contract is finished. The duration of Seasonal Worker visas is the same as the duration of the work contract and is valid for a maximum period of nine months per calendar year. If the contract is shorter, applicants can extend their visa duration, but only up to nine months.",
+        "reference_urls": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw= ---"
+        ]
       }
     ],
-    "currency": null,
     "last_updated_official": null,
     "reference_urls": [
       "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqpwqIRhG7ZBRRcktNUeKo9NpT2NMN5_mZOXcW7uOrWrj8AJ2hzCTnMIYo7N9rCNtva2hC7BiHdX5lmvuknrdFB7KkewuMtKn7aloR10bswgq0FDlKcrcbw3F9AdIptb191ccus1-TNNCnkU0qnK0F0sJhc-HZb4EvQDFvWV6qlwRx4CKScGaP4ihYTF4jAJD7p8z_AxmUu0S0o8tw49WDoH_6dGhzzzLY2a8llxX8rq8su0ysI6U=",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1tySVnMuMEMskvvp-Dctd4jZgKxIn5WprjivH482q14VBC_-IW4_p3S2oKd5Ue69ZpR_mxQlJkdQn-4-C3jkHz3cLxJsB8WUWsnodC4yFavKbW-_oTaQP4SIxt0RJrSF9PkWDOuVgtJpXDmB4qKx2RDM-9flZWfh76oQXFLWqaiZJ5H-Ce5Deh4wrByXhp910yQT_GAcsxiTCkY7xxUXP9MqXTU1a_T4nx8KUOvFzxo8se3EbkQU=",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-=",
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw="
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1tySVnMuMEMskvvp-Dctd4jZgKxIn5WprjivH482q14VBC_-IW4_p3S2oKd5Ue69ZpR_mxQlJkdQn-4-C3jkHz3cLxJsB8WUWsnodC4yFavKbW-_oTaQP4SIxt0RJrSF9PkWDOuVgtJpXDmB4qKx2RDM-9flZWfh76oQXFLWqaiZJ5H-Ce5Deh4wrByXhp910yQT_GAcsxiTCkY7xxUXP9MqXTU1a_T4nx8KUOvFzxo8se3EbkQU ---",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCfS_50Uczs4qoDq1qYZeZj7xmbhLt2NGjpexDzSdIp-sPdHCuQtiTd_KKt0V7xPY8ZbKk70mGG3gL99fiXvuey4olxYXlqdXa4gq-Ctnk1ggbq6Qil4aN1mp9uvvKle-t3DvSS9ugnzarhw0qrLoZcdoljZPuZBF_2Neort-6Z_MF9i3SqY3QQR8A_h9wG2C7av-jisTDaACQA2gZMq2agRrjzYMoKuGz6DJqMXfnkZy5cXoR7OPxii-",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zNvApsbKjd-eT54mmxFAnuolzbzt7fjkoM5-h4-xQ7fNHTZ8-4T5vM92eYWXGHNRvRX_T9JcEEFiFWALEafR7PDm0rZQYy4Mj4T7-s1toIpswolPoXUd_xSPKbw= ---"
     ]
   },
   "essential_apps": [

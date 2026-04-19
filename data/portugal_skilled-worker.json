@@ -1,0 +1,98 @@
+{
+  "country": "portugal",
+  "visa_category": "skilled-worker",
+  "data": [
+    {
+      "visa_category": "CPLP Visas",
+      "visa_type_detail": "Residence visa for CPLP member states",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2022-10-03",
+      "reference_urls": [
+        "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples"
+      ]
+    },
+    {
+      "visa_category": "Visa to Seek Work",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2022-10-03",
+      "reference_urls": [
+        "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples"
+      ]
+    },
+    {
+      "visa_category": "Temporary stay visa and residence permit for digital nomads",
+      "visa_type_detail": "For employees",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2022-10-03",
+      "reference_urls": [
+        "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples"
+      ]
+    },
+    {
+      "visa_category": "Temporary stay visa and residence permit for digital nomads",
+      "visa_type_detail": "For independent activity",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2022-10-03",
+      "reference_urls": [
+        "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples"
+      ]
+    },
+    {
+      "visa_category": "Temporary stay visa to accompany a temporary stay visa applicant",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2022-10-03",
+      "reference_urls": [
+        "https://eportugal.gov.pt/en/noticias/lei-dos-estrangeiros-pedidos-de-vistos-e-autorizacao-de-residencia-vao-ser-mais-simples"
+      ]
+    }
+  ],
+  "essential_apps": [
+    {
+      "app_name": "ePortugal",
+      "description": "Official app for accessing Portuguese government services and digital documents.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/eportugal/id1501888437",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.gov.eportugal.app"
+    },
+    {
+      "app_name": "Chave Móvel Digital",
+      "description": "Digital key for authenticating and accessing public services online.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/chave-m%C3%B3vel-digital/id1445167676",
+      "download_url_android": "https://play.google.com/store/apps/details?id=pt.autenticacao.cmd"
+    },
+    {
+      "app_name": "Millennium bcp",
+      "description": "Mobile banking app for Millennium bcp, a major Portuguese bank.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/millennium-bcp/id534361497",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.millenniumbcp.mbanking"
+    },
+    {
+      "app_name": "CP - Comboios de Portugal",
+      "description": "Official app for purchasing train tickets and checking schedules.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/cp-comboios-de-portugal/id510214435",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.cp.mobile"
+    },
+    {
+      "app_name": "Uber",
+      "description": "Widely used ride-hailing app for getting around cities.",
+      "platform": "iOS/Android",
+      "download_url_ios": "https://apps.apple.com/pt/app/uber/id409703827",
+      "download_url_android": "https://play.google.com/store/apps/details?id=com.ubercab"
+    }
+  ]
+}

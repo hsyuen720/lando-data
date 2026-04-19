@@ -1,43 +1,46 @@
 {
   "country": "canada",
   "visa_category": "work-permit",
-  "data": [
-    {
-      "visa_category": "work-permit",
-      "visa_type_detail": [
-        {
-          "name": "Employer-specific work permit",
-          "description": "Job offer required"
-        },
-        {
-          "name": "Open work permit",
-          "description": "Job offer not required"
-        },
-        {
-          "name": "Post-graduation work permit"
-        },
-        {
-          "name": "Working as a student"
-        },
-        {
-          "name": "Work in Canada with International Experience Canada"
-        },
-        {
-          "name": "Work while you wait for permanent residence"
-        },
-        {
-          "name": "Open work permits for family members of foreign workers"
-        }
-      ],
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2026-03-31",
-      "reference_urls": [
-        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "work-permit",
+    "visa_type_detail": [
+      {
+        "name": "Employer-specific work permit",
+        "description": "Job offer required"
+      },
+      {
+        "name": "Open work permit",
+        "description": "Job offer not required"
+      },
+      {
+        "name": "Post-graduation work permit",
+        "description": null
+      },
+      {
+        "name": "Working as a student",
+        "description": null
+      },
+      {
+        "name": "Work in Canada with International Experience Canada",
+        "description": null
+      },
+      {
+        "name": "Work while you wait for permanent residence",
+        "description": null
+      },
+      {
+        "name": "Open work permits for family members of foreign workers",
+        "description": null
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2026-03-31",
+    "reference_urls": [
+      "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "My Service Canada Account",

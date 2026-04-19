@@ -6,38 +6,36 @@
     "visa_type_detail": [
       {
         "nationality": "Libyan",
-        "type": "Beef Industry",
-        "details": "applications will be accepted only from persons with a previous good travel history to Ireland, the United Kingdom, or Schengen countries and known to and sponsored by An Bord Bia and/or the Department of Agriculture and Food. Evidence of sponsorship must be provided with the application."
+        "visa_category_detail": "Beef Industry",
+        "requirements": "previous good travel history to Ireland, the United Kingdom, or Schengen countries and known to and sponsored by An Bord Bia and/or the Department of Agriculture and Food. Evidence of sponsorship must be provided with the application."
       },
       {
         "nationality": "Libyan",
-        "type": "Oil Industry",
-        "details": "full details of travel arrangements out and back into Libya should be provided with the application. These applications will be subject to stringent security checks. Consideration of visa applications for accompanying family members remains suspended."
+        "visa_category_detail": "Oil Industry",
+        "requirements": "full details of travel arrangements out and back into Libya should be provided with the application. These applications will be subject to stringent security checks. Consideration of visa applications for accompanying family members remains suspended."
       },
       {
         "nationality": "Libyan",
-        "type": "Air Industry",
-        "details": "consideration of visa applications for the purpose of training in the air industry remains suspended."
+        "visa_category_detail": "Air Industry",
+        "requirements": "consideration of visa applications for the purpose of training in the air industry remains suspended."
       },
       {
         "nationality": "Libyan",
-        "type": "Study/Training",
-        "details": "applications for the purpose of all forms of study or training continue to be subject to the existing suspension of consideration of applications."
+        "visa_category_detail": "Study/Training",
+        "requirements": "applications for the purpose of all forms of study or training continue to be subject to the existing suspension of consideration of applications."
+      },
+      {
+        "visa_category_detail": "Immediate family members (spouse or partner, parents, and dependent children) of Irish citizens, EU Citizens, or long term Irish residents (those who are living in Ireland for at least five years on Stamp 1 or Stamp 4).",
+        "requirements": null
       },
       {
         "nationality": "Libyan",
-        "type": "Immediate family members (spouse or partner, parents, and dependent children) of Irish citizens; EU Citizens; or long term Irish residents (those who are living in Ireland for at least five years on Stamp 1 or Stamp 4)",
-        "details": null
+        "visa_category_detail": "Visitors who are long-term resident of EU Member States or other countries and have good and recent UK, EU, Australian, New Zealand, Canadian or US travel history",
+        "requirements": null
       },
       {
-        "nationality": "Libyan",
-        "type": "Visitors who are long-term resident of EU Member States or other countries and have good and recent UK, EU, Australian, New Zealand, Canadian or US travel history",
-        "details": null
-      },
-      {
-        "nationality": "Libyan",
-        "type": "Supported by Irish Government Departments and State Agencies",
-        "details": "Evidence of sponsorship must be provided with the application."
+        "visa_category_detail": "Visa applications supported by Irish Government Departments and State Agencies",
+        "requirements": "Evidence of sponsorship must be provided with the application."
       }
     ],
     "processing_time": null,

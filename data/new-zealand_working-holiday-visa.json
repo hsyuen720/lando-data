@@ -5,21 +5,22 @@
     "visa_category": "working-holiday-visa",
     "visa_type_detail": [
       {
+        "country_of_citizenship": "select countries",
+        "age_range": "18-35",
+        "length_of_stay": "12 months"
+      },
+      {
         "country_of_citizenship": "most countries",
         "age_range": "18-30",
         "length_of_stay": "12 months"
       },
       {
-        "country_of_citizenship": "select countries",
-        "age_range": "18-35"
-      },
-      {
         "country_of_citizenship": "Canada",
-        "extension_possible": "11 months"
+        "extension_options": "11 months"
       },
       {
         "country_of_citizenship": "UK",
-        "extension_possible": "24 months"
+        "extension_options": "24 months"
       }
     ],
     "processing_time": null,
@@ -27,7 +28,13 @@
     "currency": null,
     "last_updated_official": "2024-10-08",
     "reference_urls": [
-      "https://www.govt.nz/browse/immigration-and-visas/get-a-visa-to-work-in-nz/apply-for-a-nz-working-holiday-visa/"
+      "https://www.govt.nz/browse/immigration-and-visas/get-a-visa-to-work-in-nz/apply-for-a-nz-working-holiday-visa/",
+      "https://www.immigration.govt.nz/new-zealand-visas/options-for-migrating/working-holiday-visas",
+      "https://www.immigration.govt.nz/new-zealand-visas/apply-and-manage-visas/working-holiday-visas",
+      "https://www.immigration.govt.nz/new-zealand-visas/apply-and-manage-visas/contact-and-agency-details",
+      "https://www.immigration.govt.nz/employment-and-education/working-holiday-extensions/working-holiday-extension-work-visa",
+      "https://www.immigration.govt.nz/documents/forms-and-resources/inz1223.pdf",
+      "https://www.immigration.govt.nz/better-working-life/explore-and-select-a-visa"
     ]
   },
   "essential_apps": [

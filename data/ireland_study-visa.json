@@ -13,9 +13,10 @@
     "processing_time": null,
     "fee_amount": null,
     "currency": null,
-    "last_updated_official": null,
+    "last_updated_official": "2018-05",
     "reference_urls": [
-      "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/"
+      "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/",
+      "https://www.irishimmigration.ie/coming-to-ireland/Study-in-Ireland/here"
     ]
   },
   "essential_apps": [

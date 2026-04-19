@@ -3,7 +3,12 @@
   "visa_category": "family-reunification",
   "data": {
     "visa_category": "family-reunification",
-    "visa_type_detail": null,
+    "visa_type_detail": [
+      {
+        "name": "Living in the Netherlands with your partner, child or other relative",
+        "description": "In order to live in the Netherlands with your partner, child or other relative, you need a residence permit."
+      }
+    ],
     "processing_time": null,
     "fee_amount": null,
     "currency": null,

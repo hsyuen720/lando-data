@@ -9,7 +9,20 @@
         "processing_time": "72 hours",
         "fee_amount": 100,
         "currency": "NZD",
-        "fee_type": "International Visitor Conservation and Tourism Levy (IVL)"
+        "last_updated_official": null,
+        "reference_urls": [
+          "https://www.govt.nz/browse/immigration-and-visas/visitor-visas-and-the-nzeta/"
+        ]
+      },
+      {
+        "name": "International Visitor Conservation and Tourism Levy (IVL)",
+        "processing_time": null,
+        "fee_amount": 100,
+        "currency": "NZD",
+        "last_updated_official": null,
+        "reference_urls": [
+          "https://www.govt.nz/browse/immigration-and-visas/visitor-visas-and-the-nzeta/"
+        ]
       }
     ],
     "processing_time": null,

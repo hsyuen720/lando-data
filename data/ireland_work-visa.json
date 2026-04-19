@@ -5,10 +5,10 @@
     "visa_category": "work-visa",
     "visa_type_detail": [
       {
-        "visa_type": "short stay (C) visa"
+        "type": "short stay (C) visa"
       },
       {
-        "visa_type": "long stay (D) visa"
+        "type": "long stay (D) visa"
       }
     ],
     "processing_time": "12 weeks",

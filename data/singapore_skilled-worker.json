@@ -7,18 +7,11 @@
       {
         "name": "Employment Pass",
         "description": "The Employment Pass allows foreign professionals, managers, executives and technicians to work in Singapore. Candidates need to earn at least $5,600 a month. Employers must also demonstrate that they have fairly considered all jobseekers.",
-        "eligibility_criteria": {
-          "minimum_salary": "5600",
-          "currency": "SGD",
-          "assessment_stage1": "EP qualifying salary",
-          "assessment_stage2": "COMPASS",
-          "self_assessment_tool": true
+        "salary_requirement": {
+          "amount": 5600,
+          "currency": "$"
         },
-        "special_provision_tech_professionals": {
-          "duration": "5 years",
-          "eligibility": "experienced tech professionals with skills in shortage",
-          "effective_from": "2023-09"
-        }
+        "duration_for_experienced_tech_professionals": "5-year"
       }
     ],
     "processing_time": null,

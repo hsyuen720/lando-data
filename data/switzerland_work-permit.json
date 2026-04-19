@@ -1,22 +1,27 @@
 {
   "country": "switzerland",
   "visa_category": "work-permit",
-  "data": [
-    {
-      "visa_category": "work-permit",
-      "visa_type_detail": [
-        "EU/EFTA nationals",
-        "non-EU/EFTA States"
-      ],
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": "2022-09-20",
-      "reference_urls": [
-        "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "work-permit",
+    "visa_type_detail": [
+      {
+        "name": "EU/EFTA nationals",
+        "description": "EU/EFTA nationals have easier access to the Swiss employment market, thanks to the Agreement on the Free Movement of Persons"
+      },
+      {
+        "name": "non-EU/EFTA States",
+        "description": "Only a limited number of workers are admitted from non-EU/EFTA States, primarily management level employees, specialists and other qualified employees."
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2022-09-20",
+    "reference_urls": [
+      "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
+      "https://www.sem.admin.ch/content/sem/en/home/themen/arbeit.html"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "SwissID",

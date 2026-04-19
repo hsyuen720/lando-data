@@ -5,24 +5,16 @@
     "visa_category": "Skilled Worker visa",
     "visa_type_detail": [
       {
-        "name": "Skilled Worker visa",
-        "description": "Allows you to come to or stay in the UK to do an eligible job with an approved employer."
-      },
-      {
-        "name": "Health and Care Worker visa",
-        "description": "Cheaper to apply for and you do not need to pay the annual immigration health surcharge. Applies to doctors, nurses, or those working in health or adult social care."
+        "eligibility": "work for a UK employer that’s been approved by the Home Office",
+        "certificate_of_sponsorship": true,
+        "eligible_occupation": true,
+        "minimum_salary": true
       }
     ],
-    "processing_time": [
-      {
-        "location": "outside the UK",
-        "time_estimate": "3 weeks"
-      },
-      {
-        "location": "inside the UK",
-        "time_estimate": "8 weeks"
-      }
-    ],
+    "processing_time": {
+      "outside_uk": "3 weeks",
+      "inside_uk": "8 weeks"
+    },
     "fee_amount": null,
     "currency": null,
     "last_updated_official": null,

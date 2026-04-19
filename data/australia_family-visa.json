@@ -1,17 +1,19 @@
 {
   "country": "australia",
   "visa_category": "family-visa",
-  "data": {
-    "visa_category": "family-visa",
-    "visa_type_detail": null,
-    "processing_time": null,
-    "fee_amount": null,
-    "currency": null,
-    "last_updated_official": null,
-    "reference_urls": [
-      "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/join-family"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "family-visa",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/join-family"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "myGov",

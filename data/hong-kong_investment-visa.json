@@ -3,21 +3,21 @@
   "visa_category": "investment-visa",
   "data": [
     {
-      "visa_category": "investment-visa",
-      "visa_type_detail": "Investment as Entrepreneurs",
+      "visa_category": "Investment as Entrepreneurs",
+      "visa_type_detail": null,
       "processing_time": "four weeks",
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": "2026-04-16",
+      "last_updated_official": "16-04-2026",
       "reference_urls": [
         "https://www.immd.gov.hk/eng/services/visas/investment.html"
       ]
     },
     {
-      "visa_category": "investment-visa",
-      "visa_type_detail": "Capital Investment Entrant Scheme",
+      "visa_category": "Capital Investment Entrant Scheme",
+      "visa_type_detail": null,
       "processing_time": null,
-      "fee_amount": null,
+      "fee_amount": "10 million",
       "currency": "HK$",
       "last_updated_official": null,
       "reference_urls": [

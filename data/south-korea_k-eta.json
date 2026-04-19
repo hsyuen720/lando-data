@@ -3,7 +3,12 @@
   "visa_category": "k-eta",
   "data": {
     "visa_category": "k-eta",
-    "visa_type_detail": null,
+    "visa_type_detail": [
+      {
+        "country": "South Korea",
+        "visa_type": "K-ETA"
+      }
+    ],
     "processing_time": null,
     "fee_amount": null,
     "currency": null,

@@ -5,1139 +5,1128 @@
     "visa_category": "visit-transit-visa",
     "visa_type_detail": [
       {
-        "nationality": "AFGHANISTAN",
-        "entry_requirement": "Visa Required",
+        "country": "AFGHANISTAN",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "ALBANIA",
-        "entry_requirement": "Visa Required",
-        "visa_free_period": "14 Days",
-        "document_type": "biometric passports only"
+        "country": "ALBANIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ALBANIA",
-        "entry_requirement": "Visa Required",
-        "visa_free_period": null,
-        "document_type": "non-biometric passports"
+        "country": "ALBANIA",
+        "visa_required": "Visa Required",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ALGERIA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "ALGERIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ANDORRA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ANDORRA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ANGOLA",
-        "entry_requirement": "Visa Required^",
+        "country": "ANGOLA",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "ANGUILLA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ANGUILLA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ANTIGUA & BARBUDA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ANTIGUA & BARBUDA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ARGENTINA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ARGENTINA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ARMENIA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "ARMENIA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "AUSTRALIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "AUSTRALIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "AUSTRIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "AUSTRIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "AZERBAIJAN",
-        "entry_requirement": "Visa Required#",
+        "country": "AZERBAIJAN",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "BAHAMAS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BAHAMAS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BAHRAIN",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "BAHRAIN",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BANGLADESH",
-        "entry_requirement": "Visa Required^",
+        "country": "BANGLADESH",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "BARBADOS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BARBADOS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BELARUS",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "BELARUS",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BELGIUM",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BELGIUM",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BELIZE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BELIZE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BENIN",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "BENIN",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BERMUDA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BERMUDA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BHUTAN",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "BHUTAN",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BOLIVIA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "BOLIVIA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BOSNIA AND HERZEGOVINA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "BOSNIA AND HERZEGOVINA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BOTSWANA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BOTSWANA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRAZIL",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BRAZIL",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRITAIN",
-        "entry_requirement": null,
-        "visa_free_period": "180 Days",
-        "document_type": "British citizens"
+        "country": "BRITAIN (British citizens)",
+        "visa_required": "180 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRITAIN",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days",
-        "document_type": "British Overseas Territories citizens, British Overseas citizens, British subjects and British Protected persons"
+        "country": "BRITAIN (British Overseas Territories citizens, British Overseas citizens, British subjects and British Protected persons)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRITISH ANTARCTIC TERRITORY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BRITISH ANTARCTIC TERRITORY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRITISH INDIAN OCEAN TERRITORY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BRITISH INDIAN OCEAN TERRITORY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRITISH VIRGIN ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BRITISH VIRGIN ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BRUNEI DARUSSALAM",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BRUNEI DARUSSALAM",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BULGARIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "BULGARIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BURKINA FASO",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "BURKINA FASO",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "BURUNDI",
-        "entry_requirement": "Visa Required^",
+        "country": "BURUNDI",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "CAMBODIA",
-        "entry_requirement": "Visa Required#",
+        "country": "CAMBODIA",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "CAMEROON",
-        "entry_requirement": "Visa Required^",
+        "country": "CAMEROON",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "CANADA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "CANADA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CAPE VERDE (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "CAPE VERDE (REPUBLIC OF)",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CAYMAN ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "CAYMAN ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CENTRAL AFRICAN REPUBLIC",
-        "entry_requirement": "Visa Required*",
+        "country": "CENTRAL AFRICAN REPUBLIC",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "CHAD",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "CHAD",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CHILE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "CHILE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "COLOMBIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "COLOMBIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "COMOROS",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "COMOROS",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CONGO (DEMOCRATIC REPUBLIC OF)",
-        "entry_requirement": "Visa Required*",
-        "visa_free_period": null,
-        "other_names": "Formerly known as Zaire"
-      },
-      {
-        "nationality": "CONGO (REPUBLIC OF)",
-        "entry_requirement": "Visa Required^",
+        "country": "CONGO (DEMOCRATIC REPUBLIC OF) (Formerly known as Zaire)",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "COSTA RICA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "COSTA RICA",
-        "entry_requirement": "Visa Required",
-        "document_type": "Costa Rican Provisional passports"
-      },
-      {
-        "nationality": "COSTA RICA",
-        "entry_requirement": "Visa Required",
-        "document_type": "\"Documento de Identidad Y Viaje\" issued by Costa Rican Government"
-      },
-      {
-        "nationality": "COTE D'IVOIRE (REPUBLIC OF)",
-        "entry_requirement": "Visa Required*",
+        "country": "CONGO (REPUBLIC OF)",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "CROATIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "COSTA RICA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "CUBA",
-        "entry_requirement": "Visa Required",
+        "country": "Costa Rican Provisional passports",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "CYPRUS (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "CZECH REPUBLIC",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "DENMARK",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "DJIBOUTI",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "DOMINICA (COMMONWEALTH OF)",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "DOMINICAN REPUBLIC",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "ECUADOR",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "EGYPT",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "EL SALVADOR",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "EQUATORIAL GUINEA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "ERITREA",
-        "entry_requirement": "Visa Required*",
+        "country": "\"Documento de Identidad Y Viaje\" issued by Costa Rican Government",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "ESTONIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ESWATINI",
-        "entry_requirement": "Visa Required*",
-        "visa_free_period": null,
-        "other_names": "Formerly known as Swaziland"
-      },
-      {
-        "nationality": "ETHIOPIA",
-        "entry_requirement": "Visa Required^",
+        "country": "COTE D'IVOIRE (REPUBLIC OF)",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "FALKLAND ISLANDS & DEPENDENCIES",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "CROATIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "FAROE ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "FIJI",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "FINLAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "FRANCE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "GABON",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "GAMBIA",
-        "entry_requirement": "Visa Required*",
+        "country": "CUBA",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "GEORGIA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "CYPRUS (REPUBLIC OF)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "GERMANY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "CZECH REPUBLIC",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "GHANA",
-        "entry_requirement": "Visa Required^",
+        "country": "DENMARK",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "DJIBOUTI",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "DOMINICA (COMMONWEALTH OF)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "DOMINICAN REPUBLIC",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ECUADOR",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "EGYPT",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "EL SALVADOR",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "EQUATORIAL GUINEA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ERITREA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "GIBRALTAR",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ESTONIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "GREECE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "GREENLAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "GRENADA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "GUATEMALA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "GUINEA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "GUINEA-BISSAU",
-        "entry_requirement": "Visa Required*",
+        "country": "ESWATINI (Formerly known as Swaziland)",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "GUYANA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "HAITI",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "HONDURAS",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "HUNGARY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ICELAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "INDIA",
-        "entry_requirement": "Pre-arrival registration required%",
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "INDONESIA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "IRAN",
-        "entry_requirement": "Visa Required*",
+        "country": "ETHIOPIA",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "IRAQ",
-        "entry_requirement": "Visa Required*",
+        "country": "FALKLAND ISLANDS & DEPENDENCIES",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "FAROE ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "FIJI",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "FINLAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "FRANCE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GABON",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GAMBIA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "IRELAND (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "GEORGIA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ISRAEL",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "GERMANY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ITALY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "JAMAICA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "JAPAN",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "JORDAN",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "KAZAKHSTAN",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "KENYA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "KIRIBATI",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)",
-        "entry_requirement": "Visa Required*",
+        "country": "GHANA",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "KOREA (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "GIBRALTAR",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "KUWAIT",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "GREECE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "KYRGYZSTAN",
-        "entry_requirement": "Visa Required#",
+        "country": "GREENLAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GRENADA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GUATEMALA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GUINEA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "GUINEA-BISSAU",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "LAOS",
-        "entry_requirement": "Visa Required#",
+        "country": "GUYANA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "HAITI",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "HONDURAS",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "HUNGARY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ICELAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "INDIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "Pre-arrival registration\nrequired%"
+      },
+      {
+        "country": "INDONESIA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "IRAN",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "LATVIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "LEBANON",
-        "entry_requirement": "Visa Required",
+        "country": "IRAQ",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "LESOTHO",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "IRELAND (REPUBLIC OF)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "LIBERIA",
-        "entry_requirement": "Visa Required*",
+        "country": "ISRAEL",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ITALY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "JAMAICA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "JAPAN",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "JORDAN",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KAZAKHSTAN",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KENYA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KIRIBATI",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "LIBYA",
-        "entry_requirement": "Visa Required*",
+        "country": "KOREA (REPUBLIC OF)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KUWAIT",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "KYRGYZSTAN",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "LIECHTENSTEIN",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "LITHUANIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "LUXEMBOURG",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MADAGASCAR",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MALAWI",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MALAYSIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MALDIVES",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MALI",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MALTA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MARSHALL ISLANDS (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MAURITANIA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MAURITIUS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MEXICO",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MICRONESIA (FEDERATED STATES OF)",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MOLDOVA (REPUBLIC OF)",
-        "entry_requirement": "Visa Required#",
+        "country": "LAOS",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "MONACO",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "LATVIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "MONGOLIA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MONTENEGRO ( REPUBLIC OF )",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MONTSERRAT",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "MOROCCO",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "MOZAMBIQUE",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "MYANMAR",
-        "entry_requirement": "Visa Required#",
+        "country": "LEBANON",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "NAMIBIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "LESOTHO",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "NAURU",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "NEPAL",
-        "entry_requirement": "Visa Required#",
+        "country": "LIBERIA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "NETHERLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "NEW ZEALAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "NICARAGUA",
-        "entry_requirement": "Visa Required",
+        "country": "LIBYA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "NIGER",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "LIECHTENSTEIN",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "NIGERIA",
-        "entry_requirement": "Visa Required*",
+        "country": "LITHUANIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "LUXEMBOURG",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MADAGASCAR",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MALAWI",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MALAYSIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MALDIVES",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MALI",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MALTA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MARSHALL ISLANDS (REPUBLIC OF)",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MAURITANIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MAURITIUS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MEXICO",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MICRONESIA (FEDERATED STATES OF)",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MOLDOVA (REPUBLIC OF)",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "NORTH MACEDONIA",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "MONACO",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "NORWAY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "MONGOLIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "OMAN",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "MONTENEGRO ( REPUBLIC OF )",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "PAKISTAN",
-        "entry_requirement": "Visa Requiredâ€»",
+        "country": "MONTSERRAT",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MOROCCO",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MOZAMBIQUE",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "MYANMAR",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "PALAU",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "NAMIBIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "PALESTINE (STATE OF)",
-        "entry_requirement": "Visa Required",
+        "country": "NAURU",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "NEPAL",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "PANAMA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "NETHERLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "PAPUA NEW GUINEA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "NEW ZEALAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "PARAGUAY",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "PERU",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "PERU",
-        "entry_requirement": "Visa Required",
-        "document_type": "Special Peruvian passports"
-      },
-      {
-        "nationality": "PHILIPPINES",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "PITCAIRN, HENDERSON, DUCIE & OENO ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "POLAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "PORTUGAL",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "QATAR",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "ROMANIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "RUSSIAN FEDERATION",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "RWANDA",
-        "entry_requirement": "Visa Required*",
+        "country": "NICARAGUA",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "SAMOA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "NIGER",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SAN MARINO",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SAO TOME AND PRINCIPE",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "SAUDI ARABIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SENEGAL",
-        "entry_requirement": "Visa Required",
+        "country": "NIGERIA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "SERBIA (REPUBLIC OF)",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days",
-        "document_type": "holders of Serbian biometric passports only"
+        "country": "NORTH MACEDONIA",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SERBIA (REPUBLIC OF)",
-        "entry_requirement": "Visa Required",
-        "visa_free_period": null,
-        "document_type": "holders of Serbian non-biometric passports or Serbian passports issued by Coordination Directorate in Belgrade"
+        "country": "NORWAY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SEYCHELLES",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "OMAN",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SIERRA LEONE",
-        "entry_requirement": "Visa Required*",
+        "country": "PAKISTAN",
+        "visa_required": "Visa Requiredâ€»",
         "visa_free_period": null
       },
       {
-        "nationality": "SINGAPORE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "PALAU",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SLOVAK REPUBLIC",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SLOVENIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SOLOMON ISLANDS",
-        "entry_requirement": "Visa Required",
+        "country": "PALESTINE (STATE OF)",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "SOMALIA",
-        "entry_requirement": "Visa Required*",
+        "country": "PANAMA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "PAPUA NEW GUINEA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "PARAGUAY",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "PERU",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "Special Peruvian passports",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "SOUTH AFRICA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
+        "country": "PHILIPPINES",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SOUTH SUDAN",
-        "entry_requirement": "Visa Required*",
+        "country": "PITCAIRN, HENDERSON, DUCIE & OENO ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "POLAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "PORTUGAL",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "QATAR",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ROMANIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "RUSSIAN FEDERATION",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "RWANDA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "SPAIN",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "SAMOA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SRI LANKA",
-        "entry_requirement": "Visa Required^",
+        "country": "SAN MARINO",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SAO TOME AND PRINCIPE",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SAUDI ARABIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SENEGAL",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "ST. HELENA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "SERBIA (REPUBLIC OF) (holders of Serbian biometric passports only)",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "ST. HELENA DEPENDENCIES (ASCENSION, TRISTAN DA CUNHA)",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ST. KITTS AND NEVIS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ST. LUCIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ST. VINCENT AND THE GRENADINES",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SUDAN",
-        "entry_requirement": "Visa Required*",
+        "country": "SERBIA (REPUBLIC OF) (holders of Serbian non-biometric passports or Serbian passports issued by Coordination Directorate in Belgrade)",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "SURINAME",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "SEYCHELLES",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "SWEDEN",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SWITZERLAND",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "SYRIA",
-        "entry_requirement": "Visa Required*",
+        "country": "SIERRA LEONE",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "TAJIKISTAN",
-        "entry_requirement": "Visa Required#",
+        "country": "SINGAPORE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SLOVAK REPUBLIC",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SLOVENIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SOLOMON ISLANDS",
+        "visa_required": "Visa Required",
         "visa_free_period": null
       },
       {
-        "nationality": "TANZANIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "THAILAND",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "THE SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "THE SOVEREIGN BASE AREAS OF AKROTIRI AND DHEKELIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "TOGO",
-        "entry_requirement": "Visa Required^",
+        "country": "SOMALIA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "TONGA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "SOUTH AFRICA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "TONGA",
-        "entry_requirement": "Visa Required",
-        "document_type": "Tongan National passports"
-      },
-      {
-        "nationality": "TONGA",
-        "entry_requirement": "Visa Required",
-        "document_type": "Tongan Protected Persons passports"
-      },
-      {
-        "nationality": "TRINIDAD & TOBAGO",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "TUNISIA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "TÜRKÄ°YE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days",
-        "other_names": "Formerly known as Turkey"
-      },
-      {
-        "nationality": "TURKMENISTAN",
-        "entry_requirement": "Visa Required#",
+        "country": "SOUTH SUDAN",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "TURKS AND CAICOS ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "SPAIN",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "TUVALU",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "TUVALU",
-        "entry_requirement": "Visa Required",
-        "document_type": "with national status stated as 'I-TUVALU'"
-      },
-      {
-        "nationality": "UGANDA",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "UKRAINE",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
-      },
-      {
-        "nationality": "UNITED ARAB EMIRATES",
-        "entry_requirement": null,
-        "visa_free_period": "30 Days"
-      },
-      {
-        "nationality": "URUGUAY",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "URUGUAY",
-        "entry_requirement": "Visa Required",
-        "document_type": "Uruguay passports issued under Decree 289/90"
-      },
-      {
-        "nationality": "U.S.A.",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days",
-        "document_type": "except U.S.A. Diplomatic passports"
-      },
-      {
-        "nationality": "U.S.A.",
-        "entry_requirement": "Visa Required",
-        "document_type": "Diplomatic passports"
-      },
-      {
-        "nationality": "US TRUST TERRITORY OF PACIFIC ISLANDS",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days",
-        "document_type": "holders of US Trust Territory passports only"
-      },
-      {
-        "nationality": "UZBEKISTAN",
-        "entry_requirement": "Visa Required#",
+        "country": "SRI LANKA",
+        "visa_required": "Visa Required^",
         "visa_free_period": null
       },
       {
-        "nationality": "VANUATU",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ST. HELENA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "VATICAN CITY",
-        "entry_requirement": null,
-        "visa_free_period": "14 Days"
+        "country": "ST. HELENA DEPENDENCIES (ASCENSION, TRISTAN DA CUNHA)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "VATICAN CITY",
-        "entry_requirement": "Visa Required",
-        "document_type": "Vatican Service passports"
+        "country": "ST. KITTS AND NEVIS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "VENEZUELA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
+        "country": "ST. LUCIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
       },
       {
-        "nationality": "VIETNAM",
-        "entry_requirement": "Visa Required#",
+        "country": "ST. VINCENT AND THE GRENADINES",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SUDAN",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "YEMEN (REPUBLIC OF)",
-        "entry_requirement": "Visa Required*",
+        "country": "SURINAME",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SWEDEN",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SWITZERLAND",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "SYRIA",
+        "visa_required": "Visa Required*",
         "visa_free_period": null
       },
       {
-        "nationality": "ZAMBIA",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "ZIMBABWE",
-        "entry_requirement": null,
-        "visa_free_period": "90 Days"
-      },
-      {
-        "nationality": "stateless travel document holders",
-        "entry_requirement": "Visa Required",
+        "country": "TAJIKISTAN",
+        "visa_required": "Visa Required#",
         "visa_free_period": null
       },
       {
-        "nationality": "other foreign countries",
-        "entry_requirement": null,
+        "country": "TANZANIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "THAILAND",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "THE SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "THE SOVEREIGN BASE AREAS OF AKROTIRI AND DHEKELIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TOGO",
+        "visa_required": "Visa Required^",
+        "visa_free_period": null
+      },
+      {
+        "country": "TONGA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "Tongan National passports",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "Tongan Protected Persons passports",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "TRINIDAD & TOBAGO",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TUNISIA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TÜRKÄ°YE (Formerly known as Turkey)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TURKMENISTAN",
+        "visa_required": "Visa Required#",
+        "visa_free_period": null
+      },
+      {
+        "country": "TURKS AND CAICOS ISLANDS",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TUVALU",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "TUVALU (with national status stated as 'I-TUVALU')",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "UGANDA",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "UKRAINE",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "UNITED ARAB EMIRATES",
+        "visa_required": "30 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "URUGUAY",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "Uruguay passports issued under Decree 289/90",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "U.S.A. (except U.S.A. Diplomatic passports)",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "U.S.A. Diplomatic passports",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "US TRUST TERRITORY OF PACIFIC ISLANDS (holders of US Trust Territory passports only)",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "UZBEKISTAN",
+        "visa_required": "Visa Required#",
+        "visa_free_period": null
+      },
+      {
+        "country": "VANUATU",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "VATICAN CITY",
+        "visa_required": "14 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "Vatican Service passports",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "VENEZUELA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "VIETNAM",
+        "visa_required": "Visa Required#",
+        "visa_free_period": null
+      },
+      {
+        "country": "YEMEN (REPUBLIC OF)",
+        "visa_required": "Visa Required*",
+        "visa_free_period": null
+      },
+      {
+        "country": "ZAMBIA",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "ZIMBABWE",
+        "visa_required": "90 Days",
+        "visa_free_period": "-"
+      },
+      {
+        "country": "All 'stateless' travel document holders",
+        "visa_required": "Visa Required",
+        "visa_free_period": null
+      },
+      {
+        "country": "Nationals of other foreign countries",
+        "visa_required": null,
         "visa_free_period": "7 Days"
       }
     ],

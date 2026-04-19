@@ -1,52 +1,31 @@
 {
   "country": "uae",
   "visa_category": "visit-visa",
-  "data": [
-    {
-      "visa_category": "visit-visa",
-      "visa_type_detail": "Jobseeker visit visa",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
-      ]
-    },
-    {
-      "visa_category": "visit-visa",
-      "visa_type_detail": "Visit visa to explore investment opportunities",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
-      ]
-    },
-    {
-      "visa_category": "visit-visa",
-      "visa_type_detail": "Medical visa",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
-      ]
-    },
-    {
-      "visa_category": "visit-visa",
-      "visa_type_detail": "eVisa for GCC residents",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "visit-visa",
+    "visa_type_detail": [
+      {
+        "name": "Jobseeker visit visa"
+      },
+      {
+        "name": "Visit visa to explore investment opportunities"
+      },
+      {
+        "name": "Medical visa"
+      },
+      {
+        "name": "eVisa for GCC residents"
+      }
+    ],
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": null,
+    "reference_urls": [
+      "https://u.ae/en/information-and-services/visa-and-emirates-id/visit-visas",
+      "https://www.emirates.com/ae/english/plan-your-trip/staying-in-dubai/uae-visa-information/"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "UAEPass",

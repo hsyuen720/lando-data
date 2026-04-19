@@ -1,19 +1,31 @@
 {
   "country": "france",
   "visa_category": "skilled-worker",
-  "data": {
-    "visa_category": "skilled-worker",
-    "visa_type_detail": null,
-    "processing_time": null,
-    "fee_amount": null,
-    "currency": null,
-    "last_updated_official": "2025-09-05",
-    "reference_urls": [
-      "https://www.service-public.fr/particuliers/vosdroits/F2201",
-      "https://www.service-public.fr/particuliers/vosdroits/F2199",
-      "https://www.service-public.fr/particuliers/vosdroits/F11299"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "skilled-worker",
+      "visa_type_detail": null,
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2025-09-05",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F2201",
+        "https://www.service-public.fr/particuliers/vosdroits/F2199"
+      ]
+    },
+    {
+      "visa_category": "skilled-worker",
+      "visa_type_detail": "Contrat d'appui au projet d'entreprise (Cape)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2024-10-11",
+      "reference_urls": [
+        "https://www.service-public.fr/particuliers/vosdroits/F11299"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "Ameli",

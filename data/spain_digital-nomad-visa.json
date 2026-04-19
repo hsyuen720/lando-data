@@ -5,92 +5,58 @@
     "visa_category": "digital-nomad-visa",
     "visa_type_detail": [
       {
-        "title": "Digital Nomad Visa",
-        "financial_requirements": {
-          "primary_applicant": {
-            "monthly": "€2,650+",
-            "annually": "€31,800"
-          },
-          "spouse": {
-            "monthly": "€1,978.50+",
-            "annually": "€23,850"
-          },
-          "additional_dependents": {
-            "monthly": "€662.50+",
-            "annually": "€7,950"
-          }
-        },
-        "other_requirements": [
-          "Cannot be in Spain illegally.",
-          "No criminal record in Spain or countries of residence for the past five years.",
-          "Public or private health insurance licensed to operate in Spain.",
-          "Sufficient economic means for accompanying family members."
-        ],
-        "can_freelancer_apply": true,
-        "is_international_teleworker_defined": true,
-        "benefits": [
-          "Settlement rights in Spain.",
-          "Visa-free access to the rest of the EU.",
-          "Tax benefits and incentives (e.g., reduced company tax rate, Non-Resident Income Tax drops from 25% to 15%).",
-          "Beneficial tax treatment of stock options (exemption raised from €12,000 to €50,000 per year).",
-          "Streamlined company formation process.",
-          "Increased cap on deductible amount for investments in new startups/companies from €60,000 to €100,000.",
-          "Increased deduction rate for startup investments from 30% to 50%."
-        ],
-        "tax_benefits": {
-          "income_tax_rate": "24% up to €600,000, 48% above",
-          "capital_gains_tax": "Variable rate from 19% to 28%",
-          "non_resident_income_tax": "Eased conditions, reduced required non-tax-residency period from 10 to 5 years."
-        },
-        "managing_authority": "Diplomatic Missions and Consular Offices",
-        "processing_time": "The visa must be collected in person or by a representative within a maximum period of 1 month, starting from the day after the date on which the favorable decision is notified.",
-        "who_is_it_for": [
+        "description": "Visa authorization granting a one-year permit to reside and work throughout the national territory of Spain for international teleworkers – digital nomads.",
+        "requirements": [
           "Foreign nationals who wish to carry out remote work or professional activities for companies located outside Spain, using exclusively computer, telematic, or telecommunications means.",
           "Foreign nationals who perform salaried work for companies located outside Spain.",
           "Foreign nationals who carry out self-employed activities (as freelancers) and may also work for companies located in Spain, provided that the percentage of such work does not exceed 20% of their total activity."
         ],
-        "documentation_required": [
-          "National visa application form.",
-          "Recent passport-size color photograph with a light background.",
-          "Original and photocopy of passport (valid for at least 1 year, two blank pages, issued within the last 10 years).",
-          "Proof of legal residence in the country of application.",
-          "Power of attorney or representation document (if applicable).",
-          "Company certificate stating length of service (min. 3 months) and authorization for remote work (for salaried workers).",
-          "Certificate from Commercial Registry (company incorporated over 1 year ago) for self-employed.",
-          "Responsible declaration confirming commitment to social security obligations.",
-          "Proof of application for company registration with Spanish Social Security and worker affiliation (salaried).",
-          "Proof of registration with RETA (self-employed).",
-          "Documentation proving financial resources (e.g., employment contract, job offer, commercial contract).",
-          "Original and copy of graduate/postgraduate degree or minimum of three years of professional experience.",
-          "Proof of recognition of qualification for regulated professions.",
-          "Foreign Identification Number (NIE) application."
+        "documentation": [
+          "National visa application form",
+          "Recent passport-size color photograph with a light background",
+          "Original and photocopy of the page(s) containing biometric data from the passport (valid for at least 1 year, two blank pages, issued within the last 10 years)",
+          "Proof of legal residence in the country where the application is submitted",
+          "For representatives: copy of representative’s ID or passport and power of attorney or document proving representation",
+          "Company certificate stating: a) For salaried workers: length of service (not less than three months) and express authorization for remote work. b) For self-employed teleworkers: length of contractual relationship (not less than three months) and remote work terms.",
+          "Certificate from the Commercial Registry (or equivalent authority) showing company's incorporation date (not less than one year) and activity type.",
+          "Responsible declaration (company or self-employed worker) confirming commitment to comply with social security obligations.",
+          "a) For salaried teleworkers: proof of application for company’s registration with Spanish Social Security and proof of worker’s affiliation. b) For self-employed workers: proof of registration with RETA.",
+          "Documentation proving financial resources: a)Teleworker: 200% of the minimum interprofessional wage (SMI) per month. b) Family members: 75% of SMI for first dependent, 25% for each additional member.",
+          "Original and copy of a graduate or postgraduate degree from a recognized university/institution, or documents proving a minimum of three years of professional experience in similar roles.",
+          "For regulated professions, proof of recognition of the necessary qualification.",
+          "Application for a Foreign Identification Number (NIE) at the same time as the visa."
         ],
-        "general_requirements": [
+        "requirements_to_be_considered": [
           "Not be in an irregular situation within Spanish territory.",
-          "Over 18 years of age.",
-          "No criminal record in Spain and in countries of residence for the last two years.",
-          "Not appear as inadmissible in Schengen states.",
-          "Public or private health insurance contracted with an authorized company in Spain.",
-          "Sufficient financial resources.",
-          "Pay the processing fee."
+          "Be over 18 years of age.",
+          "Have no criminal record in Spain and in the countries of residence for the last two years (for offenses under Spanish law). Responsible declaration of absence of criminal records for the last five years.",
+          "Not appear as inadmissible in the territorial space of countries with which Spain has signed an agreement.",
+          "Have public or private health insurance contracted with an authorized insurance company in Spain.",
+          "Have sufficient financial resources for self and family members.",
+          "Pay the fee for processing the authorization or visa."
         ],
-        "application_steps": [
-          "Complete the national visa application form.",
-          "Pay the required fee.",
-          "Request an appointment and submit documentation in person at the Consular Office.",
-          "Receive notification of the visa decision and collect the visa within one month."
+        "tax_benefits": [
+          "Payment of a fixed tax rate of 24% on work-related income up to €600,000, and 48% on any amount exceeding this limit.",
+          "Reduction of the capital gains tax, applying a variable rate from 19% to 28%.",
+          "Eased conditions to access the reduced tax rate (IRNR), reducing the required non-tax-residency period from 10 to 5 years."
         ],
-        "health_insurance_details": "Public or private health insurance contracted with an insurance company authorized to operate in Spain, providing coverage equivalent to the National Health System. Social Security registration may waive this requirement. Travel insurance is not valid for the full duration.",
-        "financial_means_proof": "Any legally admissible means of evidence, such as job offer, pay slips, bank account statements, deposits.",
-        "document_translation_legalization": "All documents must be translated into Spanish. Public documents must bear the Hague Apostille or be legalized through diplomatic channels."
+        "family_reunification": {
+          "eligible_members": [
+            "Spouse (not legally or de facto separated, marriage not entered into fraudulently)",
+            "Person maintaining a relationship analogous to marriage (registered in a public registry or proven unregistered relationship established prior to sponsor's residence in Spain)",
+            "Children under eighteen years of age, or with a disability preventing them from meeting their own needs (includes adopted children)",
+            "Persons legally represented by the sponsor, under eighteen or with a disability preventing them from meeting their own needs",
+            "Ascendants in the first degree (over sixty-five years of age, dependent, and reasons justifying the need to authorize residence; exceptionally under sixty-five for humanitarian reasons; or spouse/partner of an ascendant over sixty-five)."
+          ],
+          "dependency_proof": "Sponsor has transferred funds or borne expenses for the family member amounting to at least 51% of the annual per capita gross domestic product of the family member’s country of residence."
+        }
       }
     ],
     "processing_time": null,
     "fee_amount": null,
     "currency": null,
-    "last_updated_official": "2024-08-22T17:02:12+00:00",
+    "last_updated_official": null,
     "reference_urls": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARnD4boBsF8TKBxVCc6LM7d9CsI34wX8FNWtMJ-OwYnIZ5sI1Fa9g4IRHPO4e9pGDgEbwyL_JSSeeEtWupBZp0-0JBLl72x5YavMkkp-F_otwcibIWYLJmaKf7YTsFO1sL095-hfDMo3y",
       "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-I1G4CRSdvArqtFfXzkXZJi44JZh4PPxTeB0MBD1SkEiHU4cq63tneYydrT2k1bgMa270cqQOr8pTjSXrCv0udyx0rfkplFGULuYKejr1rnGw3IDgLg1kMcTYDMV3UICP7b0ssmQv9Bnc3cw88awMOHkd7VeMs68="
     ]
   },

@@ -5,9 +5,8 @@
     "visa_category": "working-holiday",
     "visa_type_detail": [
       {
-        "name": "temporary long-stay visa or VLS-T",
-        "duration": "12 months",
-        "renewable": false
+        "name": "VLS-T",
+        "description": "temporary long-stay visa"
       }
     ],
     "processing_time": null,
@@ -15,6 +14,7 @@
     "currency": null,
     "last_updated_official": null,
     "reference_urls": [
+      "https://www.campusfrance.org/en/the-working-holiday-visa-in-france",
       "https://france-visas.gouv.fr/",
       "http://www.diplomatie.gouv.fr/fr/services-aux-citoyens/preparer-son-expatriation/emploi/article/programme-vacances-travail",
       "http://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/annuaires-et-adresses-du-ministere-de-l-europe-et-des-affaires-etrangeres-meae/ambassades-et-consulats-francais-a-l-etranger/",

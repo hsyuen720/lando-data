@@ -2,22 +2,143 @@
   "country": "hong-kong",
   "visa_category": "working-holiday-visa",
   "data": {
-    "visa_category": "Working Holiday Scheme",
+    "visa_category": "working-holiday-visa",
     "visa_type_detail": [
       {
-        "nationality": "Irish",
-        "fee_amount": 0,
-        "currency": "HKD"
+        "country": "Australia",
+        "quota": 5000,
+        "employment_restriction": "not allowed to work for the same employer for more than three months",
+        "study_restriction": "any number (course duration of not more than three months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        }
       },
       {
-        "nationality": "Japanese",
-        "fee_amount": 0,
-        "currency": "HKD"
+        "country": "Austria",
+        "quota": 100,
+        "employment_restriction": "not allowed to work for more than six months",
+        "study_restriction": "any number (cumulative duration of courses not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        },
+        "insurance_requirement": "comprehensive liability and medical insurance covering hospitalisation and repatriation"
       },
       {
-        "nationality": "Korean",
-        "fee_amount": 0,
-        "currency": "HKD"
+        "country": "Canada",
+        "quota": 193,
+        "employment_restriction": "not allowed to work for the same employer for more than three months",
+        "study_restriction": "any number (cumulative duration of courses not more than six months)",
+        "financial_requirement": {
+          "amount": 15000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "France",
+        "quota": 750,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "one only (course duration of not more than six months)",
+        "financial_requirement": {
+          "amount": 25000,
+          "currency": "HK$"
+        },
+        "insurance_requirement": "comprehensive liability and medical insurance covering hospitalisation, pregnancy, disability and repatriation"
+      },
+      {
+        "country": "Germany",
+        "quota": 300,
+        "employment_restriction": "not allowed to work for the same employer for more than three months",
+        "study_restriction": "one only (course duration of not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        },
+        "insurance_requirement": "comprehensive liability and medical insurance covering hospitalisation and repatriation"
+      },
+      {
+        "country": "Hungary",
+        "quota": 200,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "one only (course duration of not more than six months)",
+        "financial_requirement": {
+          "amount": 25000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "Ireland",
+        "quota": 200,
+        "employment_restriction": "not allowed to work for the same employer for more than three months",
+        "study_restriction": "not allowed",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "Japan",
+        "quota": 1500,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "any number (cumulative duration of courses not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        },
+        "insurance_requirement": "sufficient medical insurance",
+        "fee_waiver": true
+      },
+      {
+        "country": "Korea (Republic of)",
+        "quota": 1000,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "one only (course duration of not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        },
+        "fee_waiver": true
+      },
+      {
+        "country": "Netherlands",
+        "quota": 100,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "any number (cumulative duration of courses not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "New Zealand",
+        "quota": 400,
+        "employment_restriction": "not allowed to work for the same employer for more than three months",
+        "study_restriction": "one only (course duration of not more than three months)",
+        "financial_requirement": {
+          "amount": 14000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "Sweden",
+        "quota": 500,
+        "employment_restriction": "not allowed to work for the same employer for more than six months",
+        "study_restriction": "any number (cumulative duration of courses not more than six months)",
+        "financial_requirement": {
+          "amount": 20000,
+          "currency": "HK$"
+        }
+      },
+      {
+        "country": "United Kingdom",
+        "quota": 1000,
+        "employment_restriction": "not allowed to work for more than 12 months",
+        "study_restriction": "any number (cumulative duration of courses not more than 12 months)",
+        "financial_requirement": {
+          "amount": 22000,
+          "currency": "HK$"
+        }
       }
     ],
     "processing_time": null,
@@ -25,7 +146,8 @@
     "currency": null,
     "last_updated_official": "2026-02-09",
     "reference_urls": [
-      "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html"
+      "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html",
+      "https://www.hkwelcomesu.gov.hk/eng/immigration.html"
     ]
   },
   "essential_apps": [

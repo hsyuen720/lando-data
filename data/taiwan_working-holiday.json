@@ -1,21 +1,19 @@
 {
   "country": "taiwan",
   "visa_category": "working-holiday",
-  "data": [
-    {
-      "visa_category": "Working Holiday",
-      "visa_type_detail": null,
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.roc-taiwan.org/cayyz_en/cat/5.html",
-        "https://www.boca.gov.tw/ws.do?code=237",
-        "https://www.mofa.gov.tw/en/News_Content.aspx?n=1094&s=77407"
-      ]
-    }
-  ],
+  "data": {
+    "visa_category": "working-holiday",
+    "visa_type_detail": null,
+    "processing_time": null,
+    "fee_amount": null,
+    "currency": null,
+    "last_updated_official": "2026-04-17",
+    "reference_urls": [
+      "https://www.roc-taiwan.org/cayyz_en/cat/5.html",
+      "https://www.boca.gov.tw/ws.do?code=237",
+      "https://www.mofa.gov.tw/en/News_Content.aspx?n=1094&s=77407"
+    ]
+  },
   "essential_apps": [
     {
       "app_name": "Taiwan EZ WAY",

@@ -1,38 +1,56 @@
 {
   "country": "malaysia",
   "visa_category": "immigration-department",
-  "data": {
-    "visa_category": "immigration-department",
-    "visa_type_detail": [
-      {
-        "name": "PVIP",
-        "description": "Program Visa Premium Malaysia"
-      },
-      {
-        "name": "Malaysia Rumah ke-2 Ku ( MM2H )",
-        "description": "Malaysia My Second Home ( MM2H )"
-      },
-      {
-        "name": "Permohonan Lanjutan Pas Lawatan Kerja Sementara (ePLKS)",
-        "description": "Online Renewal Application for PLKS (ePLKS)"
-      },
-      {
-        "name": "PAS PELABUR / INVESTOR PASS",
-        "description": "Online Application for Long-Term Social Visit Pass for Foreign Business / Investor"
-      },
-      {
-        "name": "Visa Dengan Rujukan Elektronik",
-        "description": "Electronic Visa With Reference"
-      }
-    ],
-    "processing_time": null,
-    "fee_amount": null,
-    "currency": null,
-    "last_updated_official": null,
-    "reference_urls": [
-      "https://www.imi.gov.my/"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "immigration-department",
+      "visa_type_detail": [
+        {
+          "name": "PVIP",
+          "description": "Program Visa Premium Malaysia"
+        },
+        {
+          "name": "Malaysia Rumah ke-2 Ku ( MM2H )",
+          "description": "Malaysia My Second Home ( MM2H )"
+        },
+        {
+          "name": "Permohonan Lanjutan Pas Lawatan Kerja Sementara (ePLKS)",
+          "description": "Online Renewal Application for PLKS (ePLKS)"
+        },
+        {
+          "name": "Sistem MYVISA",
+          "description": "MYVISA System"
+        },
+        {
+          "name": "Sistem eSP",
+          "description": "eSP System"
+        },
+        {
+          "name": "Khidmat Ekspatriat (ESD)",
+          "description": "Expatriate Services Division"
+        },
+        {
+          "name": "PLS@XPATS",
+          "description": "Online Application Permission To Work For Foreign Professionals With Social Visit Pass"
+        },
+        {
+          "name": "PAS PELABUR / INVESTOR PASS",
+          "description": "Online Application for Long-Term Social Visit Pass for Foreign Business / Investor"
+        },
+        {
+          "name": "Visa Dengan Rujukan Elektronik",
+          "description": "Electronic Visa With Reference"
+        }
+      ],
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": null,
+      "reference_urls": [
+        "https://www.imi.gov.my/"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "MySejahtera",

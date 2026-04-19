@@ -3,29 +3,7 @@
   "visa_category": "international-experience-canada",
   "data": {
     "visa_category": "international-experience-canada",
-    "visa_type_detail": [
-      {
-        "program": "Working Holiday",
-        "description": "This is the most popular stream for young people aged 18-30 (or 35 in some countries) who wish to travel and work in Canada for up to two years. It does not require a job offer to apply, but you must have proof of funds and insurance.",
-        "eligibility": "Age 18-30 (or 35 in some countries), citizens of eligible countries, meet financial requirements, have valid insurance, not have dependent children.",
-        "duration": "Up to two years",
-        "job_offer_required": false
-      },
-      {
-        "program": "Young Professionals",
-        "description": "This stream allows young people aged 18-30 (or 35 in some countries) with a job offer in Canada to gain international work experience. The job offer must be for a skilled position (NOC TEER 0, 1, 2, or 3).",
-        "eligibility": "Age 18-30 (or 35 in some countries), citizens of eligible countries, have a valid job offer from a Canadian employer, meet financial requirements, have valid insurance.",
-        "duration": "Up to two years",
-        "job_offer_required": true
-      },
-      {
-        "program": "International Co-op (Internship)",
-        "description": "This stream is for foreign students aged 18-30 (or 35 in some countries) who are enrolled in a post-secondary institution and have a compulsory internship or work placement as part of their academic program.",
-        "eligibility": "Age 18-30 (or 35 in some countries), citizens of eligible countries, enrolled in a post-secondary program, have a compulsory internship or work placement, meet financial requirements, have valid insurance.",
-        "duration": "Up to one year",
-        "job_offer_required": true
-      }
-    ],
+    "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,
     "currency": null,

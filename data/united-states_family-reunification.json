@@ -4,7 +4,7 @@
   "data": [
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Spouse of U.S. citizen",
+      "visa_type_detail": "Green Card (permanent residence) for Spouse of U.S. citizen",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -15,7 +15,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Children (unmarried and under 21) of U.S. citizens",
+      "visa_type_detail": "Green Card (permanent residence) for unmarried Child (under 21) of U.S. citizen",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -26,7 +26,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Parents of U.S. citizens (The petitioning citizen must be 21 or older.)",
+      "visa_type_detail": "Green Card (permanent residence) for Parent of U.S. citizen (citizen must be 21 or older)",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -37,7 +37,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Unmarried, adult sons and daughters of U.S. citizens (adult means 21 or older.)",
+      "visa_type_detail": "Green Card (permanent residence) for Sibling of adult U.S. citizen (citizen must be 21 or older)",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -48,7 +48,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Married sons and daughters (any age) of U.S. citizens",
+      "visa_type_detail": "Fiancé(e) visa for Fiancé(e) residing outside the United States",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -59,7 +59,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Brothers and sisters of adult U.S. citizens",
+      "visa_type_detail": "K-3/K-4 visa for Spouse",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -70,7 +70,7 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "Fiancé(e) visa",
+      "visa_type_detail": "K-3/K-4 visa for Children of spouse (unmarried and under 21)",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
@@ -81,7 +81,18 @@
     },
     {
       "visa_category": "family-reunification",
-      "visa_type_detail": "K-3/K-4 visa",
+      "visa_type_detail": "Green Card (permanent residence) for unmarried adult son or daughter of U.S. citizen (First preference)",
+      "processing_time": null,
+      "fee_amount": null,
+      "currency": null,
+      "last_updated_official": "2018-03-23",
+      "reference_urls": [
+        "https://www.uscis.gov/family/family-of-us-citizens"
+      ]
+    },
+    {
+      "visa_category": "family-reunification",
+      "visa_type_detail": "Green Card (permanent residence) for married son or daughter (any age) of U.S. citizen (Third Preference)",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,

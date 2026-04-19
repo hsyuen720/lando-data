@@ -3,8 +3,8 @@
   "visa_category": "employment-visa",
   "data": [
     {
-      "visa_category": "employment-visa",
-      "visa_type_detail": "General Employment Policy (GEP)",
+      "visa_category": "General Employment Policy (GEP)",
+      "visa_type_detail": null,
       "processing_time": "four weeks",
       "fee_amount": null,
       "currency": null,
@@ -14,8 +14,8 @@
       ]
     },
     {
-      "visa_category": "employment-visa",
-      "visa_type_detail": "Admission Scheme for Mainland Talents and Professionals (ASMTP)",
+      "visa_category": "Admission Scheme for Mainland Talents and Professionals (ASMTP)",
+      "visa_type_detail": null,
       "processing_time": "four weeks",
       "fee_amount": null,
       "currency": null,

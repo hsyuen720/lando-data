@@ -4,33 +4,11 @@
   "data": [
     {
       "visa_category": "visa",
-      "visa_type_detail": "一般領務案件（申辦護照、簽證及文件證明等）",
+      "visa_type_detail": "Travel Authorization Certificate (TAC) (Applicable to citizens of India, Vietnam, Indonesia, Myanmar, Cambodia and Lao)",
       "processing_time": null,
       "fee_amount": null,
       "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.roc-taiwan.org/us/cat/34.html"
-      ]
-    },
-    {
-      "visa_category": "visa",
-      "visa_type_detail": "大陸人士申請入台證",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
-      "reference_urls": [
-        "https://www.roc-taiwan.org/us/cat/34.html"
-      ]
-    },
-    {
-      "visa_category": "visa",
-      "visa_type_detail": "Online Application for R.O.C. (Taiwan) Travel Authorization Certificate (Applicable to citizens of India, Vietnam, Indonesia, Myanmar, Cambodia and Lao)",
-      "processing_time": null,
-      "fee_amount": null,
-      "currency": null,
-      "last_updated_official": null,
+      "last_updated_official": "2023-09-14",
       "reference_urls": [
         "https://niaspeedy.immigration.gov.tw/nia_southeast"
       ]

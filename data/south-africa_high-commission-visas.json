@@ -2,7 +2,7 @@
   "country": "south-africa",
   "visa_category": "high-commission-visas",
   "data": {
-    "visa_category": "high-commission-visas",
+    "visa_category": null,
     "visa_type_detail": null,
     "processing_time": null,
     "fee_amount": null,

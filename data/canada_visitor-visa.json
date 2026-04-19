@@ -1,22 +1,19 @@
 {
   "country": "canada",
   "visa_category": "visitor-visa",
-  "data": {
-    "visa_category": "visitor-visa",
-    "visa_type_detail": [
-      {
-        "name": "Visitor visa (temporary resident visa)",
-        "note": "Citizens of Qatar don’t need a visitor visa and can apply for an eTA to travel by air. If you already have a valid visitor visa, you can use that to travel to Canada until it expires."
-      }
-    ],
-    "processing_time": "Varies by country",
-    "fee_amount": "100",
-    "currency": "CAN",
-    "last_updated_official": "2026-03-05",
-    "reference_urls": [
-      "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html"
-    ]
-  },
+  "data": [
+    {
+      "visa_category": "visitor-visa",
+      "visa_type_detail": "temporary resident visa",
+      "processing_time": "Varies by country",
+      "fee_amount": "100",
+      "currency": "CAN",
+      "last_updated_official": "2026-03-05",
+      "reference_urls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html"
+      ]
+    }
+  ],
   "essential_apps": [
     {
       "app_name": "My Service Canada Account",

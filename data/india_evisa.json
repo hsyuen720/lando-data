@@ -6,83 +6,140 @@
     "visa_type_detail": [
       {
         "name": "e-Tourist Visa (e-T1 V)",
-        "duration": "One Month (30 Days)",
-        "entries": "Double Entry, non-extendable and non-convertible"
-      },
-      {
-        "name": "e-Tourist Visa (e-T1 V)",
-        "duration": "One year (365 Days) from the date of grant of ETA",
-        "entries": "Multiple"
-      },
-      {
-        "name": "e-Tourist Visa (e-T1 V)",
-        "duration": "Five years from the date of grant of ETA",
-        "entries": "Multiple"
+        "durations": [
+          {
+            "value": "One Month (30 Days)",
+            "entries": "Double Entry, non-extendable and non-convertible"
+          },
+          {
+            "value": "One year (365 Days) from the date of grant of ETA",
+            "entries": "Multiple",
+            "stay_limit": "Maximum stay in India during one Calender Year should not exceed 180 days"
+          },
+          {
+            "value": "Five years from the date of grant of ETA",
+            "entries": "Multiple",
+            "stay_limit": "Maximum stay in India during one Calender Year should not exceed 180 days"
+          }
+        ]
       },
       {
         "name": "e-Tourist Visa (e-T2 V)",
-        "duration": "6 month from the date of grant of ETA",
-        "entries": "Single"
+        "durations": [
+          {
+            "value": "6 month from the date of grant of ETA",
+            "entries": "Single"
+          }
+        ]
       },
       {
         "name": "e-Business Visa(e-B1 V)",
-        "duration": "One year (365 days) from the date of grant of ETA",
-        "entries": "Multiple"
+        "durations": [
+          {
+            "value": "One year (365 days) from the date of grant of ETA",
+            "entries": "Multiple",
+            "stay_limit": "Continuous stay during each visit shall not exceed 180 days. If the intension is to stay for more then 180 days, shall get registered with FRRO/FRO concerned within two weeks after the expiry of 180 days."
+          }
+        ]
       },
       {
         "name": "e-Business Visa (e-B5 V)",
-        "duration": "Thirty days (30 days) from the date of arrival into India",
-        "entries": "Single"
+        "durations": [
+          {
+            "value": "Thirty days (30 days) from the date of arrival into India",
+            "entries": "Single"
+          }
+        ]
       },
       {
         "name": "e-Business Visa(e-B6 V)",
-        "duration": "One year (365 Days) from the date of grant of ETA",
-        "entries": "Multiple"
+        "durations": [
+          {
+            "value": "One year (365 Days) from the date of grant of ETA",
+            "entries": "Multiple"
+          }
+        ]
       },
       {
         "name": "e-Medical Visa(e-M1 V)",
-        "duration": "Sixty days (60 days) from the date of arrival into India",
-        "entries": "Triple"
+        "durations": [
+          {
+            "value": "Sixty days (60 days) from the date of arrival into India",
+            "entries": "Triple"
+          }
+        ]
       },
       {
         "name": "e-Medical Visa(e-M3 V)",
-        "duration": "Sixty days (60 days) from the date of arrival into India",
-        "entries": "Triple"
+        "durations": [
+          {
+            "value": "Sixty days (60 days) from the date of arrival into India",
+            "entries": "Triple"
+          }
+        ]
       },
       {
         "name": "e-Medical Attendent Visa(e-M2 V)",
-        "duration": "Sixty days (60 days) from the date of arrival into India",
-        "entries": "Triple"
+        "durations": [
+          {
+            "value": "Sixty days (60 days) from the date of arrival into India",
+            "entries": "Triple"
+          }
+        ]
       },
       {
         "name": "e-Medical Attendant Visa(e-M4 V)",
-        "duration": "Sixty days (60 days) from the date of arrival into India",
-        "entries": "Triple"
+        "durations": [
+          {
+            "value": "Sixty days (60 days) from the date of arrival into India",
+            "entries": "Triple"
+          }
+        ]
       },
       {
         "name": "e-Student Visa(e-S V)",
-        "duration": "One year (365 Days) from the date of grant of ETA",
-        "entries": "Four"
+        "durations": [
+          {
+            "value": "One year (365 Days) from the date of grant of ETA",
+            "entries": "Four"
+          }
+        ]
       },
       {
         "name": "e-Transit Visa(e-TR V)",
-        "duration": "30 Days from the date of grant of ETA",
-        "entries": "Double"
+        "durations": [
+          {
+            "value": "30 Days from the date of grant of ETA",
+            "entries": "Double"
+          }
+        ]
       },
       {
         "name": "e-Miscellaneous Visa (e-X1 V)",
-        "duration": "3 month from the date of first entry in India",
-        "entries": "Multiple"
+        "durations": [
+          {
+            "value": "3 month from the date of first entry in India",
+            "entries": "Multiple"
+          }
+        ]
       },
       {
         "name": "e-Production Investment Visa",
-        "duration": "6 months",
-        "entries": "Multiple"
+        "durations": [
+          {
+            "value": "6 months",
+            "entries": "Multiple"
+          }
+        ]
       },
       {
         "name": "e-Family Visa(e-SX V)",
-        "duration": "One year (365 Days) from the date of grant of ETA",
-        "entries": "Four"
+        "durations": [
+          {
+            "value": "One year (365 Days) from the date of grant of ETA",
+            "entries": "Four"
+          }
+        ]
       }
     ],
     "processing_time": "Applicant should normally receive this mail within 24 hours.",
@@ -90,7 +147,12 @@
     "currency": null,
     "last_updated_official": null,
     "reference_urls": [
-      "https://indianvisaonline.gov.in/evisa/tvoa.html"
+      "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "https://indianvisaonline.gov.in/avisa",
+      "https://boi.gov.in",
+      "https://conference.mha.gov.in/",
+      "https://indianfrro.gov.in/",
+      "https://mohfw.gov.in/sites/default/files/Updated%20List%20of%20Yellow%20Fever%20Endemic%20Countries%20by%20WHO_0.pdf"
     ]
   },
   "essential_apps": [

@@ -6,14 +6,7 @@
     "visa_type_detail": [
       {
         "name": "Highly skilled migrant",
-        "requirements": [
-          "You meet the general requirements that apply to everyone.",
-          "You have an employment contract with an employer or research institution in the Netherlands. This employer is a sponsor recognised by the IND.",
-          "You meet the income requirements. The agreed salary is in line with the market rate.",
-          "If you are going to work in individual healthcare and practise a medical profession that is listed in Article 3 and Article 36a of the Individual Healthcare Professions Act (BIG Act), you must be registered in the BIG register.",
-          "If you have a recognised foreign diploma and first have to work for 3 months under the supervision of a BIG-registered healthcare provider in the same profession, you must be in the BIG register with a conditional registration."
-        ],
-        "process_time": "90 days",
+        "processing_time": "90 days",
         "fee_amount": 423.0,
         "currency": "EUR",
         "last_updated_official": "2026-04-14",
@@ -23,7 +16,10 @@
       },
       {
         "name": "Intra corporate transferee",
-        "description": "To work in the Netherlands as an intra corporate transferee (manager, specialist or trainee) transferred from a company located outside the EU.",
+        "processing_time": null,
+        "fee_amount": null,
+        "currency": null,
+        "last_updated_official": "2026-04-14",
         "reference_urls": [
           "https://ind.nl/en/work/Pages/Highly-skilled-migrant.aspx"
         ]

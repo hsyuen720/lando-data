@@ -5,23 +5,19 @@
     "visa_category": "work-visa",
     "visa_type_detail": [
       {
-        "classification": "Temporary (Nonimmigrant) Worker",
-        "description": "Many aliens want to come to the United States to work. This page provides a summary of employment-based nonimmigrant and immigrant visa classifications and other categories of aliens who are eligible for employment authorization. Each classification provides a link to more detailed information on its requirements. A common way to work temporarily in the United States as a nonimmigrant is for a prospective employer to file a petition with USCIS on your behalf. The Temporary (Nonimmigrant) Workers webpage describes the main nonimmigrant temporary worker classifications."
+        "name": "Temporary (Nonimmigrant) Workers",
+        "description": "Many aliens want to come to the United States to work. This page provides a summary of employment-based nonimmigrant and immigrant visa classifications and other categories of aliens who are eligible for employment authorization. Each classification provides a link to more detailed information on its requirements. A common way to work temporarily in the United States as a nonimmigrant is for a prospective employer to file a petition with USCIS on your behalf."
       },
       {
-        "classification": "Permanent (Immigrant) Worker",
+        "name": "Permanent Workers",
         "description": "If you have the right combination of skills, education, and/or work experience, you may be able to live and work permanently in the United States by seeking an employment-based immigrant visa. The Permanent Workers webpage describes the five employment-based immigrant visa preferences (also called categories)."
       },
       {
-        "classification": "Students and Exchange Visitors",
-        "description": "If you want to pursue full-time academic or vocational studies in the United States, you may be eligible for one of two nonimmigrant student categories."
-      },
-      {
-        "classification": "Temporary Visitors for Business",
+        "name": "Temporary Visitors for Business",
         "description": "If you want to visit the United States for business, you need to obtain a temporary visitor for business visa. Read more information on eligibility and the application process."
       },
       {
-        "classification": "International Entrepreneur Parole",
+        "name": "International Entrepreneur Parole",
         "description": "Under the International Entrepreneur Rule (IER), DHS may grant a period of authorized stay to foreign entrepreneurs who demonstrate that their stay in the United States would provide a significant public benefit through their business venture."
       }
     ],
@@ -30,7 +26,10 @@
     "currency": null,
     "last_updated_official": null,
     "reference_urls": [
-      "https://www.uscis.gov/working-in-the-united-states"
+      "https://www.uscis.gov/working-in-the-united-states",
+      "https://www.uscis.gov/working-in-the-united-states/temporary-workers",
+      "https://www.uscis.gov/working-in-the-united-states/permanent-workers",
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html"
     ]
   },
   "essential_apps": [
